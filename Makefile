@@ -10,10 +10,10 @@ MEXT = md
 ## All markdown files in the working directory
 SRC = $(wildcard *.$(MEXT))
 
-BIB = library.bib
+BIB = bib/lib.bib
 
 ## CSL stylesheet (located in the csl folder of the PREFIX directory).
-#CSL = apsa
+CSL = bib/apa.csl
 
 PDFS=$(SRC:.md=.pdf)
 HTML=$(SRC:.md=.html)
@@ -27,10 +27,10 @@ tex:	clean $(TEX)
 
 
 %.html:	%.md
-	pandoc src/index.md -f markdown -t html -s -o dist/dissertation.html --bibliography=$(BIB)
+	pandoc src/index.md -f markdown -t html -s -o dist/dissertation.html --bibliography=$(BIB) --csl=$(CSL)
 
 %.pdf:	%.md
-	pandoc src/index.md -f markdown -t latex -s -o dist/dissertation.pdf --bibliography=$(BIB)
+	pandoc src/index.md -f markdown -t latex -s -o dist/dissertation.pdf --bibliography=$(BIB) --csl=$(CSL)
 	
 
 #references:
