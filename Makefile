@@ -1,6 +1,6 @@
 # this is forked from npdoty
 # https://github.com/npdoty/dissertation
-#
+
 # much has been removed from his version
 # so, if doing something fancy, consult with that first
 
@@ -28,9 +28,6 @@ tex:	clean $(TEX)
 
 %.html:	%.md
 	pandoc src/index.md -f markdown -t html -s -o dist/dissertation.html --bibliography=$(BIB)
-
-#%.tex:	%.md
-#	pandoc index.md -f markdown -t latex -s -o dist/dissertation.tex --bibliography=$(BIB)
 
 %.pdf:	%.md
 	pandoc src/index.md -f markdown -t latex -s -o dist/dissertation.pdf --bibliography=$(BIB)
