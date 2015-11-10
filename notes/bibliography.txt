@@ -1,0 +1,52 @@
+
+
+CORE PAPERS
+
+Picard, Rosalind W., and Jennifer Healey. "Affective wearables." Personal Technologies 1.4 (1997): 231-240.
+
+Parkinson, Brian. "Emotions in interpersonal life: Computer mediation, modeling, and simulation." The Oxford Handbook of Affective Computing (2014): 68.
+
+Who Sexts Thumbprints? https://medium.com/message/who-sexts-thumbprints-2138641c98c
+
+Slovák, Petr, Paul Tennent, Stuart Reeves, and Geraldine Fitzpatrick. “Exploring Skin Conductance Synchronisation in Everyday Interactions.” In Proceedings of the 8th Nordic Conference on Human-Computer Interaction: Fun, Fast, Foundational, 511–20. NordiCHI ’14. New York, NY, USA: ACM, 2014. doi:10.1145/2639189.2639206.
+
+Donath, J. (2011) Signals, cues, and meaning (draft chapter). In Signals, Truth and Design. Cambridge, Mass.: MIT Press (forthcoming).
+
+Bergstrom, Tony, and Karrie Karahalios. “Distorting Social Feedback in Visualizations of Conversation,” 533–42. IEEE, 2012. doi:10.1109/HICSS.2012.222.
+
+Kim, Taemie, et al. "Meeting mediator: enhancing group collaborationusing sociometric feedback." Proceedings of the 2008 ACM conference on Computer supported cooperative work. ACM, 2008.
+
+Goffman, Erving. "The presentation of self in everyday life." (1959): 1-17.
+
+
+
+GOOD PAPERS
+
+Aharony, Nadav, Wei Pan, Cory Ip, Inas Khayal, and Alex Pentland. “The Social fMRI: Measuring, Understanding, and Designing Social Mechanisms in the Real World,” 445. ACM Press, 2011. doi:10.1145/2030112.2030171.
+
+
+Lane, Nicholas D., Li Pengyu, Lin Zhou, and Feng Zhao. “Connecting Personal-Scale Sensing and Networked Community Behavior to Infer Human Activities,” 595–606. ACM Press, 2014. doi:10.1145/2632048.2636094.
+
+Bell, Genevieve, and Paul Dourish. "Yesterday’s tomorrows: notes on ubiquitous computing’s dominant vision." Personal and Ubiquitous Computing 11.2 (2007): 133-143.
+
+Bell, Genevieve, et al. "Intimate ubiquitous computing." Proc. UbiComp Workshop. 2003.
+
+Sung, Michael, and AP Pentland. “PokerMetrics: Stress and Lie Detection through Non-Invasive Physiological Sensing.” Ph. D. thesis, MIT Media Laboratory, 2005.
+
+Keogh, E., Hochheiser, H., and Shneiderman B. An Augmented Visual Query Mechanism for Finding Patterns in Time Series Data http://www.cs.umd.edu/local-cgi-bin/hcil/rr.pl?number=2002-15
+
+Shea, Charles H., et al. "Surfing the implicit wave." The Quarterly Journal of Experimental Psychology: Section A 54.3 (2001): 841-862.
+
+Alexander Zvonkin - Math from Three to Seven: The Story of a Mathematical Circle for Preschoolers http://www.ams.org/bookstore/pspdf/mcl-5-prev.pdf
+
+diSessa - Knowledge in pieces https://www.dropbox.com/s/y787immy43xt4eg/diSessa%20-%20Knowledge%20in%20Pieces.pdf?dl=0
+
+Leilah Lyons - Don't forget about the sweat: effortful embodied interaction in support of learning
+
+Cheshire, C. (2011) Online Trust, Trustworthiness, or Assurance?. In Daedalus 140 (4): 49-58.
+
+Cook, Karen S., et al. "Trust building via risk taking: A cross-societal experiment." Social Psychology Quarterly 68.2 (2005): 121-142.
+
+
+
+

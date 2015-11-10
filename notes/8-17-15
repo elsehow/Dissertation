@@ -1,0 +1,98 @@
+chi paper,,kill it
+         (ch)
+
+
+recording --
+  "START" should a CONTRACT to LOG the next N
+  {type:'start-recording', frames:10}
+  give RESPONSE (done) via pubsub?
+
+*DESIGN the CLUSTERING+REALTIME-PREDICTION*
+a tool that queries from the rethink db
+...then creates a viz
+....then goes onto predict you
+
+record--->
+      <----your timeline
+my labels*"-->
+      <----your realtime prediction
+
+
+*and colors? a possible condition?
+
+we'll need a comparison. maybe neurosky's, but is it categorical? do we need the same number of categories/labels/"vocabulary" in each condition, or do we keep it "real" i.e. real to what products hvae been doing
+
+is this just product design?
+
+are we really digging into how people express themselves with their sensor data?
+
+
+
+moves into the tap app
+a really sexy sleek visualization something id send to my parents you know
+or friends
+
+
+
+why 
+are
+we interested in doing this again?
+what is
+to be gained
+by sharing our sensor data?
+
+is is not, "what is to be gained"
+it is, "what are the expressive properties of sensor data?"
+
+we know that they  communicate different things (doctor versus people)
+we know that they  sometimes communicate things to ordinary people, (old hr study)
+we know that they  can communicate our emotions to machines (?)
+
+what is their EXPRESSIVE RANGE,
+both to ordinary people as uninterpreted data
+and to humans as machine-, or algorithm-interpreted data?
+
+
+for the first question, we can rely on theory from embodiment and so on to tred the waters of theoretical explanations. any raw physiological signal, sufficiently explained, could allow a person to relate to it, via their bodily experiences, and thus project an emotion onto the reading.
+
+for the second one, where do we look to? infoviz is of some help [], interp of machine learning etc, but i argue for a different route: virtual embodiment, avatars, etc......even though they are not a human *form*, they are *bodily*, in the literal sense but more importantly in the experiental sense.
+
+
+well, hang on now, "RANGE" and "POWER" are slightly different things.
+
+range ==> what can they express, what can be devised about consciousness through them
+power ==> what can actually be *done* with them, what expressions can be *transmited*
+
+and these are different things arent they
+its in me to really want to address that first question. is the brain computable? is consciousness computable? what version of consciousness is computable?
+i'd say, if i'm half a dissertation in and still've got time to spare (or requirements), then its a good addition.
+if i come to someone and say, this is not enough, too focused not multifaceted enough, etc, then i can do that
+but you know, its good not to answer all questions at once.
+it would be good even if i were more ABLE and WILLING and READY to answer those questions (or begin to ask them) while i'm winding TOGETHER
+on my dissertation
+
+
+right, so, whats the dissetation that will WIND TOGETHER mostly (as much as possible) "on its own"?
+
+1. this project with coye
+2. these projects with tap+john,will converge
+
+
+
+
+WHAT ARE THE EXPRESSIVE CAPACITIES OF SENSOR DATA?
+WHAT IS THE EXPRESSIVE CAPACITY OF SENSOR DATA?
+
+are they about state of mind?are we fooling ourselves into some type of telepathy?
+to what extent will people believe that a sensor (say, a dinky eeg device) is *capable* of reading their thoughts? [neuroenchantment]
+raw signals are easy to experiment with
+but algorithms too;and how can people work *with* algorithms to express themselves? differently from how they'd use those data for self-tracking? if differently, why? is it because they think they're disclosing something that they shouldnt be disclosing?
+
+meanwhile i have a great chance to be critical up here.
+what are the presumptions in affective computing, a lot of fun to call some of those out
+even in the prospectus would be a good exercise to do so,,,,come up with them through meenas class
+
+
+down here is the crazy \/
+
+wrap-up some interesting questions at the end....when im more able to *ask* the questions, then questions about what can even be detected with a sensor,data,etc,,,what is consciousness and so on. ill know a lot more then, about math especially, its good to wait itll be good.
