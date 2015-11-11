@@ -34,7 +34,7 @@ second graf
 	GOAL: reflect somehow on each of these supersets!
  -->
 
-Blah blah.
+Through three studies, I will explore ......
 
 <!-- fourth graph
 
@@ -44,13 +44,9 @@ Blah blah.
 
  -->
 
-Blah blah.
-
-<!-- through three studies, I will explore the contextual meanings of various biosignals in different situations. individual projects will attempt to pinpoint ways in whcih biosignal sharing may yield *uncooperative or anti-social behavioral outcomes*, due to the social context in which data were shared.
-
 As sensing devices become more pervasive, as mhealth creeps across the digital landscape, these questions have a big impact both for the people who design interactions with sensors, and for the end-users who buy these devices (buy with money and "buy" with mindhsare, give credence to the data)...........so we need to be careful of these kinds of bad outcomes
 
-in the meantime, i want for my three investigations to congeal toward a larger picture that gestures toward these first questions - how do social interpretations arise from biosensor data? how do these data come to take on socially contextual meanings? this question, which is much larger than my dissertation, has bunches of relevance for anyone who wants to design an mHealth app, or incentivize other people to collect biosensor data....etc. -->
+<!-- in the meantime, i want for my three investigations to congeal toward a larger picture that gestures toward these first questions - how do social interpretations arise from biosensor data? how do these data come to take on socially contextual meanings? this question, which is much larger than my dissertation, has bunches of relevance for anyone who wants to design an mHealth app, or incentivize other people to collect biosensor data....etc. --> 
 
 
 ## A discussion of the theoretical and/or empirical background area of the student’s proposed dissertation, including analysis of relevant prior work
@@ -92,7 +88,6 @@ social signalling..... [@goffman_presentation_1959, @bergstrom_social_2009, @ber
 <!-- WAIT!!!!!!!!!!!!!!!! WAIT UP!!!!!!!!!!!!!!!!!!1
 social exchange theory goes here 
 
-
 also, past work on perceptions of biosignals? valens etc?
 and we wonder if heartrate is a 'good example', how other newere modalities might be different
 i see valens & neurohype as being quite similar
@@ -102,45 +97,69 @@ i see valens & neurohype as being quite similar
 
 ## A detailed discussion of proposed research methods and how they will address the research question
 
+<!-- 
 first graph
 
 	high-level: lab-based behavioral + survey methods
 
 	high-level: why these help us answer certain questions, despite shortcomings
+ -->
 
+This dissertation will feature a series of lab-based behavioral experiments and survey-based experiments.
+
+<!-- 
 second graph
 	
 	major topic covered: interpretation of heart-rate in risky interactions
 
 		bc: does it even have an observable social meaning ?
+ -->
 
+Blah blah
+
+<!-- 
 third graph
 
 	major topic covered: value of heart-rate, vs some other metric, in risky interaction
 
 		bc: do people really care about the metric much ?
+ -->
 
+Blah blah
+
+<!-- 
 fourth graph
 
 	major topic covered: effect of affectiva..............?????????
 
 		bc: it has a more direct relationship to everday experiences - do ppl trust sensors more than their intuition?
+ -->
+
+Blah blah
 
 ## A discussion of work already completed towards the student’s proposed dissertation
 
-CHI 2016 work with coye
+<!-- CHI 2016 work with coye, first exp we did -->
 
-indra/johnwork
+blah blah sum up exp
+
+<!-- chi 2016 work with coye, second exp we did -->
+
+blah blah sum up exp
+
+<!-- indra/johnwork -->
+
+all this technical stuff so easy now
 
 ## A proposed timeline for the student’s proposed dissertation
 
-studies timeline:
+Timeline for studies:
 
 - Spring 2016: xlab study
 
 - Fall 2016: affectiva study
 
-writing timeline:
+Timeline for writing:
 
 - May 14, 2016 - chapters 1-3  to committee
 
