@@ -6,6 +6,18 @@ Through three studies, this dissertation examines how humans encounter and inter
 
 ## A longer discussion of the student’s principal thesis, including motivation and justification of importance
 
+		SUPERSET: interfaces (generally) can influence their users through cultural narratives embedded in them, through suggestion
+
+		SUBSET: biosensing devices have their own kinds of charisma + lend themselves to certain types of suggestion
+
+		SUBSET: these effects can act as SOCIAL SIGNALS  - have SOCIAL OUTCOMES - 
+
+		MY DISSERTATION: behavioral experiments around how biosensors ==> social outcomes, esp uncooperative/antisocial/etc ones...
+		
+		GOAL: reflect somehow on each of these supersets!
+		
+
+
 The Apple Watch	has a heartrate sharing feature.
 
 Now, heartrate has algorithmic meanings; even ones we may not expect [@latvala_longitudinal_2015]. and there are lots of reasons why various parties might be interested in collecting this type of data. companies and consumers. global push toward mhealth and so on. no huge mystires here. But allowing users to *share* their heartrate socially - .......
