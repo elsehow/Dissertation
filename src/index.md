@@ -6,17 +6,31 @@ Through three studies, this dissertation examines how humans encounter and inter
 
 ## A longer discussion of the student’s principal thesis, including motivation and justification of importance
 
-		SUPERSET: interfaces (generally) can influence their users through cultural narratives embedded in them, through suggestion
+first graf
+	some bit about biosensors
+	, adapt from CLTC proposal
 
-		SUBSET: biosensing devices have their own kinds of charisma + lend themselves to certain types of suggestion
+second graf
 
-		SUBSET: these effects can act as SOCIAL SIGNALS  - have SOCIAL OUTCOMES - 
+	(1) interfaces (generally) can influence their users through cultural narratives embedded in them, through suggestion
 
-		MY DISSERTATION: behavioral experiments around how biosensors ==> social outcomes, esp uncooperative/antisocial/etc ones...
-		
-		GOAL: reflect somehow on each of these supersets!
-		
+	(2) biosensing devices have their own kinds of charisma + lend themselves to certain types of suggestion
 
+third graph
+
+	these effects can act as SOCIAL SIGNALS  - have SOCIAL OUTCOMES - 
+
+	MY DISSERTATION: behavioral experiments around how biosensors ==> social outcomes, esp uncooperative/antisocial/etc ones...
+
+	GOAL: reflect somehow on each of these supersets!
+
+fourth graph
+
+	RELEVANCE: UX designers, and the people who use biosensors
+
+	IMPT BC: slow creep of mhealth across the digital landscape		
+
+## A discussion of the theoretical and/or empirical background area of the student’s proposed dissertation, including analysis of relevant prior work
 
 The Apple Watch	has a heartrate sharing feature.
 
@@ -42,8 +56,6 @@ As sensing devices become more pervasive, as mhealth creeps across the digital l
 
 in the meantime, i want for my three investigations to congeal toward a larger picture that gestures toward these first questions --- how do social interpretations arise from biosensor data? how do these data come to take on socially contextual meanings? this question, which is much larger than my dissertation, has bunches of relevance for anyone who wants to design an mHealth app, or incentivize other people to collect biosensor data....etc.
 
-## A discussion of the theoretical and/or empirical background area of the student’s proposed dissertation, including analysis of relevant prior work
-
 idea of mediating interpersonal communciation with physiological sensors goes back to the wee days of ubicomp [@picard_affective_1997, @bell_intimate_2003]
 
 		*and what stories were told?
@@ -60,17 +72,7 @@ is it social signalling for all sensor-driven interactions? NO! suggestability /
 
 ## A detailed discussion of proposed research methods and how they will address the research question
 
-		focus down here next time
-		what would be fun?
-		- suggestion / suggestivity --- interest miner exp
-		- affectiva....how does that tie in here?
-		- remember: you can do 2 coye studies + IM.....all about, why they make sense together
-		what if:
-		- 3 lab-based experiments..
-		- usability tests of my software (??)
-		- just generating alternatives here
-
-high-level: lab-based behavioral + survey
+high-level: lab-based behavioral + survey methods
 
 - hr pd xlab study (done)
 
@@ -88,13 +90,6 @@ indra/johnwork
 
 ## A proposed timeline for the student’s proposed dissertation
 
-- Spring 2016: carry out studies 2 + 3
-
-- June 2016: circulate chapter 1 + outline
-
-- September 2017: circulate study-related chapters + updated outline
-
-- December 2017: circulate complete first draft
 
 - May 2017: file 
 
@@ -123,6 +118,5 @@ This experiment, the second part of my CHI 2016 submission, offers a nice contra
 8. Conclusion & discussion
 
 Not sure what will come here yet but I look forward to finding out. The major idea here is to speak to that question I mention in the introduction bit -- how do biosignals get assigned social meanings? but, 
-
 
 ## A detailed bibliography of relevant work.
