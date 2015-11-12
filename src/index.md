@@ -17,9 +17,7 @@ Blah blah
 <!-- 
 second graf
 
-	(1) interfaces (generally) can influence their users through cultural narratives embedded in them, through suggestion
-
-	(2) biosensing devices have their own kinds of charisma + lend themselves to certain types of suggestion
+	(1) interfaces (generally) can influence their users through cultural narratives embedded in them, through suggestion (2) biosensing devices have their own kinds of charisma + lend themselves to certain types of suggestion
  -->
 
  Blah blah 
@@ -27,14 +25,14 @@ second graf
 <!-- 
  third graph
 
-	these effects can act as SOCIAL SIGNALS  - have SOCIAL OUTCOMES - 
+	these effects can act as SOCIAL SIGNALS  - have SOCIAL OUTCOMES -  [donath etc]
 
-	MY DISSERTATION: behavioral experiments around how biosensors ==> data ==> social interpretations
+	MY DISSERTATION: behavioral experiments around how data from biosensors ==> affect social behavior
 
-	GOAL: reflect somehow on each of these supersets!
+	GOAL: reflect on HOW these interpretations are formed, what mechanisms
  -->
 
-Through three studies, I will explore ......
+Blah Blah
 
 <!-- fourth graph
 
@@ -53,15 +51,35 @@ As sensing devices become more pervasive, as mhealth creeps across the digital l
 
 <!-- biosignal sharing is reallllllll. but why is it a thing? -->
 
-The Apple Watch	has a heartrate sharing feature.
+The Apple Watch	has a heartrate sharing feature.<!--  I should go on about thumbkisses, and "This isn't intimacy!" -->
+
+<!-- mayb just let it flow a bit from here........
+
+
+ok: 20-min exercise: 
+
+- go on bash at the keyboard with the prompt:
+
+	biosignal sharing is reallllllll. but why is it a thing?
+
+- type it down
+
+- come back + take a look later
+
+
+
+if you have a good story, itll motivate you to do the rest
+
+
+
+old stuff:
 
 Now, heartrate has algorithmic meanings; even ones we may not expect [@latvala_longitudinal_2015]. and there are lots of reasons why various parties might be interested in collecting this type of data. companies and consumers. global push toward mhealth and so on. no huge mystires here. But allowing users to *share* their heartrate socially.......,,,,,,,,,,,,,
-
 
 	- what is supposed to happen?
 
 	- when are people supposed to use this feature?
-
+ -->
 <!-- because intimacy, duh...... -->
 
 idea of mediating interpersonal communciation with physiological sensors goes back to the wee days of ubicomp [@picard_affective_1997, @bell_intimate_2003]
