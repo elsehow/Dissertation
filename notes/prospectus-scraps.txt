@@ -1,6 +1,14 @@
 
 "You have to be really excited about what you are doing your dissertation on or else you will be miserable in a year."
 
+
+As sensing devices become more pervasive, as mhealth creeps across the digital landscape, these questions have a big impact both for the people who design interactions with sensors, and for the end-users who buy these devices (buy with money and "buy" with mindhsare, give credence to the data)...........so we need to be careful of these kinds of bad outcomes.
+in the meantime, i want for my three investigations to congeal toward a larger picture that gestures toward these first questions - how do social interpretations arise from biosensor data? how do these data come to take on socially contextual meanings? this question, which is much larger than my dissertation, has bunches of relevance for anyone who wants to design an mHealth app, or incentivize other people to collect biosensor data....etc. 
+
+
+
+
+
 ## background
 (There are more and more sensors i nthings... heartrte, GSR.... What stories are consumers told about these sensors? That those sensors are to track your fitness, mostly []. And when sharing these signals, consumers hear stories around intimacy... [] In past research, intimacy is a major story too [], as is the signal's potential as a social cue: something that displays what other people are doing, thus enforcing normtive behavior [] ..... 
 
