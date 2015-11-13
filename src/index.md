@@ -1,4 +1,4 @@
-# the social life of physiological signals
+# The social life of physiological signals
 
 ## A brief (preferably a single sentence each) statement of the student’s research question and principal thesis
 
@@ -7,17 +7,25 @@ Through three studies, this dissertation examines how humans encounter and inter
 ## A longer discussion of the student’s principal thesis, including motivation and justification of importance
 
 <!-- 
-	some bit about biosensors
-	ADAPT FROM: CLTC proposal
+	some bit about biosensors over everything
+	TODO make this not a direct ripoff of biosense proposal
 -->
+
+Biosensing technologies are becoming pervasive throughout our daily lives, beyond wristwatches and eyeglasses, into clothing, furniture, mirrors, cars, personal robots, and ingestibles. In addition to opportunities for our wellbeing, biosensing at scale will bring new security challenges that are not yet anticipated nor fully understood.
 
 <!--
 	data from these biosensors are available to designers
 	apple watch, some others
 	but what do people make of these data?
-	intimacy is the idea in this application.
-	is it really as simple as, 'intimacy'?
+	what is their EXPRESSIVE CAPACITY to humans?
+
+	TODO: make sure my THESIS is highlighted in these paragraphs
 -->
+
+Among the many changes brought about by the increasing pervasivness of biosensors, one is that the data from these sesnors are made available to application designers. <!-- The Apple Watch.........Thumbkisses....... --> 
+However, it is not well understood what people make of these data. When are users supposed to share their heartrates? Whom are we supposed to "thumbkiss"?  In both cases, the applications imply intimacy, but is this the only thing biosensors are capable of expressing?
+
+While a large body of research explores what algorithms can learn from biosensors, it is not well understood how people derive meaning from the same signals, or how these meanings change in different social contexts. What is the expressive capacity of biosensors? This question is essential groundwork for understanding data sensitivities, along with the privacy and security needs of the future.
 
 <!-- 
 	in three studies, i will look at
@@ -25,12 +33,22 @@ Through three studies, this dissertation examines how humans encounter and inter
 		= information about another person
 		= information about themselves
 	abt non-health stuff - mood,thoughts,emotion
+
+	TODO: talk explicity about info about another person // info about themselves.....
+	TODO: do not rip off directly from biosense
+-->
+
+I will perform controlled, lab-based experiments, as well as survey-based vignettes, in which subjects partake in risky, uncertain interactions with other people (e.g., the money they receive depends on their behavior). Subjects will be exposed, or not exposed, to a biosignal collected from their partner. By introducing signals such as GSR, heart rate and EEG into classic social- behavioral experimental paradigms (e.g., dictator game, iterated prisoner's dilemma game), or into vignette scenarios, we can begin to observe how the presence of biosignals affects social behavior, as compared to control conditions.
+
+<!--
 	through these studies, i hope to shed some light on HOW these interpretations arise. 
 	the very big question. how they depend on the sensor, the application, the thing being sensed - begin to gesture toward the huge mosaic of factors at play here.
 	i hope that this very fundamental series of studies opens the dialogue around privacy w/r/t wearable sensors - data, even raw data that seems innocuous, can have social effects IN CONTEXT that are far from obvious
+
+	TODO: do not rip off directly from biosense proposal
 -->
 
-
+These studies will provide a limited, but useful starting point for understanding how, why, and when disclosure of biosignals might become relevant. We hope to shed light on how these signals are incorporated into our understandings of the moods, motivations, and goals of other people, which in turn will lay groundwork for a deeper understanding of how wearable data might become sensitive, or might lead to over-disclosure, in different settings and contexts.
 
 ## A discussion of the theoretical and/or empirical background area of the student’s proposed dissertation, including analysis of relevant prior work
 
@@ -57,6 +75,7 @@ i see valens & neurohype as being quite similar
 
 <!-- but wait! there are more fundamental questions here,..... -->
 
+<!-- we need to get to this q super fast, or reader will get bored / lost in the weeds  -->
 How does heartrate come to help build intimacy? We might not see the same effect from a stream of, say, your skins weatiness, but why not? By what mechanisms are biosensor data assigned to social meaning?
 
 Most generally, how do people build these interpretations in the first place?
@@ -67,7 +86,7 @@ In many cases, the mechanisms by which these interfaces work have less to do wit
 
 <!-- and i might want to quote dawn nafus at lenght about cultural cohesion etc. -->
 
-now ill need to fade in to a discussion on how affective computing relates to my work
+<!-- now ill need to introduce how various field bare on this  q -->
 
 ### Affective computing
 
@@ -172,12 +191,11 @@ Deadlines for writing:
 
 1. Introduction and literature review
 
-Essentially a dissertation-chapter-y version of this prospectus. My analysis of key studies will be a bit more fleshed out, and certainly I will include some new theory and papers I don't yet know of. 
+Essentially a dissertation-chapter-y version of this prospectus. My analysis of key studies will be a bit more fleshed out, and certainly I will include some new theory and papers I don't yet know of. <!-- this should be some kind of pub someday -->
 
 2. Actually measuring
 
 ........blurb.........some really fascinating philosophy + technology stuff here
-
 
 3. Iterated prisoner's dilemma game with heartrate
 
