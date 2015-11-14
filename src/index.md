@@ -11,7 +11,9 @@ Through three studies, this dissertation examines how humans encounter and inter
 	TODO make this not a direct ripoff of biosense proposal
 -->
 
-Biosensing technologies are becoming pervasive throughout our daily lives, beyond wristwatches and eyeglasses, into clothing, furniture, mirrors, cars, personal robots, and ingestibles. In addition to opportunities for our wellbeing, biosensing at scale will bring new security challenges that are not yet anticipated nor fully understood.
+Biosensing technologies are becoming pervasive throughout our daily lives, beyond wristwatches and eyeglasses, into clothing, furniture, mirrors, cars, personal robots, and ingestibles. 
+These technologies will allow us to build increasingly high-resolution models of our bodies in the wild, outside of laboratory settings.
+Applications that leverage these data could change the way we relate to our bodies, and to the bodies of others, in ways we do not yet understand.
 
 <!--
 	data from these biosensors are available to designers
