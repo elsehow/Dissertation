@@ -11,9 +11,8 @@
 	TODO make this not a direct ripoff of biosense proposal
 -->
 
-Biosensing technologies are becoming pervasive throughout our daily lives, beyond wristwatches and eyeglasses, into clothing, furniture, mirrors, cars, personal robots, and ingestibles. 
+Biosensing technologies are becoming pervasive in our daily lives, beyond wristwatches and eyeglasses, into clothing, furniture, mirrors, cars, personal robots, ingestibles. 
 These technologies will allow us to build increasingly high-resolution models of our bodies in the wild, outside of laboratory settings.
-Applications that leverage these data could change the way we relate to our bodies, and to the bodies of others, in ways we do not yet understand.
 
 <!--
 	data from these biosensors are available to designers
@@ -24,10 +23,14 @@ Applications that leverage these data could change the way we relate to our bodi
 	TODO: make sure my THESIS is highlighted in these paragraphs
 -->
 
+Applications that leverage these data will change the way we relate to our bodies, and to the bodies of others, in ways we do not yet understand.
 Among the many changes brought about by the increasing pervasivness of biosensors, one is that the data from these sesnors are made available to application designers. <!-- The Apple Watch.........Thumbkisses....... --> 
-However, it is not well understood what people make of these data. When are users supposed to share their heartrates? Whom are we supposed to "thumbkiss"?  In both cases, the applications imply intimacy, but is this the only thing biosensors are capable of expressing?
+
+However, it is not well understood what people make of these data. In the case of these applications, when are users supposed to share their heartrates? Whom are users supposed to "thumbkiss"?  In both cases, the applications imply intimacy. Is this the only thing biosensors are capable of expressing?
 
 While a large body of research explores what algorithms can learn from biosensors, it is not well understood how people derive meaning from the same signals, or how these meanings change in different social contexts. What is the expressive capacity of biosensors? This question is essential groundwork for understanding data sensitivities, along with the privacy and security needs of the future.
+
+<!-- AND TO EXPLORE + PUSH ON THE **EXPRESSIVE CAPACITY** OF BIOSENSORS AND BIOSIGNALS -->
 
 <!-- 
 	in three studies, i will look at
