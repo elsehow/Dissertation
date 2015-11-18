@@ -11,7 +11,6 @@ Biosensing technologies are becoming pervasive in our daily lives, beyond wristw
 These technologies will enable us to build increasingly high-resolution models of our bodies in the wild, outside of laboratory settings.
 New algorithms will transform our understanding of the body, yielding.........
 
-
 But, as data from these biosensors become available to designers, we must ask: How will *humans* interpret data from these biosesnors?
 Take Apple Watch, which allows users to transmit their heartrate socially, beat by beat, to a friend. When are users supposed to do this? What are they supposed to learn from the data they transmit?
 <!-- Now, heartrate has algorithmic meanings; even ones we may not expect [@latvala_longitudinal_2015]. and there are lots of reasons why various parties might be interested in collecting this type of data. companies and consumers. global push toward mhealth and so on. no huge mystires here. But allowing users to *share* their heartrate socially.......,,,,,,,,,,,,, -->

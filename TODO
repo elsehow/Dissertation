@@ -29,7 +29,21 @@ nothing gets slick until index.md
 also, *everything* slick =>> index.md
 once something strong - structure, content - index.md
 
+
+
 ## mechanical
+
+how can i include files within files?
+nested structure would be reeaaaaaallllly nice, with 1 index source file to rule it all......wowwe. v granular
+
+what i would do is, make 1 markdown for each bit, then merge into a big markdown, then merge all the markdowns. wow
+http://stackoverflow.com/questions/4779582/markdown-and-including-multiple-files
+
+basically, i would recursively walk each folder in src, make its Makefile in a depth-first fashion.....until we get to the root!
+hmmmm
+
+
+
 
 github pages
 
