@@ -1,33 +1,17 @@
-The Apple Watch has a heartrate sharing feature. And thumbkisses..... <!-- go on, rant -->
-
-<!-- Now, heartrate has algorithmic meanings; even ones we may not expect [@latvala_longitudinal_2015]. and there are lots of reasons why various parties might be interested in collecting this type of data. companies and consumers. global push toward mhealth and so on. no huge mystires here. But allowing users to *share* their heartrate socially.......,,,,,,,,,,,,,
- -->
-	- what is supposed to happen?
-
-	- when are people supposed to use this feature?
-
 idea of mediating interpersonal communciation with physiological sensors goes back to the wee days of ubicomp [@picard_affective_1997, @bell_intimate_2003], and more recent work [@slovak_understanding_2012]. 
 
-now that these devices are starting to get a bit more REAL............in large part bc of mhealth............ [stats etc].................we need to be asking, is intimacy the whole story?????
+now that these devices are starting to get a bit more REAL............frame MHEALTH as the driver here, even citing fletcher and so on.
 
-<!-- yeah, not at all always positive....its complicated, a highly contextual signal -->
+so, NOW we need to ask, is intimacy teh whole story? WHAT IS THE EXPRESSIVE CAPACITY OF SENSORS?
+we ask because privacy, security of data depends on understanding what these data MEAN, to PEOPLE who might be tempted to disclose them for a variety of reasons: for healht-related applications, etc.
 
-This is the question that led my to my study................................. We know the meaning of these signals are primed heavily by SOCIAL CONTEXT - where the signals were exchanged, and who the participants were to each other [@slovak_understanding_2012]. but its more complicated than that too <!-- also, past work on perceptions of biosignals? valens etc?
-and we wonder if heartrate is a 'good example', how other newere modalities might be different
+This is the question that led my to my study................................. We know the meaning of these signals are primed heavily by SOCIAL CONTEXT - where the signals were exchanged, and who the participants were to each other [@slovak_understanding_2012]. <!-- here, past work on perceptions of biosignals: valens, neurohype?
 i see valens & neurohype as being quite similar
 -->
 
-<!-- but wait! there are more fundamental questions here,..... -->
+then, yeah, we learn not at all always positive....its complicated, a highly contextual signal
 
-<!-- we need to get to this q super fast, or reader will get bored / lost in the weeds  -->
-How does heartrate come to help build intimacy? We might not see the same effect from a stream of, say, your skins weatiness, but why not? By what mechanisms are biosensor data assigned to social meaning?
+so thats how we get here, to asking what these signals can express to people
 
-Most generally, how do people build these interpretations in the first place?
+a few fields have studied various parts of this problem, each in slightly different capacities. here, i review three fields: affective computing, as it attempts to condence non-medical meaning from biological signals; the "honest signals" and "social physics" of pentland, as it attempts to use these signals for non-medical purposes; and social exhcange theory, as it attempts to unpack the role of sensors in mediating interpersonal communication in these sorts of applications.
 
-<!-- i can start talking about the broadest possible scope - charisma of the device/modality; suggestion of the application.... -->
-
-In many cases, the mechanisms by which these interfaces work have less to do with the algorithm than they do with the contextual, social, or narrative interpretations that people draw from sensor data. <!-- a whole array of stuff i could talk about here, ubifit garden; meeting mediator; social signals; EEG; --> suggestability / moodlight...... [@snyder_moodlight:_2015]..... hype/"enchantment" particular to certain sensing modalities and devices....[@ali_empirical_2014]  (consider eeg applications) AND? "charisma" [@ames_charismatic_2015] of a particular sensing modality......taking it back full circle, heartrate has held particular allure for intimacy apps [@bell_intimate_2003, @janssen_intimate_2010, @slovak_understanding_2012]
-
-<!-- and i might want to quote dawn nafus at lenght about cultural cohesion etc. -->
-
-<!-- now ill need to introduce how various field bare on this  q -->
