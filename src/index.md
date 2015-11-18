@@ -11,23 +11,21 @@ Biosensing technologies are becoming pervasive in our daily lives, beyond wristw
 These technologies will enable us to build increasingly high-resolution models of our bodies in the wild, outside of laboratory settings.
 New algorithms will transform our understanding of the body, yielding.........
 
-But, as data from these biosensors become available to designers, we must ask: How will *humans* interpret data from these biosesnors?
-Take Apple Watch, which allows users to transmit their heartrate socially, beat by beat, to a friend. When are users supposed to do this? What are they supposed to learn from the data they transmit?
+But, as data from these biosensors become available to designers, we must ask: How will *humans* interpret data from these sensors?
+
+
+why we want to study this
+<!-- contest surveillance -->
+<!-- raise some alarms -->
+
+we interrogate this by seeing what these signals express to other people
+
+
+<!-- Take Apple Watch, which allows users to transmit their heartrate socially, beat by beat, to a friend. When are users supposed to do this? What are they supposed to learn from the data they transmit? -->
 <!-- Now, heartrate has algorithmic meanings; even ones we may not expect [@latvala_longitudinal_2015]. and there are lots of reasons why various parties might be interested in collecting this type of data. companies and consumers. global push toward mhealth and so on. no huge mystires here. But allowing users to *share* their heartrate socially.......,,,,,,,,,,,,, -->
-In both cases, the applications imply intimacy. Is this the only thing biosensors are capable of expressing?
+<!-- In both cases, the applications imply intimacy. Is this the only thing biosensors are capable of expressing? -->
 
-While a large body of research explores what algorithms can learn from biosensors, it is not well understood how people derive meaning from the same signals, or how these meanings change in different social contexts. **What is the expressive capacity of biosensors and biosignals?** This question is essential for understanding the privacy and security needs that will come and biosensors become increasingly ubiquitous.
-
-<!-- information about another person under risk and uncertainty 
-	abt non-health stuff - mood,thoughts,emotion
--->
-I will perform controlled, lab-based behavioral experiments, as well as survey experiments, in which subjects partake in risky, uncertain interactions with other people (e.g., the money they receive depends on their behavior). Subjects will be exposed, or not exposed, to a biosignal collected from their partner. By introducing signals such as GSR, heart rate and EEG into classic social- behavioral experimental paradigms (e.g., dictator game, iterated prisoner's dilemma game), or into vignette scenarios, we can begin to observe how the presence of biosignals affects social behavior, as compared to control conditions.
-
-Through these studies, I hope to shed some light on how interpretations arise from biosensor data. 
-The very big questions here -- how these interpretations depend on the sensor, the application context, the phenomenon being sensed -- begin to gesture toward the huge mosaic of factors at play in this question. I hope that this very fundamental series of studies opens the dialogue around privacy as they bare on wearable sensors. Data, even raw data that may seem innocuous to end users, can have *contextual* social effects that are far from obvious.
-
-Applications that leverage wearable biosensor data will change the way we relate to our bodies, and to the bodies of others, in ways we do not yet understand.
-These studies will provide a limited, but useful starting point for understanding how, why, and when disclosure of biosignals might become relevant. We hope to shed light on how these signals are incorporated into our understandings of the moods, motivations, and goals of other people, which in turn will lay groundwork for a deeper understanding of how wearable data might become sensitive, or might lead to over-disclosure, in different settings and contexts.
+<!-- While a large body of research explores what algorithms can learn from biosensors, it is not well understood how people derive meaning from the same signals, or how these meanings change in different social contexts. **What is the expressive capacity of biosensors and biosignals?** This question is essential for understanding the privacy and security needs that will come and biosensors become increasingly ubiquitous. -->
 
 ## A discussion of the theoretical and/or empirical background area of the student’s proposed dissertation, including analysis of relevant prior work
 
@@ -66,45 +64,17 @@ In many cases, the mechanisms by which these interfaces work have less to do wit
 
 ## A detailed discussion of proposed research methods and how they will address the research question
 
-<!-- 
-first graph
+I will perform controlled, lab-based behavioral experiments, as well as survey experiments, in which subjects partake in risky, uncertain interactions with other people (e.g., the money they receive depends on their behavior). Subjects will be exposed, or not exposed, to a biosignal collected from their partner. By introducing signals such as GSR, heart rate and EEG into classic social- behavioral experimental paradigms (e.g., dictator game, iterated prisoner's dilemma game), or into vignette scenarios, we can begin to observe how the presence of biosignals affects social behavior, as compared to control conditions.
 
-	high-level: lab-based behavioral + survey methods
+<!-- information about another person under risk and uncertainty 
+	abt non-health stuff - mood,thoughts,emotion
+-->
 
-	high-level: why these help us answer certain questions, despite shortcomings
- -->
+Through these studies, I hope to shed some light on how interpretations arise from biosensor data. 
+The very big questions here - how these interpretations depend on the sensor, the application context, the phenomenon being sensed - begin to gesture toward the huge mosaic of factors at play in this question. I hope that this very fundamental series of studies opens the dialogue around privacy as they bare on wearable sensors. Data, even raw data that may seem innocuous to end users, can have *contextual* social effects that are far from obvious.
 
-This dissertation will feature a series of lab-based behavioral experiments and survey-based experiments.
-
-<!-- 
-second graph
-	
-	major topic covered: interpretation of heart-rate in risky interactions
-
-		bc: does it even have an observable social meaning ?
- -->
-
-Blah blah
-
-<!-- 
-third graph
-
-	major topic covered: value of heart-rate, vs some other metric, in risky interaction
-
-		bc: do people really care about the metric much ?
- -->
-
-Blah blah
-
-<!-- 
-fourth graph
-
-	major topic covered: effect of affectiva..............?????????
-
-		bc: it has a more direct relationship to everday experiences - do ppl trust sensors more than their intuition?
- -->
-
-Blah blah
+Applications that leverage wearable biosensor data will change the way we relate to our bodies, and to the bodies of others, in ways we do not yet understand.
+These studies will provide a limited, but useful starting point for understanding how, why, and when disclosure of biosignals might become relevant. We hope to shed light on how these signals are incorporated into our understandings of the moods, motivations, and goals of other people, which in turn will lay groundwork for a deeper understanding of how wearable data might become sensitive, or might lead to over-disclosure, in different settings and contexts.
 
 ## A discussion of work already completed towards the student’s proposed dissertation
 
