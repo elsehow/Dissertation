@@ -64,10 +64,6 @@ In many cases, the mechanisms by which these interfaces work have less to do wit
 
 <!-- and i might want to quote dawn nafus at lenght about cultural cohesion etc. -->
 
-## Social exchange theory
-
-<!-- what is it? -->
-
 ## A detailed discussion of proposed research methods and how they will address the research question
 
 <!-- 
