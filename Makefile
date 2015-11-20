@@ -25,12 +25,15 @@ pdf:	clean $(PDFS)
 html:	clean $(HTML)
 tex:	clean $(TEX)
 
+BUNDLE_MARKDOWN = bundledown src/index.md -o dist/bundle.md 
+
+PANDOC_MARKDOWN = pandoc dist/bundle.md -f markdown
 
 %.html:	%.md
-	bundledown src/index.md -o dist/bundle.md && pandoc dist/bundle.md -f markdown -t html -s -o dist/dissertation.html --bibliography=$(BIB) --csl=$(CSL)
+	$(BUNDLE_MARKDOWN) && $(PANDOC_MARKDOWN) -f markdown -t html -s -o dist/dissertation.html --bibliography=$(BIB) --csl=$(CSL)
 
 %.pdf:	%.md
-	bundledown src/index.md -o dist/bundle.md && pandoc dist/bundle.md -f markdown -t latex -s -o dist/dissertation.pdf --bibliography=$(BIB) --csl=$(CSL)
+	$(BUNDLE_MARKDOWN) && $(PANDOC_MARKDOWN) -f markdown -t latex -s -o dist/dissertation.pdf --bibliography=$(BIB) --csl=$(CSL)
 	
 
 #references:
