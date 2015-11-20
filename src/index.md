@@ -6,26 +6,26 @@
 
 ## A longer discussion of the student’s principal thesis, including motivation and justification of importance
 
-<!-- remember - end where you begin - begin with apple heartrate sharing, end with it to, but now with a diff lens - generally speaking, take reader on cylcical journeys -->
-Biosensing technologies are becoming pervasive in our daily lives, beyond wristwatches and eyeglasses, into clothing, furniture, mirrors, cars, personal robots, ingestibles. 
-These technologies will enable us to build increasingly high-resolution models of our bodies in the wild, outside of laboratory settings.
-New algorithms will transform our understanding of the body, yielding.........
+<!-- Biosensing technologies are becoming pervasive in our daily lives, beyond wristwatches and eyeglasses, into clothing, furniture, mirrors, cars, personal robots, ingestibles.  -->
+biosensors will enable us to build increasingly high-resolution models of the human physiology, as it exists in the wild, outside of laboratory settings.
 
-But, as data from these biosensors become available to designers, we must ask: How will *humans* interpret data from these sensors?
+there are many reasons why we may want to do this....health, behavior, science, industry, and so on
 
+<!-- however, the proliferation of biosensors also means that biomedical data will go to many stakeholders who have not previously had access to this type of data.  -->
+<!-- and they could coerce users into giving up that data in an umber of ways..... -->
+application designers are the new gatekeeprs of medical privacy, the "first line" between these potentially sensitive data and other users
+<!-- and other corporate interests.. -->
+
+<!-- however, threats around disclosure of biosensory data are abstract, far-off, difficult to reason about. it is not so convincing to stay, "someday, our heartrate data may make your insurace rates go up (even though this may well be the case [@latava_longitudinal]) -->
+these studies could make these threats more concrete....
 
 why we want to study this
 <!-- contest surveillance -->
 <!-- raise some alarms -->
+well, ppl could be coerced to giving otu data by flashy apps
+we want to shwo that these data are NOT innocous, necessarily.....
+that biosignals can emdiate interpsonal interactions in complex, highly contextual ways, and the social outcomes from transmitting biosensor data are far from obvious
 
-we interrogate this by seeing what these signals express to other people
-
-
-<!-- Take Apple Watch, which allows users to transmit their heartrate socially, beat by beat, to a friend. When are users supposed to do this? What are they supposed to learn from the data they transmit? -->
-<!-- Now, heartrate has algorithmic meanings; even ones we may not expect [@latvala_longitudinal_2015]. and there are lots of reasons why various parties might be interested in collecting this type of data. companies and consumers. global push toward mhealth and so on. no huge mystires here. But allowing users to *share* their heartrate socially.......,,,,,,,,,,,,, -->
-<!-- In both cases, the applications imply intimacy. Is this the only thing biosensors are capable of expressing? -->
-
-<!-- While a large body of research explores what algorithms can learn from biosensors, it is not well understood how people derive meaning from the same signals, or how these meanings change in different social contexts. **What is the expressive capacity of biosensors and biosignals?** This question is essential for understanding the privacy and security needs that will come and biosensors become increasingly ubiquitous. -->
 
 ## A discussion of the theoretical and/or empirical background area of the student’s proposed dissertation, including analysis of relevant prior work
 
@@ -69,6 +69,6 @@ Deadlines for writing:
 
 ## Tentative outline
 
-@sections('./outline.md')
+@include('./sections/outline.md')
 
 ## A detailed bibliography of relevant work.
