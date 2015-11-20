@@ -27,10 +27,10 @@ tex:	clean $(TEX)
 
 
 %.html:	%.md
-	pandoc src/index.md -f markdown -t html -s -o dist/dissertation.html --bibliography=$(BIB) --csl=$(CSL)
+	bundledown src/index.md -o dist/bundle.md && pandoc dist/bundle.md -f markdown -t html -s -o dist/dissertation.html --bibliography=$(BIB) --csl=$(CSL)
 
 %.pdf:	%.md
-	pandoc src/index.md -f markdown -t latex -s -o dist/dissertation.pdf --bibliography=$(BIB) --csl=$(CSL)
+	bundledown src/index.md -o dist/bundle.md && pandoc dist/bundle.md -f markdown -t latex -s -o dist/dissertation.pdf --bibliography=$(BIB) --csl=$(CSL)
 	
 
 #references:
@@ -39,6 +39,4 @@ tex:	clean $(TEX)
 #	mv library_bibertool.bib $(BIB)
 
 clean:
-	rm -f *.html *.pdf *.tex
-	rm -f *.aux *.bcf *.out *.log *.run.xml *.blg
-#	rm library_bibertool.bib
+	rm -f dist/*
