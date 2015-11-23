@@ -6,6 +6,8 @@
  -->
 
 
+## motivation
+
 <!-- biosensing on the rise -->
 biosensors will enable us to build increasingly high-resolution models of the human physiology, as it exists in the wild, outside of laboratory settings.
 
@@ -19,6 +21,8 @@ the quality that defines surveillance with wearable biosensors is that anyone ca
 
 meanwhile, forms of consent have a lot to do with the applications offered to user, what they claim to give to users.....
 
+## importance
+
 understanding how to protect users in this new context of collection requries understanding and anticipating situations in which users may be tempted to give their data up
 this is a big problem, so a slightly smaller thing to interrogate is: what do people MAKE of physiological data? 
 and, even more specifically, 
@@ -27,6 +31,7 @@ how do these signals take on SOCIALLY CONTEXTUAL meanings?
 
 here, we examine a special case of disclosure, by seeing what biosignals mean in social contexts.
 
+<!-- importance: STAKEHOLDERS -->
 the idea is 
 
 - to inform UX design
@@ -41,7 +46,10 @@ stakeholders: ux designers, users...
 outcomes for stakeholders: ux designers can create ethical things,
 users can reason better about disclosure wrt biosensors
 
+## thesis
+
 ### my thesis
+
 biosignals can mediate interpsonal interactions in complex, highly contextual ways, and the social outcomes from transmitting biosensor data are far from obvious
 
 we do not really understand the expressive capacity of biosensors
@@ -58,8 +66,7 @@ as these signals mediate interpersonal communication
 
 what are these signals 'worth' to other people?
 
-
-## my methods
+### my methods
 
 lab-based methods
 
