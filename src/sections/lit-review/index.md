@@ -15,6 +15,10 @@
 
 <!-- tension between medical and behavioral meanings? -->
 
+<!-- here, past work on perceptions of biosignals: valens, neurohype?
+i see valens & neurohype as being quite similar
+-->
+
 ## Goffman / social signals
 
 <!-- rant - from notes on these topics -->
@@ -33,3 +37,4 @@ Most generally, By what mechanisms are biosensor data assigned to social meaning
 In many cases, the mechanisms by which these interfaces work have less to do with the algorithm than they do with the contextual, social, or narrative interpretations that people draw from sensor data. <!-- a whole array of stuff i could talk about here, ubifit garden; meeting mediator; social signals; EEG; --> suggestability / moodlight...... [@snyder_moodlight:_2015]..... hype/"enchantment" particular to certain sensing modalities and devices....[@ali_empirical_2014]  (consider eeg applications) AND? "charisma" [@ames_charismatic_2015] of a particular sensing modality......taking it back full circle, heartrate has held particular allure for intimacy apps [@bell_intimate_2003, @janssen_intimate_2010, @slovak_understanding_2012]
 
 <!-- and i might want to quote dawn nafus at lenght about cultural cohesion etc. -->
+
