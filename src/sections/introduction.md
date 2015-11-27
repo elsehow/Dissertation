@@ -8,13 +8,6 @@ rise of apps that let you share biosignals socially (apple watch, thumbkisses, h
 
 however, it's not well understood how people build interpretations around these data, or what mechanisms give rise to these interpretations. in general, the expressive capacity of biosignals is not well understood
  
-## my project
-
-<!-- lifted from CLTC proposal -->
-I will perform controlled, lab-based experiments, as well as survey-based vignettes, in which subjects partake in risky, uncertain interactions with other people (e.g., the money they receive depends on their behavior). Subjects will be exposed, or not exposed, to a biosignal collected from their partner. By introducing signals such as GSR, heart rate and EEG into classic social- behavioral experimental paradigms (e.g., dictator game, iterated prisoner's dilemma game), or into vignette scenarios, we can begin to observe how the presence of biosignals affects social behavior, as compared to control conditions.
-<!-- 
-These studies will provide a limited, but useful starting point for understanding how, why, and when disclosure of biosignals might become relevant. We hope to shed light on how these signals are incorporated into our understandings of the moods, motivations, and goals of other people, which in turn will lay groundwork for a deeper understanding of how wearable data might become sensitive, or might lead to over-disclosure, in different settings and contexts.
- -->
 ### my thesis (slash "hunch")
 
 biosignals can mediate interpsonal interactions in complex, highly contextual ways, and transmitting biosensor data between individuals causes socal outcomes that are far from obvious. the conclusion of past literature (biosignal sharing builds intimacy) only scratches the surface.
@@ -28,13 +21,29 @@ how does context shape the interpretations they build around these data?
 
 3. what are these signals 'worth' to other people? to what extent do people value these data (or not) in different settings?
 
-## why this topic? why these questions?
+### why this topic? why these questions?
 
-why mediating interpersonal interactions with biosensors specifically, specifically?
+what we're really studying here is the way people take SUGGESTIONS from ambiguous sensor data
 
-1. by asking people to interpret someone else's biosignals, we can establish baseline behaviors relative too well-known findings from social psychology, giving us a better idea for how this information is integrated into a broader socail understanding
+- data from the body has a complex relationship to "our" world of social meaning
 
-2. self-reflective interpretations of biosignals is relatively well studied, thanks to the rise of the QS movement 
+- we explore that relationship using social interactions to 'raise the stakes'
+
+- and because self-reflective interpretations are realatively well-studied
+
+
+
+## methods
+
+<!-- lifted from CLTC proposal -->
+I will perform controlled, lab-based experiments, as well as survey-based vignettes, in which subjects partake in risky, uncertain interactions with other people (e.g., the money they receive depends on their behavior). Subjects will be exposed, or not exposed, to a biosignal collected from their partner. By introducing signals such as GSR, heart rate and EEG into classic social- behavioral experimental paradigms (e.g., dictator game, iterated prisoner's dilemma game), or into vignette scenarios, we can begin to observe how the presence of biosignals affects social behavior, as compared to control conditions.
+<!-- 
+These studies will provide a limited, but useful starting point for understanding how, why, and when disclosure of biosignals might become relevant. We hope to shed light on how these signals are incorporated into our understandings of the moods, motivations, and goals of other people, which in turn will lay groundwork for a deeper understanding of how wearable data might become sensitive, or might lead to over-disclosure, in different settings and contexts.
+ -->
+
+### why these methods?
+
+with our methods we can establish baseline behaviors relative too well-known findings from social psychology, giving us a better idea for how this information is integrated into a broader socail understanding
 
 ### outcomes 
 
@@ -57,10 +66,29 @@ as far as concrete offerings to the broader world, i'm hoping for a few discrete
 - to make a point about the CREEPINESS of this data --- showing that ppl DO make stuff of them, surfacing those meanings in order to draw attention to what sensor companies / economic models are DOING, how they're sucking this data out of you...........
 
 
+## core refs
 
+### the rise of sensing
 
+pentland
 
+rose
 
+### affective computing
+
+picard
+
+stuff from her book
+
+### social signals
+
+mediator
+
+goffman
+
+donath
+
+moodlight
 
 
 
