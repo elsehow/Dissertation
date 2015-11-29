@@ -6,8 +6,14 @@ rise of biosensing
 
 rise of apps that let you share biosignals socially (apple watch, thumbkisses, heartgram) - in these apps, people, rather than algorithms, are supposed to interpret biosensory data
 
-however, it's not well understood how people build interpretations around these data, or what mechanisms give rise to these interpretations. in general, the expressive capacity of biosignals is not well understood
- 
+however, it's not well understood how people build interpretations around these data, or what mechanisms give rise to these interpretations. in general, the expressive capacity of biosignals is not well understood. <!-- for all these kickstarters trying to make sensor-driven applications, how people actually interpret data from sensors is poorly understood. in most applications (consider xx) we assume that suggestion plays a role. but, what is the role of the sensor itself? the cultural narratives around the body, etc...? -->
+
+<!-- from coye email - eventually take from finished rebuttal ->
+
+the old (good) idea is that people interpret sensor data contextualy, to produce social interpretations (a la consolvo’s work on loction sharing)
+
+our new idea is that past work on “social biosensing” has missed this connection - pentland, slovak, bell - and, we argue, investigating this topic more deeply is crucial as mobile health, self trckers, …, push ubiquitous sensing further into the computational mainstream
+
 ### my thesis (slash "hunch")
 
 biosignals can mediate interpsonal interactions in complex, highly contextual ways, and transmitting biosensor data between individuals causes socal outcomes that are far from obvious. the conclusion of past literature (biosignal sharing builds intimacy) only scratches the surface.
