@@ -2,3 +2,4 @@
 .*.swo
 .DS_Store
 dist/*
+node_modules/

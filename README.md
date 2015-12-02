@@ -10,7 +10,13 @@ my dissertation at the uc berkeley school of information
 
 `make pdf` - builds pdf version to dist/
 
+`make watch` - watches for changes to md, and builds html, refreshing a browser page via [BrowserSync](http://www.browsersync.io/)
+
 ## prerequisites
+
+### cross-platform
+
+    npm install
 
 ### OS X
 

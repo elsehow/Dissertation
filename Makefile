@@ -30,11 +30,13 @@ BUNDLE_MARKDOWN = bundledown src/index.md -o dist/bundle.md
 PANDOC_MARKDOWN = pandoc dist/bundle.md -f markdown
 
 %.html:	%.md
-	$(BUNDLE_MARKDOWN) && $(PANDOC_MARKDOWN) -f markdown -t html -s -o dist/dissertation.html --bibliography=$(BIB) --csl=$(CSL)
+	$(BUNDLE_MARKDOWN) && $(PANDOC_MARKDOWN) -f markdown -t html -s -o dist/index.html --bibliography=$(BIB) --csl=$(CSL)
 
 %.pdf:	%.md
 	$(BUNDLE_MARKDOWN) && $(PANDOC_MARKDOWN) -f markdown -t latex -s -o dist/dissertation.pdf --bibliography=$(BIB) --csl=$(CSL)
 	
+watch:	
+	node tools/watch.js
 
 #references:
 #	#cp $(MENDELEY_BIB) $(BIB)
