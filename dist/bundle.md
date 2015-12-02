@@ -5,6 +5,7 @@
 intro about the rise of biosensing, about the rise of apps that let you share biosignals socially (apple watch, thumbkisses, heartgram) - in these apps, people, rather than algorithms, are supposed to interpret biosensory data
 
 however, it's not well understood how people build interpretations around these data, or what mechanisms give rise to these interpretations. in general, the expressive capacity of biosignals is not well understood. 
+
 <!-- for all these kickstarters trying to make sensor-driven applications, how people actually interpret data from sensors is poorly understood. in most applications (consider xx) we assume that suggestion plays a role. but, what is the role of the sensor itself? the cultural narratives around the body, etc...? -->
 
 ## my thesis (slash "hunch")
@@ -36,9 +37,13 @@ what we're studying here is how people take SUGGESTIONS from ambiguous sensor da
 ## methods
 
 <!-- lifted from CLTC proposal -->
+
 I will perform controlled, lab-based experiments, as well as survey-based vignettes, in which subjects partake in risky, uncertain interactions with other people (e.g., the money they receive depends on their behavior). Subjects will be exposed, or not exposed, to a biosignal collected from their partner. By introducing signals such as GSR, heart rate and EEG into classic social- behavioral experimental paradigms (e.g., dictator game, iterated prisoner's dilemma game), or into vignette scenarios, we can begin to observe how the presence of biosignals affects social behavior, as compared to control conditions.
+
 <!-- 
+
 These studies will provide a limited, but useful starting point for understanding how, why, and when disclosure of biosignals might become relevant. We hope to shed light on how these signals are incorporated into our understandings of the moods, motivations, and goals of other people, which in turn will lay groundwork for a deeper understanding of how wearable data might become sensitive, or might lead to over-disclosure, in different settings and contexts.
+
  -->
 
 ### why these methods?
@@ -64,7 +69,6 @@ as far as concrete offerings to the broader world, i'm hoping for a few discrete
 - to make ambiguous privacy threats more concrete (threats around disclosure of biosensory data are abstract, far-off, difficult to reason about. it is not so convincing to stay, "someday, our heartrate data may make your insurace rates go up (even though this may well be the case [@latvala_longitudinal_2015]). saying, "your heartrate may make you less trustworthy", far more convincing)
 
 - to make a point about the CREEPINESS of this data --- showing that ppl DO make stuff of them, surfacing those meanings in order to draw attention to what sensor companies / economic models are DOING, how they're sucking this data out of you...........
-
 
 ## core refs
 
@@ -125,3 +129,4 @@ as far as concrete offerings to the broader world, i'm hoping for a few discrete
 @bergstrom_social_2009
 
 @bergstrom_distorting_2012
+

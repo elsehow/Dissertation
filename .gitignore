@@ -1,5 +1,6 @@
 .*.swp
 .*.swo
 .DS_Store
-dist/*
+dist/*.html
+dist/*.pdf
 node_modules/

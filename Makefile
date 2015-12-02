@@ -44,4 +44,6 @@ watch:
 #	mv library_bibertool.bib $(BIB)
 
 clean:
-	rm -f dist/*
+	rm -f dist/*.md
+	rm -f dist/*.html
+	rm -f dist/*.pdf
