@@ -39,7 +39,7 @@ what we're really studying here is the way people take SUGGESTIONS from ambiguou
 
 ## methods
 
-<!-- lifted from CLTC proposal -->
+<!- lifted from CLTC proposal -->
 I will perform controlled, lab-based experiments, as well as survey-based vignettes, in which subjects partake in risky, uncertain interactions with other people (e.g., the money they receive depends on their behavior). Subjects will be exposed, or not exposed, to a biosignal collected from their partner. By introducing signals such as GSR, heart rate and EEG into classic social- behavioral experimental paradigms (e.g., dictator game, iterated prisoner's dilemma game), or into vignette scenarios, we can begin to observe how the presence of biosignals affects social behavior, as compared to control conditions.
 <!-- 
 These studies will provide a limited, but useful starting point for understanding how, why, and when disclosure of biosignals might become relevant. We hope to shed light on how these signals are incorporated into our understandings of the moods, motivations, and goals of other people, which in turn will lay groundwork for a deeper understanding of how wearable data might become sensitive, or might lead to over-disclosure, in different settings and contexts.
@@ -74,27 +74,61 @@ as far as concrete offerings to the broader world, i'm hoping for a few discrete
 
 ### the rise of sensing
 
-pentland
+@estrin_open_2010
 
-rose
+@bell_yesterdays_2007
+
+@mcnell_who_2015
+
+@aharony_social_2011
+
+@foucault_security_2009
+
+@rose_politics_2007
+
+@latvala_longitudinal_2015
+
+@crawford_our_2015
+
+@lane_connecting_2014
 
 ### affective computing
 
-picard
+@picard_affective_1997
 
-stuff from her book
+@janssen_intimate_2010
 
-### social signals
+@slovak_exploring_2014
 
-mediator
+@bell_intimate_2003
 
-goffman
+@parkinson_emotions_2014
 
-donath
+@ames_charismatic_2015
 
-moodlight
+@snyder_moodlight:_2015
 
+@vinciarelli_bridging_2012
 
+### social signals & trust
+
+@donath_signals_2011
+
+@donath_social_2014
+
+@slovak_understanding_2012
+
+@cheshire_trust_2010
+
+@ali_empirical_2014
+
+@goffman_presentation_1959
+
+@kim_meeting_2008
+
+@bergstrom_social_2009
+
+@bergstrom_distorting_2012
 
 
 
