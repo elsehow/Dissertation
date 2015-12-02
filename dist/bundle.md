@@ -50,29 +50,25 @@ These studies will provide a limited, but useful starting point for understandin
 
 with these methods, we can establish baseline behaviors relative too well-known findings from social psychology, giving us a better idea for how this information is integrated into social understanding, and how it affects social behavior
 
-### outcomes 
+## outcomes 
 
 broadly, i'm hoping these findings gesture toward a few interesting questions, all of which are bigger than my particular dissertation:
 
 - to what cultural narratives do these signals & sensors cohere?
 
-- how and why might people consent to giving up their physiological data, to other people versus to other entities? 
+- how and why might people consent to giving up their physiological data, to other people, or to other entities? 
 
--  threats to privacy can be difficult to reason about, but imagining sending these data to your employer or friends is a bit more concrete. can these findings help educate people to be more careful about transmitting these data? to people, or to other (corporate, government) entities? 
+### concrete outcomes 
 
-as far as concrete offerings to the broader world, i'm hoping for a few discrete outcomes:
+- to inform UX design (stakeholder group 1)
 
-- to inform UX design (stakeholder group 1) - so they can create ethical things
+- to understand risks to the end user (stakeholder group 2) 
 
-- to understand risks to the end user (stakeholder group 2) - so they can reason better about disclosure w/r/t biosignals
+- to make ambiguous privacy threats more concrete. specifically, to make a point about the CREEPINESS of this data - showing that these data *do* have a "meaning," and surfacing those meanings in order to draw attention to current business / economic models
 
-- to make ambiguous privacy threats more concrete (threats around disclosure of biosensory data are abstract, far-off, difficult to reason about. it is not so convincing to stay, "someday, our heartrate data may make your insurace rates go up (even though this may well be the case [@latvala_longitudinal_2015]). saying, "your heartrate may make you less trustworthy", far more convincing)
+# core refs
 
-- to make a point about the CREEPINESS of this data --- showing that ppl DO make stuff of them, surfacing those meanings in order to draw attention to what sensor companies / economic models are DOING, how they're sucking this data out of you...........
-
-## core refs
-
-### the rise of sensing
+## the rise of sensing
 
 @estrin_open_2010
 
@@ -92,7 +88,7 @@ as far as concrete offerings to the broader world, i'm hoping for a few discrete
 
 @lane_connecting_2014
 
-### affective computing
+## affective computing
 
 @picard_affective_1997
 
@@ -110,7 +106,7 @@ as far as concrete offerings to the broader world, i'm hoping for a few discrete
 
 @vinciarelli_bridging_2012
 
-### social signals & trust
+## social signals & trust
 
 @donath_signals_2011
 
@@ -129,4 +125,6 @@ as far as concrete offerings to the broader world, i'm hoping for a few discrete
 @bergstrom_social_2009
 
 @bergstrom_distorting_2012
+
+# core refs (full references)
 
