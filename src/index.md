@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="css/tuff.css"/>
 
+refer to these slides: https://docs.google.com/presentation/d/1119wDZK3qWbfuI6osmvIzPg63EIx666vTVfI4ABmCLo/edit?usp=sharing
+
 # pre-prospectus
 
 intro about the rise of biosensing, about the rise of apps that let you share biosignals socially (apple watch, thumbkisses, heartgram) - in these apps, people, rather than algorithms, are supposed to interpret biosensory data
