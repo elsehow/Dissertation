@@ -25,15 +25,21 @@ however, it's not well understood how people build interpretations around these 
 
 3. what are these signals 'worth' to other people? to what extent do people value these data (or not) in different settings?
 
+## questions i gesture toward
+
+1. why do people disclose biosignals?
+
+2. what do people think others can know about them, given their biosignals?
+
+3. how can we help people reason about the consequences of disclosing their biosensor data to others?
+
 ### why this topic? why these questions?
 
-what we're studying here is how people take SUGGESTIONS from ambiguous sensor data
+data from the body has a complex relationship to "our" world of social meaning
 
-- data from the body has a complex relationship to "our" world of social meaning
+we explore that relationship using social interactions to 'raise the stakes' for connected apps that leverage biosensory data
 
-- we explore that relationship using social interactions to 'raise the stakes' for connected apps that leverage biosensory data
-
-- compared to self-reflective interpretations (which are realatively well-studied anyway), this topic has more of a relationship with surveillance and privacy
+compared to self-reflective interpretations (which are realatively well-studied anyway), this topic has more of a relationship with surveillance and privacy
 
 ## methods
 
