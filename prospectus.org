@@ -1,0 +1,94 @@
+* prospectus 
+** TODO introduction
+biosensing is on the rise, no doubt
+*** could give a provcative example or two
+sweden hr study
+fitbit senses guys breakup
+*** there are a few things we can be worried about:
+**** people's mental mental model of how data flows
+word on this 
+**** why i'd consent to give to my friend but not fitbit
+word on this
+**** why do these data mean anything at all?
+well, this seems like the least obvious for sure
+compared to the above, why think about this at all?
+** my topic 
+we should care about what biosensory data MEAN
+to *people*, not to algorithms
+what could they say about you, to someone else?
+what could they say to someone else, about you?
+*** will help us in two ways:
+**** to produce new kinds of delightful interactions
+(?)
+**** to better gauge people's sense of risk
+this way, we can understand people's models of *risk*
+why would they be sensitive to anyone
+why are they /not/ just totally innocuous?
+we are understanding this to understand's people's sense of "risk"
+
+** my methods
+
+surveys
+
+lab-based experiments
+
+*** TODO cite specific "good examples"
+
+*** TODO why these methods?
+
+** past work
+intro about the rise of biosensing, about the rise of apps that let you share biosignals socially (apple watch, thumbkisses, heartgram) - in these apps, people, rather than algorithms, are supposed to interpret biosensory data
+
+however, it's not well understood how people build interpretations around these data, or what mechanisms give rise to these interpretations. in general, the expressive capacity of biosignals is not well understood.
+
+
+* feedback
+** TODO johns notes
+
+> why asking these questions? bc surveillance
+
+context is, im at home
+bunch of devices, not even wearables, capable of collecting biosignals in the home (everyone in the home). imagine, these devices not connected to cloud. the "intranet of things" 
+
+how do i share or negotiate shairng with my wife?
+intranet of things -sure, i'm happy- once we introduce another person an elderly parent, it gets less ideal.........becomes a question of tradeoffs
+
+if light changes with heartrate, but has to go to fitbit in between, i say forget it
+
+*** three things, two i dont care about 
+**** mental model of how data flows
+**** why i'd consent to give to my friend but not fitbit
+**** TODO DO CARE about what these data MEAN
+why would they be sensitive to anyone
+why and in what way are they not just totally innocuous
+"risk"
+
+*** DONE look at economics of privacy
+alexandro aquisti
+not to go into this area
+a couple papers you want to cite
+basically pepole have found, they will over-discount risks that are either (a) unknown (b) uncertain (c) far into the future
+
+*** outcomes
+shed light on both 
+- both how to build apps
+- and privacy/consent outcomes
+
+
+*** how people interpret the data
+not just limited to looking at a screen
+there is some overlap with elaine's concerns about sharing between devices
+some of the questions speak to each other
+
+*** specific methods + studies
+general direction is clear
+you are pretty clear on this direction
+by "direction" i mean "north" (not sure if im going to redding or seattle)
+but, i have something more specific? hard to say
+
+worth you trying to figure out something more specific
+types of studies
+> methods (survey & lab based psych studies)?
+i meant studies but methods is just as impt, arguably more
+either way, whatever's easier to think about
+
