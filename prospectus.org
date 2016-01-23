@@ -4,7 +4,7 @@ biosensing is on the rise, no doubt
 *** could give a provcative example or two
 sweden hr study
 fitbit senses guys breakup
-*** there are a few things we can be worried about:
+*** there are a few things we could be worried about:
 **** people's mental mental model of how data flows
 word on this 
 **** why i'd consent to give to my friend but not fitbit
@@ -12,11 +12,20 @@ word on this
 **** why do these data mean anything at all?
 well, this seems like the least obvious for sure
 compared to the above, why think about this at all?
-** my topic 
+** TODO my topic 
 we should care about what biosensory data MEAN
 to *people*, not to algorithms
 what could they say about you, to someone else?
 what could they say to someone else, about you?
+
+specifically, i am interested in how the presence of biosignals
+affects social behavior,
+including disclosure,
+and how these behaviors relate to
+(1) the way a interface represents these signals
+(2) beliefs about the physical phenomenon the signal represents
+(3) beliefs about the capabilities of algorithms
+
 *** will help us in two ways:
 **** to produce new kinds of delightful interactions
 (?)
@@ -27,12 +36,18 @@ why are they /not/ just totally innocuous?
 we are understanding this to understand's people's sense of "risk"
 
 ** my methods
-
 surveys
-
 lab-based experiments
-
-*** TODO cite specific "good examples"
+technology probes
+*** DONE specific "good example" studies
+**** surveys / survey experiments
+consolvo
+**** lab-based experiments
+pentland - tho many shortcomings
+**** tech probes
+slovak...
+skin conductance
+short range
 
 *** TODO why these methods?
 
@@ -42,8 +57,8 @@ intro about the rise of biosensing, about the rise of apps that let you share bi
 however, it's not well understood how people build interpretations around these data, or what mechanisms give rise to these interpretations. in general, the expressive capacity of biosignals is not well understood.
 
 
-* feedback
-** TODO johns notes
+* notes
+** DONE johns notes
 
 > why asking these questions? bc surveillance
 
@@ -91,4 +106,6 @@ types of studies
 > methods (survey & lab based psych studies)?
 i meant studies but methods is just as impt, arguably more
 either way, whatever's easier to think about
+** TODO find that smbc "gosh grandma youre so old fashioned"
+first page of my dissertation
 
