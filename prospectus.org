@@ -1,44 +1,26 @@
 * prospectus 
-** TODO introduction
-biosensing is on the rise, no doubt
-*** could give a provcative example or two
-sweden hr study
-fitbit senses guys breakup
-*** there are a few things we could be worried about:
-**** people's mental mental model of how data flows
-word on this 
-**** why i'd consent to give to my friend but not fitbit
-word on this
-**** why do these data mean anything at all?
-well, this seems like the least obvious for sure
-compared to the above, why think about this at all?
-** TODO my topic 
-we should care about what biosensory data MEAN
-to *people*, not to algorithms
-what could they say about you, to someone else?
-what could they say to someone else, about you?
+** DONE my topic 
+This dissertation focuses on how *people* (as opposed to algorithms) interpret data from wearable & environmental biosensors. 
+What can these data say about you? What can they say about someone else?
 
-specifically, i am interested in how the presence of biosignals
-affects social behavior,
-including disclosure,
-and how these behaviors relate to
-(1) the way a interface represents these signals
-(2) beliefs about the physical phenomenon the signal represents
-(3) beliefs about the capabilities of algorithms
+Based on past work on the human interpretation of sensor data [], and on work already done [], we expect these interpretations to vary depending on context. This dissertation focuses on how four specific factors correlate with people's interpretations of biosignal data:
 
-*** will help us in two ways:
-**** to produce new kinds of delightful interactions
-(?)
-**** to better gauge people's sense of risk
-this way, we can understand people's models of *risk*
-why would they be sensitive to anyone
-why are they /not/ just totally innocuous?
-we are understanding this to understand's people's sense of "risk"
+(1) the way in which interfaces represent a given singal 
+(2) social context (relationships to, or beliefs about, the person being sensed)
+(3) beliefs about the capabilities of algorithms 
+(4) beliefs about the physical phenomenon being sensed
+
+One very large question this dissertation aims to answer is, /how is it that biosignals take on any meaning at all/?
+Why, and when, do biosignals seem anything but innocuous?
+So, each bit of experimental work in my dissertation will, in one way or another,
+interrogate people's beliefs about the risk associated with disclosure of biosignals,
+examining how these beliefs relate to the above factors.
 
 ** my methods
+remember, im a psychologist.
 surveys
 lab-based experiments
-technology probes
+technology probes (?)
 *** DONE specific "good example" studies
 **** surveys / survey experiments
 consolvo
@@ -48,15 +30,35 @@ pentland - tho many shortcomings
 slovak...
 skin conductance
 short range
-
 *** TODO why these methods?
 
-** past work
+** full monty
+*** TODO introduction
+biosensing is on the rise, no doubt
+**** could give a provcative example or two
+sweden hr study
+fitbit senses guys breakup
+**** there are a few things we could be worried about:
+***** people's mental mental model of how data flows
+word on this 
+***** why i'd consent to give to my friend but not fitbit
+word on this
+***** why do these data mean anything at all?
+well, this seems like the least obvious for sure
+compared to the above, why think about this at all?
+*** TODO related work
 intro about the rise of biosensing, about the rise of apps that let you share biosignals socially (apple watch, thumbkisses, heartgram) - in these apps, people, rather than algorithms, are supposed to interpret biosensory data
 
 however, it's not well understood how people build interpretations around these data, or what mechanisms give rise to these interpretations. in general, the expressive capacity of biosignals is not well understood.
+*** TODO work i've already done
+vignette study with coye
+experimental study with coye
+contrast between the two
 
-
+** proposed future studies
+*** health-e-heart
+*** affectiva (?)
+*** spire / disclsoure
 * notes
 ** DONE johns notes
 
@@ -106,6 +108,14 @@ types of studies
 > methods (survey & lab based psych studies)?
 i meant studies but methods is just as impt, arguably more
 either way, whatever's easier to think about
+** TODO will help us in two ways:
+*** TODO to produce new kinds of delightful interactions
+(?)
+*** DONE to better gauge people's sense of risk
+this way, we can understand people's models of *risk*
+why would they be sensitive to anyone
+why are they /not/ just totally innocuous?
+we are understanding this to understand's people's sense of "risk"
 ** TODO find that smbc "gosh grandma youre so old fashioned"
 first page of my dissertation
 
