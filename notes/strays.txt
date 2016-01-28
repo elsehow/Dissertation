@@ -1,0 +1,256 @@
+
+remember - end where you begin -- begin with apple heartrate sharing, end with it to, but now with a diff lens - generally speaking, take reader on cylcical journeys
+
+
+
+
+Applications using these signals purport to do a variety of things: fitness training [], social sharing of signals between friends [], biofeedback-based meditation training [].
+
+In each of these cases, a mix of science and suggestion plays a role in achieving the purported outcome. In the case of the Mood Light trainer, both the physiological signal, and the suggestion of meditating and relaxing, play a role in the device's efficacy. In the case of 
+
+
+
+
+
+
+4. What narratives exist around the meanings that sensor data can take on? Who tells them? How do these narratives drive adoption of physiological sensing devices? (e.g., some companies say that sensors will make you more fit []; other companies say that you can read your customer's emotions from biosignals []).
+                                                                                      
+
+
+
+
+
+```
+(philosophical qs are fascinating to include, but your hands will be busy enough as-is! though dont be afraid to ntoe these down, include them in the initial prospectus even if youre interested...jsut dont be afraid to *not* commit to studyin ghtem in depth. your hands will be full!)
+```
+
+
+
+
+many of the signals sensors collect about us are "loaded":
+heartrate,
+breathing,
+"brainwaves",
+..
+try to name one that ISNT loaded! ripe for contextual interpretation!, etc.
+
+
+
+
+
+
+mechanisms could be different from other things in cmc,,,could have to do with bodily awareness, v deep stuff
+	
+
+
+some other relevant theory:
+
+- In many ways, detecting affect stands to raise empirical challenges to some of the oldest hypotheses in philosophy of mind.
+
+- the idea that we can know whats going on in the mind from whats going on in the body gets at some of the oldest philosophical debates in the book. it has an unclear relationship to people's "everyday" conceptions of dualism versus embodiment [], and it is not clear exactly how the relationship between mind and body is configured across all consumer devices or solutions. food for thought.......
+
+- there is some evidence that biosignals can work as a social cue. [] but what relationship do these social cues have to the empirical meaning of the signals? [] is it possible that our intuitive understanding of the signal is at odds with what the signal might actually mean? if so, this could mean trouble. people may have "good" reasons for collecting certain data, but untrained interpretations of these data could be completely misleading!
+
+
+
+
+
+If these signals mean anything, then there are privacy concerns around them.
+**what do people disclose when they share sensor data about their body?**
+
+
+on vision of affective computing:
+
+ *In my mind, their vision is already being fulfilled, at least in a sense. Models, defaulting on your loans, what you post on facebook, amount to the same thing. These models show that "machine emotional intelligence" why not pay out the way we expected...* Someday, computers will know how we're feeling. given enough data about your activity, your physiological signals, machines will be able to build models of your emotional and mental state.
+burning question to my mind is, what might these signals mean for *us*? How might they help us, and why should we be cautious of them? Affective computing has enumerated a number of "best-case" outcomes for human-compute relationships, as has quantified self (QS) for our rleationships with ourselves.
+
+
+There are a tremendous number of questions one could ask about the nature of these models. what will they be able to know? will they be able to detect absolute emotions, or only emotions relative to someone's other data? will they shed light on differences between subjective experiences of different individuals? these questions drive at some of deepest questions about our mental and bodily experience. it's  an incredibly deep question, philosophical, mathematical. what can one "computer" know about another? via modelling its behavior? Can one computer learn enough to "virtualize" that computer? etc...
+
+
+neural dust is like doing a survey of my neurons. it polls frequently, but probably less frequently than the occurrance of corital activity . it is undersampling a sample of neurons.
+
+what i'm thinking *about* (intentionality)?
+
+ (FOOTNOTE And, we should mention, marketers, who want to improve, or at least better understand our relationships with brands. And Affective computing has a deep connection to the concerns of marketers, see Affectiva. [])
+
+
+ 	position paper ~~ ~~~ ~~~
+	
+
+it's amazing what you can learn about someone with a SINGLE ELECTROMAGNETIC SENSOR. even just in showing that certain states are reliably, and classifiably, different. it starts asking questions about what might be know**able** about someone's state of mind, given some sensing equipment on the body.
+
+the real, and really more interesting question is, what might all this **mean** to people 
+
+> how to communicate our state? not in the "traditional ways" but through **algorithmically defined models**? gotten from us sometimes without our communicative consent?
+
+well, what computers might know about our state does end up being important to this question..........
+
+
+But, if computers know what we're thining, what does this mean for our relationship with other people? This seems funny to ask, since most (FOOTNOTE not all) people have built-in machinery for knoiwng what others are thinking.
+
+
+
+any raw physiological signal, sufficiently explained, could allow a person to relate to it, via their bodily experiences, and thus project an emotion onto the reading
+
+
+[about algorithms] My questions here are not about how well algorithms work, but about what they measure, how their metrics relate to "emotion" (whatever that means) or "state of mind" (whatever that is). 
+
+*If* physiological signals are expressive with regard to state of mind (What part of state of mind? All of it? .......
+
+
+
+
+
+
+
+
+1. How does knowledge of someone's heartrate affect cooperative behavior/attitudes?
+
+what do we think when we look at other peoples signals, and why do we think those things?
+ion.
+2. ...
+
+what do we think happens when we share our data, and are we right?
+
+3. co-constructing meaning / narrative with data
+
+what are the problems with MACHINE interpretation when we share data? what are the problems with CHALLENGING these interpretations?
+
+how does the nature of interpretation affect the way they share their data? and what they want to share?  how does the agency of the person over the interpretation .. ?
+
+4. social dynamics
+
+quantified self celebrates the individual-ness of data; but, social transmission begs social interpretat
+existing work in multi-user sensor applications essentializes human behavior (physics), and ... not just for researchers behind one-way mirrors; a responsibility to give people real ways for comparing themselves to others.
+
+what are the opportunities for social understanding? what are the risks for social pressure?
+
+5. what is knowable about the mind from sensors?
+
+even theoretically
+
+fascinating question etc copy from below...affective computing offers .... but their theories are full of presuppositions+narratives that deserve to be unpacked.
+
+6. the sensor cookbook
+
+software, tutorials, and annotated source code.
+
+
+
+
+``these questions could provide the backbone for the prospectus's structure``
+``introduce the cases and flesh out the connective tissue``
+
+
+
+
+What are we disclosing when we share our sensor data?
+
+[the sleep tracker anecdote noise]
+[some other compelling example]
+
+It's complicated! Sharing sensor can mean anything that humans can communicate - potentailly as rich and contextual as snapchatting a photo.
+
+There's one particular class, of sensor signal, however, that I focus on: those signals that _could be transmitted to have meaning about emotion or state of mind._
+
+(1) The set of signals is much wider than was previously thought, and do not necessitate advanced algorithms. (2) ... (3) ...present a challenge to CMC.
+
+
+
+
+
+
+# Introduction
+
+In affective computing they say these signals could betray our emotions. ``some explication on what i mean by that.`` 
+
+Why want computers that know what you're thinking? Affective computing promises us a better relationships with our machines. []  The QS community, a better relationship with ourselves. [] 
+
+What remains to be asked is, how might these models affect our relationship with other people? What will happen then?
+
+There are two main questions to ask here:
+
+
+(1) What will really be the content of these signals that computers collect about us? (Out-there question: what is even theoretically knowable about our state of mind?)
+
+``this is a really heavily theoretical question,,``
+
+(2) What effect might these signals have on our social behavior? How do these signals relate to traditional signals in CMC?
+
+``this is a core queston of my dissertation, and //one facet// of it is about how real emotional/affect detection could affect social behavior, if they were ever distributed, and if people ever shared them. however, as it's phrased now, it seems to be a reiteration of the high-level question, no?``
+
+
+
+
+
+
+## 1 what can a machine know about the mind, even theoretically
+
+for starters, this magical affective technology is really already here.
+(empatica)
+(iwatch)
+
+But, what do these signals really *measure*? `how do their measurements relate to our subjective experience`
+
+``intro to affective computing`` What Rosalind Picard really *did*, in my opinion, is broaden the conversation about "state of mind" to include emotion, not just as a crucial component of reasoning and "intelligence" but as something as measurable, quantifiable, digitizeable; similar to the arguments AI folk smake when they talk about intelligence. Picard essentially complicated their conversation by discussing emotion.
+
+What people have taken forward as a practical matter is turning emotion into digitized signal.  This goes by a number of names, ``...``, sometimes referring to slightly differnet things, but the one question they all share in common is,
+
+> What is knowable about a person's state of mind, even theoretically, using digital sensors?
+
+Well this is a very deep and fascinating question! Philosophical, mathematical, this question cuts to the very core of what our conscious experience *is*, and I cannot answer this question. However, I can provide landmarks through the conversations around these topics, through the theories of cognitive neuroscientists [], artificial intelligence researches [], philosophers of mind [], emotion researchers [],and, of course, the affective computing folks who are working to decode these signals. [] In fact, I argue that you cannot *begin* to answer the question of what social transmission of sensor data might mean until you address some of these very abstract questions.
+
+``what? i havent convinced you that people will be able to share their emotions?, well, consider this... [anecode/study]``
+
+
+
+
+
+## 2 [social behavior question]
+
+Now, if we don't know exactly what these signals will look like, how will we study their effect on people?
+
+First let's break these (hypothetical) mind-models into two categories:
+
+1. The kind that the sender can see before sending, and form a narrative around.
+
+2. The kind that the sender decides to transmit in real-time - that is, the kind where the sender doesn't know exactly what they'll be sending to their partner.
+
+While (1) allows the sender to co-construct a narrative, (2) presents a fundamentally different model of communicative consent, asks the *recepient* to co-construct a narrative. ``these models exist in commercial systems already, enumerate them``
+
+``(now map 1+2 above to each of our studies, and describe what we stand to learn from them.) ``
+
+
+
+## THEORY what are emotions?/what is subjective experience?
+
+## THEORY (one extreme) what can be known from wearable sensors?
+that we have today
+
+## THEORY (other extreme) can neural dust read my mind?
+explan neural dust..if these prototypes can be scaled up to humans, this device could "read" from activations in individual neurons the same way a computer can read from an address in memory.
+
+now, your alarm bell should have sounded here. either becasue your an alarmist (in which case, gotcha), or because, if you're like me, you have no idea what someone could even *theoretically* learn from spying on my neurons. could they tell what i *feel*, even though i sometimes feel emotions in in my stomach or in my nervous tapping fingers?
+
+## THEORY social exchange, social mediated communcation
+
+
+
+...
+
+# Humans in co-analysis in ambiguous biosensor data.
+## humans a step higher in the loop
+
+Raw signas are not the only type of signal that could trigger emotional/intellectual gestalt-like interpretaitons. ``(there should be somethig about the theory behind how these interpretations might form. psychological theory.)``
+
+What happens if we put humans "one step higher" in the interpretation pipeline? We could show them visualizations - _unlabled_ - of machine-classified data, and allow *them* to provide labels by reflecting on, or reviewing, what was happening to them at the time. As an experiment, we could code subjects' judgements about the signals meaning, and look at individual differences in response, even if it's simply in the phrasing of the label, and use this to better understand the effect of user agency ``...``
+
+
+
+
+
+
+
+
+

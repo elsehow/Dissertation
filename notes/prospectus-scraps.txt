@@ -1,0 +1,110 @@
+
+"You have to be really excited about what you are doing your dissertation on or else you will be miserable in a year."
+
+
+As sensing devices become more pervasive, as mhealth creeps across the digital landscape, these questions have a big impact both for the people who design interactions with sensors, and for the end-users who buy these devices (buy with money and "buy" with mindhsare, give credence to the data)...........so we need to be careful of these kinds of bad outcomes.
+in the meantime, i want for my three investigations to congeal toward a larger picture that gestures toward these first questions - how do social interpretations arise from biosensor data? how do these data come to take on socially contextual meanings? this question, which is much larger than my dissertation, has bunches of relevance for anyone who wants to design an mHealth app, or incentivize other people to collect biosensor data....etc. 
+
+
+
+
+
+## background
+(There are more and more sensors i nthings... heartrte, GSR.... What stories are consumers told about these sensors? That those sensors are to track your fitness, mostly []. And when sharing these signals, consumers hear stories around intimacy... [] In past research, intimacy is a major story too [], as is the signal's potential as a social cue: something that displays what other people are doing, thus enforcing normtive behavior [] ..... 
+
+However, the meaning of these signals is ambiguous [slovak], and the interpretations that people construct around them vary in different social contexts. 
+
+Literature suggests that biosignals can engender feelings of personal disclosure [slovak, bell], or act as cues that encourage normative social behavior [kim/pentalnd]. 
+..........
+This work generally configures biosignal sharing as a way to “enhance” social interactions: to increase intimacy between romantic partners [bell, slovak, thumbprints], or to inspire cooperation in teams [kim/pentland, bergstrom]. However, little work has looked at how physiological signals could yield negative social consequences. While some studies admit that biosignals could create feelings of over-disclosure [slovak], they do not go into specifics about what this over-disclosure might mean in social settings, or what mechanisms are responsible for causing it. In fact, little work has investigated the mechanisms by which biosignals are able to take on social meanings at all.
+
+Now that some consumer devices allow us to share biosensory data socially (e.g. the Apple Watch’s heartrate sharing feature), we must begin to ask how, why, and when social meanings can arise from the transmision biosensory data, and how these meanings vary under different social contexts and in the presence of different social cues. This line of questioning is made especially salient by the fact that devices that monitor physiological signals almost always allow (or force) us to share these signals with “the cloud.” What could a leak of my heartrate data say about me?
+
+
+
+
+
+
+### Case studies
+
+In my dissertation, I will use two types of signals, breathing and heartrate, to investigate more deeply.............
+
+
+**1. Heartrate: Social interpretations of heartrate sharing or broadcast during risky, uncertain interactions**
+
+The Apple Watch allows users to share their heartrate data in a two-way, real-time connection. Since users decide to share their heartrate, but cannot control what signals they send after doing so (nor can they necessarily feel what they are sending), heartrate acts a signal "given off"; an assymmetric exchange of information. In this line of work, I will continue my ongoing work with Coye, in which we explore heartrate sharing using various methods (1) survey-based experiments in which subjects imagine sharing their heartrate, (2) controlled, lab-based experiments. With our findings from these methods, we will eventually expand into (3) naturalistic experiments or technology probes, which will interrogate what roles heartrate sharing could play in different social contexts.
+
+In our last project (submitted to CHI '16), Coye and I investigated how people interpret an elevated (versus normal) heartrate in various situations, and how seeing an elevated heartrate from someone else could affect trust between strangers.
+
+Next, we will expand this work 
+
+ In this work, I am concerned especially with the interpretations people build around other people's data; how these interpretations might affect cooperative behavior, and what mechanisms cause these interpretations or behaviors to arise.
+
+**2. Breath: Using breath-rate data to represent the learning process.**
+
+[spire intro]
+
+What interpretations do children build around their breathing data in a learning environment, and how can they use these data to represent their experiences? How do they contest the interpretations that algorithms build around these data? Students from Code 510, an ongoing CS education program for high schoolers, will monitor their breathing data using a wearable device (http://spire.io), as well as generating other kinds of personal data (e.g., selfies, emoji). Students will be asked to turn these data into narratives that they share with their fellow students, or a signal "given," both to fellow students and to instructors. In this line of work, I am particularly interested in what students decide to share, and what they decide to omit, and how their interpretations of data interact with their larger communicative goals. On the flip side, I am interested in how classmates receive these data-driven narratives, and how the data they see could yield alternative, or contradictory narratives to the ones proposed by students.
+
+
+
+### Lines of inquiry
+
+In both lines of work, I organize my analysis into three, broad lines of inquiry:
+
+**1. How does social context shape the interpretations people build around physiological signals?**
+
+From some existing work with Coye (in review), we already know that the social "meanings" of biosignals can differ widely depending on the social context in which they were captured. Interpretations around biosignals are richly contextual, subject to both situations and individual interpretation. With this work, I hope to complicate this matter further, showing further proof that the interpretations people form about other people's biosignals are not universal.
+
+**2. How do these interpretations affect social behavior?**
+
+Again, my work with Coye offers strong evidence that these interpretations do affect social behavior in certain situations, and that the way they affect behavior is again dependent on social context. As a trivial example, if a friend says in a text, "I'm running late," and their heartrate is elevated, many (but not all) people take this as a cue to the person's trustworthiness. However, if two people are playing a game in which money is on the line, an elevated heartrate causes less trusting behavior! In this work, I hope to further unravel the straightforward narrative of biosignals as a cue to increase intimacy and trust [].
+
+**3. What the effect of the signal itself on the phenomena we observe? What is the effect of its representation?**
+
+What are the mechanisms by which interpretations emerge from biosignals? What are the mechanisms by which social behaviors change as a result? Clearly the answer to these questions has to do with representation picked to represent it. Obvious example: you are wearing an EEG device and it tells you you're stressed; you are wearing the same device and it tells you the signal is "red" (versus "blue"). Less obvious example: if elevated heartrate is associated with perceptions of anxiety, is this because of the high heartrate per se, or because the signal was reprsented as abnormal by the interface?
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Two types of signals
+
+Biosignal sharing can be divided into two large groups [goffman]:
+
+1. Signals that the user choose to send (signals "given")
+2. Signals that the user emits without "proofreading," (signals "given off")
+
+The Apple Watch, which features the best-publicized platform for sharing biosignals, works as in (2), sharing heartbeats as vibrations after pairing with a friend. (The numerous APIs that surveill us during normal use also work as in (2). Fitbit and Spire, for example, silently upload users' data to the cloud; there is no way to avoid "sharing" when using these devices). However, biosignals can be transferred in both modalities. A counterexample to (2) is biogram, which allows users to overlay their biosignals on images, as if they were filters on Instagram [].
+
+
+
+## The use of basic signals
+
+The answer to the three questions listed above depends strongly on the type of data being transmitted. If the signal says "your friend is sad," we will likely observe different effects than if the signal says, "your friend's heartrate is elevated." 
+
+For my dissertation work, I am focusing on the concrete, bodily types of signals, such as heartrate and breathing rate, rather than high-level predictive algorithms. There are two reasons for this: (1) because these signals are familiar to the layperson, and (2) because commercial interfaces presently exist that allow us to send these signals around, without much scrutiny given to what these signals might mean. 
+
+First, access to low-level physiological signals is becoming more ubiquitous. They represent the most immediate, real-world challenge, moreso than higher-level algorithms that purport to detect mood, though these are beginning to crop up as well []. Second, signals such as heartrate and breathing are familiar to the layperson. They are less likely to provoke scrutiny and suspicion. Finally, because these cues have a familiar relationship to our bodily experience, they are may allow emotional interpretations by bootstrapping on our existing experiential machinery.
+
+
+
+## Signals given/given off
+
+TODO: a reading of goffman's presentation in everyday life through biosignals; how biosignals fit into these arguments and also challenge parts of it
+
+
+
+## Conclusion / relevance
+
+Algorithms that detect emotion from biosignals take a strong views on the relationship between subjective experience and physical phenomena in the body. For one thing, they reject notions of mind/body duality! More relevant here, however, is their assumption that the individual is the correct unit of analysis. To wit, affect detection algorithms assume the individual body to be the root of emotional experience, rather than collective units  []. While this perspective is dominant in fields like cognitive science and artificial intelligence (especially machine learning) [], alternatives exist []. 
+
+By transmitting biosignals to people, rather than to machine learning algorithms, we raise as an issue that alternative sorts of interpretations do exist. Our human actors encounter biological signals as a piece of a complex social space; their "inputs" are distributed among multiple actors across multiple points in time. While this dissertation takes no issue with how better mechanical interpretators could be built, it should make salient two larger points: (1) that the subjective experience of the individual is not the sole concern for designers of biosensing technologies, (2) that the signals produced by biosensors and biosensing algorithms themselves exist as cues in social space; they have an effect on social interaction that is not always obvious, and not always positive.
