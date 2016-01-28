@@ -1,6 +1,6 @@
 * prospectus 
-** TODO a chain of reasoning
-<2016-01-27 Wed> <2016-01-29 Fri>
+** DONE a chain of reasoning
+<2016-01-27 Wed> <2016-01-28 Thu>
 *** work done
 **** 1. experimental study with coye
 ***** taught us biosignals can affect trusting behavior
@@ -15,7 +15,8 @@ deciding how risky it is to disclose,
 how people act in the presence of the signal
 social behavior focus
 etc....
-*** synthesizing findings
+*** TODO synthesizing findings
+<2016-01-29 Fri>
 **** one piece done...socially contextual signals..
 ***** in vignette, high heartrate ==> less trust
 ***** in experiment, high heartrate==> more trust
