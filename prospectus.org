@@ -1,23 +1,24 @@
 * prospectus 
-** DONE my topic 
-This dissertation focuses on how *people* (as opposed to algorithms) interpret data from wearable & environmental biosensors. 
+** brief introduction to my topic 
+*** initial
+**** DONE summary
+This dissertation focuses on how *people* (as opposed to algorithms) interpret data from wearable & environmental biosensors, and how these interpretations affect social behavior.
 What can these data say about you? What can they say about someone else?
-
+**** DONE detailed explanation
 Based on past work on the human interpretation of sensor data [], and on work already done [], we expect these interpretations to vary depending on context. This dissertation focuses on how four specific factors correlate with people's interpretations of biosignal data:
 
 (1) the way in which interfaces represent a given singal 
 (2) social context (relationships to, or beliefs about, the person being sensed)
 (3) beliefs about the capabilities of algorithms 
 (4) beliefs about the physical phenomenon being sensed
-
+**** DONE closer (?)
 One very large question this dissertation aims to answer is, /how is it that biosignals take on any meaning at all/?
 Why, and when, do biosignals seem anything but innocuous?
 So, each bit of experimental work in my dissertation will, in one way or another,
 interrogate people's beliefs about the risk associated with disclosure of biosignals,
 examining how these beliefs relate to the above factors.
-
+*** TODO summarize last
 ** my methods
-remember, im a psychologist.
 surveys
 lab-based experiments
 technology probes (?)
@@ -30,35 +31,55 @@ pentland - tho many shortcomings
 slovak...
 skin conductance
 short range
-*** TODO why these methods?
-
-** full monty
-*** TODO introduction
+*** TODO why these methods? /what can these methods do?/
+<2016-02-15 Mon>
+remember, im a psychologist.
+play to the strengths of these methods
+** TODO my cases
+*** DONE work done
+**** 1. vignette study with coye
+taught us stuff can be contextual
+**** 2. experimental study with coye
+taught us biosignals can affect social behavior
+**** synthesizing findings
+***** socially contextual signals
+***** in vignette, high heartrate==>less trust
+***** in experiment, high heartrate==> more trust
+*** DONE what do these findings motivate?
+<2016-01-27 Wed>
+the representation of the data has a tight reltionship
+with how risky people think it is to disclose
+(if i show you the raw....youll say it means nothing...if i show you some judgemetns...maybe you're less sure...)
+,,
+almost a consumer protection thing
+companies can represent data in a way that makes them seem less risky to disclose/share
+,,
+*** TODO proposed future studies
+<2016-01-28 Thu>
+**** TODO spire / disclsoure / representation
+risk of "unknown signals"
+**** TODO health-e-heart
+why people do/do not contrib data.
+** TODO relevance & past work 
+*** DONE introduction
 biosensing is on the rise, no doubt
 **** could give a provcative example or two
 sweden hr study
 fitbit senses guys breakup
-**** there are a few things we could be worried about:
-***** people's mental mental model of how data flows
+*** DONE there are a few things we could be worried about:
+**** DONE people's mental mental model of how data flows
 word on this 
-***** why i'd consent to give to my friend but not fitbit
+**** DONE why i'd consent to give to my friend but not fitbit
 word on this
-***** why do these data mean anything at all?
+**** DONE why do these data mean anything at all?
 well, this seems like the least obvious for sure
 compared to the above, why think about this at all?
-*** TODO related work
+*** TODO justifying why to study interpretations
+*** TODO justifying why to study social interpretations
+*** DONE related work
 intro about the rise of biosensing, about the rise of apps that let you share biosignals socially (apple watch, thumbkisses, heartgram) - in these apps, people, rather than algorithms, are supposed to interpret biosensory data
-
 however, it's not well understood how people build interpretations around these data, or what mechanisms give rise to these interpretations. in general, the expressive capacity of biosignals is not well understood.
-*** TODO work i've already done
-vignette study with coye
-experimental study with coye
-contrast between the two
-
-** proposed future studies
-*** health-e-heart
-*** affectiva (?)
-*** spire / disclsoure
+copy from other work hereonout
 * notes
 ** DONE johns notes
 
@@ -119,3 +140,7 @@ we are understanding this to understand's people's sense of "risk"
 ** TODO find that smbc "gosh grandma youre so old fashioned"
 first page of my dissertation
 
+** TODO summarize topic briefly
+** TODO what reamins before feedbackable ?
+<2016-01-29 Fri>
+*** TODO references..
