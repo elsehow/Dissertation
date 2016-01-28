@@ -1,5 +1,7 @@
 * prospectus 
 ** brief introduction to my topic 
+not, "why do we consent to upload sensitive information",
+/why + how are biosignals sensitive?/
 *** initial
 **** DONE summary
 This dissertation focuses on how *people* (as opposed to algorithms) interpret data from wearable & environmental biosensors, and how these interpretations affect social behavior.
@@ -35,32 +37,69 @@ short range
 <2016-02-15 Mon>
 remember, im a psychologist.
 play to the strengths of these methods
-** TODO my cases
-*** DONE work done
-**** 1. vignette study with coye
-taught us stuff can be contextual
-**** 2. experimental study with coye
-taught us biosignals can affect social behavior
+** TODO a chain of reasoning
+<2016-01-27 Wed> <2016-01-28 Thu>
+*** work done
+**** 1. experimental study with coye
+***** taught us biosignals can affect trusting behavior
+**** 2. vignette study with coye
+***** taught us negative emotional attributes => positive social behaviors
 **** synthesizing findings
 ***** socially contextual signals
-***** in vignette, high heartrate==>less trust
-***** in experiment, high heartrate==> more trust
-*** DONE what do these findings motivate?
-<2016-01-27 Wed>
+in vignette, high heartrate ==> less trust
+in experiment, high heartrate==> more trust
+***** one piece done...socially contextual signals..
+this establishes that ambiguous data like biosensors are as richly contextula as other cues in cmc
+while past work has indicated the same is true for signals like GPS [..], past work on biosensor applications have largely missed this; heartrate in particulr has been construed as a singal for "enhancing intimacy", wiht little investigation into its social or contextul meaning [slovak].
+***** but more important work yet remains
+the riskiness of the signal itself, how much /sensitive/ information it /seems/ to contain
+****** the relationship between these attitudes + riskiness 
+measured by / willingness to disclose to various parties
+and im sure theres past work on that measure...  aquisti... 
+****** and relationship between the way an interface represents a signal
+******* our exp heartrate study represented signals in a very particular way
+we had our reasons
+******* we could easily try a different representation, or a different signal,
+to try to isolate the independent effect of either
+
+*** what do these findings motivate?
+**** DONE relationship between *representation* and riskiness of disclosure
 the representation of the data has a tight reltionship
 with how risky people think it is to disclose
 (if i show you the raw....youll say it means nothing...if i show you some judgemetns...maybe you're less sure...)
 ,,
+**** TODO independent effect of the signal itself
+of course heartrate "has some meaning", and we also want to know what that meaning is, independent of the way it is represented by an interface
+**** TODO this is a deep / interesting pair of questions for a number of reasons....
+***** cultural beliefs about the body...
+***** people reason by analogy to their own lived bodily experiences...
+**** DONE useful to study because consumer protection
 almost a consumer protection thing
 companies can represent data in a way that makes them seem less risky to disclose/share
+**** DONE also because we can make more delightful+sensitive interfaces
+ones that don't assume signals will always be positive
+like apple's hr or bell's work.......
+*** proposed future studies
+**** TODO health-e-heart / disclosure
+why people do/do not contrib data...
+what they think the data SAY ABOUT THEM
+weighed against their OTHER INCENTIVES FOR CONTRIBUTING
 ,,
-*** TODO proposed future studies
-<2016-01-28 Thu>
-**** TODO spire / disclsoure / representation
-risk of "unknown signals"
-**** TODO health-e-heart
-why people do/do not contrib data.
-** TODO relevance & past work 
+we're interested in a group that already seems happy to disclose, and likely have a high intrinsic motivation to do so. so, why are some people disclosing more sensor data than others, even within this highly motivated group? what is the relationship between their disclosure decisions, and what they think the data might say about them? (e.g., how risky this data is to disclose, risk if there were a data leak, etc..)
+**** TODO representation / meaning / disclosure
+***** TODO spire data / meaning / ris
+have ppl collect data (technology probe)
+show people breath data
+show people breath + interpreted data..
+interrogate risk of "unknown signals"
+***** TODO heartrate vs GSR
+do the same experiment, but swap hr for gsr
+or for some made up signal...
+does any "eleavted" (versus "normal") signal have the same effect??
+***** TODO suggestion from a sensor
+does the microintervention make you feel more depressed? (via suggestion that you must be depressed....)
+
+** relevance & past work 
 *** DONE introduction
 biosensing is on the rise, no doubt
 **** could give a provcative example or two
