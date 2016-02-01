@@ -15,8 +15,7 @@ deciding how risky it is to disclose,
 how people act in the presence of the signal
 social behavior focus
 etc....
-*** TODO synthesizing findings
-<2016-01-29 Fri>
+*** DONE [#B] synthesizing findings
 **** one piece done...socially contextual signals..
 ***** in vignette, high heartrate ==> less trust
 ***** in experiment, high heartrate==> more trust
@@ -72,40 +71,38 @@ companies can represent data in a way that makes them seem less risky to disclos
 ****** also because we can make more delightful+sensitive interfaces (?)
 ones that don't assume signals will always be positive
 like apple's hr or bell's work.......
-*** TODO but wait.....................
-but, also want to know how ppl /actually act in vivo/
-and how UNCONSCIOUS influence can exert itself in sensing contexts....
-im thinking of the depression micro-intervention thing
-
-representation, or presence of UI, has an effect..........
-
-
 *** DONE effects of *representation* versus *signal itself*, in the meaning of biosignals 
 **** the representation of the data has a tight reltionship with how risky people think it is to disclose
-if i show you the raw....youll say it means nothing...if i show you some judgemetns...maybe you're less sure...
-,,
-**** meaning as defend by sesnitivity
+***** if i show you the raw....youll say it means nothing...if i show you some judgemetns...maybe you're less sure... 
+***** meaning as defend by sesnitivity
 the social meaning of biosignals - 
-**** TODO independent effect of the signal itself
-of course heartrate "has some meaning", and we also want to know what that meaning is, independent of the way it is represented by an interface
-**** TODO this is a deep / interesting pair of questions for a number of reasons....
-*** proposed future studies
-**** TODO health-e-heart / disclosure
-why people do/do not contrib data...
-what they think the data SAY ABOUT THEM
-weighed against their OTHER INCENTIVES FOR CONTRIBUTING
-,,
+**** independent effect of the signal itself
+***** of course heartrate "has some meaning", and we also want to know what that meaning is, independent of the way it is represented by an interface
+***** we hope to examine also 
+**** this is a deep / interesting pair of questions for a number of reasons....
+
+*** TODO [#B] proposed future studies
+<2016-02-01 Mon 13:00>
+**** TODO modify HR exp w GSR, or made up signal
+***** does any "eleavted" (versus "normal") signal have the same effect??
+***** no-brainer, must study this
+****** same experiment we did, just change the signal
+****** use his to start to underestand independent effect of signal v representation
+**** TODO spire data / meaning / risk
+***** have ppl collect data (technology probe)
+***** show people breath data
+***** show people breath + interpreted data..
+***** interrogate risk of "unknown signals"
+**** TODO other
+***** TODO health-e-heart / disclosure
+****** why people do/do not contrib data
+****** what they think the data SAY ABOUT THEM
+****** weighed against their OTHER INCENTIVES FOR CONTRIBUTING
+****** naive copy
 we're interested in a group that already seems happy to disclose, and likely have a high intrinsic motivation to do so. so, why are some people disclosing more sensor data than others, even within this highly motivated group? what is the relationship between their disclosure decisions, and what they think the data might say about them? (e.g., how risky this data is to disclose, risk if there were a data leak, etc..)
-**** TODO representation / meaning / disclosure
-***** TODO spire data / meaning / ris
-have ppl collect data (technology probe)
-show people breath data
-show people breath + interpreted data..
-interrogate risk of "unknown signals"
-***** TODO modify HR exp w GSR, or made up signal
-does any "eleavted" (versus "normal") signal have the same effect??
 ***** TODO suggestion from a sensor
 does the microintervention make you feel more depressed? (via suggestion that you must be depressed....)
+
 ** relevance & past work 
 *** introduction
 biosensing is on the rise, no doubt
@@ -154,6 +151,12 @@ remember, im a psychologist.
 should be obvious why these methods are good - ive set the questions up right
 in any case, play to the strengths of these methods
 * notes
+** TODO but wait.....................
+but, also want to know how ppl /actually act in vivo/
+and how UNCONSCIOUS influence can exert itself in sensing contexts....
+im thinking of the depression micro-intervention thing
+
+representation, or presence of UI, has an effect..........
 ** DONE johns notes
 
 > why asking these questions? bc surveillance
@@ -231,7 +234,7 @@ So, each bit of experimental work in my dissertation will, in one way or another
 interrogate people's beliefs about the risk associated with disclosure of biosignals,
 examining how these beliefs relate to the above factors.
 ** TODO what reamins before feedbackable ?
-<2016-01-29 Fri>
+<2016-02-03 Wed>
 *** TODO references..
 ** TODO find that smbc "gosh grandma youre so old fashioned"
 first page of my dissertation
