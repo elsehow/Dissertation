@@ -1,0 +1,199 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/ffff/Projects/dissertation/prospectus.org
+
+
+* relevance & past work 
+:PROPERTIES:
+:ARCHIVE_TIME: 2016-02-01 Mon 23:25
+:ARCHIVE_FILE: ~/Projects/dissertation/prospectus.org
+:ARCHIVE_OLPATH: prospectus
+:ARCHIVE_CATEGORY: prospectus
+:END:
+** introduction
+biosensing is on the rise, no doubt
+** biosurveillance
+*** biosurveillance is our life
+biosurveillance, a term formerly used strictly for montioring disease,
+can now reasonably be extended to our daily, lived experiences.
+*** could give a provcative example or two
+sweden hr study
+fitbit senses guys breakup
+*** validates abowd's "fourth generation"
+in some sense, it validates Abowd's "fourth generation" of personal computing:
+in the third, ubicomp dissolved machines into our everyday life;
+in the fourth, chronic biosurveillance blurs the lines between where computational devices end, and where we begin
+** there are a few things we could be worried about:
+*** DONE people's mental mental model of how data flows
+word on this 
+*** DONE why i'd consent to give to my friend but not fitbit
+word on this
+*** DONE why do these data mean anything at all?
+well, this seems like the least obvious for sure
+compared to the above, why think about this at all?
+** TODO justifying why to study interpretations
+only doctors examined biosignals in the past. but, now there is a reason to study normal people...
+** TODO justifying why to study social interpretations
+** DONE related work
+intro about the rise of biosensing, about the rise of apps that let you share biosignals socially (apple watch, thumbkisses, heartgram) - in these apps, people, rather than algorithms, are supposed to interpret biosensory data
+however, it's not well understood how people build interpretations around these data, or what mechanisms give rise to these interpretations. in general, the expressive capacity of biosignals is not well understood.
+copy from other work hereonout
+
+* prospectus 
+:PROPERTIES:
+:ARCHIVE_TIME: 2016-02-05 Fri 10:08
+:ARCHIVE_FILE: ~/Projects/dissertation/prospectus.org
+:ARCHIVE_CATEGORY: prospectus
+:END:
+** a chain of reasoning                                            :ARCHIVE:
+<2016-01-27 Wed> <2016-01-28 Thu>
+*** work done
+**** 1. experimental study with coye
+***** taught us biosignals can affect trusting behavior
+**** 2. vignette study with coye
+***** taught us negative emotional attributes => positive social behaviors
+*** what we're studying
+through a variety of survey- and lab-based experiments
+the idea of what biosignals can say about a person
+esentially asking people to /interpret the meaning of a signal/
+and deciding what it says,
+deciding how risky it is to disclose, 
+how people act in the presence of the signal
+social behavior focus
+etc....
+*** TODO [#B] synthesizing findings
+**** one piece done...socially contextual signals..
+***** in vignette, high heartrate ==> less trust
+***** in experiment, high heartrate==> more trust
+***** different things different contexts
+**** so, biosignals are richly contexutal, like all other signals in CMC
+***** seems ovious, but biosignals have been looked over in contextual interpretation / sensors lit
+while past work has indicated the same is true for signals like GPS [..], past work on biosensor applications have largely missed this; 
+***** heartrate UX in particular seems stuck on "intimacy"
+heartrate in particulr has been construed as a singal for "enhancing intimacy", wiht little investigation into its social or contextul meaning [slovak].
+**** BUT,,,different...COMPLEX interactions with /cultural beliefs about the body/...
+***** so much interesting work on this with hr
+****** famous Valens study
+****** describe one some
+***** sure to contrast with "reality", that chronic heartrate might be more informative...[sweden]
+***** "but, these intuitions do not match emprical realities. they are not based on them, and often do not reference them."
+****** "complex web" argument
+beliefs about the meaning of biosignals are constructed from a /complex web/ of both /social and cultural beliefs/, as well as /lived bodily experiences/ 
+****** we need to study these beliefs
+reference outcomes we want
+****** no way to really untangle the web
+******* i don't try to, 
+******* only show that representations /are/ there, separate from meaning, & /are/ complex
+***** to start - independent effect of the signal (vs. representation)
+****** try to show the independent effect of the signal itself, when controlling for different forms of represntation by interfaces
+****** then, we see some effect is left over, it itself is contextual, and we can be convinced that...
+there are complex meanings to sensors etc
+****** NOW we can finally....
+learn more about disclosure
+both how an interface affects "risk"and how the signal itself may be intrinscly risky
+see outcomes, below....
+**** propose to be measuring what
+***** independent effect of the signal, versus effect of the way an interface represnts it
+****** independent effect of the signal
+******* cultural beliefs about the body...
+******* people reason by analogy to their own lived bodily experiences...
+****** effect of the way an interface represnts it
+******* our exp heartrate study represented signals in a very particular way
+we had our reasons
+******* we could easily try a different representation, or a different signal,
+to try to isolate the independent effect of either
+****** neither is "More interesting" than the other
+******* we just want to know WHY and HOW biosignals come to mean anything at all
+******* any kind of understanding will help us understand how, why, and when people consent to biosurveillance
+******* reference outcomes again
+***** attitudes about disclosure
+the riskiness of the signal itself, how much /sensitive/ information it /seems/ to contain
+****** measuring riskiness of disclosure
+******* sensitivity of data measured by / willingness to disclose to various parties
+******* and im sure theres past work on that measure...  aquisti... 
+**** why measuring
+***** useful to study because consumer protection
+companies can represent data in a way that makes them seem less risky to disclose/share
+****** also because we can make more delightful+sensitive interfaces (?)
+ones that don't assume signals will always be positive
+like apple's hr or bell's work.......
+*** effects of *representation* versus *signal itself*, in the meaning of biosignals 
+**** the representation of the data has a tight reltionship with how risky people think it is to disclose
+***** if i show you the raw....youll say it means nothing...if i show you some judgemetns...maybe you're less sure... 
+***** meaning as defend by sesnitivity
+the social meaning of biosignals - 
+**** independent effect of the signal itself
+***** of course heartrate "has some meaning", and we also want to know what that meaning is, independent of the way it is represented by an interface
+***** we hope to examine also 
+**** this is a deep / interesting pair of questions for a number of reasons....
+
+*** TODO [#B] proposed future studies
+
+**** TODO modify HR exp w GSR, or made up signal
+***** does any "eleavted" (versus "normal") signal have the same effect??
+***** no-brainer, must study this
+****** same experiment we did, just change the signal
+****** use his to start to underestand independent effect of signal v representation
+**** TODO spire data / meaning / risk
+***** have ppl collect data (technology probe)
+***** show people breath data
+***** show people breath + interpreted data..
+***** interrogate risk of "unknown signals"
+**** TODO other
+***** TODO health-e-heart / disclosure
+****** why people do/do not contrib data
+****** what they think the data SAY ABOUT THEM
+****** weighed against their OTHER INCENTIVES FOR CONTRIBUTING
+****** naive copy
+we're interested in a group that already seems happy to disclose, and likely have a high intrinsic motivation to do so. so, why are some people disclosing more sensor data than others, even within this highly motivated group? what is the relationship between their disclosure decisions, and what they think the data might say about them? (e.g., how risky this data is to disclose, risk if there were a data leak, etc..)
+***** TODO suggestion from a sensor
+does the microintervention make you feel more depressed? (via suggestion that you must be depressed....)
+
+** relevance & past work 
+*** introduction
+biosensing is on the rise, no doubt
+*** biosurveillance
+**** biosurveillance is our life
+biosurveillance, a term formerly used strictly for montioring disease,
+can now reasonably be extended to our daily, lived experiences.
+**** could give a provcative example or two
+sweden hr study
+fitbit senses guys breakup
+**** validates abowd's "fourth generation"
+in some sense, it validates Abowd's "fourth generation" of personal computing:
+in the third, ubicomp dissolved machines into our everyday life;
+in the fourth, chronic biosurveillance blurs the lines between where computational devices end, and where we begin
+*** there are a few things we could be worried about:
+**** DONE people's mental mental model of how data flows
+word on this 
+**** DONE why i'd consent to give to my friend but not fitbit
+word on this
+**** DONE why do these data mean anything at all?
+well, this seems like the least obvious for sure
+compared to the above, why think about this at all?
+*** TODO justifying why to study interpretations
+only doctors examined biosignals in the past. but, now there is a reason to study normal people...
+*** TODO justifying why to study social interpretations
+*** DONE related work
+intro about the rise of biosensing, about the rise of apps that let you share biosignals socially (apple watch, thumbkisses, heartgram) - in these apps, people, rather than algorithms, are supposed to interpret biosensory data
+however, it's not well understood how people build interpretations around these data, or what mechanisms give rise to these interpretations. in general, the expressive capacity of biosignals is not well understood.
+copy from other work hereonout
+** my methods
+surveys
+lab-based experiments
+technology probes (?)
+*** DONE specific "good example" studies
+**** surveys / survey experiments
+consolvo
+**** lab-based experiments
+pentland - tho many shortcomings
+**** tech probes
+slovak...
+skin conductance
+short range
+*** TODO why these methods? /what can these methods do?/
+<2016-02-15 Mon>
+remember, im a psychologist.
+should be obvious why these methods are good - ive set the questions up right
+in any case, play to the strengths of these methods
