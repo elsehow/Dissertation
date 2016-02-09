@@ -1,4 +1,4 @@
-* notes
+* DONE notes
 ** TODO but wait.....................
 but, also want to know how ppl /actually act in vivo/
 and how UNCONSCIOUS influence can exert itself in sensing contexts....
@@ -81,87 +81,85 @@ Why, and when, do biosignals seem anything but innocuous?
 So, each bit of experimental work in my dissertation will, in one way or another,
 interrogate people's beliefs about the risk associated with disclosure of biosignals,
 examining how these beliefs relate to the above factors.
-** TODO split synthesizing findings up into higher-level argument chunks
-<2016-02-06 Sat 14:00>
-** TODO what reamins before feedbackable ?
-<2016-02-08 Mon>
-*** TODO references..
 ** TODO find that smbc "gosh grandma youre so old fashioned"
 first page of my dissertation
 ** TODO summarize topic briefly
-* DONE my intellectual history
+* DONE useful scraps for official prospectus
+CLOSED: [2016-02-08 Mon 19:37]
+** DONE my intellectual history
 <2016-02-01 Mon 13:00>
-** DONE not a lot of work on transmitting biosignals socially
+*** DONE not a lot of work on transmitting biosignals socially
 
-*** papers that have done it are gods-eye, like pentland
+**** papers that have done it are gods-eye, like pentland
 
-*** only a few talk about what happens when you show stuff back to the people being sensed
+**** only a few talk about what happens when you show stuff back to the people being sensed
 
-*** (ironic given pentlands focus on harmonious orgnaizations, but thats a differnet matter)
+**** (ironic given pentlands focus on harmonious orgnaizations, but thats a differnet matter)
 
-**** he is very dodgy about what kinds of feedback work to /create/ good organizational conditions
+***** he is very dodgy about what kinds of feedback work to /create/ good organizational conditions
 
-**** i guess his job is descriptive...
+***** i guess his job is descriptive...
 
-** DONE ok, but why do we want to know what people make of other people's biosignals?
+*** DONE ok, but why do we want to know what people make of other people's biosignals?
 
-*** it's a way of discovering what /people make of the signals overall/
+**** it's a way of discovering what /people make of the signals overall/
 
-*** a way of determining their risk, and of understanding patterns of disclosure
+**** a way of determining their risk, and of understanding patterns of disclosure
 
-*** after all, why do biosignals tell you anything at all about another person?
+**** after all, why do biosignals tell you anything at all about another person?
 
-** DONE complex interactions between the meaning of signal itself, and way it is represented by the interface
+*** DONE complex interactions between the meaning of signal itself, and way it is represented by the interface
 
-*** signal itself - complex web of cultural meanings
+**** signal itself - complex web of cultural meanings
 
-**** cultural, likely
+***** cultural, likely
 
-**** experiences with ones own body, likely
+***** experiences with ones own body, likely
 
-**** we dont really need to untangle this web
+***** we dont really need to untangle this web
 
-*** way it is represented by the interface
+**** way it is represented by the interface
 
-**** same signal may look more or less risky
+***** same signal may look more or less risky
 
-***** raw data, not so risky
+****** raw data, not so risky
 
-***** interpreted data, maybe slightly less sure
+****** interpreted data, maybe slightly less sure
 
-**** almost a consumer rights issue
+***** almost a consumer rights issue
 
-***** companies can represent data in a way that makes them seem less risky to disclose/share
+****** companies can represent data in a way that makes them seem less risky to disclose/share
 
-***** unless we know what their algorithms tell them, we cant know our own risk
+****** unless we know what their algorithms tell them, we cant know our own risk
 
-***** "unknown signals" and all that
+****** "unknown signals" and all that
 
-***** i bet people undervalue the threat of unknown signals
-* DONE my justification for doing this
-** why do we care what people make of biosensor data?
+****** i bet people undervalue the threat of unknown signals
+** DONE my justification for doing this
+*** why do we care what people make of biosensor data?
 
-** beause we turn it into an interface problem
+*** beause we turn it into an interface problem
 
-*** rather than a technical one
+**** rather than a technical one
 
-** and we can approach it on psychological and behavioral terms
+*** and we can approach it on psychological and behavioral terms
 
-** and we want to do this for a few reasons
+*** and we want to do this for a few reasons
 
-*** safer, more sensitive apps
+**** safer, more sensitive apps
 
-*** maybe more fun apps
+**** maybe more fun apps
 
-*** my big 1: DISCLOSURE
+**** my big 1: DISCLOSURE
 
-**** almost a consumer protection issue
-* DONE work done
-** 1. experimental study with coye
-*** taught us biosignals can affect trusting behavior
-** 2. vignette study with coye
-*** taught us negative emotional attributes => positive social behaviors
+***** almost a consumer protection issue
+** DONE work done
+*** 1. experimental study with coye
+**** taught us biosignals can affect trusting behavior
+*** 2. vignette study with coye
+**** taught us negative emotional attributes => positive social behaviors
 * empirical goals 
+** TODO split synthesizing findings up into higher-level argument chunks
 ** [#B] synthesizing findings
 *** one piece done...socially contextual signals..
 **** in vignette, high heartrate ==> less trust
@@ -208,7 +206,7 @@ the riskiness of the signal itself, how much /sensitive/ information it /seems/ 
 **** sensitivity of data measured by / willingness to disclose to various parties
 **** and im sure theres past work on that measure...  aquisti... 
 
-* DONE a brainstorm for outline
+* a brainstorm for outline
 <2016-02-05 Fri 10:00>
 ** i want to do controlled exp w diff signals
 *** copy what i said to noura
@@ -277,6 +275,11 @@ if by interpreting it less, we make it more innocuous....
 ***** so that it seems (is) significant
 **** back it up with past work
 **** back it up with other studies to supplement
+** TODO continue working through generated ideas
+<2016-02-09 Tue>
+** TODO what did i say to noura? copy that here
+<2016-02-10 Wed>
+** TODO where is there overlap between studies / ideas
 ** TODO [#B] proposed future studies
 *** TODO modify HR exp w GSR, or made up signal
 **** does any "eleavted" (versus "normal") signal have the same effect??
@@ -297,12 +300,6 @@ if by interpreting it less, we make it more innocuous....
 we're interested in a group that already seems happy to disclose, and likely have a high intrinsic motivation to do so. so, why are some people disclosing more sensor data than others, even within this highly motivated group? what is the relationship between their disclosure decisions, and what they think the data might say about them? (e.g., how risky this data is to disclose, risk if there were a data leak, etc..)
 **** TODO suggestion from a sensor
 does the microintervention make you feel more depressed? (via suggestion that you must be depressed....)
-* TODO continue working through generated ideas
-<2016-02-05 Fri 18:00>
-** what did i say to noura? copy that here
-** where is there overlap between studies / ideas
-
-
 * dissertation idea 1:
 ** disclosure / risk + representation
 #+BEGIN_QUOTE
@@ -312,49 +309,65 @@ does the microintervention make you feel more depressed? (via suggestion that yo
 > the body.
 #+END_QUOTE
 > /people undervalue risk of algorithmic interpretation/
-** studies
-*** john AND coye about risk & representation study
-if you can demonstrate this
-with more than one example
-that could even be a  "headline"  result 
-from dissertation book 
-
-a claim, a hypothesis, an argument you are making
-making argument from 1 picture is suggestive
-from 2-3, this *pattern* we see repeat
-> /a pattern with regards to risk/, with how people disclose biosignals
-
-what are the different dimensions, parameters
-in some cases effect is stronger, sometimes weaker, sometimes completely absent
-if thats the headline question
-systematically answer severity / when why how q's
-
+** DONE what i said to john
+*** if you see raw spire data,  ask What could someone know about you
+**** people wll say not much 
+*** with the categorical data may still, but less sure
+**** /people undervalue risk of algorithmic interpretation/
+*** /a pattern with regards to risk assessment/ 
+*** different varations
+**** static versus continous
 hr graph you showed a single graph
 what about wiggly line?
 showing a wiggly line,,,doesnt appear to have some significant patterns
-
 wiggly line (over time) versus snapshot view.... can people be tricked?
-raw versus "interpreted" 
+**** raw versus "interpreted" 
 *normal / elevated assessment may change people's risk*
 continous stream seems more scary?
 
 you showed me graph - hey, if people just see raw signals, they may say oh its nothing
 their minds may change if you see colors
 > agreed
+
+*** follow up to trust experiment
 i'm curious if there's a similar dynamic in heartrate study
 where you can show RAW or COLORS or TEXT
 ....
 them making the decision,,,,to trust/cooperate
-
-
-if yous howed people just the raw data
-would they REALLY not trust the other person?
-
 follow up study could say
 does matter way in which data was presented
 if it's presented in some other way, effect may reduce, disappear, be magnified
 
 if by interpreting it less, we make it more innocuous....
+** TODO what i said to noura
+*** there are complex interactions between the meaning of a biosignal, and way it is represented by the interface
+**** consider the spire breath data
+***** if you look at the raw breathing data over time, 
+****** and you asked someone to tell you how risky that data was to disclose/how much it says about them
+****** they'd probably say "whatever."
+***** now, if you showed them the interpreted data (aclm, focused, etc...) 
+****** they may still say i'ts not so risky to disclose, but maybe they'd be slightly less sure.....
+**** almost a consumer rights issue
+***** companies can represent data in a way that makes them seem less risky to disclose/share
+**** unless we know what the company's algorithms tell them, 
+***** we cant know our own risk
+**** my bet is, people undervalue the threat of unknown signals, 
+***** and/or make incorrect assumptions about what algorithms can know from their biosensor data. this is something companies can exploit to their distinct advantage.
+*** an epistomological point to be made here
+**** people's interpretations of biosignals come from a complex web of knowledge 
+***** cultural
+***** drawn from lived bodily experiences
+**** i am not really interested in untangling this web
+***** in fact, we can acknowledge that the  the meaning of information is inextricable from its representation, 
+****** including the "materiality" of that representation.
+**** HOWEVER! we can show that representation + signal produces different effects
+***** if i take a reperesentation
+***** vary the signal
+***** and see /the same interpretations/
+***** i would be dispapointed
+***** we hope to see these two independent variables produce a diversity of effects
+****** would suggests /different sensors/ have *different communacitive affordances*
+** experiments i could run
 *** spire
 *** heartrate
 ** pros / cons
@@ -388,3 +401,95 @@ which the user approaches the interace;
 **** have you do some task (let's say a scavenger hunt)
 **** show you your heartrate was (elevated, normal)
 **** see how exhausting yuo say the exercise was
+
+* TODO [#A] a talk biosense friday
+<2016-02-12 Fri>
+<2016-02-08 Mon>
+** DONE what john said to me before
+if you can demonstrate this
+with more than one example
+that could even be a  "headline"  result 
+from dissertation book 
+
+a claim, a hypothesis, an argument you are making
+making argument from 1 picture is suggestive
+from 2-3, this *pattern* we see repeat
+
+whether heartrate, breathing data, eeg
+whether 1 person or 2 persons
+what are the different dimensions, parameters
+in some cases effect is stronger, sometimes weaker, sometimes completely absent
+systematically answer severity  q's
+** DONE idea is just to raise a conversation
+*** DONE and take notes
+** DONE email about smart alecs orders
+CLOSED: [2016-02-08 Mon 19:15]
+*** sandwich split
+*** or special orders if you have any
+** TODO assemble resources for my question
+*** DONE what
+**** if you see raw spire data,  ask What could someone know about you
+***** people wll say not much 
+**** with the categorical data may still, but less sure
+***** /people undervalue risk of algorithmic interpretation/
+**** /a pattern with regards to risk assessment/ 
+**** different varations
+***** static versus continous
+hr graph you showed a single graph
+what about wiggly line?
+showing a wiggly line,,,doesnt appear to have some significant patterns
+wiggly line (over time) versus snapshot view.... can people be tricked?
+***** raw versus "interpreted" 
+*normal / elevated assessment may change people's risk*
+continous stream seems more scary?
+
+you showed me graph - hey, if people just see raw signals, they may say oh its nothing
+their minds may change if you see colors
+> agreed
+
+**** follow up to trust experiment
+i'm curious if there's a similar dynamic in heartrate study
+where you can show RAW or COLORS or TEXT
+....
+them making the decision,,,,to trust/cooperate
+follow up study could say
+does matter way in which data was presented
+if it's presented in some other way, effect may reduce, disappear, be magnified
+
+if by interpreting it less, we make it more innocuous....
+*** TODO what i said to noura
+**** there are complex interactions between the meaning of a biosignal, and way it is represented by the interface
+***** consider the spire breath data
+****** if you look at the raw breathing data over time, 
+******* and you asked someone to tell you how risky that data was to disclose/how much it says about them
+******* they'd probably say "whatever."
+****** now, if you showed them the interpreted data (aclm, focused, etc...) 
+******* they may still say i'ts not so risky to disclose, but maybe they'd be slightly less sure.....
+***** almost a consumer rights issue
+****** companies can represent data in a way that makes them seem less risky to disclose/share
+***** unless we know what the company's algorithms tell them, 
+****** we cant know our own risk
+***** my bet is, people undervalue the threat of unknown signals, 
+****** and/or make incorrect assumptions about what algorithms can know from their biosensor data. this is something companies can exploit to their distinct advantage.
+**** an epistomological point to be made here
+***** people's interpretations of biosignals come from a complex web of knowledge 
+****** cultural
+****** drawn from lived bodily experiences
+***** i am not really interested in untangling this web
+****** in fact, we can acknowledge that the  the meaning of information is inextricable from its representation, 
+******* including the "materiality" of that representation.
+***** HOWEVER! we can show that representation + signal produces different effects
+****** if i take a reperesentation
+****** vary the signal
+****** and see /the same interpretations/
+****** i would be dispapointed
+****** we hope to see these two independent variables produce a diversity of effects
+******* would suggests /different sensors/ have *different communacitive affordances*
+*** TODO merge above 2 into a slick outline
+<2016-02-09 Tue>
+**** TODO replace this with "what i said to noura" above
+**** TODO edit it up in here
+**** TODO see if convo with john has anything to add
+***** TODO 1 thing for sure - need to show in multiple contexts!!!
+** TODO place smart alecs order
+<2016-02-11 Thu 10:00>
