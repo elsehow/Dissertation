@@ -437,7 +437,7 @@ CLOSED: [2016-02-09 Tue 10:57]
 ***** we can contrast the two understandings and talk about a lot of stuff
 **** as measured by, when and why do they think it's creepy?
 ** TODO videoo about work
-<2016-02-10 Wed>
+<2016-02-11 Thu>
 http://grad.berkeley.edu/professional-development/grad-slam/
 *** some words about health and sensors
 *** sweden heartrate graph
@@ -488,3 +488,26 @@ CLOSED: [2016-02-08 Mon 19:15]
 *** 4 eggplant sandwich
 *** 4 avo / tofu sandwich
 *** 4 chicken basil burger
+
+* chapters
+
+what do people think these data say about them? about someone else?
+
+what do people /believe/ that an algorith, or sensor, can know about a person?
+
+a more fundamnetal question that touches on our basic sense of risk - what do we risk by simply putting on these devices, knowing we live in a post-wikileaks world?
+
+** theories of emotion in biosensing
+*** what designers /dont/ talk about 
+*** and how it conveniences their arguments
+*** this is my anti-pentalnd (-picard?) chapter
+
+** justifying in terms of how designers versus people think about theories of emotion
+*** some words on the role of suggestion in sensing
+**** from reading minds to thinking critically
+**** moodlight
+** acm group experiment
+** ubicomp etc lab experiment
+** unknown study X
+** HeH ??
+*** risk, mental models of collection, or is this too much?
