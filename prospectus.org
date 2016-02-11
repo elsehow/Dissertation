@@ -1,10 +1,133 @@
-* DONE notes
+* useful for real prospectus
+** my intellectual history
+<2016-02-01 Mon 13:00>
+*** DONE not a lot of work on transmitting biosignals socially
+
+**** papers that have done it are gods-eye, like pentland
+
+**** only a few talk about what happens when you show stuff back to the people being sensed
+
+**** (ironic given pentlands focus on harmonious orgnaizations, but thats a differnet matter)
+
+***** he is very dodgy about what kinds of feedback work to /create/ good organizational conditions
+
+***** i guess his job is descriptive...
+
+*** DONE ok, but why do we want to know what people make of other people's biosignals?
+
+**** it's a way of discovering what /people make of the signals overall/
+
+**** a way of determining their risk, and of understanding patterns of disclosure
+
+**** after all, why do biosignals tell you anything at all about another person?
+
+*** DONE complex interactions between the meaning of signal itself, and way it is represented by the interface
+
+**** signal itself - complex web of cultural meanings
+
+***** cultural, likely
+
+***** experiences with ones own body, likely
+
+***** we dont really need to untangle this web
+
+**** way it is represented by the interface
+
+***** same signal may look more or less risky
+
+****** raw data, not so risky
+
+****** interpreted data, maybe slightly less sure
+
+***** almost a consumer rights issue
+
+****** companies can represent data in a way that makes them seem less risky to disclose/share
+
+****** unless we know what their algorithms tell them, we cant know our own risk
+
+****** "unknown signals" and all that
+
+****** i bet people undervalue the threat of unknown signals
+** my justification for doing this
+*** why do we care what people make of biosensor data?
+
+*** beause we turn it into an interface problem
+
+**** rather than a technical one
+
+*** and we can approach it on psychological and behavioral terms
+
+*** and we want to do this for a few reasons
+
+**** safer, more sensitive apps
+
+**** maybe more fun apps
+
+**** my big 1: DISCLOSURE
+
+***** almost a consumer protection issue
+** work done
+*** 1. experimental study with coye
+**** taught us biosignals can affect trusting behavior
+*** 2. vignette study with coye
+**** taught us negative emotional attributes => positive social behaviors
+** empirical goals 
+*** TODO split synthesizing findings up into higher-level argument chunks
+*** [#B] synthesizing findings
+**** one piece done...socially contextual signals..
+***** in vignette, high heartrate ==> less trust
+***** in experiment, high heartrate==> more trust
+***** different things different contexts
+**** so, biosignals are richly contexutal, like all other signals in CMC
+***** past work has indicated the same is true for signals like GPS  
+***** but past work on biosensor applications have largely missed this;
+***** heartrate UX in particular seems stuck on "intimacy"
+**** BUT,,,different...COMPLEX interactions with /cultural beliefs about the body/...
+***** so much interesting work on this with hr
+***** famous Valens study
+***** describe one some
+**** "these interpretations do not necessarily match emprical properties of the signal. they are not based on them, and often do not reference them."
+***** compare valens findings to empirical reality of sweden study 
+***** these interpretations are a /complex web/
+****** of both /social and cultural beliefs/,  
+****** and /reasoning by analogy to lived bodily experiences/
+***** no way to really untangle the web
+****** and i don't try to, 
+****** i only want to show that interpretations /are the result of something beyond the way interfaces represent them/
+****** indeed, that they are different from other kinds of ambiguous sensor data
+**** TODO with this understanding we can begin to assess
+***** assess both how an interface affects "risk"
+***** and how the signal itself may be seem risky
+***** in any case we learn about disclosure a little
+***** really, we just want to know WHY and HOW biosignals come to mean anything at all
+***** any kind of understanding will help us understand how, why, and when people consent to biosurveillance
+**** TODO the representation of the data has a tight reltionship with how risky people think it is to disclose
+***** if i show you the raw....youll say it means nothing...if i show you some judgemetns...maybe you're less sure... 
+***** meaning as defend by sesnitivity
+the social meaning of biosignals - 
+
+*** done - that biosignals can affect social behavior
+**** and in counter-intuitive ways
+**** highly contextual, rich like other cues in CMC
+*** to start - independent effect of a biosignal (vs. its representation)
+**** try to show the independent effect of the signal itself, 
+***** we control for different forms of represntation by interfaces
+***** then, we see some effect is left over, 
+*** attitudes about disclosure
+the riskiness of the signal itself, how much /sensitive/ information it /seems/ to contain
+**** measuring riskiness of disclosure
+***** sensitivity of data measured by / willingness to disclose to various parties
+***** and im sure theres past work on that measure...  aquisti... 
+
+* notes
 ** TODO but wait.....................
 but, also want to know how ppl /actually act in vivo/
 and how UNCONSCIOUS influence can exert itself in sensing contexts....
 im thinking of the depression micro-intervention thing
 
 representation, or presence of UI, has an effect..........
+** TODO find that smbc "gosh grandma youre so old fashioned"
+first page of my dissertation
 ** DONE johns notes
 
 > why asking these questions? bc surveillance
@@ -81,137 +204,13 @@ Why, and when, do biosignals seem anything but innocuous?
 So, each bit of experimental work in my dissertation will, in one way or another,
 interrogate people's beliefs about the risk associated with disclosure of biosignals,
 examining how these beliefs relate to the above factors.
-** TODO find that smbc "gosh grandma youre so old fashioned"
-first page of my dissertation
-** TODO summarize topic briefly
-
-* DONE my intellectual history
-<2016-02-01 Mon 13:00>
-** DONE not a lot of work on transmitting biosignals socially
-
-*** papers that have done it are gods-eye, like pentland
-
-*** only a few talk about what happens when you show stuff back to the people being sensed
-
-*** (ironic given pentlands focus on harmonious orgnaizations, but thats a differnet matter)
-
-**** he is very dodgy about what kinds of feedback work to /create/ good organizational conditions
-
-**** i guess his job is descriptive...
-
-** DONE ok, but why do we want to know what people make of other people's biosignals?
-
-*** it's a way of discovering what /people make of the signals overall/
-
-*** a way of determining their risk, and of understanding patterns of disclosure
-
-*** after all, why do biosignals tell you anything at all about another person?
-
-** DONE complex interactions between the meaning of signal itself, and way it is represented by the interface
-
-*** signal itself - complex web of cultural meanings
-
-**** cultural, likely
-
-**** experiences with ones own body, likely
-
-**** we dont really need to untangle this web
-
-*** way it is represented by the interface
-
-**** same signal may look more or less risky
-
-***** raw data, not so risky
-
-***** interpreted data, maybe slightly less sure
-
-**** almost a consumer rights issue
-
-***** companies can represent data in a way that makes them seem less risky to disclose/share
-
-***** unless we know what their algorithms tell them, we cant know our own risk
-
-***** "unknown signals" and all that
-
-***** i bet people undervalue the threat of unknown signals
-* DONE my justification for doing this
-** why do we care what people make of biosensor data?
-
-** beause we turn it into an interface problem
-
-*** rather than a technical one
-
-** and we can approach it on psychological and behavioral terms
-
-** and we want to do this for a few reasons
-
-*** safer, more sensitive apps
-
-*** maybe more fun apps
-
-*** my big 1: DISCLOSURE
-
-**** almost a consumer protection issue
-* DONE work done
-** 1. experimental study with coye
-*** taught us biosignals can affect trusting behavior
-** 2. vignette study with coye
-*** taught us negative emotional attributes => positive social behaviors
-* DONE empirical goals 
-** TODO split synthesizing findings up into higher-level argument chunks
-** [#B] synthesizing findings
-*** one piece done...socially contextual signals..
-**** in vignette, high heartrate ==> less trust
-**** in experiment, high heartrate==> more trust
-**** different things different contexts
-*** so, biosignals are richly contexutal, like all other signals in CMC
-**** past work has indicated the same is true for signals like GPS  
-**** but past work on biosensor applications have largely missed this;
-**** heartrate UX in particular seems stuck on "intimacy"
-*** BUT,,,different...COMPLEX interactions with /cultural beliefs about the body/...
-**** so much interesting work on this with hr
-**** famous Valens study
-**** describe one some
-*** "these interpretations do not necessarily match emprical properties of the signal. they are not based on them, and often do not reference them."
-**** compare valens findings to empirical reality of sweden study 
-**** these interpretations are a /complex web/
-***** of both /social and cultural beliefs/,  
-***** and /reasoning by analogy to lived bodily experiences/
-**** no way to really untangle the web
-***** and i don't try to, 
-***** i only want to show that interpretations /are the result of something beyond the way interfaces represent them/
-***** indeed, that they are different from other kinds of ambiguous sensor data
-*** TODO with this understanding we can begin to assess
-**** assess both how an interface affects "risk"
-**** and how the signal itself may be seem risky
-**** in any case we learn about disclosure a little
-**** really, we just want to know WHY and HOW biosignals come to mean anything at all
-**** any kind of understanding will help us understand how, why, and when people consent to biosurveillance
-*** TODO the representation of the data has a tight reltionship with how risky people think it is to disclose
-**** if i show you the raw....youll say it means nothing...if i show you some judgemetns...maybe you're less sure... 
-**** meaning as defend by sesnitivity
-the social meaning of biosignals - 
-
-** done - that biosignals can affect social behavior
-*** and in counter-intuitive ways
-*** highly contextual, rich like other cues in CMC
-** to start - independent effect of a biosignal (vs. its representation)
-*** try to show the independent effect of the signal itself, 
-**** we control for different forms of represntation by interfaces
-**** then, we see some effect is left over, 
-** attitudes about disclosure
-the riskiness of the signal itself, how much /sensitive/ information it /seems/ to contain
-*** measuring riskiness of disclosure
-**** sensitivity of data measured by / willingness to disclose to various parties
-**** and im sure theres past work on that measure...  aquisti... 
-
-* DONE a brainstorm for outline
+** DONE a brainstorm for outline
 <2016-02-05 Fri 10:00>
-** i want to do controlled exp w diff signals
-*** copy what i said to noura
-*** thats my dissertation work...justification above and beneath it
-** /whatever john said flagship/ work would be...thats it, do it
-*** DONE john AND coye about risk & representation study
+*** i want to do controlled exp w diff signals
+**** copy what i said to noura
+**** thats my dissertation work...justification above and beneath it
+*** /whatever john said flagship/ work would be...thats it, do it
+**** DONE john AND coye about risk & representation study
 > people undervalue risk
 > people wll say not much with the raw spire data
 > with the categorical data may still, but less sure
@@ -261,42 +260,103 @@ does matter way in which data was presented
 if it's presented in some other way, effect may reduce, disappear, be magnified
 
 if by interpreting it less, we make it more innocuous....
-** maybe want to move back here 
-*** github cred be damned
-*** all that will make it to my gh eventually
-*** with my increasing skill
-** META IDEA
-*** generate different dissertation =ideas=
-*** archive or otehrwise hide away all past work
-** META IDEA 2
-*** one prospectus == 1 study idea
-**** just with multiple conditions
-***** so that it seems (is) significant
-**** back it up with past work
-**** back it up with other studies to supplement
-** TODO where is there overlap between studies / ideas
-** TODO [#B] proposed future studies
-*** TODO modify HR exp w GSR, or made up signal
-**** does any "eleavted" (versus "normal") signal have the same effect??
-**** no-brainer, must study this
-***** same experiment we did, just change the signal
-***** use his to start to underestand independent effect of signal v representation
-*** TODO spire data / meaning / risk
-**** have ppl collect data (technology probe)
-**** show people breath data
-**** show people breath + interpreted data..
-**** interrogate risk of "unknown signals"
-*** TODO other
-**** TODO health-e-heart / disclosure
-***** why people do/do not contrib data
-***** what they think the data SAY ABOUT THEM
-***** weighed against their OTHER INCENTIVES FOR CONTRIBUTING
-***** naive copy
+*** maybe want to move back here 
+**** github cred be damned
+**** all that will make it to my gh eventually
+**** with my increasing skill
+*** META IDEA
+**** generate different dissertation =ideas=
+**** archive or otehrwise hide away all past work
+*** META IDEA 2
+**** one prospectus == 1 study idea
+***** just with multiple conditions
+****** so that it seems (is) significant
+***** back it up with past work
+***** back it up with other studies to supplement
+*** TODO where is there overlap between studies / ideas
+*** TODO [#B] proposed future studies
+**** TODO modify HR exp w GSR, or made up signal
+***** does any "eleavted" (versus "normal") signal have the same effect??
+***** no-brainer, must study this
+****** same experiment we did, just change the signal
+****** use his to start to underestand independent effect of signal v representation
+**** TODO spire data / meaning / risk
+***** have ppl collect data (technology probe)
+***** show people breath data
+***** show people breath + interpreted data..
+***** interrogate risk of "unknown signals"
+**** TODO other
+***** TODO health-e-heart / disclosure
+****** why people do/do not contrib data
+****** what they think the data SAY ABOUT THEM
+****** weighed against their OTHER INCENTIVES FOR CONTRIBUTING
+****** naive copy
 we're interested in a group that already seems happy to disclose, and likely have a high intrinsic motivation to do so. so, why are some people disclosing more sensor data than others, even within this highly motivated group? what is the relationship between their disclosure decisions, and what they think the data might say about them? (e.g., how risky this data is to disclose, risk if there were a data leak, etc..)
-**** TODO suggestion from a sensor
+***** TODO suggestion from a sensor
 does the microintervention make you feel more depressed? (via suggestion that you must be depressed....)
-* TODO [#A] dissertation idea 1:
-** TODO disclosure / risk + representation
+** TODO [#A] a talk biosense friday
+<2016-02-12 Fri 12:00>
+*** DONE idea is just to raise a conversation
+**** DONE and take notes
+*** DONE email about smart alecs orders
+CLOSED: [2016-02-08 Mon 19:15]
+**** sandwich split
+**** or special orders if you have any
+*** DONE place smart alecs order
+CLOSED: [2016-02-11 Thu 12:00]
+<2016-02-11 Thu 16:00>
+**** 4 eggplant sandwich
+**** 4 avo / tofu sandwich
+**** 4 chicken basil burger
+*** TODO pick up smart alec order
+<2016-02-12 Fri 11:30>
+
+*** TODO assemble resources for my question to biosense
+<2016-02-09 Tue>
+**** TODO pitch
+***** consider the spire breath data
+****** if you look at the raw breathing data over time, 
+******* and you asked someone to tell you how risky that data was to disclose/how much it says about them
+******* they'd probably say "whatever."
+****** now, if you showed them the interpreted data (aclm, focused, etc...) 
+******* they may still say i'ts not so risky to disclose, but maybe they'd be slightly less sure.....
+***** so, perception of risk around disclosing  biosignals are tightly connected to way a signal is represented
+***** almost a consumer rights issue
+****** companies can represent data in a way that makes them seem less risky to disclose/share
+****** unless we know what the company's algorithms tell them
+****** we cant know our own risk
+***** TODO my bet is, people undervalue the threat of unknown signals, 
+****** and/or make incorrect assumptions about what algorithms can know from their biosensor data. this is something companies can exploit to their distinct advantage.
+**** ideas of risk must be related to the signal + sensing mechanism as well
+***** the mechanism itself could play a big role!
+****** on the body or not on the body?
+***** different "affordances" of HR versus EEG
+***** hard to tell /why/ this is
+**** an epistomological point to be made here
+***** people's interpretations of biosignals come from a complex web of knowledge 
+****** cultural
+****** drawn from lived bodily experiences
+***** i am not really interested in untangling this web
+****** in fact, we can acknowledge that the  the meaning of information is inextricable from its representation, 
+******* including the "materiality" of that representation.
+***** HOWEVER! we can show that changing the representation + signal independently produces diverse effects
+****** that is, neither representation nor signal 100% predicts the response
+******* if i take a reperesentation
+******* vary the signal
+******* and see /the same interpretations/
+******* i would be dispapointed*** TODO copy "what i said to noura" above
+***** TODO edit up in here
+***** TODO see if convo with john has anything to add
+****** TODO i know it has 1 thing for sure - need to show in multiple contexts!!!
+**** experiments i could run
+***** spire
+***** heartrate
+***** GSR
+***** eeg
+<2016-02-11 Thu>
+** generatiing dissertation ideas
+*** [#A] dissertation idea 1:
+**** disclosure / risk + representation
 #+BEGIN_QUOTE
 > people value (and undervalue) the risk of disclosing biosignals in particular ways
 > ways related to both the representation of the signal
@@ -304,165 +364,20 @@ does the microintervention make you feel more depressed? (via suggestion that yo
 > the body.
 #+END_QUOTE
 > /people undervalue risk of algorithmic interpretation/
-** DONE what i said to john
-CLOSED: [2016-02-08 Mon 19:40]
-*** if you see raw spire data,  ask What could someone know about you
-**** people wll say not much 
-*** with the categorical data may still, but less sure
-**** /people undervalue risk of algorithmic interpretation/
-*** /a pattern with regards to risk assessment/ 
-*** different varations
-**** static versus continous
-hr graph you showed a single graph
-what about wiggly line?
-showing a wiggly line,,,doesnt appear to have some significant patterns
-wiggly line (over time) versus snapshot view.... can people be tricked?
-**** raw versus "interpreted" 
-*normal / elevated assessment may change people's risk*
-continous stream seems more scary?
-
-you showed me graph - hey, if people just see raw signals, they may say oh its nothing
-their minds may change if you see colors
-> agreed
-
-*** follow up to trust experiment
-i'm curious if there's a similar dynamic in heartrate study
-where you can show RAW or COLORS or TEXT
-....
-them making the decision,,,,to trust/cooperate
-follow up study could say
-does matter way in which data was presented
-if it's presented in some other way, effect may reduce, disappear, be magnified
-
-if by interpreting it less, we make it more innocuous....
-** DONE what john said to me before
-if you can demonstrate this
-with more than one example
-that could even be a  "headline"  result 
-from dissertation book 
-
-a claim, a hypothesis, an argument you are making
-making argument from 1 picture is suggestive
-from 2-3, this *pattern* we see repeat
-
-whether heartrate, breathing data, eeg
-whether 1 person or 2 persons
-what are the different dimensions, parameters
-in some cases effect is stronger, sometimes weaker, sometimes completely absent
-systematically answer severity  q's
-** DONE what i said to noura
-CLOSED: [2016-02-08 Mon 19:40]
-*** there are complex interactions between the meaning of a biosignal, and way it is represented by the interface
-**** consider the spire breath data
-***** if you look at the raw breathing data over time, 
-****** and you asked someone to tell you how risky that data was to disclose/how much it says about them
-****** they'd probably say "whatever."
-***** now, if you showed them the interpreted data (aclm, focused, etc...) 
-****** they may still say i'ts not so risky to disclose, but maybe they'd be slightly less sure.....
-**** almost a consumer rights issue
-***** companies can represent data in a way that makes them seem less risky to disclose/share
-**** unless we know what the company's algorithms tell them, 
-***** we cant know our own risk
-**** my bet is, people undervalue the threat of unknown signals, 
-***** and/or make incorrect assumptions about what algorithms can know from their biosensor data. this is something companies can exploit to their distinct advantage.
-*** an epistomological point to be made here
-**** people's interpretations of biosignals come from a complex web of knowledge 
-***** cultural
-***** drawn from lived bodily experiences
-**** i am not really interested in untangling this web
-***** in fact, we can acknowledge that the  the meaning of information is inextricable from its representation, 
-****** including the "materiality" of that representation.
-**** HOWEVER! we can show that changing the representation + signal independently produces diverse effects
-***** that is, neither representation nor signal 100% predicts the response
-****** if i take a reperesentation
-****** vary the signal
-****** and see /the same interpretations/
-****** i would be dispapointed
-** DONE assemble resources for my question to biosense
-CLOSED: [2016-02-09 Tue 10:57]
-<2016-02-09 Tue>
-*** ideas of risk around disclosing  biosignals are tightly connected to way a signal is represented
-**** consider the spire breath data
-***** if you look at the raw breathing data over time, 
-****** and you asked someone to tell you how risky that data was to disclose/how much it says about them
-****** they'd probably say "whatever."
-***** now, if you showed them the interpreted data (aclm, focused, etc...) 
-****** they may still say i'ts not so risky to disclose, but maybe they'd be slightly less sure.....
-**** almost a consumer rights issue
-***** companies can represent data in a way that makes them seem less risky to disclose/share
-***** unless we know what the company's algorithms tell them
-***** we cant know our own risk
-**** my bet is, people undervalue the threat of unknown signals, 
-***** and/or make incorrect assumptions about what algorithms can know from their biosensor data. this is something companies can exploit to their distinct advantage.
-*** ideas of risk must be related to the signal + sensing mechanism as well
-**** the mechanism itself could play a big role!
-***** on the body or not on the body?
-**** different "affordances" of HR versus EEG
-**** hard to tell /why/ this is
-*** an epistomological point to be made here
-**** people's interpretations of biosignals come from a complex web of knowledge 
-***** cultural
-***** drawn from lived bodily experiences
-**** i am not really interested in untangling this web
-***** in fact, we can acknowledge that the  the meaning of information is inextricable from its representation, 
-****** including the "materiality" of that representation.
-**** HOWEVER! we can show that changing the representation + signal independently produces diverse effects
-***** that is, neither representation nor signal 100% predicts the response
-****** if i take a reperesentation
-****** vary the signal
-****** and see /the same interpretations/
-****** i would be dispapointed*** TODO copy "what i said to noura" above
-**** TODO edit up in here
-**** TODO see if convo with john has anything to add
-***** TODO i know it has 1 thing for sure - need to show in multiple contexts!!!
-*** experiments i could run
-**** spire
-**** heartrate
-**** GSR
-**** eeg
-** TODO related: what do people /believe/ that sensors or algorithms can tell about you?
-<2016-02-10 Wed>
-*** questions
-**** what do people think algorithms (plus sensors) can do?
-***** how are these beliefs related to the representation of sensor data?
-***** how are they related to beliefs about the mind / body?
-**** how these beliefs relate to people's sense of risk?
-**** how are these questions related to the above topic?
-*** motivating this idea
-**** there is some relationship between physiology and emotion
-***** affective computing describes some theories
-****** as do other works in psycholgy
-**** but, what do non-designers think about this relationship?
-***** we know what affective computing folks think
-***** we can contrast the two understandings and talk about a lot of stuff
-**** as measured by, when and why do they think it's creepy?
-** TODO videoo about work
-<2016-02-11 Thu>
-http://grad.berkeley.edu/professional-development/grad-slam/
-*** some words about health and sensors
-*** sweden heartrate graph
-*** risk & unknown signals
-why do people consent?
-*** what do these data MEAN to PEOPLE
-**** this is a central question to understanding perceptions of risk
-**** and for designing new kinds of interfaces
-*** my own work 
-lab-based psych studies where we incorporate signals from wearables into traditional psych experiment paradigms
-*** plug biosense
-*** outro
-thats my three minutes, thanks for listening
-* dissertation idea 2:
-** social context shapes biosignals to create contextual meanings
+**** how does perceived risk of disclosure  relate to (1) signal (2) representation
+**** related/necessary: what do people /believe/ that sensors or algorithms can tell about you?
+*** dissertation idea 2:
+**** social context shapes biosignals to create contextual meanings
 #+BEGIN_QUOTE
 social context shapes biosignals to create socially contextual meanings
 and these meanings can affect social behavior in ways past work has not
 fully foreseen
 #+END_QUOTE
-** studies
-*** 2 already done
-*** status with coye
-* dissertation idea 3:
-** sensor-based work as a vehicle for suggestion
+**** studies
+***** 2 already done
+***** status with coye
+*** dissertation idea 3:
+**** sensor-based work as a vehicle for suggestion
 #+BEGIN_QUOTE
 sensor-based interfaces /suggest behaviors and attitudes/ to users. 
 mechanisms include 
@@ -470,32 +385,24 @@ the presumed authority of the interface; the ambiguity inherent in the
 signal & phenomena being sensed; and the context and intention with 
 which the user approaches the interace; 
 #+END_QUOTE
-** studies
-*** microinterventions in depression apps make you think you're depressed
-*** (fake) breath in spire primes your recall
-**** have you do some task (let's say a scavenger hunt)
-**** show you your heartrate was (elevated, normal)
-**** see how exhausting yuo say the exercise was
-* TODO [#A] a talk biosense friday
-** DONE idea is just to raise a conversation
-*** DONE and take notes
-** DONE email about smart alecs orders
-CLOSED: [2016-02-08 Mon 19:15]
-*** sandwich split
-*** or special orders if you have any
-** TODO place smart alecs order
-<2016-02-11 Thu 10:00>
-*** 4 eggplant sandwich
-*** 4 avo / tofu sandwich
-*** 4 chicken basil burger
-
+**** studies
+***** microinterventions in depression apps make you think you're depressed
+***** (fake) breath in spire primes your recall
+****** have you do some task (let's say a scavenger hunt)
+****** show you your heartrate was (elevated, normal)
+****** see how exhausting yuo say the exercise was
 * chapters
 
-what do people think these data say about them? about someone else?
+what do people /believe/ that an algorithm, or sensor, can know about a person?
+past work has focused on "say about themselves"; we focus on "someone else"
 
-what do people /believe/ that an algorith, or sensor, can know about a person?
+a more fundamnetal question that touches on one's basic sense of risk 
+what do we risk when we simply putting on these devices
+(knowing we live in a post-wikileaks world?)
 
-a more fundamnetal question that touches on our basic sense of risk - what do we risk by simply putting on these devices, knowing we live in a post-wikileaks world?
+i think this is a dissertation for people who have read the circle
+it is about people outside the cirlce, and how we would even think to rebel 
+(or why we wouldnt think to)
 
 ** theories of emotion in biosensing
 *** what designers /dont/ talk about 
@@ -511,3 +418,31 @@ a more fundamnetal question that touches on our basic sense of risk - what do we
 ** unknown study X
 ** HeH ??
 *** risk, mental models of collection, or is this too much?
+** conclusion
+*** Im interested in what problems has evaded AI classification
+<2016-02-24 Wed>
+**** im interested in what problems has evaded AI classification
+
+***** prediction of emotion from physiological states
+
+***** even though we mostly agree that emotions reduce to physiolcal states
+
+**** is it just that physio sensors arent good enough?
+
+***** NO. its that this problem is as hard as deducing text content from speech
+
+**** TODO like NLP, emotions are socially constructed and socially interpreted
+
+***** what kinds of data (+metadata) must we collect to truly *undestand* what emotion si being expressed?
+
+**** im fundamentally a psychologist
+
+***** j think ppl arent so complicated
+
+***** can be modeled by functions
+
+**** maybe these functions are nonlinear
+
+***** but now we have networks that can approximate any nonlinear function
+
+***** so its just a matter of picking the right feature vecotrs* conclusion: a connection between NLP and emotion recognition from biosignasl
