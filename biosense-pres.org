@@ -1,0 +1,41 @@
+* if you look at the raw breathing data over time, 
+** asked someone  
+*** how risky to disclose?
+*** how much it says about you?
+** probably say "whatever"
+* now, if you showed interpreted data (aclm, focused, etc...) 
+** may still say i'ts not so risky to disclose, 
+*** but maybe they'd be slightly less sure.....
+** so, perception of risk 
+*** tightly connected to way signal is represented
+* almost a consumer rights issue
+** companies can represent data 
+*** in ways that makes them seem less risky to disclose/share
+**** unless we know what the company's algorithms tell them
+***** we cant know our own risk
+* ideas of risk must be related to the signal + sensing mechanism as well
+** the mechanism itself could play a big role!
+*** on the body or not on the body?
+* different "affordances" of HR versus EEG
+** hard to tell /why/ this is
+* epistomological point to be made here
+** interpretations come from a complex web of knowledge 
+*** cultural
+*** medical
+*** bodily experiences
+** i am not really interested in untangling this web
+* in fact, meaning is inextricable from its representation, 
+** including the "materiality" of that representation.
+* HOWEVER! we can show diverse effects 
+** by changing representation + signal independently
+** TODO i bet, neither representation nor signal 100% predicts response
+*** if i take a reperesentation
+*** vary the signal
+*** and see /the same interpretations/
+*** i would be dispapointed
+* highlights need to show multiple contexts
+** TODO importnt not to show differences - 
+** TODO but show what might be the /same/ in multiple sensing contexts
+** TODO i bet, people undervalue the threat of unknown signals, 
+*** and/or make incorrect assumptions about what algorithms can know 
+**** companies can exploit to their distinct advantage

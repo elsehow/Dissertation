@@ -311,49 +311,9 @@ CLOSED: [2016-02-11 Thu 12:00]
 *** TODO pick up smart alec order
 <2016-02-12 Fri 11:30>
 
-*** TODO assemble resources for my question to biosense
+*** TODO my sessions with biosense
 <2016-02-09 Tue>
-**** TODO pitch
-***** consider the spire breath data
-****** if you look at the raw breathing data over time, 
-******* and you asked someone to tell you how risky that data was to disclose/how much it says about them
-******* they'd probably say "whatever."
-****** now, if you showed them the interpreted data (aclm, focused, etc...) 
-******* they may still say i'ts not so risky to disclose, but maybe they'd be slightly less sure.....
-***** so, perception of risk around disclosing  biosignals are tightly connected to way a signal is represented
-***** almost a consumer rights issue
-****** companies can represent data in a way that makes them seem less risky to disclose/share
-****** unless we know what the company's algorithms tell them
-****** we cant know our own risk
-***** TODO my bet is, people undervalue the threat of unknown signals, 
-****** and/or make incorrect assumptions about what algorithms can know from their biosensor data. this is something companies can exploit to their distinct advantage.
-**** ideas of risk must be related to the signal + sensing mechanism as well
-***** the mechanism itself could play a big role!
-****** on the body or not on the body?
-***** different "affordances" of HR versus EEG
-***** hard to tell /why/ this is
-**** an epistomological point to be made here
-***** people's interpretations of biosignals come from a complex web of knowledge 
-****** cultural
-****** drawn from lived bodily experiences
-***** i am not really interested in untangling this web
-****** in fact, we can acknowledge that the  the meaning of information is inextricable from its representation, 
-******* including the "materiality" of that representation.
-***** HOWEVER! we can show that changing the representation + signal independently produces diverse effects
-****** that is, neither representation nor signal 100% predicts the response
-******* if i take a reperesentation
-******* vary the signal
-******* and see /the same interpretations/
-******* i would be dispapointed*** TODO copy "what i said to noura" above
-***** TODO edit up in here
-***** TODO see if convo with john has anything to add
-****** TODO i know it has 1 thing for sure - need to show in multiple contexts!!!
-**** experiments i could run
-***** spire
-***** heartrate
-***** GSR
-***** eeg
-<2016-02-11 Thu>
+[[biosense-pres.org]]
 ** generatiing dissertation ideas
 *** [#A] dissertation idea 1:
 **** disclosure / risk + representation
