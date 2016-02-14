@@ -8,24 +8,24 @@
 *** but maybe they'd be slightly less sure.....
 ** so, perception of risk 
 *** tightly connected to way signal is represented
-* almost a consumer rights issue
+* this is almost a consumer rights issue
 ** companies can represent data 
 *** in ways that makes them seem less risky to disclose/share
 **** unless we know what the company's algorithms tell them
 ***** we cant know our own risk
-* ideas of risk must be related to the signal + sensing mechanism as well
+* risk must relate *both* to interface + *sensing* mechanism
 ** the mechanism itself could play a big role!
 *** on the body or not on the body?
 * different "affordances" of HR versus EEG
 ** hard to tell /why/ this is
+* in fact, meaning is inextricable from its representation, 
+** including the "materiality" of that representation.
 * epistomological point to be made here
 ** interpretations come from a complex web of knowledge 
 *** cultural
 *** medical
 *** bodily experiences
 ** i am not really interested in untangling this web
-* in fact, meaning is inextricable from its representation, 
-** including the "materiality" of that representation.
 * HOWEVER! we can show diverse effects 
 ** by changing representation + signal independently
 ** TODO i bet, neither representation nor signal 100% predicts response
@@ -39,3 +39,23 @@
 ** TODO i bet, people undervalue the threat of unknown signals, 
 *** and/or make incorrect assumptions about what algorithms can know 
 **** companies can exploit to their distinct advantage
+* another way of looking at this issue
+** what do people /believe/ that sensors or algorithms can tell about you?
+*** i can tell you we dont know it
+*** but why do we /want/ to know it
+**** this is the question that has evaded me...
+**** but, was at taqueria la familia a while ago
+**** finally came up with an answer while eating my fish taco
+**** go figure
+** we know what /researchers/ think of this issue!
+*** affective computing
+*** emotion theory
+*** "social physics" & SNA
+*** etc...
+* but, *what do everyday people think*?
+** and, our *reason* for being curious is *disclosure*
+*** balancing privacy with benefits
+*** hwo/when people give up data will be important 
+**** an economic question
+**** a medical question
+**** potentially political question
