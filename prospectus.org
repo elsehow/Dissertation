@@ -331,9 +331,7 @@ which the user approaches the interace;
 ****** have you do some task (let's say a scavenger hunt)
 ****** show you your heartrate was (elevated, normal)
 ****** see how exhausting yuo say the exercise was
-* chapters
-<2016-02-15 Mon>
-** topic
+** TODO topic, as of february '16
 
 what do people /believe/ that an algorithm, or sensor, can know about a person?
 past work has focused on "say about themselves"; we focus on "someone else"
@@ -370,17 +368,20 @@ it is about people outside the cirlce, and how we would even think to rebel
 ***** how/why/when 
 ***** and how can we see their disclosure change over time
 
-** theories of emotion in biosensing
-*** theories of emotion broadly
-*** those specific theorues biosensing researchers have drawn on
-*** how the theories they've drawn on are convenient given their agendas
-**** much sensing work tends to ignore the perspective of the persons being sensed
-***** pentland's work overlooks the perspectives of the persons being sensed
-****** pentland's perspective is fundamentally that of the boss 
-****** rather than the laborer; 
-***** even picards work tends to 'instrumentalized' people
-****** patients are persons to be data-ified and understood or something like that
-** TODO acm group experiment
+* chapters
+<2016-02-15 Mon>
+** topic 
+*** do this retroactively
+*** figure out your cases + theory first-----
+** perspective, the sensed
+*** pentland's work overlooks the perspectives of the persons being sensed
+**** pentland's perspective is fundamentally that of the boss 
+**** rather than the laborer; 
+*** even picards work tends to 'instrumentalized' people
+**** patients are persons to be data-ified and understood or something like that
+*** TODO toward...
+**** interactionist ai / ubicomp
+** vignette experiment
 *** vignette
 **** two scenarios
 ***** one adversarial
@@ -393,16 +394,32 @@ it is about people outside the cirlce, and how we would even think to rebel
 **** interesting variables
 ***** belief other person lying
 ***** emotional appraisals vs behavioral trust and so on
-*** TODO what we learned
-** a theory chapter
-*** goffman
-*** signals / 
-** ubicomp etc lab experiment
-** yet another theory chapter
-** final study
-*** ????
-*** HeH ??
-**** risk, mental models of collection, or is this too much?
+*** what we learned
+**** elevated heartrate does not have ONE impact on trust
+**** signals interact with social expectations to produce meaning
+**** and, there was diversity even within conditions
+***** "people' generally did not feel any one way, even controllign for context
+** signals / cues interact with meanings of the signal itself
+*** signals  given / given off
+**** goffman
+*** social cues
+**** donath? SIKE
+**** sengers
+**** lerahu
+**** slovak
+*** TODO the meanings people bring to the table
+**** delve into neurohype
+**** and moodlight
+**** draw on literature in suggestion
+** TODO HeH
+** theories of emotion in biosensing
+*** theories of emotion broadly
+*** those specific theorues biosensing researchers have drawn on
+*** how the theories they've drawn on are convenient given their agendas
+*** how emotion is made and measured
+** TODO interpreation / risk empirical study
+*** talked about this in biosense spring 2016
+*** pull those notes up...
 ** conclusion
 *** resolving the theoretical chord progression
 *** Im interested in what problems has evaded AI classification
