@@ -565,7 +565,7 @@ CLOSED: [2016-03-24 Thu 21:46]
 
 **** and, once i send it out, i tell them i'm starting on chapter x....or whatev
 * general work related progress
-<2016-03-24 Thu>
+<2016-03-25 Fri>
 
 ** PhD progress report
 
@@ -607,6 +607,17 @@ This summer, I will be working on the other side of the Bay at Autodesk in the B
 
 ***** after all, its the prospectus/dissertaion that matter, now....
 
+*** should propsectus really be in dissertation, or notes?
+
+**** my instinct is notes honestly
+
+**** like, yes it would be nice to see the 'graph' or wahtever
+
+**** and, i will move it in there, when the time is ready
+
+**** but, for now, these /are/ just notes
+
+**** and it makes way more sense to leave stuff in the same folder/repository
 *** now, submit PhD progress report straight away
 
 **** draft it in here even
