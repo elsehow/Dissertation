@@ -361,6 +361,22 @@ which the user approaches the interace;
 *** why non-designer's opinions matter
 **** can phrase question - how people (versus designers) think about the mind/body connection /in terms of/ sensors & devices & interfaces they encounter
 **** really poeple's ideas of mind/body connection will drive their sense of risk when it comes to wearables
+=======
+** TODO topic, as of february '16
+
+what do people /believe/ that an algorithm, or sensor, can know about a person?
+past work has focused on "say about themselves"; we focus on "someone else"
+
+a more fundamnetal question that touches on one's basic sense of risk 
+what do we risk when we simply putting on these devices
+(knowing we live in a post-wikileaks world?)
+
+i think this is a dissertation for people who have read the circle
+it is about people outside the cirlce, and how we would even think to rebel 
+(or why we wouldnt think to)
+
+*** justifying work in terms of how designers, versus people think about mind/body connection /in terms of/ sensors & devices & interfaces they encounter
+**** really poeple's ideas of mind/body connection will drive their sense of risk
 ***** thus will drive their willingness to disclose
 ****** creepniess factor for lack of a better term
 ***** and thus we should care about it
@@ -378,11 +394,42 @@ which the user approaches the interace;
 ***** how open can we expect people to be 
 ***** how/why/when 
 ***** and how can we see their disclosure change over time
-
 ** TODO /case/ acm group experiment
 *** TODO QUESTOIONS
 *** CASE
 **** vignette
+=======
+* chapters
+<2016-02-15 Mon>
+** topic 
+*** do this retroactively
+*** figure out your cases + theory first-----
+*** be brief introduction to topic and methods
+**** how methods help to answer questions?
+**** should be obvious.....
+** perspective & the sensed
+*** pentland's work overlooks the perspectives of the persons being sensed
+**** pentland's perspective is fundamentally that of the boss 
+**** rather than the laborer; 
+**** what can *i* learn from people, based on these signals?
+*** even picards work tends to 'instrumentalized' people
+**** people to be data-ified 
+**** affect as information
+**** what can *machines*  learn, how can affect become data?
+*** TODO here ask - what can people learn about each other based on these signals?
+**** a fundamental 'flip'
+**** examining human articulation work, and how it relates to perceptions of risk 
+**** and decisions regarding disclosure
+**** essential lit for my framing
+***** how emotion is made and measured
+***** interactionist ai / ubicomp
+***** slovak/unpacking
+****** just shows us that something is there
+***** neuroyhope
+****** shows us that these things are not necessarily reasoned,,,,,or rational
+** DONE vignette experiment
+CLOSED: [2016-03-24 Thu 21:46]
+*** vignette
 **** two scenarios
 ***** one adversarial
 ***** other non-adversarial
@@ -392,53 +439,196 @@ which the user approaches the interace;
 ***** normal heartrate
 ***** no hr info
 *** WHAT WE LEARNED
-<2016-02-18 Thu>
-**** high hr = more trust,,.in adversarial condition
-** /theory/ of signals, given and given off
-*** THEORY
-*** goffman
-*** signals / 
-** /case/ ubicomp etc lab experiment
-*** QUESTIONS
-**** indpendent effect of representation / biosignal
-**** on interpersonal judgements / risk + uncertainty
-*** CASE
-**** lab-based iterated prisoner's dilemna
-*** WHAT WE LEARNED
-** TODO /theory/  - the role of suggestion & authority in sensing
-**** neurohype
-**** moodlight
-** TODO /case/ ????
-*** will flow cleanly out of ubicomp plans - no worries
-*** maybe the tech probe???
-*** HeH ??
-**** risk, mental models of collection, or is this too much?
-** conclusion
-*** resolving the theoretical chord progression
-*** Im interested in what problems has evaded AI classification
-<2016-02-24 Wed>
-**** im interested in what problems has evaded AI classification
+**** heartrate interacts with social expectations to produce contextual meanings
+***** no one effect of elevated heartrate on trust
+**** "people" don't think heartrate means any one thing, even within conditions
+***** heterogeneous interpretations in our pool
+* strategies
 
-***** prediction of emotion from physiological states
+** first take quals
 
-***** even though we mostly agree that emotions reduce to physiolcal states
+*** lock down someone good
 
-**** is it just that physio sensors arent good enough?
+**** someone open minded and not so overly technical
 
-***** NO. its that this problem is as hard as deducing text content from speech
+*** Truisms
 
-**** TODO like NLP, emotions are socially constructed and socially interpreted
+**** the above chapters list will change
 
-***** what kinds of data (+metadata) must we collect to truly *undestand* what emotion si being expressed?
+***** and that is good
 
-**** im fundamentally a psychologist
+**** it will not be hard to write
 
-***** j think ppl arent so complicated
+***** it will be quick - a couple afternoons
 
-***** can be modeled by functions
+*** structure of the prospectus
 
-**** maybe these functions are nonlinear
+**** introduction
 
-***** but now we have networks that can approximate any nonlinear function
+***** topic (condenced from rest)
 
-***** so its just a matter of picking the right feature vecotrs* conclusion: a connection between NLP and emotion recognition from biosignasl
+***** methods
+
+**** walk through each chapter
+
+***** turn those outlines into paragraphs
+
+***** about 3 paragraphs per 'chapter'
+
+**** highlight the capstone research project that is my own
+
+***** this is where the work still needs to be done i think
+
+***** designing that research project on my own and so on
+
+**** re-iterate chapters list
+
+***** now as just a list and outline
+
+***** a re-iteration of the above
+
+****** more or less
+
+****** mas o menos
+
+** 15 hours a week is a good amount of work
+
+*** about 4 hours a day
+
+*** you don't have to start at some specific time
+
+**** but, you do have to work for a given amount of time
+
+*** then, you will be free for the rest of the day
+
+**** for example, if you start at 2, you will be done at 6
+
+**** if you start at 11, you will be done at 3
+
+**** if you can start at 9, you will be done by lunch, and be free
+
+** at first, will be spent learning tools
+
+*** how to citations work?
+
+**** bibtex, references in org, and all of that
+
+*** how will i distribute chapters to committee members?
+
+** planning work will be a constant
+
+*** i want to do chapter 1 first
+
+**** it seems fun, and it will justify the rest of my work
+
+*** hell, i could start on that chapter before quals!!!! 
+
+**** why not, right?
+
+*** visualize being 'ahead'
+
+**** tell folks im starting chapter 1 now
+
+**** when in reality i'm starting chapter 2
+
+**** then, i can proofread/obsess over the finished chapter
+
+**** before i send it out
+
+**** and, once i send it out, i tell them i'm starting on chapter x....or whatev
+* general work related progress
+<2016-03-25 Fri>
+
+** PhD progress report
+
+In the Fall, I GSI'd Info 213 with Tap for the second, and sadly, the final time. GSI'ing with Tap was a great experience. I learned a lot, and I have no doubt that my experience teaching will prove one of the most rewarding experiences of my PhD - and that it will provide some of the longest-lasting benefits to my career in research.
+
+This Fall also saw a return to brain-computer interface. Following up on some feasibility studies last spring, I worked with Max Curran, Jong-Kai Yang, and John, to submit two papers relating to in-ear EEG. On the first paper we submitted, I was second author to Max, who led a project in his first year (!) on applying in-ear EEG to John's earlier work on passthoughts. This paper was submitted to EMBC '16. I then wrote another paper using data that Max and Jong-Kai collected, replicating methods from the paper I presented at PhyCS 2015 with new data collected from the ear canal. I submitted that paper to Body Sensor Networks 2016. Both papers are currently under review.
+
+This Spring, I am working as a GSR work Coye. We are working on two studies regarding social interpreations of a basic biosignal (heartrate). The first, a vignette study, investigated how elevated (compared to "normal") heartrate interacts with social expectations to produce contextual meanings, and in adversarial and non-adversarial contexts. We submitted this paper to ACM Group 2016, currently under review. The second project, a lab-based experiment, investigates how elevated (again, as compared to "normal" heartrate) affects trusting behaviors in an iterated, prisoner's dilemna game. However, in this study, we also include a condition with an invented biosignal - Skin Reflectivity Index. Our goals here is to examine how people's beliefs about heartrate /specifically/ affect their trusting behavior, as compared to some other signal about which they have no a priori beliefs. We are currently analyzing data from the over 100 subjects who participated in our study, and we intend to submit our paper to either Ubicomp '16 or CSCW '17.
+
+Finally, I am ramping up on a study over the Health-e-Heart platform, along with Coye, John, Steve, and Elaine Sedenberg. Health-e-Heart is a 15,000+ participant study run by UCSF, in which subjects fill out surveys about their health and lifestyle. A subset of this population chronically uploads data from wearable biosesnors. I spoke with Mark Pletcher - one of the study leads - about pushing a survey to this participant pool that interrogates their motivations for participating in this study, their understanding of what their self-tracker data mean, and the sense of risk they associate with sharing such data with UCSF. Mark Pletcher was excited, and I managed to get Coye, John, Steve and Elaine excited as well. Furthermore, CLTC graciously offered funding for this study. We are assembling the survey instrument currently, and expect to launch it to Health-e-Heart participants sometime in the next month or two.
+
+My plans for the rest of the semester include finding an outside committee member, and scheduling quals for the beginning of next Fall.
+
+There is a lot I did not mention here in detail. BioSENSE group meetings happen every Friday, with lunch, and are always fascinating. I, along with the rest of the BioSENSE group, wrote a proposal for CLTC funding, which we received. And, many other things happened, including the quotidien interactions with colleagues in the PhD lounge, the halls, and the co-lab - the sorts of conversations that would be mundane if they weren't so exciting and relevant. The one extracurricular thread I feel I need to mention is that of open source. My participation in the javascript open-source community skyrocketed this year, in one of the language's most turbulant, but also exciting years (if you don't know why, just google "left-pad npm" and "ipfs," respectively). Software has always had a relationship with my research; my instruments tend to be software-based, because things look like nails to hammers. But, this is the year that my contributions to open-source started to serve themselves. I consider my involvement in this community a sort of "action science," and a way of disseminating the ideas from my research to a broader (though not exactly a "general") audience. This work is indexed [[http://cosmopol.is][here]].
+
+This summer, I will be working on the other side of the Bay at Autodesk in the Bio/Nano/Programmable Matter Research Group (yes, that's the real name) on the interface for a molecular viewer. This project is part of a sutie of tools that aims to enable printing of organic matter such as DNA (3D printing is the closest analogy).
+
+** make sure all these notes are together 
+
+*** is it merged up with my mac?
+
+**** all synced?
+
+*** have i cleared + refactored my agenda to make way for this important work?
+
+**** NO distractions this first week!
+
+**** do these tasks, sequentially, and plan NOtH'ing else
+
+**** in fact, clear all chaos from spring.org
+
+***** good to put task results there, and trivia
+
+***** but this should be the one source of truth for all planning
+
+****** while spring describes waht HAS happened, and what IS happening,
+
+****** *THIS* is the canononical data structure for what *WILL* happen
+
+***** after all, its the prospectus/dissertaion that matter, now....
+
+*** should propsectus really be in dissertation, or notes?
+
+**** my instinct is notes honestly
+
+**** like, yes it would be nice to see the 'graph' or wahtever
+
+**** and, i will move it in there, when the time is ready
+
+**** but, for now, these /are/ just notes
+
+**** and it makes way more sense to leave stuff in the same folder/repository
+*** now, submit PhD progress report straight away
+
+**** draft it in here even
+
+*** now, quit this!
+
+**** mark this bit as done, or even remove it (putting it in spring), and move on
+
+** get HeH ready and out the door
+
+*** make sure it all looks legit
+
+*** and make sure those vignettes will be fruitful
+
+*** put together a sample study for everyone to look at
+
+*** and take coye's advice very seriously
+
+** figure out what is happening with this lab study
+
+*** what did we find
+
+*** what is the story
+
+*** what is the relevant theroy
+
+*** that fits into *my* frame and *my* interests
+
+*** where are we submitting
+
+**** ubicomp? is it really a good match?
+
+** complete the missing pieces of this prospectus
+
+*** what is my proposed indpeendent work?
+
+**** why is it so relevant to my interests in particular?
+
+*** how does it fit in with the other work ive put in there?
+
+*** why does it go /last/?
+
