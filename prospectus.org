@@ -473,6 +473,52 @@ CLOSED: [2016-03-24 Thu 21:46]
 
 * strategies
 
+** first take quals
+
+*** lock down someone good
+
+**** someone open minded and not so overly technical
+
+*** Truisms
+
+**** the above chapters list will change
+
+***** and that is good
+
+**** it will not be hard to write
+
+***** it will be quick - a couple afternoons
+
+*** structure of the prospectus
+
+**** introduction
+
+***** topic (condenced from rest)
+
+***** methods
+
+**** walk through each chapter
+
+***** turn those outlines into paragraphs
+
+***** about 3 paragraphs per 'chapter'
+
+**** highlight the capstone research project that is my own
+
+***** this is where the work still needs to be done i think
+
+***** designing that research project on my own and so on
+
+**** re-iterate chapters list
+
+***** now as just a list and outline
+
+***** a re-iteration of the above
+
+****** more or less
+
+****** mas o menos
+
 ** 15 hours a week is a good amount of work
 
 *** about 4 hours a day
@@ -518,3 +564,88 @@ CLOSED: [2016-03-24 Thu 21:46]
 **** before i send it out
 
 **** and, once i send it out, i tell them i'm starting on chapter x....or whatev
+* general work related progress
+<2016-03-24 Thu>
+
+** PhD progress report
+
+In the Fall, I GSI'd Info 213 with Tap for the second, and sadly, the final time. GSI'ing with Tap was a great experience. I learned a lot, and I have no doubt that my experience teaching will prove one of the most rewarding experiences of my PhD - and that it will provide some of the longest-lasting benefits to my career in research.
+
+This Fall also saw a return to brain-computer interface. Following up on some feasibility studies last spring, I worked with Max Curran, Jong-Kai Yang, and John, to submit two papers relating to in-ear EEG. On the first paper we submitted, I was second author to Max, who led a project in his first year (!) on applying in-ear EEG to John's earlier work on passthoughts. This paper was submitted to EMBC '16. I then wrote another paper using data that Max and Jong-Kai collected, replicating methods from the paper I presented at PhyCS 2015 with new data collected from the ear canal. I submitted that paper to Body Sensor Networks 2016. Both papers are currently under review.
+
+This Spring, I am working as a GSR work Coye. We are working on two studies regarding social interpreations of a basic biosignal (heartrate). The first, a vignette study, investigated how elevated (compared to "normal") heartrate interacts with social expectations to produce contextual meanings, and in adversarial and non-adversarial contexts. We submitted this paper to ACM Group 2016, currently under review. The second project, a lab-based experiment, investigates how elevated (again, as compared to "normal" heartrate) affects trusting behaviors in an iterated, prisoner's dilemna game. However, in this study, we also include a condition with an invented biosignal - Skin Reflectivity Index. Our goals here is to examine how people's beliefs about heartrate /specifically/ affect their trusting behavior, as compared to some other signal about which they have no a priori beliefs. We are currently analyzing data from the over 100 subjects who participated in our study, and we intend to submit our paper to either Ubicomp '16 or CSCW '17.
+
+Finally, I am ramping up on a study over the Health-e-Heart platform, along with Coye, John, Steve, and Elaine Sedenberg. Health-e-Heart is a 15,000+ participant study run by UCSF, in which subjects fill out surveys about their health and lifestyle. A subset of this population chronically uploads data from wearable biosesnors. I spoke with Mark Pletcher - one of the study leads - about pushing a survey to this participant pool that interrogates their motivations for participating in this study, their understanding of what their self-tracker data mean, and the sense of risk they associate with sharing such data with UCSF. Mark Pletcher was excited, and I managed to get Coye, John, Steve and Elaine excited as well. Furthermore, CLTC graciously offered funding for this study. We are assembling the survey instrument currently, and expect to launch it to Health-e-Heart participants sometime in the next month or two.
+
+My plans for the rest of the semester include finding an outside committee member, and scheduling quals for the beginning of next Fall.
+
+There is a lot I did not mention here in detail. BioSENSE group meetings happen every Friday, with lunch, and are always fascinating. I, along with the rest of the BioSENSE group, wrote a proposal for CLTC funding, which we received. And, many other things happened, including the quotidien interactions with colleagues in the PhD lounge, the halls, and the co-lab - the sorts of conversations that would be mundane if they weren't so exciting and relevant. The one extracurricular thread I feel I need to mention is that of open source. My participation in the javascript open-source community skyrocketed this year, in one of the language's most turbulant, but also exciting years (if you don't know why, just google "left-pad npm" and "ipfs," respectively). Software has always had a relationship with my research; my instruments tend to be software-based, because things look like nails to hammers. But, this is the year that my contributions to open-source started to serve themselves. I consider my involvement in this community a sort of "action science," and a way of disseminating the ideas from my research to a broader (though not exactly a "general") audience. This work is indexed [[http://cosmopol.is][here]].
+
+This summer, I will be working on the other side of the Bay at Autodesk in the Bio/Nano/Programmable Matter Research Group (yes, that's the real name) on the interface for a molecular viewer. This project is part of a sutie of tools that aims to enable printing of organic matter such as DNA (3D printing is the closest analogy).
+
+** make sure all these notes are together 
+
+*** is it merged up with my mac?
+
+**** all synced?
+
+*** have i cleared + refactored my agenda to make way for this important work?
+
+**** NO distractions this first week!
+
+**** do these tasks, sequentially, and plan NOtH'ing else
+
+**** in fact, clear all chaos from spring.org
+
+***** good to put task results there, and trivia
+
+***** but this should be the one source of truth for all planning
+
+****** while spring describes waht HAS happened, and what IS happening,
+
+****** *THIS* is the canononical data structure for what *WILL* happen
+
+***** after all, its the prospectus/dissertaion that matter, now....
+
+*** now, submit PhD progress report straight away
+
+**** draft it in here even
+
+*** now, quit this!
+
+**** mark this bit as done, or even remove it (putting it in spring), and move on
+
+** get HeH ready and out the door
+
+*** make sure it all looks legit
+
+*** and make sure those vignettes will be fruitful
+
+*** put together a sample study for everyone to look at
+
+*** and take coye's advice very seriously
+
+** figure out what is happening with this lab study
+
+*** what did we find
+
+*** what is the story
+
+*** what is the relevant theroy
+
+*** that fits into *my* frame and *my* interests
+
+*** where are we submitting
+
+**** ubicomp? is it really a good match?
+
+** complete the missing pieces of this prospectus
+
+*** what is my proposed indpeendent work?
+
+**** why is it so relevant to my interests in particular?
+
+*** how does it fit in with the other work ive put in there?
+
+*** why does it go /last/?
+
