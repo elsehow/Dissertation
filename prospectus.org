@@ -2,6 +2,7 @@
 ** my intellectual history
 <2016-02-01 Mon 13:00>
 *** DONE not a lot of work on transmitting biosignals socially
+
 **** papers that have done it are gods-eye, like pentland
 
 **** only a few talk about what happens when you show stuff back to the people being sensed
@@ -330,38 +331,6 @@ which the user approaches the interace;
 ****** have you do some task (let's say a scavenger hunt)
 ****** show you your heartrate was (elevated, normal)
 ****** see how exhausting yuo say the exercise was
-* TODO chapters
-<2016-02-17 Wed>
-** topic
-*** what do people /believe/ that an algorithm, or sensor, can know about a person?
-**** past work has focused on "say about themselves"; we focus on "someone else"
-**** a more fundamnetal question that touches on one's basic sense of risk 
-***** what do we risk when we simply putting on these devices
-***** (knowing we live in a post-wikileaks world?)
-**** i think this is a dissertation for people who have read the circle
-***** it is about people outside the cirlce, and how we would even think to rebel 
-***** (or why we wouldnt think to)
-
-** /theories/ of emotion in biosensing - psychologists, designers, users
-*** theories of emotion broadly
-**** william james
-**** into.
-**** variety is the spice of life
-**** vs. 
-**** how emotion is made and measured
-*** specific theories biosensing researchers have drawn on
-**** honest signals
-**** how that  ties in, or no, to theoreis fo emotion
-*** how the theories they've drawn on are convenient given their agendas
-**** pentland's work overlooks the perspectives of the persons being sensed
-***** pentland's perspective is fundamentally that of the boss 
-***** rather than the laborer; 
-**** and picards work tends to 'instrumentalize' people
-***** patients are persons to be data-ified and understood or something like that
-*** why non-designer's opinions matter
-**** can phrase question - how people (versus designers) think about the mind/body connection /in terms of/ sensors & devices & interfaces they encounter
-**** really poeple's ideas of mind/body connection will drive their sense of risk when it comes to wearables
-=======
 ** TODO topic, as of february '16
 
 what do people /believe/ that an algorithm, or sensor, can know about a person?
@@ -384,21 +353,21 @@ it is about people outside the cirlce, and how we would even think to rebel
 ****** among other things, reforms in healthcare
 ******* and the notion of scaling healthcare more broadlyjk
 ******* might talk about "biosurveillance" here as a term
+
+**** for example, the role of suggestion & authority in sensing
+***** neurohype
+***** moodlight
 **** people bring beliefs to the table
 ***** representation + signal + authority + medicine + culture
 ****** by varying representation + signal independently 
 ****** we can show people bring some beliefs to the table
 ****** and that effects we see arent 100% the represntation
 ***** may not be immediatley clear how to untangle effect of one / other
-**** we want to undrestand these beliefs, to understand disclosure
+**** want to undrestand these beliefs, to understand disclosure
 ***** how open can we expect people to be 
 ***** how/why/when 
 ***** and how can we see their disclosure change over time
-** TODO /case/ acm group experiment
-*** TODO QUESTOIONS
-*** CASE
-**** vignette
-=======
+
 * chapters
 <2016-02-15 Mon>
 ** topic 
@@ -438,11 +407,70 @@ CLOSED: [2016-03-24 Thu 21:46]
 ***** high heartrate
 ***** normal heartrate
 ***** no hr info
-*** WHAT WE LEARNED
-**** heartrate interacts with social expectations to produce contextual meanings
-***** no one effect of elevated heartrate on trust
-**** "people" don't think heartrate means any one thing, even within conditions
-***** heterogeneous interpretations in our pool
+**** interesting variables
+***** belief other person lying
+***** emotional appraisals vs behavioral trust and so on
+*** what we learned
+**** elevated heartrate does not have ONE impact on trust
+**** signals interact with social expectations to produce meaning
+**** and, there was diversity even within conditions
+***** "people' generally did not feel any one way, even controllign for context
+** people bring belefis about the signal to the table
+*** why do these siganls mean something rather than nothing?
+**** a question ive ignored until now
+*** TODO the meanings people bring to the table
+**** delve into neurohype
+**** and moodlight
+**** draw on literature in suggestion
+*** signals  given / given off
+**** goffman
+*** social cues
+**** donath? SIKE
+**** sengers
+**** lerahu
+**** slovak
+** TODO HeH
+** theories of emotion in biosensing
+*** theories of emotion broadly
+*** those specific theorues biosensing researchers have drawn on
+*** how the theories they've drawn on are convenient given their agendas
+*** how emotion is made and measured
+** TODO interpreation / risk empirical study
+*** levels of interpretation, how it affects perceptions of riskiness
+**** touches on suggestion
+**** on algorithmic interpretability
+*** talked about this in biosense spring 2016
+*** pull those notes up...
+** conclusion
+*** resolving the theoretical chord progression
+*** Im interested in what problems has evaded AI classification
+<2016-02-24 Wed>
+**** im interested in what problems has evaded AI classification
+
+***** prediction of emotion from physiological states
+
+***** even though we mostly agree that emotions reduce to physiolcal states
+
+**** is it just that physio sensors arent good enough?
+
+***** NO. its that this problem is as hard as deducing text content from speech
+
+**** TODO like NLP, emotions are socially constructed and socially interpreted
+
+***** what kinds of data (+metadata) must we collect to truly *undestand* what emotion si being expressed?
+
+**** im fundamentally a psychologist
+
+***** j think ppl arent so complicated
+
+***** can be modeled by functions
+
+**** maybe these functions are nonlinear
+
+***** but now we have networks that can approximate any nonlinear function
+
+***** so its just a matter of picking the right feature vecotrs* conclusion: a connection between NLP and emotion recognition from biosignasl
+
 * strategies
 
 ** first take quals
@@ -538,26 +566,18 @@ CLOSED: [2016-03-24 Thu 21:46]
 **** and, once i send it out, i tell them i'm starting on chapter x....or whatev
 * general work related progress
 <2016-03-25 Fri>
-
-** PhD progress report
-
-In the Fall, I GSI'd Info 213 with Tap for the second, and sadly, the final time. GSI'ing with Tap was a great experience. I learned a lot, and I have no doubt that my experience teaching will prove one of the most rewarding experiences of my PhD - and that it will provide some of the longest-lasting benefits to my career in research.
-
-This Fall also saw a return to brain-computer interface. Following up on some feasibility studies last spring, I worked with Max Curran, Jong-Kai Yang, and John, to submit two papers relating to in-ear EEG. On the first paper we submitted, I was second author to Max, who led a project in his first year (!) on applying in-ear EEG to John's earlier work on passthoughts. This paper was submitted to EMBC '16. I then wrote another paper using data that Max and Jong-Kai collected, replicating methods from the paper I presented at PhyCS 2015 with new data collected from the ear canal. I submitted that paper to Body Sensor Networks 2016. Both papers are currently under review.
-
-This Spring, I am working as a GSR work Coye. We are working on two studies regarding social interpreations of a basic biosignal (heartrate). The first, a vignette study, investigated how elevated (compared to "normal") heartrate interacts with social expectations to produce contextual meanings, and in adversarial and non-adversarial contexts. We submitted this paper to ACM Group 2016, currently under review. The second project, a lab-based experiment, investigates how elevated (again, as compared to "normal" heartrate) affects trusting behaviors in an iterated, prisoner's dilemna game. However, in this study, we also include a condition with an invented biosignal - Skin Reflectivity Index. Our goals here is to examine how people's beliefs about heartrate /specifically/ affect their trusting behavior, as compared to some other signal about which they have no a priori beliefs. We are currently analyzing data from the over 100 subjects who participated in our study, and we intend to submit our paper to either Ubicomp '16 or CSCW '17.
-
-Finally, I am ramping up on a study over the Health-e-Heart platform, along with Coye, John, Steve, and Elaine Sedenberg. Health-e-Heart is a 15,000+ participant study run by UCSF, in which subjects fill out surveys about their health and lifestyle. A subset of this population chronically uploads data from wearable biosesnors. I spoke with Mark Pletcher - one of the study leads - about pushing a survey to this participant pool that interrogates their motivations for participating in this study, their understanding of what their self-tracker data mean, and the sense of risk they associate with sharing such data with UCSF. Mark Pletcher was excited, and I managed to get Coye, John, Steve and Elaine excited as well. Furthermore, CLTC graciously offered funding for this study. We are assembling the survey instrument currently, and expect to launch it to Health-e-Heart participants sometime in the next month or two.
-
-My plans for the rest of the semester include finding an outside committee member, and scheduling quals for the beginning of next Fall.
-
-There is a lot I did not mention here in detail. BioSENSE group meetings happen every Friday, with lunch, and are always fascinating. I, along with the rest of the BioSENSE group, wrote a proposal for CLTC funding, which we received. And, many other things happened, including the quotidien interactions with colleagues in the PhD lounge, the halls, and the co-lab - the sorts of conversations that would be mundane if they weren't so exciting and relevant. The one extracurricular thread I feel I need to mention is that of open source. My participation in the javascript open-source community skyrocketed this year, in one of the language's most turbulant, but also exciting years (if you don't know why, just google "left-pad npm" and "ipfs," respectively). Software has always had a relationship with my research; my instruments tend to be software-based, because things look like nails to hammers. But, this is the year that my contributions to open-source started to serve themselves. I consider my involvement in this community a sort of "action science," and a way of disseminating the ideas from my research to a broader (though not exactly a "general") audience. This work is indexed [[http://cosmopol.is][here]].
-
-This summer, I will be working on the other side of the Bay at Autodesk in the Bio/Nano/Programmable Matter Research Group (yes, that's the real name) on the interface for a molecular viewer. This project is part of a sutie of tools that aims to enable printing of organic matter such as DNA (3D printing is the closest analogy).
-
 ** make sure all these notes are together 
-
 *** is it merged up with my mac?
+
+**** REALLY need btsync back
+
+***** easy to install via vnc?
+
+**** or dropbox
+
+***** if btsyncs not feasible/practical
+
+**** this should never even be a question
 
 **** all synced?
 
@@ -592,11 +612,26 @@ This summer, I will be working on the other side of the Bay at Autodesk in the B
 **** and it makes way more sense to leave stuff in the same folder/repository
 *** now, submit PhD progress report straight away
 
-**** draft it in here even
+In the Fall, I GSI'd Info 213 with Tap for the second, and sadly, the final time. GSI'ing with Tap was a great experience. I learned a lot, and I have no doubt that my experience teaching will prove one of the most rewarding experiences of my PhD - and that it will provide some of the longest-lasting benefits to my career in research.
+
+This Fall also saw a return to brain-computer interface. Following up on some feasibility studies last spring, I worked with Max Curran, Jong-Kai Yang, and John, to submit two papers relating to in-ear EEG. On the first paper we submitted, I was second author to Max, who led a project in his first year (!) on applying in-ear EEG to John's earlier work on passthoughts. This paper was submitted to EMBC '16. I then wrote another paper using data that Max and Jong-Kai collected, replicating methods from the paper I presented at PhyCS 2015 with new data collected from the ear canal. I submitted that paper to Body Sensor Networks 2016. Both papers are currently under review.
+
+This Spring, I am working as a GSR work Coye. We are working on two studies regarding social interpreations of a basic biosignal (heartrate). The first, a vignette study, investigated how elevated (compared to "normal") heartrate interacts with social expectations to produce contextual meanings, and in adversarial and non-adversarial contexts. We submitted this paper to ACM Group 2016, currently under review. The second project, a lab-based experiment, investigates how elevated (again, as compared to "normal" heartrate) affects trusting behaviors in an iterated, prisoner's dilemna game. However, in this study, we also include a condition with an invented biosignal - Skin Reflectivity Index. Our goals here is to examine how people's beliefs about heartrate /specifically/ affect their trusting behavior, as compared to some other signal about which they have no a priori beliefs. We are currently analyzing data from the over 100 subjects who participated in our study, and we intend to submit our paper to either Ubicomp '16 or CSCW '17.
+
+Finally, I am ramping up on a study over the Health-e-Heart platform, along with Coye, John, Steve, and Elaine Sedenberg. Health-e-Heart is a 15,000+ participant study run by UCSF, in which subjects fill out surveys about their health and lifestyle. A subset of this population chronically uploads data from wearable biosesnors. I spoke with Mark Pletcher - one of the study leads - about pushing a survey to this participant pool that interrogates their motivations for participating in this study, their understanding of what their self-tracker data mean, and the sense of risk they associate with sharing such data with UCSF. Mark Pletcher was excited, and I managed to get Coye, John, Steve and Elaine excited as well. Furthermore, CLTC graciously offered funding for this study. We are assembling the survey instrument currently, and expect to launch it to Health-e-Heart participants sometime in the next month or two.
+
+My plans for the rest of the semester include finding an outside committee member, and scheduling quals for the beginning of next Fall.
+
+There is a lot I did not mention here in detail. BioSENSE group meetings happen every Friday, with lunch, and are always fascinating. I, along with the rest of the BioSENSE group, wrote a proposal for CLTC funding, which we received. And, many other things happened, including the quotidien interactions with colleagues in the PhD lounge, the halls, and the co-lab - the sorts of conversations that would be mundane if they weren't so exciting and relevant. The one extracurricular thread I feel I need to mention is that of open source. My participation in the javascript open-source community skyrocketed this year, in one of the language's most turbulant, but also exciting years (if you don't know why, just google "left-pad npm" and "ipfs," respectively). Software has always had a relationship with my research; my instruments tend to be software-based, because things look like nails to hammers. But, this is the year that my contributions to open-source started to serve themselves. I consider my involvement in this community a sort of "action science," and a way of disseminating the ideas from my research to a broader (though not exactly a "general") audience. This work is indexed [[http://cosmopol.is][here]].
+
+This summer, I will be working on the other side of the Bay at Autodesk in the Bio/Nano/Programmable Matter Research Group (yes, that's the real name) on the interface for a molecular viewer. This project is part of a sutie of tools that aims to enable printing of organic matter such as DNA (3D printing is the closest analogy).
+
 
 *** now, quit this!
 
 **** mark this bit as done, or even remove it (putting it in spring), and move on
+
+**** work is done for the 
 
 ** get HeH ready and out the door
 
