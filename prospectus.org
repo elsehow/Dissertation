@@ -373,15 +373,31 @@ it is about people outside the cirlce, and how we would even think to rebel
 ** topic 
 *** do this retroactively
 *** figure out your cases + theory first-----
-** perspective, the sensed
+*** be brief introduction to topic and methods
+**** how methods help to answer questions?
+**** should be obvious.....
+** perspective & the sensed
 *** pentland's work overlooks the perspectives of the persons being sensed
 **** pentland's perspective is fundamentally that of the boss 
 **** rather than the laborer; 
+**** what can *i* learn from people, based on these signals?
 *** even picards work tends to 'instrumentalized' people
-**** patients are persons to be data-ified and understood or something like that
-*** TODO toward...
-**** interactionist ai / ubicomp
-** vignette experiment
+**** people to be data-ified 
+**** affect as information
+**** what can *machines*  learn, how can affect become data?
+*** TODO here ask - what can people learn about each other based on these signals?
+**** a fundamental 'flip'
+**** examining human articulation work, and how it relates to perceptions of risk 
+**** and decisions regarding disclosure
+**** essential lit for my framing
+***** how emotion is made and measured
+***** interactionist ai / ubicomp
+***** slovak/unpacking
+****** just shows us that something is there
+***** neuroyhope
+****** shows us that these things are not necessarily reasoned,,,,,or rational
+** DONE vignette experiment
+CLOSED: [2016-03-24 Thu 21:46]
 *** vignette
 **** two scenarios
 ***** one adversarial
@@ -399,7 +415,13 @@ it is about people outside the cirlce, and how we would even think to rebel
 **** signals interact with social expectations to produce meaning
 **** and, there was diversity even within conditions
 ***** "people' generally did not feel any one way, even controllign for context
-** signals / cues interact with meanings of the signal itself
+** people bring belefis about the signal to the table
+*** why do these siganls mean something rather than nothing?
+**** a question ive ignored until now
+*** TODO the meanings people bring to the table
+**** delve into neurohype
+**** and moodlight
+**** draw on literature in suggestion
 *** signals  given / given off
 **** goffman
 *** social cues
@@ -407,10 +429,6 @@ it is about people outside the cirlce, and how we would even think to rebel
 **** sengers
 **** lerahu
 **** slovak
-*** TODO the meanings people bring to the table
-**** delve into neurohype
-**** and moodlight
-**** draw on literature in suggestion
 ** TODO HeH
 ** theories of emotion in biosensing
 *** theories of emotion broadly
@@ -418,6 +436,9 @@ it is about people outside the cirlce, and how we would even think to rebel
 *** how the theories they've drawn on are convenient given their agendas
 *** how emotion is made and measured
 ** TODO interpreation / risk empirical study
+*** levels of interpretation, how it affects perceptions of riskiness
+**** touches on suggestion
+**** on algorithmic interpretability
 *** talked about this in biosense spring 2016
 *** pull those notes up...
 ** conclusion
@@ -449,3 +470,51 @@ it is about people outside the cirlce, and how we would even think to rebel
 ***** but now we have networks that can approximate any nonlinear function
 
 ***** so its just a matter of picking the right feature vecotrs* conclusion: a connection between NLP and emotion recognition from biosignasl
+
+* strategies
+
+** 15 hours a week is a good amount of work
+
+*** about 4 hours a day
+
+*** you don't have to start at some specific time
+
+**** but, you do have to work for a given amount of time
+
+*** then, you will be free for the rest of the day
+
+**** for example, if you start at 2, you will be done at 6
+
+**** if you start at 11, you will be done at 3
+
+**** if you can start at 9, you will be done by lunch, and be free
+
+** at first, will be spent learning tools
+
+*** how to citations work?
+
+**** bibtex, references in org, and all of that
+
+*** how will i distribute chapters to committee members?
+
+** planning work will be a constant
+
+*** i want to do chapter 1 first
+
+**** it seems fun, and it will justify the rest of my work
+
+*** hell, i could start on that chapter before quals!!!! 
+
+**** why not, right?
+
+*** visualize being 'ahead'
+
+**** tell folks im starting chapter 1 now
+
+**** when in reality i'm starting chapter 2
+
+**** then, i can proofread/obsess over the finished chapter
+
+**** before i send it out
+
+**** and, once i send it out, i tell them i'm starting on chapter x....or whatev
