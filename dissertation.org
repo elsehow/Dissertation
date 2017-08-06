@@ -1,0 +1,16 @@
+#+Title: Essays on Mind-Reading Machines
+#+Author: Nick Merrill
+* How to Read a Mind
+* Technical Barriers to Mind-Reading Machines
+* Case study: Authentication
+'read mind' in the sense of seeing that you really are you
+call out epistemelogical commitments of this stance
+* Social aspects of mind-reading machines
+have an intrinsically social component
+in that we decide the ground truth labels
+and these labels take on indeterminate meanings in various contexts
+# motivate next two empirical chapters
+* Users' interpretations of basic biosignals
+People already think biosignals can reveal about the mind
+* Designers' interpretations of EEG
+* Conclusions
