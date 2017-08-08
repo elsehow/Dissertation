@@ -1,16 +1,36 @@
 #+Title: Essays on Mind-Reading Machines
 #+Author: Nick Merrill
+
+# the surprisingly great show on the end of the world
+# when her leg was over me stroking my arm
+# i wanted to be completely present in that moment. i wanted to be nowhere else. 
+
+# (i didn't want to freeze time, i didn't want to be there forever, i just wanted to be there.)
+# though walking around the side of the observatory seeing LA around, walking past the people looking off the edge taking pictures, i was truly there then. the world was no louder than the sounds it was making.
+
 * How to Read a Mind
 * Technical Barriers to Mind-Reading Machines
 * Case study: Authentication
-'read mind' in the sense of seeing that you really are you
-call out epistemelogical commitments of this stance
+** 'read mind' in the sense of seeing that you really are you
+** establish that such a thing is possible
+*** with inherence
+*** with knowledge
+** call out epistemelogical commitments of brain-base authenticator
+*** diff notions of self have diff consequences for the way an authenticator can be said to 'work'!
+*** describe diversion we are about to take
+**** first we take a diversion to discuss social aspects of mind reading machines
+**** then we establish people DO have mind-reading meanings to basic biosigansl
+**** having done that, we return to brain-bbased authentication & interpretation
 * Social aspects of mind-reading machines
-have an intrinsically social component
-in that we decide the ground truth labels
-and these labels take on indeterminate meanings in various contexts
-# motivate next two empirical chapters
+** have an intrinsically social component
+*** in that we decide the ground truth labels
+*** and these labels take on indeterminate meanings in various contexts
+** motivate next two empirical chapters
+*** first, establish people DO have mind-reading meanings to basic biosignals
+*** having done that, return to brain-based authentication & interpretations there
 * Users' interpretations of basic biosignals
-People already think biosignals can reveal about the mind
+  People already think biosignals can reveal about the mind
+copy&paste group&cscw papers (minimally just evidence)
 * Designers' interpretations of EEG
+copy&paste chi in whatever future form
 * Conclusions
