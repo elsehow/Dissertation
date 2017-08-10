@@ -10,7 +10,7 @@
 
 * How to read a mind
 
-** Theoreis make the mind ammenable to sensing
+** Theories make the mind ammenable to sensing
 
 *** Theories of mind
 # theoretical
@@ -25,6 +25,7 @@
 
 **** Affective computing
 
+**** Social Signal Processing (SSP)
 ** But, human interpretation always required
 (at some level of the stack)
 
@@ -38,14 +39,15 @@ what 2 do now
 # justifying the next step of work
 
 * Study interpretation in controlled example
-
 * Unpack and connect to passthoughts questions
-
+** Authentication as an inteprrative thing
+** Specific epistemelogical commitments about the self
 * Passthoughts work
-
-* Ongoing questions
+* Labels are the Other Tough Problem
 
 ** Hard part is labels for ground truth
+# philosophically hard
+# should have tools for thinking abt this issue now
 
 ** The feed-forward nature of these labels mean they'll build on one another
 
