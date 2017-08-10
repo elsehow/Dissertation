@@ -37,6 +37,7 @@
 ** Conclusions
 what 2 do now
 # justifying the next step of work
+mind-computer interface
 
 * Study interpretation in controlled example
 * Unpack and connect to passthoughts questions
