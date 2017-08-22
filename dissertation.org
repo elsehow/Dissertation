@@ -43,7 +43,20 @@ mind-computer interface
 * Unpack and connect to passthoughts questions
 ** Authentication as an inteprrative thing
 ** Specific epistemelogical commitments about the self
-* Passthoughts work
+* Studying designers
+* Criticality of designers
+# This is my DIS/CSCW methods contribution
+
+Designers have a criticality, can be channeled by activating their "professional vision"
+
+# examples: Odom, Elsden
+
+# John <2017-08-22 Tue>
+# What can you do to enable / facilitate adoption?
+# Package and send off to another phd student?
+
+
+
 * Labels are the Other Tough Problem
 
 ** Hard part is labels for ground truth
