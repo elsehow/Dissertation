@@ -1,49 +1,214 @@
+:frontmatter:
 #+Title: Essays on Mind-Reading Machines
 #+Author: Nick Merrill
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="ext/style1.css" />
+#+TODO: TODO OUTLINED DRAFTED | PROOFREAD DONE
+:end:
+:epigraph:
+# for the most beautiful mom the world.
+# we had an amazing, wonderful life together, a life as beautiful and precious as you are.
+# dad and i carry that life forward everyday, because of the unconditonal love you gave to us,
+# the greatest, most important gift anyone could ever receive.
+# the gift you gave to me and dad.
+# i will always take care of him.
+# until we see you again.
+# I love you forever.
 
-# the surprisingly great show on the end of the world
-# when her leg was over me stroking my arm
-# i wanted to be completely present in that moment. i wanted to be nowhere else. 
+# also, I have been shaving.
+:end:
 
-# (i didn't want to freeze time, i didn't want to be there forever, i just wanted to be there.)
-# though walking around the side of the observatory seeing LA around, walking past the people looking off the edge taking pictures, i was truly there then. the world was no louder than the sounds it was making.
+* Preface
+
+Machines will someday read the mind.
+I know. But they will.
+``We'' will find a way to make them,
+and ``we'' will use any tools at our disposal to do so.
+
+The primary tool we will use is our own interpretation, and theories
+of the mind, projecting it onto a physical reality
+that is less definite than ``we'' would sometimes like to imagine.
+
+Who is this ``we''?
+This dissertation looks primarily (though not exclusively) at software professionals
+in the San Francisco Bay Area.
+
+_etc..._
+
+Nick Merrill
+Berkeley, California
 
 * How to read a mind
+DEADLINE: <2017-12-06 Wed>
+** OUTLINED Summary
+- introduce mind reading & telepathy as terms for describing this goal
+  - /mind/-computer interface (v. brain-computer interface)
+- understand how tehoreis of mind support these terms
+- recast past work under the guise of these terms
+- surface the primacy of human interpretation, focus as a point of future (necessary) research
+** Mind reading & Telepathy
+*** OUTLINED Summary
+- introduce mind reading & telepathy as terms for describing this goal
+  - /mind/-computer interface (v. brain-computer interface)
+*** Telepathy
 
+*Telepathy*
+
+/tele + pathos/ - Feeling / condition / state at distance.
+
+Compare to
+
+- /tele + vis/ - Vision at a distance
+- /tele + phon/ - Hearing at a distance
+
+Both would have been "magic" at one point!
+
+Perhaps some technology will come along that also turns /telepathy/ into a technical term.
+
+*** Mind-reading
+For our purposes,
+
+- Telepathy: The *technical* aspects of encoding, transmission of mind
+
+- Mind-reading: The *social* aspects, interpretation of encoded/transmitted mind
+
+We will see in this chapter how unstable this ``boundary'' really is!
+
+*** Mind-computer interface
+
+/Mind-computer interface/
+
+*** OUTLINED Transition
+now, how to perofrm telepathy, mind-reading - in other words, how to produce an MCI?
+clearly we will need some theory to back us up.
 ** Theories make the mind ammenable to sensing
-
-*** Theories of mind
+*** OUTLINED Summary
+this section, look at how existing theories help us in our quest to build an MCI
+show that this possibility is already very much here with current technology, doesn't require anything fancy
+and doesn't necessarily require improvements to brainscanning infra
+*** The physical mind
 # theoretical
 
-*** Sensing strategies
-# technical
+What is it? What does it do?
+What is its relationship to the body? To the physical world?
+Two basic beliefs:
+- *Dualism* - The mind has non-physical components
+- *Physicalism* - The mind has only physical components
+If we want to make mind amenable to sensing, 
+we have only one choice! [fn:1] 
 
-*** Re-evaluate prior work
+If we are *physicalists*, 
+we believe some physical theory will eventaully explain the mind.
+Where do we look for such theories?
+
+*** Cognitive science's physical mind
+Cognitive science has historically been an influential source of such theories.
+Cognitive science's goal was and is a computational *model* of cognition.
+Much like physics can inform structural engineering, can these models inform 
+neurosciecne [gallant], psychology [griffiths], AI [hawkins, minsky, bengio/ut guy], design [norman].
+Compelling evidence for computational complexity explaining certain time-related tasks in psychological stimuli [e.g. Shepherd & Metzler, 1971]
+have inspired countless computational models, often in the form of flow diagrams that neatly compartmentalize cognitive ``processes'' such as long-term or short-term memory, attention, etc.
+
+*** Challenges to cognitive science
+# Dreyfus, 1992, /What Computers Can't Do/
+# Winograd & Flores, 1986, /Understanding Computers & Cognition/
+Cognitive science has received considerable criticism over its ``isolationist assumtions.''
+These critiques focus on two challenges, primarily.
+- *Challenge 1*: Focus on the brain
+- *Challenge 2*: Focus on the individual
+
+**** Embodied cognition
+Challenge 1: Focus on the brain.
+Does brain == mind?
+1. *Unstable brain/body dichotomy*. For example, neurons occur body-wide.
+2. *Undervalues role of embodiement*.
+Response: Embodied cognition
+#+BEGIN_QUOTE
+"The exact way organisms are embodied simultaneously 
+constrains and prescribes certain interactions within the environment."
+#+END_QUOTE
+# /Nöe, A., and E. Thompson, 2004, “Are there neural correlates of consciousness?”/
+Resulting ultimately in the "Embodiement Thesis," that 
+"*The agent's beyond-the-brain body* plays a significant 
+causal role in that agent's cognitive processing."
+For example, offloading cognitive work onto the environment.
+
+**** Distributed cognition
+Challenge 2: Focus on the invidiaul.
+As Clark et al propose, 
+"...technological resources such as pens, paper, and 
+personal computers are now so deeply integrated into 
+our everyday lives that we couldn’t accomplish many 
+of our cognitive goals and purposes without them."
+Hutchins revolutionary analysis of pilots on a naval submarine brought this philosophical thesis into the empirical realm
+as ``distributed conition.''
+
+**** TODO Activity theory
+*** Making the mind ammenable to sensing
+
+What good is all this theory?
+These _three_ theories
+provide a picture of the mind that extends beyond the confines of the brain.
+As such, /these theories make the mind amenable to sensing without sensing the brain per se/make the mind amenable to sensing without sensing the brain per se/.
+
+*** OUTLINED Transition
+now, if the mind is already /senseable/, has past work already sensed it?
+** Prior work on mind reading & telepathy
+*** OUTLINED Summary
+this section reviews past work,
+recasting it as being fundamentally /about/ mind-computer interface.
+we make comparisons to the original author's aims,
+pointing out where and why our new lens on this work
+provides useful/fresh/new forms of analysis, and critique,
+as well as new directions for possible future work...
 # lit review
+# recast pror work
+*** Recast affective computing
+concerned with mind-reading as /other people/ do mind reading
+people who 
+"mind reading" as term of art in autism, what autistics lack
 
-**** Pentland
+*** Social Signal Processing (SSP)
 
-**** Affective computing
-
-**** Social Signal Processing (SSP)
-** But, human interpretation always required
-(at some level of the stack)
-
+*** Pentalnd & distributed self
+# hmmmmmm
+*** OUTLINED Transition
+if much past work has already divised MCIs, what work is substantially missing?
+** But, human beliefs at the center
+*** OUTLINED Summary
+this section reviews some work that is substantially untouched by past work:
+the fundamental role of human beliefs in our ability to do anything with MCIs (technology in general)
+human beliefs always at some level of the stack.
+we also outline why this point matters, before concluding with a discussion of what can be done about it
 *** No fixed meaning a priori
 # critical lit review
 
 *** Material phenomena we /assign/ meaning
 
-** Conclusions
+*** Why this matters
+
+** OUTLINED Conclusions
+
 what 2 do now
+WHY IMPT 2 DO
 # justifying the next step of work
-mind-computer interface
+
+- It is now time to see if engineers believe mind is /senseable/
+  - See how our theory matches up (or doesn't) with their beliefs
+- One good starting place is the bain
+  - But other wearable senosrs can also work .. heart is a good one, lots of connotations there, and may be diff btwn cultures!
+
+** Foonotes
+
+ [fn:1] Not necessarily the /only/ choice! ...but the choice we will work with here. see Chalmers, D. (1996): The Conscious Mind. and Dennett, Daniel C. (1991). Consciousness Explained. 
+
+* From Scanning Brains to Reading Minds
+Talking to engineers about brain-computer interfaces
+
 
 * Study interpretation in controlled example
 * Unpack and connect to passthoughts questions
 ** Authentication as an inteprrative thing
 ** Specific epistemelogical commitments about the self
-* Studying designers
 * Criticality of designers
 # This is my DIS/CSCW methods contribution
 
@@ -55,8 +220,6 @@ Designers have a criticality, can be channeled by activating their "professional
 # What can you do to enable / facilitate adoption?
 # Package and send off to another phd student?
 
-
-
 * Labels are the Other Tough Problem
 
 ** Hard part is labels for ground truth
@@ -66,3 +229,6 @@ Designers have a criticality, can be channeled by activating their "professional
 ** The feed-forward nature of these labels mean they'll build on one another
 
 ** My prescriptions?
+* Footnotes
+
+[fn:1] 
