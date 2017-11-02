@@ -2,7 +2,7 @@
 #+Title: Essays on Mind-Reading Machines
 #+Author: Nick Merrill
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="ext/style1.css" />
-#+TODO: TODO OUTLINED DRAFTED | PROOFREAD DONE
+#+TODO: TODO OUTLINED DRAFTED | PROOFREAD SUBMITTED APPROVED
 :end:
 :epigraph:
 # for the most beautiful mom the world.
@@ -17,7 +17,7 @@
 # also, I have been shaving.
 :end:
 
-* Preface
+* Introduction
 
 Machines will someday read the mind.
 I know. But they will.
@@ -37,8 +37,13 @@ _etc..._
 Nick Merrill
 Berkeley, California
 
-* How to read a mind
-DEADLINE: <2017-12-06 Wed>
+* How to sense a mind
+
+This chapter outlines how theories of a mind that is embodied (beyond the
+brain), distributed (beyond the individual), and extended (to the built
+environment) make the mind amenable to sensing by emerging classes of wearable
+and environmental sensors.
+
 ** OUTLINED Summary
 - introduce mind reading & telepathy as terms for describing this goal
   - /mind/-computer interface (v. brain-computer interface)
@@ -49,7 +54,7 @@ DEADLINE: <2017-12-06 Wed>
 *** OUTLINED Summary
 - introduce mind reading & telepathy as terms for describing this goal
   - /mind/-computer interface (v. brain-computer interface)
-*** Telepathy
+*** OUTLINED Telepathy
 
 *Telepathy*
 
@@ -64,28 +69,38 @@ Both would have been "magic" at one point!
 
 Perhaps some technology will come along that also turns /telepathy/ into a technical term.
 
-*** Mind-reading
+*** OUTLINED Mind-reading
+
 For our purposes,
 
 - Telepathy: The *technical* aspects of encoding, transmission of mind
 
 - Mind-reading: The *social* aspects, interpretation of encoded/transmitted mind
 
-We will see in this chapter how unstable this ``boundary'' really is!
+_Some crap about how latter involves interpretation_
 
-*** Mind-computer interface
+However, we will see later in this chapter how unstable this ``boundary'' really is!
+_Some crap about how theres no such thing as raw data etc_
+
+_Some crap about how everything boils down to theory_
+
+*** OUTLINED Mind-computer interface
 
 /Mind-computer interface/
 
-*** OUTLINED Transition
-now, how to perofrm telepathy, mind-reading - in other words, how to produce an MCI?
+_Compare to BCI, why that term's not sufficient_
+
+_Compare to affective computing, why that term's not sufficinet_
+
+# Transition
+Now, how to perofrm telepathy, mind-reading - in other words, how to produce an MCI?
 clearly we will need some theory to back us up.
 ** Theories make the mind ammenable to sensing
 *** OUTLINED Summary
 this section, look at how existing theories help us in our quest to build an MCI
 show that this possibility is already very much here with current technology, doesn't require anything fancy
 and doesn't necessarily require improvements to brainscanning infra
-*** The physical mind
+*** OUTLINED The physical mind
 # theoretical
 
 What is it? What does it do?
@@ -100,7 +115,7 @@ If we are *physicalists*,
 we believe some physical theory will eventaully explain the mind.
 Where do we look for such theories?
 
-*** Cognitive science's physical mind
+*** OUTLINED Cognitive science's physical mind
 Cognitive science has historically been an influential source of such theories.
 Cognitive science's goal was and is a computational *model* of cognition.
 Much like physics can inform structural engineering, can these models inform 
@@ -108,7 +123,7 @@ neurosciecne [gallant], psychology [griffiths], AI [hawkins, minsky, bengio/ut g
 Compelling evidence for computational complexity explaining certain time-related tasks in psychological stimuli [e.g. Shepherd & Metzler, 1971]
 have inspired countless computational models, often in the form of flow diagrams that neatly compartmentalize cognitive ``processes'' such as long-term or short-term memory, attention, etc.
 
-*** Challenges to cognitive science
+*** TODO Challenges to cognitive science
 # Dreyfus, 1992, /What Computers Can't Do/
 # Winograd & Flores, 1986, /Understanding Computers & Cognition/
 Cognitive science has received considerable criticism over its ``isolationist assumtions.''
@@ -116,7 +131,7 @@ These critiques focus on two challenges, primarily.
 - *Challenge 1*: Focus on the brain
 - *Challenge 2*: Focus on the individual
 
-**** Embodied cognition
+**** OUTLINED Embodied cognition
 Challenge 1: Focus on the brain.
 Does brain == mind?
 1. *Unstable brain/body dichotomy*. For example, neurons occur body-wide.
@@ -132,7 +147,7 @@ Resulting ultimately in the "Embodiement Thesis," that
 causal role in that agent's cognitive processing."
 For example, offloading cognitive work onto the environment.
 
-**** Distributed cognition
+**** OUTLINED Distributed cognition
 Challenge 2: Focus on the invidiaul.
 As Clark et al propose, 
 "...technological resources such as pens, paper, and 
@@ -143,15 +158,15 @@ Hutchins revolutionary analysis of pilots on a naval submarine brought this phil
 as ``distributed conition.''
 
 **** TODO Activity theory
-*** Making the mind ammenable to sensing
+*** OUTLINED Making the mind ammenable to sensing
 
 What good is all this theory?
 These _three_ theories
 provide a picture of the mind that extends beyond the confines of the brain.
 As such, /these theories make the mind amenable to sensing without sensing the brain per se/make the mind amenable to sensing without sensing the brain per se/.
 
-*** OUTLINED Transition
-now, if the mind is already /senseable/, has past work already sensed it?
+# transition
+Now, if the mind is already /senseable/, has past work already sensed it?
 ** Prior work on mind reading & telepathy
 *** OUTLINED Summary
 this section reviews past work,
@@ -162,73 +177,122 @@ provides useful/fresh/new forms of analysis, and critique,
 as well as new directions for possible future work...
 # lit review
 # recast pror work
-*** Recast affective computing
+*** OUTLINED Affective computing
+
+acknowledge that AC was onto the whole thing about emotions being sensible,
+being the domain of computers
+
 concerned with mind-reading as /other people/ do mind reading
 people who 
 "mind reading" as term of art in autism, what autistics lack
 
-*** Social Signal Processing (SSP)
+**** OUTLINED Social Signal Processing (SSP)
+turn to easy critique of its view of emotions as computational, rather than co-constructed interpretive
+also easy critique of emotions being within a single person
+highlight alternatives e.g. boehner, leahu, sengers
 
-*** Pentalnd & distributed self
+**** OUTLINED Ground truth
+point out easy critique that it never found the ground truth it was 'looking for'
+
+**** OUTLINED Affecting affect
+# , or the hard problem of feedback loops
+point out harder truth that it never looked much at how its judgement might AFFECT the phenomena it purports to observe
+
+*** OUTLINED Pentalnd & distributed self
+
 # hmmmmmm
+got closer with idea of distributed models
+like earthquake, perhaps emotions also distributed [parkinson]
+
+easy critique that looked from perspective of manager,
+sought to make workspaces more efficient etc
+
+harder critique that the CONSEQUENCE of this myopic focus
+missed some of the real concerns around privacy, autonomy, security
+
+harder critique that this world has to some extent come to pass as a result
+targeted advertisements,
+digital surveillance to see whos terrorist,
+ now with VR even more intimate 
+ bci promises yet another intimacy, 
+   look at those side-channel attacks and so on, 
+   done with P300 and now there's a startup with a P300 api [], once the stuff of fiction []
+
 *** OUTLINED Transition
-if much past work has already divised MCIs, what work is substantially missing?
-** But, human beliefs at the center
+so i went through nitpicking all these theories,
+but how to remedy? what can we add to conversation that will substantially help to address these critiques across much research?
+** Human beliefs at the center of all
 *** OUTLINED Summary
 this section reviews some work that is substantially untouched by past work:
 the fundamental role of human beliefs in our ability to do anything with MCIs (technology in general)
 human beliefs always at some level of the stack.
 we also outline why this point matters, before concluding with a discussion of what can be done about it
-*** No fixed meaning a priori
+*** TODO No fixed meaning a priori
 # critical lit review
 
-*** Material phenomena we /assign/ meaning
+*** TODO Material phenomena we /assign/ meaning
+*** TODO Why this matters
+** TODO Conclusions
 
-*** Why this matters
+people will continue to build increasingly hi-res models of human bodies in space;, and human environments
+I argued that 
+these models will in general will be informative wrt /the mind/,
+producing what i dub /mind-computer-interfaces/ (MCIs).
 
-** OUTLINED Conclusions
-
-what 2 do now
-WHY IMPT 2 DO
+what 2 do now?
 # justifying the next step of work
-
 - It is now time to see if engineers believe mind is /senseable/
   - See how our theory matches up (or doesn't) with their beliefs
-- One good starting place is the bain
+- One good starting place is the brain
   - But other wearable senosrs can also work .. heart is a good one, lots of connotations there, and may be diff btwn cultures!
+  
+_WHY SO IMPORTANT?_
 
-** Foonotes
+* Heartrate: Attitudes among a general population
+
+_What does last study leave us wanting to know?_
+
+Through a vignette study and a mixed-methods experimental study, this chapter
+argues that people use biosensory data in social, computer-mediated contexts to
+build interpretations relating to the minds of others, even when the biosensory
+data is ambiguous.
+
+* Brain-based authentication
+
+_What does last chapter leave us wanting to know?_
+
+Using qualitative and quantitative results of survey among participants in a
+large (n>10,000), longitudinal health study, this chapter suggests that
+brainscanning is seen as likely to reveal “what a person is thinking or
+feeling.” It locates brain-based authentication specifically as a fruitful case
+for better understanding how particular sensing technologies construct notions
+of a readable mind.
+
+* From scanning brains to reading minds: Talking to engineers about brain-computer interface
+
+_What does last chapter leave us wanting to know?_
+
+This study shifts in focus to software engineers, using a working, brain-based
+authentication technology probe to explore this population’s beliefs about the
+nature of the mind. Although we find a diverse set of beliefs among our
+participants, we discover a shared understanding of the mind as a physical
+entity that can (and, in our participants’ opinions, will) be sensed and
+decoded.
+
+* Who are you really? Probing engineers on authentication and the ground truth of identity
+
+This paper dives deeper into data from Chapter 4’s findings, revealing our
+participants’ beliefs about the nature of the self, as it relates to the goals
+of authentication systems in computer security. We find that the software
+engineers in our study hold complex notions of self involving multiple material
+contingencies over time, which existing authentication systems do not capture.
+We discuss the relevance of our findings for _etc............_
+
+* TODO Conclusion
+
+_????????? belief-practice ?????????_
+_further-future fears_
+
+* Foonotes
 
  [fn:1] Not necessarily the /only/ choice! ...but the choice we will work with here. see Chalmers, D. (1996): The Conscious Mind. and Dennett, Daniel C. (1991). Consciousness Explained. 
-
-* From Scanning Brains to Reading Minds
-Talking to engineers about brain-computer interfaces
-
-
-* Study interpretation in controlled example
-* Unpack and connect to passthoughts questions
-** Authentication as an inteprrative thing
-** Specific epistemelogical commitments about the self
-* Criticality of designers
-# This is my DIS/CSCW methods contribution
-
-Designers have a criticality, can be channeled by activating their "professional vision"
-
-# examples: Odom, Elsden
-
-# John <2017-08-22 Tue>
-# What can you do to enable / facilitate adoption?
-# Package and send off to another phd student?
-
-* Labels are the Other Tough Problem
-
-** Hard part is labels for ground truth
-# philosophically hard
-# should have tools for thinking abt this issue now
-
-** The feed-forward nature of these labels mean they'll build on one another
-
-** My prescriptions?
-* Footnotes
-
-[fn:1] 
