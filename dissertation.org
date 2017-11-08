@@ -7,13 +7,10 @@
 #+LATEX_HEADER: \usepackage[margin=1in,footskip=.75in]{geometry}
 :end:
 
-# TODO - no number, append later* Title Page
-# TODO - no number, append later: * Copyright page or a blank page
 * Abstract
-# TODO - Yes! The first page of your abstract and the first page of your main text both start with ‘1’
-
+** TODO - Yes! The first page of your abstract and the first page of your main text both start with ‘1’
 * Optional preliminary pages
-# TODO - lower case roman numeral page numbers
+** TODO - Lower case roman numeral page numbers
 ** Dedication page
 # for the most beautiful mom the world.
 # we had an amazing, wonderful life together, a life as beautiful and precious as you are.
@@ -59,15 +56,19 @@ Berkeley, California
 
 * How to sense a mind
 
-# TODO - Yes! The first page of your abstract and the first page of your main text both start with ‘1’
-
-
 
 This chapter outlines how theories of a mind that is embodied (beyond the
 brain), distributed (beyond the individual), and extended (to the built
 environment) make the mind amenable to sensing by emerging classes of wearable
 and environmental sensors.
-# I don’t think the “true” nature of the mind matters to me. what matters is that engineers will find a way to decode the mind, because they will structure and define “mind” and “decoding” such that it becomes amenable to their objectives. the question is, what are the consequences for the rest of us?
+# I don’t think the “true” nature of the mind matters to me. what matters is
+# that engineers will find a way to decode the mind, because they will structure
+# and define “mind” and “decoding” such that it becomes amenable to their
+# objectives. the question is, what are the consequences for the rest of us?
+
+** TODO list
+
+*** TODO Yes! The first page of your abstract and the first page of your main text both start with ‘1’
 
 ** OUTLINED Summary
 - introduce mind reading & telepathy as terms for describing this goal
@@ -274,7 +275,14 @@ what 2 do now?
   
 _WHY SO IMPORTANT?_
 
-* Reading mind from heartrate
+* TODO Reading mind from heartrate
+
+While the previous chapter argues that certain framings of the mind make it
+amenable to reading by sensors, this chapter seeks to discover whether /users
+believe/ that biosensors can capture aspects of mind. Through a vignette study
+and a mixed-methods experimental study, this chapter show how people use
+biosensory data (heartrate) in social, computer-mediated contexts to build
+interpretations relating to the minds of others.
 
 ** TODO list
 
