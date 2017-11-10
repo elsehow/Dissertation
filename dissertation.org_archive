@@ -1,324 +1,87 @@
-:frontmatter:
-#+Title: Essays on Mind-Reading Machines
-#+Author: Nick Merrill
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="ext/style1.css" />
-#+TODO: TODO OUTLINED DRAFTED | DONE SUBMITTED
-#+OPTIONS: toc:nil
-#+LATEX_HEADER: \usepackage[margin=1in,footskip=.75in]{geometry}
-:end:
+#    -*- mode: org -*-
 
-* Abstract
-** TODO - Yes! The first page of your abstract and the first page of your main text both start with ‘1’
-* Optional preliminary pages
-** TODO - Lower case roman numeral page numbers
-** Dedication page
-# for the most beautiful mom the world.
-# we had an amazing, wonderful life together, a life as beautiful and precious as you are.
-# dad and i carry that life forward everyday, because of the unconditonal love you gave to us,
-# the greatest, most important gift anyone could ever receive.
-# the gift you gave to me and dad.
-# i will always take care of him.
-# until we see you again.
-# I love you forever.
 
-# also, I have been shaving.
-** TODO Table of contents
+Archived entries from file /Users/ffff/Projects/dissertation/dissertation.org
 
-#+BEGIN_EXPORT latex
-% set TOC name to nothing
-% TODO this leaves an awkward space in the TOC
-\renewcommand{\contentsname}{}
-% print TOC
-\tableofcontents
-#+END_EXPORT
 
-** List of figures, list of tables, list of symbols
-** TODO Preface or introduction
-
-Machines will someday read the mind.
-I know. But they will.
-``We'' will find a way to make them,
-and ``we'' will use any tools at our disposal to do so.
-
-The primary tool we will use is our own interpretation, and theories
-of the mind, projecting it onto a physical reality
-that is less definite than ``we'' would sometimes like to imagine.
-
-Who is this ``we''?
-This dissertation looks primarily (though not exclusively) at software professionals
-in the San Francisco Bay Area.
-
-_etc..._
-
-Nick Merrill
-Berkeley, California
-** TODO Acknowledgements
-
-* How to sense a mind
-
-
-This chapter outlines how theories of a mind that is embodied (beyond the
-brain), distributed (beyond the individual), and extended (to the built
-environment) make the mind amenable to sensing by emerging classes of wearable
-and environmental sensors.
-# I don’t think the “true” nature of the mind matters to me. what matters is
-# that engineers will find a way to decode the mind, because they will structure
-# and define “mind” and “decoding” such that it becomes amenable to their
-# objectives. the question is, what are the consequences for the rest of us?
-
-
-** TODO list
-
-*** TODO Yes! The first page of your abstract and the first page of your main text both start with ‘1’
-
-** Chapter
-*** Fun introduction
-
-Consider the ant. The fungal complex /Ophiocordyceps unilateralis sensu lato/
-overtakes the ant's behavior without infecting its brain. Instead, it creates a
-network of coordinated action using the rest of the ant's body, compelling it to
-climb vegetation and bite leaves (behaviors advantageous to the fungi's
-survival).
-# https://phys.org/news/2017-11-zombie-ant-brains-left-intact.html
-# creates meta-brain ontop of existing muscle system ?
-
-We cannot say that the /Ophiocordyceps/ fungal complex controls the host's brain.
-However, given its disruption of the ant's agency in the world,
-we may well say that the fungi controls the ant's /mind/.
-
-This anecdote gestures toward a notion of mind beyond the brain.
-_etc, lay out what this chapter does_...
-*** OUTLINED Summary
-- introduce mind reading & telepathy as terms for describing this goal
-  - /mind/-computer interface (v. brain-computer interface)
-- understand how tehoreis of mind support these terms
-- recast past work under the guise of these terms
-- surface the primacy of human interpretation, focus as a point of future (necessary) research
-*** Mind reading & Telepathy
-**** OUTLINED Summary
-- introduce mind reading & telepathy as terms for describing this goal
-  - /mind/-computer interface (v. brain-computer interface)
-**** OUTLINED Telepathy
-
-*Telepathy*
-
-/tele + pathos/ - Feeling / condition / state at distance.
-
-Compare to
-
-- /tele + vis/ - Vision at a distance
-- /tele + phon/ - Hearing at a distance
-
-Both would have been "magic" at one point!
-
-Perhaps some technology will come along that also turns /telepathy/ into a technical term.
-
-**** OUTLINED Mind-reading
-
-For our purposes,
-
-- Telepathy: The *technical* aspects of encoding, transmission of mind
-
-- Mind-reading: The *social* aspects, interpretation of encoded/transmitted mind
-
-_Some crap about how latter involves interpretation_
-
-However, we will see later in this chapter how unstable this ``boundary'' really is!
-_Some crap about how theres no such thing as raw data etc_
-
-_Some crap about how everything boils down to theory_
-
-**** OUTLINED Mind-computer interface
-
-/Mind-computer interface/
-
-_Compare to BCI, why that term's not sufficient_
-
-_Compare to affective computing, why that term's not sufficinet_
-
-# Transition
-Now, how to perofrm telepathy, mind-reading - in other words, how to produce an MCI?
-clearly we will need some theory to back us up.
-*** Theories make the mind ammenable to sensing
-**** OUTLINED Summary
-this section, look at how existing theories help us in our quest to build an MCI
-show that this possibility is already very much here with current technology, doesn't require anything fancy
-and doesn't necessarily require improvements to brainscanning infra
-**** OUTLINED The physical mind
-# theoretical
-
-What is it? What does it do?
-What is its relationship to the body? To the physical world?
-Two basic beliefs:
-- *Dualism* - The mind has non-physical components
-- *Physicalism* - The mind has only physical components
-If we want to make mind amenable to sensing, 
-we have only one choice! [fn:1] 
-
-
-If we are *physicalists*, 
-we believe some physical theory will eventaully explain the mind.
-Where do we look for such theories?
-
-**** OUTLINED Cognitive science's physical mind
-Cognitive science has historically been an influential source of such theories.
-Cognitive science's goal was and is a computational *model* of cognition.
-Much like physics can inform structural engineering, can these models inform 
-neurosciecne [gallant], psychology [griffiths], AI [hawkins, minsky, bengio/ut guy], design [norman].
-Compelling evidence for computational complexity explaining certain time-related tasks in psychological stimuli [e.g. Shepherd & Metzler, 1971]
-have inspired countless computational models, often in the form of flow diagrams that neatly compartmentalize cognitive ``processes'' such as long-term or short-term memory, attention, etc.
-
-**** TODO Challenges to cognitive science
-# Dreyfus, 1992, /What Computers Can't Do/
-# Winograd & Flores, 1986, /Understanding Computers & Cognition/
-Cognitive science has received considerable criticism over its ``isolationist assumtions.''
-These critiques focus on two challenges, primarily.
-- *Challenge 1*: Focus on the brain
-- *Challenge 2*: Focus on the individual
-
-***** OUTLINED Embodied cognition
-Challenge 1: Focus on the brain.
-Does brain == mind?
-1. *Unstable brain/body dichotomy*. For example, neurons occur body-wide.
-2. *Undervalues role of embodiement*.
-Response: Embodied cognition
-#+BEGIN_QUOTE
-"The exact way organisms are embodied simultaneously 
-constrains and prescribes certain interactions within the environment."
-#+END_QUOTE
-# /Nöe, A., and E. Thompson, 2004, “Are there neural correlates of consciousness?”/
-Resulting ultimately in the "Embodiement Thesis," that 
-"*The agent's beyond-the-brain body* plays a significant 
-causal role in that agent's cognitive processing."
-For example, offloading cognitive work onto the environment.
-
-***** OUTLINED Distributed cognition
-Challenge 2: Focus on the invidiaul.
-As Clark et al propose, 
-"...technological resources such as pens, paper, and 
-personal computers are now so deeply integrated into 
-our everyday lives that we couldn’t accomplish many 
-of our cognitive goals and purposes without them."
-Hutchins revolutionary analysis of pilots on a naval submarine brought this philosophical thesis into the empirical realm
-as ``distributed conition.''
-
-***** TODO Activity theory
-**** OUTLINED Making the mind ammenable to sensing
-
-What good is all this theory?
-These _three_ theories
-provide a picture of the mind that extends beyond the confines of the brain.
-As such, /these theories make the mind amenable to sensing without sensing the brain per se/make the mind amenable to sensing without sensing the brain per se/.
-
-# transition
-Now, if the mind is already /senseable/, has past work already sensed it?
-*** Prior work on mind reading & telepathy
-**** OUTLINED Summary
-this section reviews past work,
-recasting it as being fundamentally /about/ mind-computer interface.
-we make comparisons to the original author's aims,
-pointing out where and why our new lens on this work
-provides useful/fresh/new forms of analysis, and critique,
-as well as new directions for possible future work...
-# lit review
-# recast pror work
-**** OUTLINED Affective computing
-
-acknowledge that AC was onto the whole thing about emotions being sensible,
-being the domain of computers
-
-concerned with mind-reading as /other people/ do mind reading
-people who 
-"mind reading" as term of art in autism, what autistics lack
-
-***** OUTLINED Social Signal Processing (SSP)
-turn to easy critique of its view of emotions as computational, rather than co-constructed interpretive
-also easy critique of emotions being within a single person
-highlight alternatives e.g. boehner, leahu, sengers
-
-***** OUTLINED Ground truth
-point out easy critique that it never found the ground truth it was 'looking for'
-
-***** OUTLINED Affecting affect
-# , or the hard problem of feedback loops
-point out harder truth that it never looked much at how its judgement might AFFECT the phenomena it purports to observe
-
-**** OUTLINED Pentalnd & distributed self
-
-# hmmmmmm
-got closer with idea of distributed models
-like earthquake, perhaps emotions also distributed [parkinson]
-
-easy critique that looked from perspective of manager,
-sought to make workspaces more efficient etc
-
-harder critique that the CONSEQUENCE of this myopic focus
-missed some of the real concerns around privacy, autonomy, security
-
-harder critique that this world has to some extent come to pass as a result
-targeted advertisements,
-digital surveillance to see whos terrorist,
- now with VR even more intimate 
- bci promises yet another intimacy, 
-   look at those side-channel attacks and so on, 
-   done with P300 and now there's a startup with a P300 api [], once the stuff of fiction []
-
-**** OUTLINED Transition
-so i went through nitpicking all these theories,
-but how to remedy? what can we add to conversation that will substantially help to address these critiques across much research?
-*** Human beliefs at the center of all
-**** OUTLINED Summary
-this section reviews some work that is substantially untouched by past work:
-the fundamental role of human beliefs in our ability to do anything with MCIs (technology in general)
-human beliefs always at some level of the stack.
-we also outline why this point matters, before concluding with a discussion of what can be done about it
-**** TODO No fixed meaning a priori
-# critical lit review
-
-**** TODO Material phenomena we /assign/ meaning
-**** TODO Why this matters
-*** TODO Conclusions
-
-people will continue to build increasingly hi-res models of human bodies in space;, and human environments
-I argued that 
-these models will in general will be informative wrt /the mind/,
-producing what i dub /mind-computer-interfaces/ (MCIs).
-
-what 2 do now?
-# justifying the next step of work
-- It is now time to see if engineers believe mind is /senseable/
-  - See how our theory matches up (or doesn't) with their beliefs
-- One good starting place is the brain
-  - But other wearable senosrs can also work .. heart is a good one, lots of connotations there, and may be diff btwn cultures!
-  
-_WHY SO IMPORTANT?_
-
-* TODO Reading mind from heartrate
-
-While the previous chapter argues that certain framings of the mind make it
-amenable to reading by sensors, this chapter seeks to discover whether /users
-believe/ that biosensors can capture aspects of mind. Through a vignette experiment
-and a mixed-methods experimental study, this chapter show how people use
-biosensory data (heartrate) in social, computer-mediated contexts to build
-interpretations relating to the minds of others.
-
-** TODO Introduction
+* Introduction
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 08:44
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/CSCW
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
 
 As of 2016, several apps allow users to share their heartrate with their
-friends, leading some cite:McNell2015 to wonder why anyone would anyone want to do such a
+friends, leading some [19] to wonder why anyone would anyone want to do such a
 thing. In fact, heartrate is a potentially rich signal for designers. The
-meaning of a heartrate in any given context is at once socially informative 
-cite:Frey2016a,Slovak2012
-and highly ambiguous 
-cite:Merrill2010a.
+meaning of a heartrate in any given context is at once socially informative [14,
+25] and highly ambiguous [20]. While existing work establishes the centrality of
+context in shaping interpretations of a shared heartrate [20, 25], our
+understanding of what heartrate can mean as a computermediated cue, and how
+interpretations of heartrate might affect social behavior, remains extremely
+limited.
 
 After all, heartrate is not just some number. The sense of one’s heartbeat is an
 integral feature of the human experience, and people’s associations with it
-range from intimacy cite:Janssen2010 to anxiety cite:Decaria1974 to sexual
-arousal cite:Valins1966. Many heartrate sharing applications rely on these
-associations, asking users to ascribe contextual meanings to heartrate
-cite:Kastrenakes2014,Slovak2012, often with the aim of increasing intimacy
-cite:Janssen2010. The advertising copy for Cardiogr.am, one smartwatch app, reads,
+range from intimacy [16] to anxiety [11] to sexual arousal [28]. Many heartrate
+sharing applications rely on these associations, asking users to ascribe
+contextual meanings to heartrate [5, 9, 23, 25], often with the aim of
+increasing intimacy [16]. For example, Apple Watch's heartrate sharing feature
+seems to be aimed at romantic partners [17]. The mobile app Cardiogr.am's
+website asks users, "What's your heart telling you?" [5]. These applications,
+along with many others, rely on the fact that people will imbue their heartrate
+data with emotional, and highly contextual interpretations. Given the relatively
+large number of wearables with embedded heartrate monitors (watches, bands, even
+earbuds) [27], it is unsurprising that designers are looking beyond fitness and
+health for ways to increase user engagement with these devices [5, 17]. However,
+it is not clear how individuals will interpret a shared biosignal (e.g.
+heartrate) in different contexts of social interaction.
+
+In this study, we focus on uncertain social interactions, in which individuals
+can cooperate and develop trust. The development of cooperation and trust in the
+presence of uncertainty is both of theoretical importance to CSCW [3, 6, 7, 20,
+24], and of practical importance, considering many technology-mediated
+heartrate-sharing projects aim to “enhance” cooperation, trust and intimacy [15,
+25]. 
+We apply quantitative and qualitative analyses to an iterated prisoner's
+dilemma game, in which heartrate information (“elevated” or “normal”) was shared
+between players (Study 1). In a follow-up study (Study 2), we replicate our
+initial study, but replace heartrate with an unfamiliar biosignal, “Skin
+Reflectivity Index (SRI).”
+
+Our results raise important questions for applications that transmit
+sensor-derived signals socially between users. For signals with strong cultural
+associations, people’s prior beliefs will color their interpretations, and
+social outcomes may or may not be positive. In the case of novel signals, on the
+other hand, our results imply that designers can (perhaps inadvertently) teach
+users to associate these biosignals with social meanings. This effect could be
+viewed as beneficial, depending on design objectives. It could also be dangerous
+if designers suggest, perhaps even inadvertently, interpretations that lead to
+discrimination.
+
+
+* Introduction
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 08:45
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/ACM Group
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
+
+What could your heartrate possibly tell another person about you? Past work has
+cited intimacy as a grounds for heartrate sharing [1,16,21,26]. However, it is
+not clear that these applications capture the full expressive capacity of
+heartrate as a computermediated cue. Does sharing a heartrate always “enhance”
+intimacy and trust? What is the social interpretation of an elevated heartrate
+in different contexts of interaction?
+
+As biosensors become smaller and cheaper, more consumer devices are presenting
+users and application designers with opportunities to share their physiological
+data with others [18,22,23]. In fact, designers are already beginning to play
+with the notion that social and contextual interpretation may color people’s
+interpretations of biosignals. The advertising copy for Cardiogr.am, one
+smartwatch app, reads,
 
 #+BEGIN_QUOTE
 Your heart beats 102,000 times per day, and it reacts to everything that happens
@@ -326,32 +89,25 @@ in your life—what you're eating, how you exercise, a stressful moment, or a
 happy memory. What's your heart telling you?
 #+END_QUOTE
 
-These applications, along with many others, rely on the fact
-that people will imbue their heartrate data with emotional, and highly
-contextual interpretations. Given the relatively large number of wearables with
-embedded heartrate monitors (watches, bands, even earbuds) cite:Stables2016, it
-is unsurprising that designers are looking beyond fitness and health for ways to
-increase user engagement with these devices. However, it is not clear how
-individuals will interpret a shared biosignal (e.g. heartrate) in different
-contexts of social interaction.
+This application, along with many others, capitalizes on the idea that people
+project contextual interpretations onto heartrates, making them potentially
+interesting to share socially. However, few empirical studies examine how
+context shapes the interpretation of another person’s heartrate [25], or how
+these interpretations might affect attributions of mood or emotion, or
+fundamental social attitudes such as trust.
 
-This chapter examines what heartrate can mean as a computer-mediated cue,
-and how interpretations of heartrate affect social attitudes and social behavior.
-_etc about the mind......_
-
-First, we use a vignette study to investigate how individuals make social
-interpretations about a rudimentary biosignal (heartrate) in conditions of
-uncertainty, focusing on dyadic interactions between acquaintances. Dyadic
-relations, which are present in all groups, function as a fundamental starting
-point for understanding interpersonal collaboration and group interactions
-cite:Cheshire2010. We describe the quantitative and qualitative results of a
-randomized vignette experiment in which subjects make assessments about an
-acquaintance based on an imagined scenario that included shared heartrate
-information. We examine two contexts in this study: an uncertain,
-non-adversarial context and an uncertain, adversarial context. These two
-contexts, differing only by a few words, ask participants to imagine they are
-meeting someone "for a movie" (non-adversarial) or "to discuss a legal dispute”
-(adversarial).
+In this paper, we investigate how individuals make social interpretations about
+a rudimentary biosignal (heartrate) in conditions of uncertainty, focusing on
+dyadic interactions between acquaintances. Dyadic relations, which are present
+in all groups, function as a fundamental starting point for understanding
+interpersonal collaboration and group interactions [4]. We describe the
+quantitative and qualitative results of a randomized vignette experiment in
+which subjects make assessments about an acquaintance based on an imagined
+scenario that included shared heartrate information. We examine two contexts in
+this study: an uncertain, non-adversarial context and an uncertain, adversarial
+context. These two contexts, differing only by a few words, ask participants to
+imagine they are meeting someone "for a movie" (non-adversarial) or "to discuss
+a legal dispute” (adversarial).
 
 We find that a high heartrate transmits negative cues about mood in both
 contexts of interaction, but that these cues do not appear to impact assessments
@@ -368,123 +124,96 @@ also find a small number of subjects read different social interpretations onto
 the heartrate signal, including a very small minority who did not infer any
 relationship between the heartrate and the social situation.
 
-From these findings about social attitudes, we then move to an experimental
-study to understand how shared heartrate effects social behavior. We apply
-quantitative and qualitative analyses to an iterated prisoner's dilemma game, in
-which heartrate information (“elevated” or “normal”) was shared between players.
-In a follow-up study, we replicate our initial study, but replace heartrate with
-an unfamiliar biosignal, “Skin Reflectivity Index (SRI).”
-
-Our results raise important questions for applications that transmit
-sensor-derived signals socially between users. For signals with strong cultural
-associations, people’s prior beliefs will color their interpretations, and
-social outcomes may or may not be positive. In the case of novel signals, on the
-other hand, our results imply that designers can (perhaps inadvertently) teach
-users to associate these biosignals with social meanings. This effect could be
-viewed as beneficial, depending on design objectives. It could also be dangerous
-if designers suggest, perhaps even inadvertently, interpretations that lead to
-discrimination.
-
-_Wrap-up about the mind....._
-
-** Background
-
-*** Sharing sensor data
-
-To date, most work on the contextual interpretation of sensor data has focused
-on individual interpretation of individual data (c.f. quantified self). In
-contrast, our work attempts to move toward an understanding of how biosignals
-are interpreted in interpersonal interactions – the quantified social self. This
-shift is motivated, in part, by an increasing number of consumer applications
-that support sharing biosignals such as heartrate. Especially pertinent to our
-study, it is not well understood what heartrate actually signals to another
-person in a social interaction. How might the contextual, social interpretation
-of another person's biosignals affect social interpretations of mood (e.g.,
-anxiety, calmness), or attitudes about trustworthiness and dependability?
-
-Goffman cite:Goffmann1959 (p 56) makes an important distinction between the cues
-that we intend to give to others, and those that are “given off” unintentionally
-through our numerous non-verbal actions and behaviors. We view physiological
-signals such as heartrate as a form of non-verbal signaling that can “give off”
-more information to others than the sender may desire cite:Howell2016. This type
-of personal data revealed through discreet sensors paired with mobile
-communication technologies has, until recently, been unavailable in most forms
-of social interaction.
-
-*** Sharing physiological data
+Where past work establishes that heartrate has contextual meanings, this study
+aims to establish the relative effect of the elevated (versus normal) signal on
+social attitudes regarding trust, reliability and dependability. Understanding
+these effects could shed light on why people agree or refuse to disclose
+biosignals in interpersonal relationships and groups, and what individuals risk
+by making such disclosures. As we better understand the social interpretations
+of biosignals, we can inform the design of technologies that facilitate
+biosignal sharing in groups.
 
 
-Prior work interrogates the contextual interpretation of personal data from
-certain kinds of sensors cite:Choe2011a,Consolvo2005, but physiological data has
-received less attention, despite two crucial differences from sensors that
-capture information such as location (e.g., GPS). First, biosensor data are
-intrinsically ambiguous: whereas a GPS coordinate refers to one specific place,
-heartrates do not have oneto-one mappings to physical activities or emotions.
-Second, physiological phenomena vary from person to person; 60bpm could be high
-or low depending on whose heartrate it is. A relatively large body of work has
-looked at how the transmission of physiological data might play a role in
-computermediated communication. One class of application has attempted to
-explicitly encourage or discourage certain behavioral outcomes, making some
-biosignals apparent such that the transmission of the data acts as a social cue
-cite:Bergstrom2011. Another class of prototypes explores how signals might
-affect feelings of intimacy, particularly between romantic partners
-cite:Bell2003, and several applications focus on the transmission of heartrate
-as a means to achieve this effect cite:Janssen2010,McNell2015.
+* Introduction
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 08:45
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/ACM Group
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
 
-*** Sharing heartrate
+What could your heartrate possibly tell another person about you? Past work has
+cited intimacy as a grounds for heartrate sharing [1,16,21,26]. However, it is
+not clear that these applications capture the full expressive capacity of
+heartrate as a computermediated cue. Does sharing a heartrate always “enhance”
+intimacy and trust? What is the social interpretation of an elevated heartrate
+in different contexts of interaction?
 
-Heartrate has deep-rooted cultural significance in many societies, and
-near-universal familiarity as a feature of our lived experiences. Building on
-associations with intimacy and love, many heartrate sharing applications have
-aimed to “enhance” social connectedness by fostering feelings of intimacy
-cite:Janssen2010,hassibheartchat between people.
+As biosensors become smaller and cheaper, more consumer devices are presenting
+users and application designers with opportunities to share their physiological
+data with others [18,22,23]. In fact, designers are already beginning to play
+with the notion that social and contextual interpretation may color people’s
+interpretations of biosignals. The advertising copy for Cardiogr.am, one
+smartwatch app, reads,
 
-What heartrate means as a computer-mediated cue, however, is ambiguous, its
-potential interpretations varying widely in different contexts
-cite:Lotan2007,Slovak2012. Boehner et al (2007) argue for the intrinsic
-ambiguity of sensor data as a resource in design, particularly in systems that
-seek to use these data to express emotion cite:Boehner2007b. Many technology
-probes corroborate this stance, relying on users to project socially contextual
-meanings around a transmitted heartrate. Consequently, more recent work has
-challenged the notion that the social consequences of transmitting physiological
-data will always result in increased trust and intimacy. There remains little
-work, however, on how the potential ambiguity of a heartrate signal is resolved
-in social conditions of risk and uncertainty.
+#+BEGIN_QUOTE
+Your heart beats 102,000 times per day, and it reacts to everything that happens
+in your life—what you're eating, how you exercise, a stressful moment, or a
+happy memory. What's your heart telling you?
+#+END_QUOTE
 
-** TODO Vignette experiment
+This application, along with many others, capitalizes on the idea that people
+project contextual interpretations onto heartrates, making them potentially
+interesting to share socially. However, few empirical studies examine how
+context shapes the interpretation of another person’s heartrate [25], or how
+these interpretations might affect attributions of mood or emotion, or
+fundamental social attitudes such as trust.
 
-_TODO Introduce this particular study, move text_
-# We investigate interpretations of a biosignal (heartrate) in uncertain social
-# interactions. We describe the quantitative and qualitative results of a
-# randomized vignette experiment in which subjects were asked to make assessments
-# about an acquaintance based on an imagined scenario that included shared
-# heartrate information. We compare the results of this experiment in adversarial
-# and non-adversarial contexts of interaction. We find that elevated heartrate
-# transmits cues about mood in both contexts, but that these cues do not appear to
-# impact assessments of trustworthiness, reliability and dependability. Counter to
-# our expectations, we find that normal (rather than elevated) heartrate leads to
-# negative trust-related assessments, but only in an adversarial context. Our
-# qualitative analysis points to the role of social expectations in shaping
-# contextual interpretations of heartrate, and reveals individual differences in
-# the way interpretations are constructed. We unpack some of the ways that social
-# meanings can arise from biosensor data, and discuss considerations for those
-# designing interactions with wearables.
+In this paper, we investigate how individuals make social interpretations about
+a rudimentary biosignal (heartrate) in conditions of uncertainty, focusing on
+dyadic interactions between acquaintances. Dyadic relations, which are present
+in all groups, function as a fundamental starting point for understanding
+interpersonal collaboration and group interactions [4]. We describe the
+quantitative and qualitative results of a randomized vignette experiment in
+which subjects make assessments about an acquaintance based on an imagined
+scenario that included shared heartrate information. We examine two contexts in
+this study: an uncertain, non-adversarial context and an uncertain, adversarial
+context. These two contexts, differing only by a few words, ask participants to
+imagine they are meeting someone "for a movie" (non-adversarial) or "to discuss
+a legal dispute” (adversarial).
 
-Compared to social interpretations of physiological signals, interpretations of
-one’s own signals are slightly better-understood from empirical research.
-Individuals’ interpretations of their own heartrate have received particular
-attention (see cite:Parkinson1985 for a review). Studies have generally revealed
-that, when individuals believe that their heartrate is elevated, they sometimes
-believe their mood and emotions to be more negative cite:Young1982a.
+We find that a high heartrate transmits negative cues about mood in both
+contexts of interaction, but that these cues do not appear to impact assessments
+of trustworthiness, reliability or dependability. Counter to our initial
+predictions, we find that normal (rather than elevated) heartrate leads to
+negative trust-related assessments, but only in the adversarial context. In
+qualitative assessments of subjects’ attitudes and beliefs, we find that normal
+heartrate in the adversarial condition conflicts with expectations about how the
+participant believes the acquaintance should feel, signaling a lack of concern
+or seriousness, which appears to lead individuals to view the acquaintance as
+less trustworthy. In contrast, subjects in the non-adversarial context relate
+elevated heartrate to empathy and identification rather than trustworthiness. We
+also find a small number of subjects read different social interpretations onto
+the heartrate signal, including a very small minority who did not infer any
+relationship between the heartrate and the social situation.
 
-If lay interpretations of one’s own heartrate can yield negative
-self-interpretations, sharing heartrate information could also yield negative
-effects on mood and trustworthiness, particularly during uncertain interactions
-where something is at stake (such as time, money, or other valued resources). To
-investigate, we use a mixed-methods approach combining quantitative and
-qualitative analyses of a survey-based vignette experiment.
+Where past work establishes that heartrate has contextual meanings, this study
+aims to establish the relative effect of the elevated (versus normal) signal on
+social attitudes regarding trust, reliability and dependability. Understanding
+these effects could shed light on why people agree or refuse to disclose
+biosignals in interpersonal relationships and groups, and what individuals risk
+by making such disclosures. As we better understand the social interpretations
+of biosignals, we can inform the design of technologies that facilitate
+biosignal sharing in groups.
 
-*** Hypotheses
+
+* Interpreting biosignals in uncertain social interactions
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 08:58
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/ACM Group
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
 
 Based on aforementioned studies of individual's negative emotional
 interpretation of their own heartrate, we believe that this negative valence
@@ -495,19 +224,18 @@ both hypotheses in two different contexts of interaction (adversarial and
 non-adversarial) to understand how the context of risk and uncertainty affects
 social interpretations of heartrate.
 
-**** Heartrate and Mood
+** Heartrate and Mood
 
 Past work indicates that people tend to make negative inferences about mood and
-emotion from elevated heartrates cite:Decaria1974,Gu2012,Young1982. As such, our
-first hypothesis predicts that participants will adjust their attitudes about
-the mood of their partner when their partner’s heartrate is elevated, as opposed
-to normal: Hypothesis 1: When individuals believe that their partner has an
-elevated heartrate in an uncertain social interaction, they will report their
-partner as being (1a), less calm (1b), more emotional (1c), and more easily
-upset (1d), compared to those who believe that their partner has a normal
-heartrate.
+emotion from elevated heartrates [9,13,27]. As such, our first hypothesis
+predicts that participants will adjust their attitudes about the mood of their
+partner when their partner’s heartrate is elevated, as opposed to normal:
+Hypothesis 1: When individuals believe that their partner has an elevated
+heartrate in an uncertain social interaction, they will report their partner as
+being (1a), less calm (1b), more emotional (1c), and more easily upset (1d),
+compared to those who believe that their partner has a normal heartrate.
 
-**** Heartrate and Trustworthiness
+** Heartrate and Trustworthiness
 
 Where Hypothesis 1 predicts that individuals will make negative assessments
 about an acquaintance’s mood based on elevated heartrate, our second hypothesis
@@ -521,11 +249,110 @@ assessments about the partner’s trustworthiness (2a), reliability (2b), and
 dependability (2c), compared to those who believe that their partner has a
 normal heartrate.
 
-*** Methods
+
+* Social interpretations from physiological signals
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 08:58
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/ACM Group
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
+
+To date, most work on the contextual interpretation of sensor data has focused
+on individual interpretation of individual data (c.f. quantified self). In
+contrast, our work attempts to move toward an understanding of how biosignals
+are interpreted in interpersonal interactions – the quantified social self. This
+shift is motivated, in part, by an increasing number of consumer applications
+that support sharing biosignals such as heartrate. Especially pertinent to our
+study, it is not well understood what heartrate actually signals to another
+person in a social interaction. How might the contextual, social interpretation
+of another person's biosignals affect social interpretations of mood (e.g.,
+anxiety, calmness), or attitudes about trustworthiness and dependability?
+
+Goffman [12:56] makes an important distinction between the cues that we intend
+to give to others, and those that are “given off” unintentionally through our
+numerous non-verbal actions and behaviors. We view physiological signals such as
+heartrate as a form of non-verbal signaling that can “give off” more information
+to others than the sender may desire [15]. This type of personal data revealed
+through discreet sensors paired with mobile communication technologies has,
+until recently, been unavailable in most forms of social interaction.
+
+As Donath (2007) argues, when we use communication technologies for
+interpersonal and group interactions, we do so as a way to keep track of our
+evolving relationships with other people and, critically, to know whom to trust
+[10]. Crucially, we rely on signals such as verbal communication, facial
+expressions, gestures, and other patterns of activity to help us fill the gap
+between what someone is doing and why they are doing it [11]. So, when new forms
+of biosensory information, like heartrate, are suddenly available in social
+interaction, significant questions arise surrounding the inferences that we
+might draw from these signals, how the context in which they are presented may
+shape our interpretations, and how this information may affect our subsequent
+beliefs and behaviors towards others.
+
+** Contextual interpretations of sensor data
+
+Prior work interrogates the contextual interpretation of personal data from
+certain kinds of sensors [6,7], but physiological data has received less
+attention, despite two crucial differences from sensors that capture information
+such as location (e.g., GPS). First, biosensor data are intrinsically ambiguous:
+whereas a GPS coordinate refers to one specific place, heartrates do not have
+oneto-one mappings to physical activities or emotions. Second, physiological
+phenomena vary from person to person; 60bpm could be high or low depending on
+whose heartrate it is. A relatively large body of work has looked at how the
+transmission of physiological data might play a role in computermediated
+communication. One class of application has attempted to explicitly encourage or
+discourage certain behavioral outcomes, making some biosignals apparent such
+that the transmission of the data acts as a social cue [2,19]. Another class of
+prototypes explores how signals might affect feelings of intimacy, particularly
+between romantic partners [1], and several applications focus on the
+transmission of heartrate as a means to achieve this effect [16,25,26].
+
+Despite a number of applications that transmit biosignals socially, there
+remains little work on how people interpret the biosignals they see from others.
+Past studies on heartrate sharing indicate that people do read social emotional
+cues in the heartrates of other people [20,25]. However, it is still not
+well-understood what social meanings these signals take on in different social
+contexts and, in contrast to the findings of previous studies, it is not clear
+that the social consequences of transmitting physiological data will always be
+positive (e.g., increased intimacy).
+
+In this study, we are particularly interested in trust, due its centrality to
+the study of group behavior, and to the claims of prior research on heartrate
+sharing [16]. We apply the encapsulated interest view of trust [14], in which
+one person’s interest is intrinsically connected with the interests of another
+person [5]. Since trust between individuals is only salient in the presence of
+risk and uncertainty [8], we test our hypotheses about the effects of heartrate
+information on evaluations of trust in social contexts with different degrees of
+risk and uncertainty.
+
+** The social meaning of a heartrate
+
+Compared to social interpretations of physiological signals, interpretations of
+one’s own signals are slightly better-understood from empirical research.
+Individuals’ interpretations of their own heartrate have received particular
+attention (see [24] for a review). Studies have generally revealed that, when
+individuals believe that their heartrate is elevated, they sometimes believe
+their mood and emotions to be more negative [27].
+
+If lay interpretations of one’s own heartrate can yield negative
+self-interpretations, sharing heartrate information could also yield negative
+effects on mood and trustworthiness, particularly during uncertain interactions
+where something is at stake (such as time, money, or other valued resources). To
+investigate, we use a mixed-methods approach combining quantitative and
+qualitative analyses of a survey-based vignette experiment.
+
+
+* A survey-based experiment
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 08:58
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/ACM Group
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
 
 To test our hypotheses, we conducted a survey-based vignette experiment.
 Vignette studies involve short descriptions of a scenario, designed to elucidate
-opinions, attitudes, and beliefs about that particular situation cite:Jenkins2010.
+opinions, attitudes, and beliefs about that particular situation [17].
 
 In this vignette study, we compare two different contexts of interaction. We do
 not create separate hypotheses for the two different contexts; rather, we are
@@ -545,7 +372,7 @@ manipulate a small piece of information about the heartrate of the acquaintance:
 We tell the participant that the heartrate of the acquaintance has been shared
 by the acquaintances’ smartphone and it is either elevated or normal.
 
-**** Sample
+** Sample
 
 Our sample was undergraduate students recruited from the population of a large,
 public university on the West Coast of the U.S. Potential participants were
@@ -557,7 +384,7 @@ sample, 65% were women and 34% are male, and 2% (2 subjects) did not identify
 with either gender. With random assignment, the same overall gender split was
 maintained across conditions. The mean age of participants was 23.
 
-**** Vignettes
+** Vignettes
 Each participant in the study saw only one of the four possible vignettes. After
 the vignette, the survey included free response questions about subjects'
 reactions to and interpretations of the situation described in the vignette, as
@@ -576,7 +403,7 @@ Participants were randomly assigned into one of the four conditions. We
 manipulated these heartrate conditions by making a key wording change as
 indicated in the two context vignettes below.
 
-***** Non-Adversarial
+*** Non-Adversarial
 
 #+BEGIN_QUOTE
 You planned to meet your acquaintance for a movie at seven. It's 7:15, and
@@ -587,7 +414,7 @@ app designates as [normal / elevated]. It is currently 75 degrees and sunny.
 Your movie starts at 7:20.
 #+END_QUOTE
 
-***** Adversarial:
+*** Adversarial:
 
 #+BEGIN_QUOTE
 You planned to meet your acquaintance at seven to discuss a difficult legal
@@ -598,7 +425,14 @@ are able to see this person's heartrate, which the app designates as [normal /
 elevated]. It is currently 75 degrees and sunny.
 #+END_QUOTE
 
-*** Quantitative results
+
+* Quantitative results
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 08:58
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/ACM Group
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
 
 We apply both quantitative and qualitative analyses to investigate our research
 questions and hypotheses. The study is based around an experimental design, but
@@ -619,14 +453,14 @@ we find that subjects’ perceptions of the acquaintance in the vignette’s
 anxiety, his/her tendency to be easily upset, his/her tendency to be emotional,
 and his/her lack of calmness were all significantly higher in the elevated
 heartrate conditions when compared to the normal heartrate conditions (see
-Figure [[fig:mood-attitude]]). We found no significant effect for the two contexts
-of interaction, F (4, 96) = 1.072, p = .38, and no significant effect for the
-context x heartrate condition interaction, F (4, 96) = 1.65, p = .17. In sum,
-individuals significantly rate acquaintances with elevated heartrate as more
-anxious, easily upset, and less calm than those with normal heartrates. In the
-non-adversarial context, individuals did not rate the acquaintances as
-significantly more emotional in the elevated condition compared to normal, but
-this difference was statistically significant in the adversarial context.
+Figure [[fig:mood-attitude]]). We found no significant effect for the two contexts of interaction, F
+(4, 96) = 1.072, p = .38, and no significant effect for the context x heartrate
+condition interaction, F (4, 96) = 1.65, p = .17. In sum, individuals
+significantly rate acquaintances with elevated heartrate as more anxious, easily
+upset, and less calm than those with normal heartrates. In the non-adversarial
+context, individuals did not rate the acquaintances as significantly more
+emotional in the elevated condition compared to normal, but this difference was
+statistically significant in the adversarial context.
 
 The context of interaction (non-adversarial, adversarial) does not have any
 effect on mood ratings. With clear statistical and practical significance for
@@ -667,7 +501,14 @@ therefore not supported. However, the strong findings (statistically and
 practically significant) in the opposite direction from our prediction warrant
 further exploration in the qualitative results and discussion below.
 
-*** Qualitative results
+
+* Qualitative results
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 08:58
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/ACM Group
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
 Directly after the vignette, participants were asked four freeresponse questions
 about their reactions to the situation described in the vignette: 1) How do you
 react to this message, 2) What makes you react this way, 3) What is the ideal
@@ -678,12 +519,12 @@ and those that included a mention of what the other person in the situation
 might be thinking or feeling. Responses in the latter category were further
 sub-divided by experimental condition for analysis.
 
-**** Adversarial Context
+** Adversarial Context
 
 This section reports on the qualitative analysis of free responses given by
 subjects in the adversarial (legal dispute) context.
 
-***** Normal heartrate
+*** Normal heartrate
 
 
 #+NAME: fig:mood-attitude
@@ -735,7 +576,7 @@ unsympathetic and, in some cases, disingenuous. As we see below, these negative
 reactions stand in stark contrast to the interpretations in the elevated
 heartrate condition.
 
-***** Elevated heartrate
+*** Elevated heartrate
 
 In general, participants in the adversarial context viewed elevated
 heartrate as a signal that the acquaintance cared about being late.
@@ -773,12 +614,12 @@ assessments play out will vary in different social situations, with
 different sensors, and in different contexts of use. Such variations
 should be explored much more deeply in future work.
 
-**** Non-Adversarial Context
+** Non-Adversarial Context
 
 This section reports on the qualitative analysis of subjects in the
 non-adversarial context (meeting for a movie),
 
-***** Normal heartrate
+*** Normal heartrate
 
 In the non-adversarial context, many participants reported that
 normal heartrate conveyed a lack of appropriate social concern:
@@ -814,7 +655,7 @@ These subjects seemed to feel annoyed by the partner’s normal heartrate.
 However, in contrast to the adversarial context, no subjects explicitly stated
 that the other person seemed less trustworthy, honest or reliable as a result.
 
-***** Elevated heartrate
+*** Elevated heartrate
 The majority of respondents in the non-adversarial indicated that
 the elevated heartrate was a token of the other person’s regret for
 being late to the movie. Many participants in this condition
@@ -845,7 +686,7 @@ gestures toward the highly contextual nature of heartrate’s social meaning, an
 why more work should examine the consequences of these different
 interpretations.
 
-**** Other interpretations of heartrate: Relevance, validity, creepiness
+** Other interpretations of heartrate: Relevance, validity, creepiness
 
 In addition to the major themes noted above, we also found a few
 other important interpretations. A small handful of participants 
@@ -855,7 +696,7 @@ that surfaced surrounded concerns about privacy, doubts about the
 accuracy of the sensing device, and doubts about the relevance of
 heartrate to the particular context.
 
-***** Privacy and disclosure concerns
+*** Privacy and disclosure concerns
 
 Only three subjects in the entire experiment pool (n=103)
 commented on the potential for invasiveness or over-disclosure in
@@ -878,7 +719,7 @@ explained by the fact that the scenario was imagined, rather that
 simulated, and because subjects might have anticipated our
 interest in their reactions to the interface.
 
-***** Validity of the device’s data
+*** Validity of the device’s data
 
 Four subjects mentioned the possibility that the device, or the
 intuitive inferences drawn from it, may be inaccurate.
@@ -902,7 +743,7 @@ fallibility of particular devices was not on subjects’ minds. However, the tru
 that people place in sensing devices, and the presumed authority of their data,
 should be explored thoroughly in future work.
 
-***** Relevance of heartrate to the social situation
+*** Relevance of heartrate to the social situation
 
 Only two subjects in the study who mentioned heartrate felt that the data
 was not necessarily related to the specific social situation described in the
@@ -927,143 +768,55 @@ results indicate that simply making the heartrate salient, in the
 absence of other cues, invites people to project a causal narrative
 on the mood, intentions, and behavior of others.
 
-*** Discussion
 
-We began this investigation by asking how individuals might interpret heartrate
-information in uncertain social interactions. Our hypotheses are both based on
-the simple rationalization that the kinds of negative attributions that people
-tend to make about their own heartrate will be echoed in their social
-interpretations of others’ heartrates in uncertain contexts. We found, however,
-a much more complex story about the social interpretation of biosignals and the
-context of interaction.
+* What can a heartrate mean?
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 09:03
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/CSCW
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
 
-Our first hypothesis predicts that an elevated heartrate will be negatively
-associated with assessments about mood and dispositions in uncertain social
-interactions, both adversarial and non-adversarial. We found strong support for
-this hypothesis in both contexts, across our outcome attributions, in line with
-prior works’ findings regarding interpretation of one’s own heartrate cite:Young1982. Our
-second hypothesis predicts that an elevated heartrate will lead to negative
-assessments about the partners’ trustworthiness, dependability and reliability.
-As with our first hypothesis, we expected that pre-existing negative
-connotations with heartrate might translate into negative expectations of
-trustrelated behavior.
+Heartrate has deep-rooted cultural significance in many societies, and
+near-universal familiarity as a feature of our lived experiences. Building on
+associations with intimacy and love, many heartrate sharing applications have
+aimed to “enhance” social connectedness by fostering feelings of intimacy [16,
+18, 21, 30] between people.
 
-We rejected the second hypothesis in both contexts of interaction. In the
-non-adversarial context, we found no difference in assessments of
-trustworthiness, dependability or reliability in the elevated and normal
-heartrate conditions. Furthermore, we found that the average assessments on
-these three outcomes were nearly identical between the elevated condition in the
-adversarial context and the elevated and normal conditions in the
-non-adversarial context.
+What heartrate means as a computer-mediated cue, however, is ambiguous, its
+potential interpretations varying widely in different contexts [20, 25]. Boehner
+et al (2007) argue for the intrinsic ambiguity of sensor data as a resource in
+design, particularly in systems that seek to use these data to express emotion
+[2]. Many technology probes corroborate this stance, relying on users to project
+socially contextual meanings around a transmitted heartrate [5, 25, 29].
+Consequently, more recent work has challenged the notion that the social
+consequences of transmitting physiological data will always result in increased
+trust and intimacy [15, 25]. There remains little work, however, on how the
+potential ambiguity of a heartrate signal is resolved in social conditions of
+risk and uncertainty.
 
-Most surprisingly, we find a decrease in trustworthiness, dependability, and
-reliability in the normal heartrate condition, but only in the adversarial
-context. As noted in the quantitative results, the differences between the
-elevated and normal conditions in the adversarial context were highly
-statistically significant: each of the trust-related measures saw an average
-decrease of one full point (on a 7-point scale) in the normal condition compared
-to the elevated condition.
 
-To help explain these results, we turn to our qualitative analyses of the
-adversarial (legal dispute) context. Subjects in the adversarial context seemed
-to have expected their partner to have an elevated heartrate. When the partner
-had a normal heartrate, participants viewed it as evidence that s/he is not
-bothered enough, not taking the situation seriously, or perhaps even lying.
-Indeed, many participants explicitly stated in the open text responses that they
-trusted the partner less because his or her heartrate was normal.
+* Heartrate, mood, cooperation and trust
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 09:07
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/CSCW
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
 
-Why do we not see the same effect in the non-adversarial context? Turning again
-to the qualitative data, we find that participants took elevated heartrate as a
-token of their acquaintances’ genuine desire to arrive on time. It seems that
-elevated heartrate led many participants in the non-adversarial context to
-increase their empathy, identification, and understanding of the partners’
-situation. Thus, even though individuals in the non-adversarial condition
-associate elevated heartrate with anxiety, lack of calmness, and being easily
-upset, the negative emotional interpretations do not seem to translate to
-evaluations of one’s trustworthiness, dependability or reliability.
+Past studies on heartrate sharing indicate that people do read social emotional
+and mood cues in other people’s heartrate [20, 25]. In this study, we focus on
+the association between heartrate information and assessments of mood, as well
+as behavioral outcomes of cooperation and trust towards another person.
+Throughout this paper, we refer to the other person that one might trust or
+cooperate with in social interaction as an exchange partner, or simply ‘partner’
+for short.
 
-Taken together, we see that heartrate does not inherently (or consistently)
-affect trust-related outcomes. Instead, social expectations shape
-interpretations of the heartrate biosignal to create highly contextual,
-socially-specific meanings. CMC researchers have long noted that, when cues are
-omitted from technology-mediated interaction, people tend to fill in the gaps
-[3,10]. However, individuals may interpret new types of interpersonal data in
-ways we do not yet understand. Our work provides some evidence that such
-interpretations might have real social consequences. The fact that heartrate
-alone can significantly alter one’s perception of trustworthiness in an
-adversarial context is an important step towards the larger goal of unpacking
-social interpretations (and their effects) in technologysupported social
-interaction. (For one thing, the mostly positive social interpretations of
-heartrate observed in past work are likely highly dependent on the social
-context in which they were observed).
-
-Finally, we note a diversity of opinions and interpretations within conditions.
-For example, a few subjects took normal heartrate as proof of honesty, the
-opposite view from the majority of subjects. A few subjects did not feel there
-was necessarily any relationship between heartrate and the social situation at
-hand. A small minority (three subjects) mentioned concerns around privacy or
-disclosure. The wide range of views, sometimes contradictory, highlights the
-complexity intrinsic to interfaces that collect and share biosignals, and
-warrants future studies into social and contextual interpretation of data from
-wearable devices.
-
-*** Limitations
-
-Our vignette experiment examined a single type of scenario in two different
-contexts, using text-based answers. We still have a limited picture of the range
-of theoretically important contexts in which individuals may observe and
-interpret biosignals about others, and a limited understanding of how the rich
-cues present in realistic interaction contexts might bare on our findings. Our
-study focused on a first-time interaction with an imagined heartrate sharing
-interface. We do not know how our findings would hold over time, and it is very
-likely that social meanings of any biosignal could become more consistent over
-time. The vignette scenario was contrived from believable, but currently
-non-existent smartphone technology. Either due to participants’ suspension of
-their disbelief or due to their actual attitudes about the heartrate sharing,
-few participants raised questions regarding privacy implications of these
-scenarios.
-
-Since the vignette study took place online, we could have missed the sorts of
-rich contextual cues that might be captured by live interviews or other
-in-person methods. Furthermore, the internet presents a wide array of
-distractions to survey-takers, and our survey was not able to detect the
-participants' attention on the task (e.g.., we could not detect whether the
-subject was switching between tabs in their web browser, or taking breaks during
-the survey), nor did we monitor how long subjects spent filling out the survey.
-
-** TODO Lab-based experiment
-
-Our vignette experiment provides evidence that interpretations of biosignals from sensors
-(such as wearables) can affect social attributions and behaviors towards others.
-Nevertheless, many questions remain. Controlled, behavioral
-experiments could help us ask more specific questions about how elevated
-heartrate affects perceptions of risk in uncertain interactions, e.g. when money
-is at stake. Such studies could lead to a more robust understanding of how the
-transmission of biosignals might affect social behavior. Future work should also
-investigate the degree to which our findings are unique to heartrate. Other
-biosignals (e.g., galvanic skin response, electroencephalography or EEG), could
-offer different affordances for sense-making. It is unclear from our work how
-the social interpretation of the signals from these devices could affect social
-behaviors such as dyadic and group trust.
-
-_TODO NOW introduce current study_
-# This study examines heartrate sharing in the context of a trust-building game.
-# Through quantitative and qualitative analyses, we find that "elevated" (versus
-# “normal”) heartrate of an exchange partner is associated with negative mood
-# attributions and reduced cooperation in a social dilemma game. To investigate
-# how specific our findings are to heartrate (as opposed to some other "elevated"
-# signal collected from the body), we replicate our initial experiment with an
-# unfamiliar biosignal, “skin reflectivity”. We find that both heartrate and the
-# unfamiliar biosignal are associated with negative mood attributions, but we
-# observe a decrease in cooperative behavior only with elevated heartrate.
-# Qualitative results indicate that individuals may learn an association between
-# our unfamiliar biosignal and the cooperative, trusting behavior of their
-# partner. Our findings highlight the role prior beliefs can play in shaping
-# interpretations of a biosignal, while suggesting that designers can, perhaps
-# inadvertently, train users to associate signals with social meanings. We discuss
-# implications for how wearable sensors can mediate social interactions.
-
-_TODO remind that we just talked about this in the last exp_
+In informing our hypotheses about interpersonal interactions with heartrate, we
+look to studies on interpretations of one’s own heartrate, which empirical
+research has explored more deeply [22, 28] (see [33] for a review). These
+studies have revealed that elevated heartrate can yield negative interpretations
+about one’s own mood. 
 Generally when individuals believe that their heartrate is
 elevated, they often believe their mood and emotions to be more negative. Thus,
 we apply this same logic to how individuals will interpret the elevated
@@ -1083,24 +836,32 @@ with other people (entrustment behavior) and learn whether the other person
 honors that trust or not (cooperative behavior). Thus, individuals have two
 different ways to respond to increased uncertainty about their partners’
 behavior in trust situations: 1) reduce the amount they entrust to their
-partners, or 2) decrease their willingness to cooperate with the partner
-cite:Cheshire2010,Cook2005. Since we expect elevated heartrate to have
-pre-existing connotations with negative attributes, we predict that individuals
-will entrust and/or cooperate less to protect themselves from potential harm
-when the partner has an elevated vs. a normal heartrate.
+partners, or 2) decrease their willingness to cooperate with the partner [6, 7].
+Since we expect elevated heartrate to have pre-existing connotations with
+negative attributes, we predict that individuals will entrust and/or cooperate
+less to protect themselves from potential harm when the partner has an elevated
+vs. a normal heartrate.
 
-H2. Participants who see an elevated heartrate from their partner will (a) trust
-less, and (b) cooperate less with the partner in uncertain and risky social
-interactions compared to participants who see a normal heartrate.
+H2. Participants who see an elevated heartrate from their
+partner will (a) trust less, and (b) cooperate less with the
+partner in uncertain and risky social interactions compared
+to participants who see a normal heartrate.
 
-*** Study 1: Sharing heartrate in a risky, uncertain interaction
+
+* Study 1: Sharing heartrate in a risky, uncertain interaction
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 09:10
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/CSCW
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
 
 In order to test our hypotheses, we conducted a repeated
 trust experiment with shared heartrate information. Trust
 games present participants with financial incentives to pay
 attention to their partner’s decisions over time, and provide
 means for operationalizing trust and cooperation in the
-presence of uncertainty cite:Cheshire2010.
+presence of uncertainty [6].
 
 The overall design of the trust game involves anonymous
 pairs of fixed partners making repeated decisions to entrust
@@ -1115,28 +876,28 @@ Since the partners are making the same decisions to entrust
 and keep/return points from the other partner, these are
 mutually-dependent social interactions.
 
-**** Experimental Design and Methods
+** Experimental Design and Methods
 
 #+NAME: fig:hr-monitor
 #+CAPTION: The heartrate monitor. Participants were told to place their finger on the monitor to take a reading while viewing their partner’s decisions during the previous turn.
 [[./figures/cscw-hr-monitor.jpg]]
 
 We operationalized an uncertain social interaction situation using a trust game
-called the Prisoner’s Dilemma with Dependence (PDD) cite:Cheshire2010,Cook2005.
-The PDD game allows individuals to control the amount of risk that they want to
-take with their partner by choosing how many points to entrust, followed by a
-second decision to either keep or return whatever has been entrusted by their
-partner. Thus, the PDD game separates trust behavior (choosing how much to
-entrust to a partner) from cooperative behavior (choosing to return or keep what
-a partner entrusted). In each round of the PDD game, participants were given an
-initial endowment of 10 points. Each participant decided whether to entrust any
-number of points to their partner, from zero to ten. Then, participants found
-out at the same time whether their partner had entrusted them with any of their
-own points, and if so, how many. Next, each participant decided whether to keep
-the points entrusted to them (defection) or return them (cooperation). The
-participants could not return only a portion of the entrusted points, only all
-or none of them. If the points were returned to the partner, they were
-automatically doubled in value for that participant.
+called the Prisoner’s Dilemma with Dependence (PDD) [6, 7]. The PDD game allows
+individuals to control the amount of risk that they want to take with their
+partner by choosing how many points to entrust, followed by a second decision to
+either keep or return whatever has been entrusted by their partner. Thus, the
+PDD game separates trust behavior (choosing how much to entrust to a partner)
+from cooperative behavior (choosing to return or keep what a partner entrusted).
+In each round of the PDD game, participants were given an initial endowment of
+10 points. Each participant decided whether to entrust any number of points to
+their partner, from zero to ten. Then, participants found out at the same time
+whether their partner had entrusted them with any of their own points, and if
+so, how many. Next, each participant decided whether to keep the points
+entrusted to them (defection) or return them (cooperation). The participants
+could not return only a portion of the entrusted points, only all or none of
+them. If the points were returned to the partner, they were automatically
+doubled in value for that participant.
 
 After all participants made decisions about returning or keeping any points that
 had been entrusted to them, they were then asked to place their finger on the
@@ -1163,9 +924,7 @@ The simulated actor was programmed to always begin by entrusting one point on
 the first round, then randomly entrust up to one point above or below whatever
 the partner entrusted on the previous round. In addition, the simulated actor
 was programmed to always cooperate (i.e., return the points that were entrusted
-by the partner). Following
-cite:Cheshire2010,
-we chose to use a highly cooperative interaction
+by the partner). Following [6], we chose to use a highly cooperative interaction
 partner in order to minimize any other forms of uncertainty in the interaction.
 A highly-cooperation partner does not introduce any defection behaviors that
 might otherwise reduce cooperation or trust from the participant (thereby
@@ -1201,7 +960,7 @@ email addresses on both the signed informed consent form, as well as the debrief
 form, so that they could contact us regarding any aspect of the study. We did
 not receive any emails or concerns from participants.
 
-**** Experimental Manipulation
+** Experimental Manipulation
 
 To assess the effect of interacting with a partner who has an
 elevated heartrate versus interacting with a partner who has
@@ -1210,7 +969,7 @@ that participants saw after each round of the experiment.
 This created a two-condition design: always normal
 heartrate (NH) and always elevated heartrate (EH).
 
-**** Participants and Procedure
+** Participants and Procedure
 
 Our sample was undergraduate students recruited from the population of a large
 west coast public university in the United States. We contacted potential
@@ -1229,7 +988,7 @@ examine decision making in social situations. Participants were also told that
 we would collect pulse (heart rate) information at designated times during the
 study using a simple pulse monitor that was connected to the laptop computer.
 
-**** Validity Check of the Visualization
+** Validity Check of the Visualization
 
 Our study aims to understand the effect of "elevated," as
 compared to "normal," heartrate. As such, we needed to
@@ -1258,8 +1017,14 @@ S.D. = 1.35). Importantly, openended qualitative responses confirmed that the
 heartrate was easily understandable, but that the precise value of heartrate was
 ambiguous.
 
-*** Study 1: Results
-**** Quantitative results
+
+* Study 1: Quantitative results
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 09:11
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/CSCW
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
 
 #+NAME: fig:cscw-study1
 #+CAPTION: Means of entrustment and cooperation (left) and mood attributions (right) in elevated and normal heartrate conditions.
@@ -1303,36 +1068,50 @@ real world difference. On average, those in the normal heartrate condition
 cooperated 20% more than those in the elevated heartrate condition (Figure [[fig:cscw-study1]]).
 Hypothesis 2b is supported.
 
-***** Manipulation Checks
+** Manipulation Checks
 
-Since we designed the simulated actors in both conditions with trusting and
-always-cooperative behavior, we did not expect participants to rate the
-simulated actors differently in terms of the focal behaviors of cooperativeness
-and trustworthiness between experimental conditions. This is a critical
-manipulation check, since we need to rule out any perceived effect of the
-simulated partners' behavior in order to establish that the primary treatment
-(heartrate of partner) had an effect on the human participants' behavior. The
-omnibus test of difference in perceptions of the trustworthiness and cooperative
-behavior between conditions was not significant, F(2, 53) = .21, p = n.s.;
-Wilk’s lambda = .99, partial eta squared =.01. Thus, as we would expect,
-individuals did not indicate significant behavioral differences for the
-trusting, cooperative simulated actor (which was programmed to behave exactly
+Since we designed the simulated actors in both conditions
+with trusting and always-cooperative behavior, we did not
+expect participants to rate the simulated actors differently
+in terms of the focal behaviors of cooperativeness and
+trustworthiness between experimental conditions. This is a
+critical manipulation check, since we need to rule out any
+perceived effect of the simulated partners' behavior in order
+to establish that the primary treatment (heartrate of partner)
+had an effect on the human participants' behavior. The
+omnibus test of difference in perceptions of the
+trustworthiness and cooperative behavior between
+conditions was not significant, F(2, 53) = .21, p = n.s.;
+Wilk’s lambda = .99, partial eta squared =.01. Thus, as we
+would expect, individuals did not indicate significant
+behavioral differences for the trusting, cooperative
+simulated actor (which was programmed to behave exactly
 the same in both conditions).
 
-**** Qualitative results
 
-At the end of our questionnaire, before the demographic questions and the
-debriefing, participants were presented with two open-ended questions. The first
-asked participants to “Tell us how you would describe your partner.” The second
-asked participants “What, if anything, did heartrate tell you about your partner
-during this experiment?” This section discusses and unpacks some of the
-responses that these questions elicited.
+* Study 1: Qualitative results
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 09:11
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/CSCW
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
 
-***** Elevated Heartrate
+At the end of our questionnaire, before the demographic
+questions and the debriefing, participants were presented
+with two open-ended questions. The first asked participants
+to “Tell us how you would describe your partner.” The
+second asked participants “What, if anything, did heartrate
+tell you about your partner during this experiment?” This
+section discusses and unpacks some of the responses that
+these questions elicited.
 
-Many people who referred to elevated heartrate in their responses mentioned that
-it signaled anxiety. In some cases, participants even reflected on a negative
-relationship between elevated heartrate, anxiety and trust:
+** Elevated Heartrate
+
+Many people who referred to elevated heartrate in their
+responses mentioned that it signaled anxiety. In some
+cases, participants even reflected on a negative relationship
+between elevated heartrate, anxiety and trust:
 
 #+BEGIN_QUOTE
 how excited he/she is, whether he/she cheated
@@ -1380,7 +1159,7 @@ students, our quotes imply a mostly negative association
 with elevated heartrate, but also a potentially long tail of
 diverse beliefs about elevated heartrate.
 
-***** Normal Heartrate
+** Normal Heartrate
 
 Many participants said that normal heartrate indicated that
 the partner was "calm," "chilled out," or "not anxious."
@@ -1440,7 +1219,14 @@ evidence that subjects have used the emotional attributions
 they made based on their partner’s normal heartrate to guide
 their behavior in the trust game.
 
-*** Study 2: Sharing an unknown signal in a risky, uncertain interaction
+
+* Study 2: Sharing an unknown signal in a risky, uncertain interaction
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 09:13
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/CSCW
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
 
 In study 1, we found that participants cooperate less with partners who have
 elevated heartrates in the repeated trust game, compared to those with normal
@@ -1456,7 +1242,7 @@ that our monitor device measures SRI (Skin Reflectivity Index). SRI is an
 unfamiliar biosignal, for which individuals should not have any prior cultural
 or social beliefs.
 
-**** Hypotheses
+** Hypotheses
 
 Without any context for what SRI means as a signal,
 participants may assume that any biological signal that is
@@ -1487,7 +1273,7 @@ H4. Participants who see an elevated SRI will have lower
 social interactions compared to participants who see a
 normal SRI.
 
-**** Experimental Design and Methods
+** Experimental Design and Methods
 
 The second study was identical to the heartrate study in
 every way, except that we told participants we were
@@ -1513,7 +1299,7 @@ sensor is a familiar of measuring heartrate, this was done to
 reduce the possibility that participants would think that SRI
 is actually heartrate.
 
-**** Participants
+** Participants
 
 We recruited our sample for the second study from the same
 population and using the same method as described in study
@@ -1525,9 +1311,14 @@ as ‘other’. The mean age of participants was 21.
 Importantly, the gender distribution and age of the sample
 was equivalent to the first study.
 
-*** Study 2: Results
 
-**** Quantitative results
+* Study 2: Quantitative results
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 09:13
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/CSCW
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
 
 #+NAME: fig:cscw-study2
 #+CAPTION: Means of entrustment and cooperation (left) and mood attributions (right) in elevated and normal SRI conditions.
@@ -1565,7 +1356,7 @@ study, however, we found no significant difference in cooperation rate between
 in the elevated SRI (M = .89, SD = .21) and the normal SRI condition (M = .88,
 SD = .25), t = .09, p = n.s., one-tailed test. H4a and H4b are not supported.
 
-***** Manipulation Checks
+** Manipulation Checks
 
 As with the first study, the simulated actors in study 2 were programmed to be
 consistently trusting and cooperative in the elevated and normal SRI conditions.
@@ -1575,19 +1366,29 @@ expected, the omnibus test of difference in perceptions of the trustworthiness
 and cooperative behavior between conditions was not significant, F(2, 61) = 3, p
 = n.s.; Wilk’s lambda = .91, partial eta squared =.09.
 
-**** Qualitative results
 
-As in the heartrate condition, participants in the SRI condition were asked
-open-ended questions at the end of the post-experiment questionnaire, before the
-demographic questions and debrief. As in the heartrate condition, participants
-were asked how they would describe their partner. However, unlike in the
-heartrate condition, participants were asked, "Recall what we were measuring
-with the sensor. Please describe it below." After completing this question,
-participants proceeded were given two more open-ended items: "What, if anything,
-did SRI (skin reflectivity) tell you about your partner during this experiment?"
-and, "As a signal, what do you believe that SRI says about another person?"
+* Study 2: Qualitative results
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 09:13
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/CSCW
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
+As in the heartrate condition, participants in the SRI
+condition were asked open-ended questions at the end of the
+post-experiment questionnaire, before the demographic
+questions and debrief. As in the heartrate condition,
+participants were asked how they would describe their
+partner. However, unlike in the heartrate condition,
+participants were asked, "Recall what we were measuring
+with the sensor. Please describe it below." After completing
+this question, participants proceeded were given two more
+open-ended items: "What, if anything, did SRI (skin
+reflectivity) tell you about your partner during this
+experiment?" and, "As a signal, what do you believe that
+SRI says about another person?"
 
-***** The Meaning of an Unfamiliar Biosignal
+** The Meaning of an Unfamiliar Biosignal
 
 We purposely did not explain what SRI might mean in this study. Nevertheless,
 when asked what was being measured in SRI, some participants gave us thorough
@@ -1602,7 +1403,6 @@ game are more relevant to our analysis here. Like in the elevated heartrate
 conditions, and elevated SRIs were associated with either nervousness or
 excitement.
 
-#+BEGIN_QUOTE
 If the SRI reads high, it may indicate that the person expects to be betrayed in
 some way or is hopeful of a positive result. I forgot what SRI stands for again.
 Since his/her SRI is always elevated, I would assume he/she is nervous/excited
@@ -1610,11 +1410,7 @@ or just it's hot in here.
 
 SRI may give insight as to how nervous or excited someone's response is to
 something that happens. Maybe someone with a larger range in SRI is more
-emotional. 
-#+END_QUOTE
-
-
-These assessments of SRI are quite similar to interpretations from
+emotional. These assessments of SRI are quite similar to interpretations from
 the elevated heartrate, and corroborate our quantitative findings that those who
 saw elevated SRI rate their partners as more nervous. However, the fact that
 these emotional assessments were similar in both elevated heartrate and elevated
@@ -1622,12 +1418,8 @@ SRI conditions, but behavioral outcomes were different, challenges our notion
 that negative emotional cues caused these behavioral outcomes—a point we address
 in more detail in the discussion below. As in the heartrate conditions, some
 participants responded that SRI told them little or nothing of interest about
-their partner: 
-
-#+BEGIN_QUOTE
-Nothing at all about the person other than an arbitrary value of
+their partner: Nothing at all about the person other than an arbitrary value of
 a sensor.
-
 
 Since the SRI seemed to be bouncing around in the blue
 range but never got into the red range (which I assume
@@ -1638,16 +1430,14 @@ a biosignal is informative, even after many rounds of
 conditioning and a highly suggestive context. However, as
 in the heartrate condition, responses indicating that SRI had
 no meaning were a clear minority in our sample.
-#+END_QUOTE
 
-
-***** Elevated SRI
-
-To help explain why elevated heartrate had a chilling effect on cooperative
-behavior, where elevated SRI did not, we delve into the responses of
-participants in the elevated SRI condition. When asked what SRI told them about
-their partner, participants often reported nervousness or anxiety, just as we
-noted in the quantitative results:
+** Elevated SRI
+To help explain why elevated heartrate had a chilling effect
+on cooperative behavior, where elevated SRI did not, we
+delve into the responses of participants in the elevated SRI
+condition. When asked what SRI told them about their
+partner, participants often reported nervousness or anxiety,
+just as we noted in the quantitative results:
 
 #+BEGIN_QUOTE
 [SRI shows] stress or heightened anxiety
@@ -1698,12 +1488,13 @@ association in the first study, despite the fact that every
 participant interacted with a perfectly cooperative partner in
 all conditions and studies.
 
-***** Normal SRI
+** Normal SRI
 
-As with those in the elevated SRI condition, many participants in the normal SRI
-condition identified some relationship between SRI and the other person’s mood.
-I think this helps identify how people are feeling internally when making
-decisions.
+As with those in the elevated SRI condition, many
+participants in the normal SRI condition identified some
+relationship between SRI and the other person’s mood.
+I think this helps identify how people are feeling internally
+when making decisions.
 
 #+BEGIN_QUOTE
 his/her mood at that point of time
@@ -1730,28 +1521,154 @@ heartrate, participants should have no preexisting beliefs or associations with
 SRI.
 
 
-*** Limitations
+* Limitations
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 09:15
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/ACM Group
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
 
-Controlled, laboratory studies always come with clear advantages (such as high
-internal validity) and disadvantages (such as reduced external and ecological
-validity). Our study did not attempt to emulate a real-world interaction context
-with a biometric sharing device, though this is a clear next step, now that we
-know there are important differences in how biosignals are interpreted.
-Furthermore, our use of highly cooperative, computercontrolled interaction
-partners with stable biosignals (always high or always normal), prevents us from
-being able to speak to the effects of more dynamic behaviors and/or changes in
-biosignals over longer periods of time. From these experiments, we also do not
-know how these results will transfer to other contexts, and other types of
-social interactions. Also, our study by nature focused on first-time, iterated
-interactions, both with an interface and with another unknown person. We do not
-know how these results might apply over the course of more personal
-relationships, or after repeated experiences with a specific interface in a
-biosignal sharing device. In addition, this research was conducted on young
-adults at a large public university, which is an important limitation when
-considering whether these results would hold across age groups and other key
-sources of sociodemographic variation in the larger population.
+Our vignette experiment examined a single type of scenario in two different
+contexts, using text-based answers. We still have a limited picture of the range
+of theoretically important contexts in which individuals may observe and
+interpret biosignals about others, and a limited understanding of how the rich
+cues present in realistic interaction contexts might bare on our findings. Our
+study focused on a first-time interaction with an imagined heartrate sharing
+interface. We do not know how our findings would hold over time, and it is very
+likely that social meanings of any biosignal could become more consistent over
+time. The vignette scenario was contrived from believable, but currently
+non-existent smartphone technology. Either due to participants’ suspension of
+their disbelief or due to their actual attitudes about the heartrate sharing,
+few participants raised questions regarding privacy implications of these
+scenarios.
 
-** Discussion
+Since the vignette study took place online, we could have missed the sorts of
+rich contextual cues that might be captured by live interviews or other
+in-person methods. Furthermore, the internet presents a wide array of
+distractions to survey-takers, and our survey was not able to detect the
+participants' attention on the task (e.g.., we could not detect whether the
+subject was switching between tabs in their web browser, or taking breaks during
+the survey), nor did we monitor how long subjects spent filling out the survey.
+
+
+* Future work
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 09:16
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/ACM Group
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
+
+Our experiments provide evidence that interpretations of biosignals from sensors
+(such as wearables) can affect social attributions and behaviors towards others.
+Nevertheless, many questions persist. Future work should approach similar topics
+with controlled, lab-based experimental methods. Controlled, behavioral
+experiments could help us ask more specific questions about how elevated
+heartrate affects perceptions of risk in uncertain interactions, e.g. when money
+is at stake. Such studies could lead to a more robust understanding of how the
+transmission of biosignals might affect social behavior. Future work should also
+investigate the degree to which our findings are unique to heartrate. Other
+biosignals (e.g., galvanic skin response, electroencephalography or EEG), could
+offer different affordances for sense-making. It is unclear from our work how
+the social interpretation of the signals from these devices could affect social
+behaviors such as dyadic and group trust.
+
+Future work should also investigate the mechanisms by which contextual
+interpretations of heartrate arise. Specifically, future work should study the
+effect of the signal's representation on the attributions made by participants.
+In this study, subjects saw a normative interpretation of heartrate ("elevated"
+versus "normal"); however, it is unclear how a more more or less ambiguous, or
+more or less numerical interface might have affected our results. Meanwhile, the
+meaning of a given biosignal is certainly mediated by a number of factors,
+including culture and lived experiences. Much work remains in determining how
+biosignals give rise to any interpretations, and to what extent these
+interpretations are influenced by both beliefs about a given signal and the way
+interfaces represent this signal.
+
+Finally, future work should more closely examine the relationship between
+people’s social interpretations of biosensor data, and their assessment of the
+risk associated with disclosing these signals. As biosensing devices become more
+pervasive, people will more often be faced with decisions to disclose these data
+to others, either socially, or for services (e.g., health care, insurance) [23].
+Consumers’ willingness to (or refusal) to disclose their signals will certainly
+stem from their intuitive interpretation of what these signals might say about
+them, at least in part. As such, processes of consent in disclosing wearables
+data present a clear priority for future work.
+
+
+* Conclusion
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 09:17
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/ACM Group
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
+
+We find that sharing heartrate can negatively influence trusting attitudes.
+However, heartrate alone does not communicate trust. Instead, individual’s
+social expectations interact with the heartrate data to produce context-specific
+meanings. Complicating matters further, our qualitative data reveal a diversity
+of interpretations regarding the relevance and meaning of a heartrate in
+context, and the privacy implications of biosensing technologies. Our findings
+advance and complicate our understanding of the role that biosignal sharing can
+play in social, computer-mediated contexts, and motivate more detailed study
+into the mechanisms by which social interpretations arise from basic
+physiological signals.
+
+
+* Conclusion
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 09:17
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/CSCW
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
+
+Our results imply that interfaces can “teach” the meaning of
+some biosignals, where others carry strong, pre-existing
+connotations that even repeated interactions cannot easily
+alter. In general, prior beliefs about the body (drawn from
+culture, lived experience) seem to shape what a biosignal
+can mean in a given context. However, in the absence of
+prior beliefs, there exists an opportunity—and a potential
+danger—that designers of biosignal-sharing systems can
+condition participants to learn (potentially arbitrary)
+associations between biosignals and social behaviors.
+
+
+* Abstract
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 09:18
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/ACM Group
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
+
+We investigate interpretations of a biosignal (heartrate) in uncertain social
+interactions. We describe the quantitative and qualitative results of a
+randomized vignette experiment in which subjects were asked to make assessments
+about an acquaintance based on an imagined scenario that included shared
+heartrate information. We compare the results of this experiment in adversarial
+and non-adversarial contexts of interaction. We find that elevated heartrate
+transmits cues about mood in both contexts, but that these cues do not appear to
+impact assessments of trustworthiness, reliability and dependability. Counter to
+our expectations, we find that normal (rather than elevated) heartrate leads to
+negative trust-related assessments, but only in an adversarial context. Our
+qualitative analysis points to the role of social expectations in shaping
+contextual interpretations of heartrate, and reveals individual differences in
+the way interpretations are constructed. We unpack some of the ways that social
+meanings can arise from biosensor data, and discuss considerations for those
+designing interactions with wearables.
+
+
+* Discussion
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 09:23
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate/CSCW
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
 
 We found that both heartrate and SRI signaled negative mood to participants,
 including anxiety and lack of calmness. It is possible that almost any
@@ -1790,8 +1707,7 @@ If people can learn social meanings for previously unknown signals, perhaps even
 pre-existing connotations for familiar biosignals could change over time. After
 all, the meanings of a signal like heartrate are the product of associations
 that have been shared and developed over centuries. However, technology allows
-for new expressions of these ancient signals cite:Slovak2012.
-If social heartrate
+for new expressions of these ancient signals [25]. If social heartrate
 information became an easily accessible biosignal in trust-based interactions
 like negotiations, we might find its social meaning could evolve further.
 Unfortunately, short-term laboratory studies such as this one are unlikely to
@@ -1803,89 +1719,31 @@ changes in interpretations over time.
 Broadly, our results raise questions about how and why unfamiliar signals take
 on social meanings in different contexts of interaction. Researchers in CSCW and
 HCI have long noted our tendency to read into cues and signals in
-technology-mediated communications. From impact factors and citation counts in
-scholarly work cite:Elsden2016a to societal indices cite:Wilson2003 , to health
-metrics such as the bodymass index (BMI) cite:Campos2004, human have a tendency
-to impart “real” meanings onto metrics, scales and signals – meanings that may
-not align with the concepts their designers aimed to measure. It is critical
-that we continue to question how biosignal data could shape our interpersonal
-interactions, and whether the outcomes will always translate into meaningful
-social information.
-
-** Implications for design
-
-From research projects like the sociometer, which produce “social metrics”
-cite:Wu2008,
-to consumer devices like the Spire, which compute "calmness" or "focus"
-quotients cite:SpireInc,
-developers are throwing different biometric signals at people
-faster than they can learn what the signals mean in context. In the absence of
-strong cultural beliefs about the signal, people could produce correlative
-assumptions similar to the ones we observed in our experiment. Designers should
-take care to establish what the signals in the applications mean, or could mean.
-Testing the limits of what people are willing, or able, to believe, and whether
-these beliefs transfer between different contexts, could have wide-reaching
-implications for those who design interactions with wearable biosensors.
-
-On the other hand, many research and commercial projects use signals that people
-might associate with commonly understood experiences (e.g. a racing heart, a
-sweaty palm). Designers should strongly consider how these embodied experiences
-might color the conclusions that users jump to, and bound what users are willing
-to believe. 
-
-We also hope that researchers will investigate settings in which biosignals vary
-over longer time periods, perhaps with a more naturalistic technology probe
-study. Such a study could help us understand how prior beliefs about signals
-both affect and are affected by social interactions in the course of everyday
-life.
-
-In general, wearable sensors can enable social interactions in which we share
-more information than is normally possible face-to-face. The ability to surface
-signals that are normally socially invisible (e.g. heartrate, or galvanic skin
-response) presents new territory for designers of computermediated interactions.
-While recent work has explored how these novel signals fit into our existing
-understanding of social cues cite:Howell2016, much work remains. 
-
-** Conclusion
-
-We find that sharing heartrate can negatively influence trusting attitudes and
-behaviors. However, heartrate alone does not communicate trust. Instead,
-individual’s social expectations interact with the heartrate data to produce
-context-specific meanings. Complicating matters further, our qualitative data
-reveal a diversity of interpretations regarding the relevance and meaning of a
-heartrate in context, and the privacy implications of biosensing technologies.
-Our findings advance and complicate our understanding of the role that biosignal
-sharing can play in social, computer-mediated contexts, and motivate more
-detailed study into the mechanisms by which social interpretations arise from
-basic physiological signals.
-
-Further, our experimental results imply that interfaces can “teach” the meaning of some
-biosignals, where others carry strong, pre-existing connotations that even
-repeated interactions cannot easily alter. In general, prior beliefs about the
-body (drawn from culture, lived experience) seem to shape what a biosignal can
-mean in a given context. However, in the absence of prior beliefs, there exists
-an opportunity—and a potential danger—that designers of biosignal-sharing
-systems can condition participants to learn (potentially arbitrary) associations
-between biosignals and social behaviors.
-
-Aside from heartrate, we do not know what many other biosignals might be
-associated with moods and behaviors. Similar studies with signals from, e.g.,
-the brain cite:Ali2014a are a clear direction for future work. Especially
-interesting cases are signals for which precise or empirical meanings are still
-being hotly debated, such as EEG (brainwaves).
-
-_TODO WHERE TO FROM HERE????????_
-
-* Shifting to the brain
+technology-mediated communications [12]. From impact factors and citation counts
+in scholarly work [8, 13], to societal indices [31], to health metrics such as
+the bodymass index (BMI) [4], humans have a tendency to impart “real” meanings
+onto metrics, scales and signals – meanings that may not align with the concepts
+their designers aimed to measure. It is critical that we continue to question
+how biosignal data could shape our interpersonal interactions, and whether the
+outcomes will always translate into meaningful social information.
 
 
-* Talking to engineers about brain-computer interface
-* Who are you really? Probing engineers on authentication and the ground truth of identity
-* Beliefs, practices
-* References
+* ACM Group
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 09:28
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
 
-\bibliography{refs}
-* Bibliography
-* Appendices
 
-[fn:1] Not necessarily the /only/ choice! ...but the choice we will work with here. see Chalmers, D. (1996): The Conscious Mind. and Dennett, Daniel C. (1991). Consciousness Explained. 
+* CSCW
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-10 Fri 09:28
+  :ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+  :ARCHIVE_OLPATH: Reading mind from heartrate
+  :ARCHIVE_CATEGORY: dissertation
+  :END:
+
+** Abstract
+
