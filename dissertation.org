@@ -812,8 +812,7 @@ Our second hypothesis predicts that individuals will make negative assessments
 about how certain they are regarding the acquaintances’ trustworthiness
 characteristics when the individual has an elevated versus a normal heartrate.
 We find a statistically and practically significant effect for the heartrate
-conditions, F (3,
-97) = 4.19, p < .01; partial eta squared = .12. However, we also
+conditions, F (3, 97) = 4.19, p < .01; partial eta squared = .12. However, we also
 find statistically significant effects for both the context of interaction, F
 (3, 97) = 2.82, p < .05, and the context x heartrate condition interaction, F
 (3, 97) = 2.75, p < .05.
@@ -1715,8 +1714,7 @@ elevated SRI condition (M = 3.97, SD = 1.62) compared to the normal SRI
 condition (M = 2.67, SD = 1.24), F(1, 62) = 12.8, p < .001; partial eta squared
 = .17. Furthermore, participants rated their partners as significantly more calm
 in the normal SRI condition (M = 5.5, SD = 1.3) compared to the elevated SRI
-condition (M = 4.68, SD = 1.63), F(1,
-62) = 4.4 p < .05; partial eta squared =.07. Just as with the
+condition (M = 4.68, SD = 1.63), F(1, 62) = 4.4 p < .05; partial eta squared =.07. Just as with the
 heartrate study, we found no statistically significant differences for
 perception that the partner is ‘easily upset’ or that the partner is ‘emotional’
 (p = n.s.). In sum, we find strong statistical and practical differences in
