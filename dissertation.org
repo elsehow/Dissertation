@@ -1,60 +1,22 @@
-:frontmatter:
+:headers:
+#+LATEX_CLASS: ucbthesis
 #+Title: Essays on Mind-Reading Machines
 #+Author: Nick Merrill
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="ext/style1.css" />
-#+TODO: TODO OUTLINED DRAFTED | DONE SUBMITTED
 #+OPTIONS: toc:nil
-#+LATEX_HEADER: \usepackage[margin=1in,footskip=.75in]{geometry}
+#+LATEX_HEADER: \usepackage{balance}
+#+LATEX_HEADER: \usepackage{caption}
+#+LATEX_HEADER: \usepackage{subcaption}
+#+LATEX_HEADER: \usepackage{biblatex}
+#+LATEX_HEADER: \bibliography{refs}
+#+LATEX_HEADER: \hyphenation{mar-gin-al-ia}
+#+LATEX_HEADER: \input{title}
 :end:
 
-* Abstract
-** TODO - Yes! The first page of your abstract and the first page of your main text both start with ‘1’
-* Optional preliminary pages
-** TODO - Lower case roman numeral page numbers
-** Dedication page
-# for the most beautiful mom the world.
-# we had an amazing, wonderful life together, a life as beautiful and precious as you are.
-# dad and i carry that life forward everyday, because of the unconditonal love you gave to us,
-# the greatest, most important gift anyone could ever receive.
-# the gift you gave to me and dad.
-# i will always take care of him.
-# until we see you again.
-# I love you forever.
+\include{frontmatter}
+\pagestyle{headings}
 
-# also, I have been shaving.
-** TODO Table of contents
-
-#+BEGIN_EXPORT latex
-% set TOC name to nothing
-% TODO this leaves an awkward space in the TOC
-\renewcommand{\contentsname}{}
-% print TOC
-\tableofcontents
-#+END_EXPORT
-
-** List of figures, list of tables, list of symbols
-** TODO Preface or introduction
-
-Machines will someday read the mind.
-I know. But they will.
-``We'' will find a way to make them,
-and ``we'' will use any tools at our disposal to do so.
-
-The primary tool we will use is our own interpretation, and theories
-of the mind, projecting it onto a physical reality
-that is less definite than ``we'' would sometimes like to imagine.
-
-Who is this ``we''?
-This dissertation looks primarily (though not exclusively) at software professionals
-in the San Francisco Bay Area.
-
-_etc..._
-
-Nick Merrill
-Berkeley, California
-** TODO Acknowledgements
-
-* How to sense a mind
+* Mind-reading & telepathy for beginners and intermediates
 
 
 This chapter outlines how theories of a mind that is embodied (beyond the
@@ -67,233 +29,448 @@ and environmental sensors.
 # objectives. the question is, what are the consequences for the rest of us?
 
 
-** TODO list
+#
+# Spicy mood intro
+#
 
-*** TODO Yes! The first page of your abstract and the first page of your main text both start with ‘1’
+Would you wear a device in the workplace if your manager used it to track your
+productivity, or creativity? Would you allow your child wear the same device in
+schools, where it could monitor both their academic achievement and their mental
+health? Would you wear a fitness tracker if your resting heartrate could predict
+your future involvement in violent crime? 
+# What about the variety of brainwave-sensing headbands that detect your stress, mood, or help "remove the uncertainty from meditation?
 
-** Chapter
-*** Fun introduction
+In all of these examples, sensing technologies blur the line between /sensing
+bodies/ and /sensing minds/. Today, increasingly inexpensive sensors with
+developer-friendly SDKs and APIs allow those with requisite software expertise
+to purport to detect phenomena ranging from focus to mental health to mood---all
+without direct data about the brain.
+# Given the general encroachment of biosensing in everyday life, this paper asks:
+# If these devices can build models of our bodies, can they too build /models of
+# our minds/?
 
-Consider the ant. The fungal complex /Ophiocordyceps unilateralis sensu lato/
-overtakes the ant's behavior without infecting its brain. Instead, it creates a
-network of coordinated action using the rest of the ant's body, compelling it to
-climb vegetation and bite leaves (behaviors advantageous to the fungi's
-survival).
+#
+# Description of paper & forward references
+#
+
+In this paper, I seek to dethrone the assumption that brain-scanning is
+necessary for computers to ``read'' or ``decode'' the mind. Drawing from
+contemporary theories of embodied, extended and distributed cognition, I argue
+that pervasive biosensors are already able to grasp at the contents of our minds
+by sensing our bodies, tools and built environment (Section [[beyondbrain]]). I
+relate this argument to ongoing work affective computing, computational social
+science, and biosensing, reframing these research programs as having already
+begun the work of theorizing and building computational /models of minds/
+(Section [[modelsofminds]]).
+
+Drawing on critiques of this past work, I center the primacy of human
+interpretation in both constructing MoMs and interpreting their relevance in
+daily life. I propose these processes of construction and interpretation as a
+starting point for understand what MoMs are, and how they might operate in the
+world (Section [[interpretation]]).
+
+** Background
+<<beyondbrain>>
+
 # https://phys.org/news/2017-11-zombie-ant-brains-left-intact.html
+# WHAT DOES THE LATIN TRANSLATION MEAN?  it's the speices name "in the broad sense"
+Consider the ant. The fungal complex /Ophiocordyceps unilateralis sensu lato/
+overtakes its behavior without operating on its brain at all (Figure [[antfig]]). Instead,
+it uses the ant's body to feed itself, constructing a network of coordinated
+sensing and actuation atop the ant's muscles cite:Fredericksen2017.
 # creates meta-brain ontop of existing muscle system ?
 
-We cannot say that the /Ophiocordyceps/ fungal complex controls the host's brain.
-However, given its disruption of the ant's agency in the world,
-we may well say that the fungi controls the ant's /mind/.
+#+CAPTION: /Ophiocordyceps unilateralis sensu lato/ takes control of an ant's mind without input from its brain. It forces the ant to chews on the underside of a twig, after which the ant's body will serve only as a medium for fungal reproduction.
+#+NAME: antfig
+[[./figures/just-ant.jpg]]
 
-This anecdote gestures toward a notion of mind beyond the brain.
-_etc, lay out what this chapter does_...
-*** OUTLINED Summary
-- introduce mind reading & telepathy as terms for describing this goal
-  - /mind/-computer interface (v. brain-computer interface)
-- understand how tehoreis of mind support these terms
-- recast past work under the guise of these terms
-- surface the primacy of human interpretation, focus as a point of future (necessary) research
-*** Mind reading & Telepathy
-**** OUTLINED Summary
-- introduce mind reading & telepathy as terms for describing this goal
-  - /mind/-computer interface (v. brain-computer interface)
-**** OUTLINED Telepathy
-
-*Telepathy*
-
-/tele + pathos/ - Feeling / condition / state at distance.
-
-Compare to
-
-- /tele + vis/ - Vision at a distance
-- /tele + phon/ - Hearing at a distance
-
-Both would have been "magic" at one point!
-
-Perhaps some technology will come along that also turns /telepathy/ into a technical term.
-
-**** OUTLINED Mind-reading
-
-For our purposes,
-
-- Telepathy: The *technical* aspects of encoding, transmission of mind
-
-- Mind-reading: The *social* aspects, interpretation of encoded/transmitted mind
-
-_Some crap about how latter involves interpretation_
-
-However, we will see later in this chapter how unstable this ``boundary'' really is!
-_Some crap about how theres no such thing as raw data etc_
-
-_Some crap about how everything boils down to theory_
-
-**** OUTLINED Mind-computer interface
-
-/Mind-computer interface/
-
-_Compare to BCI, why that term's not sufficient_
-
-_Compare to affective computing, why that term's not sufficinet_
-
-# Transition
-Now, how to perofrm telepathy, mind-reading - in other words, how to produce an MCI?
-clearly we will need some theory to back us up.
-*** Theories make the mind ammenable to sensing
-**** OUTLINED Summary
-this section, look at how existing theories help us in our quest to build an MCI
-show that this possibility is already very much here with current technology, doesn't require anything fancy
-and doesn't necessarily require improvements to brainscanning infra
-**** OUTLINED The physical mind
-# theoretical
-
-What is it? What does it do?
-What is its relationship to the body? To the physical world?
-Two basic beliefs:
-- *Dualism* - The mind has non-physical components
-- *Physicalism* - The mind has only physical components
-If we want to make mind amenable to sensing, 
-we have only one choice! [fn:1] 
+ # TODO On the lower-left, a single fiber of an ant mandible adductor muscle is overtaken by /Ophiocordyceps unilateralis/ filaments.
 
 
-If we are *physicalists*, 
-we believe some physical theory will eventaully explain the mind.
-Where do we look for such theories?
+Ignoring questions of control, consider the degree of /sensing/ the fungus must
+perform in order to maintain and use the ant's body. Using the ant's existing
+bodily infrastructure, the fungus creates a /model/ of ant-experience robust enough to
+control the organism completely. Although the /Ophiocordyceps/ fungal
+complex cannot read the ant's brain (it has no physical presence there), it can
+read the ant's /mind/ well enough to model its environment and body. The
+fungus's model of ant-experience may not be the same, or even similar, to those
+used by the host ant. Regardless, they are of a sufficient resolution to allow
+the fungus to acheive its (reproductive) goals.
 
-**** OUTLINED Cognitive science's physical mind
-Cognitive science has historically been an influential source of such theories.
-Cognitive science's goal was and is a computational *model* of cognition.
-Much like physics can inform structural engineering, can these models inform 
-neurosciecne [gallant], psychology [griffiths], AI [hawkins, minsky, bengio/ut guy], design [norman].
-Compelling evidence for computational complexity explaining certain time-related tasks in psychological stimuli [e.g. Shepherd & Metzler, 1971]
-have inspired countless computational models, often in the form of flow diagrams that neatly compartmentalize cognitive ``processes'' such as long-term or short-term memory, attention, etc.
 
-**** TODO Challenges to cognitive science
+With this fungus in mind, consider the emerging class of IoT devices, which are
+increasingly embedded in the built environment, worn on the body, worn /in/ the
+body via ingestible pills. Though mundane, cameras too sense bodies often in
+public, often without subjects' knowledge cite:DBLP:journals/corr/SedenbergWC17.
+In all of these examples, connected devices are endowed to some degree with the
+capacity to sense (that is, to build models of cite:Gitelman) human bodies in
+space. Past work refers to this process broadly as /biosensing/, and these
+devices as /biosensors/ cite:day2016biosensing.
+
+While humans are significantly more complex than ants, this fungus helps
+illustrate the possibility of creating /models of minds/ with limited or no
+information from the brain. As I review in this section, contemporary
+philosophical theories engage seriously with the notion of a /beyond-the-brain
+mind/. I continue in the following section to argue that these theories
+(unwittingly) provide grounds to claim that even current biosensors can build
+/models of minds/.
+
+*** Contemporary (material) theories of mind
+
+What is the mind? What is its relationship to the body, and to the physical
+world? Philosophers have proposed two basic catagories for answers to this
+question. /Dualism/ posits that the mind has non-physical components, whereas
+/physicalism/ posits a mind of only physical components. (For a slice of this
+debate, see cite:Chalmers1998).
+
+# get the more critical folk on board right away
+The physicalist stance of mind squares with Jane Bennett's account of
+/thing-materialism/, in which things in the world have an intrinsic power,
+locked in networks of interactions with other things cite:Bennett2013a. In turn,
+this materialism squares the physicalist account of mind with the project of
+biosensing cite:day2016biosensing,nafus2016quantified. If mental phenomena are
+physical, then mental phenomena are potentially the subject of sensing.
+Bennett's /Thing-Power/ at once justifies the strict physicalism that allows
+biosensing to refer to phenomena in the mind, and justifies the systems of
+reference that make observations from biosensors /about/ the mind.
+
+*** Cognitive science
+
+Moreover, the physicalist interpretation lends itself naturally to scientific
+study. From the physicalist perspective, all phenomena in the mind can, be
+reduced to descriptions of physical activity, some physical theory could
+eventually explain the mind in entirety. Cognitive science has historically been
+an influential source of physicalist theories about the mind. It takes a
+computational account of the brain, understanding how it ``processes
+information'' cite:Winograd1987a within the physical constraints of
+computational space and time. Its questions operate above the biological
+concerns of neuroscience, but below the behavioral concerns of psychology,
+offering computational /models/ of ``cognition.''
+
+As physical models can inform structural engineering, cognitive scientific
+models have informed research across psychology, artificial intelligence, and
+design cite:Agre1997. Some early studies provided evidence for computational
+complexity in time-related tasks cite:shepard1971mental, which have in turned
+inspired numerous models of cognition. These models informed the design of
+neural networks, before the relatively recent discovery of performant
+backpropogation algorithms made neural networks practical to deploy
+cite:minsky1969perceptrons.
+
+# Challenges to cognitive science
 # Dreyfus, 1992, /What Computers Can't Do/
 # Winograd & Flores, 1986, /Understanding Computers & Cognition/
-Cognitive science has received considerable criticism over its ``isolationist assumtions.''
-These critiques focus on two challenges, primarily.
-- *Challenge 1*: Focus on the brain
-- *Challenge 2*: Focus on the individual
+However, cognitive science has received considerable criticism
+cite:Noe2004,Winograd1987a. Two critiques relevant to this paper focus on
+cognitive science's ``isolationist assumtions'': a focus on the brain (isolated
+from the body), and a focus on the individual (isolated from social context, and
+from the environment). The following three sections review major responses to
+these critiques: embodied cognition, distributed cognition, and extended
+cognition.
 
-***** OUTLINED Embodied cognition
-Challenge 1: Focus on the brain.
-Does brain == mind?
-1. *Unstable brain/body dichotomy*. For example, neurons occur body-wide.
-2. *Undervalues role of embodiement*.
-Response: Embodied cognition
+*** Embodied cognition
+
+Cognitive science's isolation of the brain rests on the belief that the brain is
+strictly equivalent to the mind. This assumption has encountered two primary
+critiques. First, the dichotomy between the brain and body is intrinsically
+unstable; neurons occur body-wide, running directly to the brain, such that it
+is difficult to evaluate the role of cerebral neural activity in the functions
+of mind irrespective of non-cereberal neural activity. Second, to quote Noë and
+Thompson (2004), ``The exact way organisms are embodied simultaneously
+constrains and prescribes certain interactions within the environment.''
+cite:Noe2004. In other words, aspects of mind exist because of the physical
+conditions of an organism's body in the world.
+
+These critiques ultimately resulted in the /Embodiement thesis/: that an agent's
+beyond-the-brain body plays a causal role in that agent's cognitive processing.
+As one example, Noë and O'Regan's analysis of vision recasts the ``visual
+processing'' of cognitive science, in which internal representations are built
+and manipulated within the brain, to an active, embodied process, in which the
+seen world provides its own representations, which the body and brain must meet
+through an active process of co-adaptation cite:ORegan2001a.
+In its account of vision as an active process of co-construction,
+this analysis shares with some work in feminist epistemology, e.g. cite:Haraway1988b.
+
+*** Extended and distributed cognition
+
+While embodied cognition addresses the critique of cognitive science's isolation
+of the brain, it does not cognitive models' isolation of the indivdual from
+social or environmental context. Further, while the embodiement thesis points
+out the causal relationship between mind and the physical conditions of the
+body, it glosses over the relationship between these bodies and the world in
+which they are situated. In response, Clark's Extended Cognition thesis argues
+that the environment at large can be considered as part of the mind. Clark et
+al propose that ``technological resources such as pens, paper, and personal
+computers are now so deeply integrated into our everyday lives that we couldn’t
+accomplish many of our cognitive goals and purposes without them'' cite:Clark1998.
+
+# TODO explain   D COG    merge with above graf for 1 long graf
+This theory does not stop at tools, however, in describing a mind beyond the
+body. Broadly, extended cognition refocuses the brain away from the individual
+body, and toward the general ``active role of the environment in shaping
+cognition'' cite:Clark1998. This theory paved the way towad a socially-extended
+cognition, or ``distributed cognition,'' as proposed in Hutchins' (1995)
+ethnography of sailors on a naval vessel cite:hutchins1995cognition. In his
+analysis, multiple individuals and the material environment play constituent
+roles in cognition, a mind that is distributed across multiple human and
+non-human actors.
+
+# Though I do not cover activity theory in depth here, suffice to say the theory
+# covers many of the same topics, though its intellectual history was quite remote
+# from the other theories mentioned (having "grown up" in the USSR). for a review,
+# see _review_.
+
+The theories in this section establish make various cases for a mind that extends beyond
+the confines of the brain, and even beyond the confines of the body. With these
+theories in mind, the next section argues these theories make the mind amenable
+to modeling via sensors that are worn or embedded in the environment.
+
+** Models of minds
+<<modelsofminds>>
+
+*** TODO intro
+The theories outlined in the previous section all propose that the mind is
+physically instantiated in the material world. They differ only on /where/ this
+mind exists, and where it does the work of cognition. Embodied cognition focuses
+on the body's role in cognition, where extended and distributed cognition
+theorize cognition as a process distributed across human and non-human actors.
+
+Using embodied distributed, and extended cognition, this
+section argues that contemporary and emerging biosensors are already able to
+sense the human mind through interactions with the body and built environment,
+and through the constituency of sensing devices in cognition and experience.
+I use two strands of existing work, reading each through a
+different account of mind: affective computing through the lens of embodied
+cognition, and computational social science through the lens of distributed and
+embodied cognition. Through these readings, I recast each program of pervasive
+sensing as a program of /reading the mind/.
+
+To assist in this analysis, I propose the notion of /models of minds/. This term
+borrows from the term /theory of mind/ which, in autism research, refers
+to the ability to reason about mental states cite:Baron-Cohen1995. By
+substituting the word ``theory'' with the word ``model,'' I emphasize the notion
+of formal or algorithmic representations. By then turning this ``model of mind''
+(singular) into /models of minds/ (plural), I center the intrinsic
+contestibility of the algorithms that build them, and the beliefs that underlie
+their construction, as well as the many minds in the world to model. The term
+aims to cast a subtle doubt on models that appear too simple, or which claim to
+generalize across all people.
+
+Building /models of minds/ can be split into two major components: the
+designerly program of building algorithms that encode and represent mental
+states, and the social processes of understanding these representations as
+relevant in the course of life. While the boundary between these components is
+intrinsically unstable, this agential split is nonetheless useful in
+understanding how these models perform work in the world. To these two
+components, I assign the terms /telepathy/ and /mind-reading/, respectively.
+While these two terms, especially the latter, have a strong connection to magic,
+I attempt briefly to explain the useufulness of repurposing them for discussions
+on computational models of minds. Consider telepathy's etymological pedigree in
+relation to other popular technologies.
+
+#+BEGIN_VERSE
+Telephony (/tele + phonos/) 
+  Sound at a distance
+
+Television (/tele + vīsiō/) 
+  Sight at a distance
+
+Telepathy (/tele + pathos/) 
+  Mind at a distance.
+#+END_VERSE
+
+While the first two terms may have sounded like magic at some point in
+history, technical infrastructures have provided functionality that made these
+terms legible not just as technologies but as social media. /Telepathy/ is in
+spirit no different. In relation to the other technical infrastructures, the
+prefix /tele-/ highlights technical aspects of transmission, along with the
+various sociotechnical infrastructures and entanglements that make transmission,
+encoding, and decoding both possible and desireable.
+
+In contrast, /mind-reading/, a term associated with street and stage magic 
+cite:Ali2014a, re-focuses on human aspects of interpretability and legibility.
+It centers the processes of meaning-making and the performance of understanding.
+Together, /mind-reading/ and /telepathy/
+work to describe how models of minds are ``made and measured'' cite:Boehner2007b,
+while gesturing toward the unstable boundary between these two activities.
+
+The remainder of this section reads work in affective computing through the lens
+of embodied cognition, and computational social science thruogh the lens of
+distributed and extended cognition. Through these readings, I demonstrate how
+existing work in biosensing has already built models of minds, and in so doing,
+offer various examples of what mind-reading and telepathy might mean in
+practice. These analyses provides context for a discussion in the following
+section on the primacy of human beliefs---both on the part of designers and
+users---in structuring mind-reading and telepathy.
+
+*** Affective computing
+
+
+# TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO  TODO TODO
+# TODO side-by-side -       fungal fillaments around the muscle,                  wearables on le wrist/arm TODO 
+# TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO TODO  TODO TODO
+
+Affective computing, pioneered by Rosalind Picard at the MIT Media Lab, sought
+to _QUOTE PICARD+CITE_. Affective computing seeks to model emotions in order to
+improve user interfaces with machines. A central vision of this project is to
+endow computers with the ability to perform emotions. Tightly intertwined with
+this goal, affective computing seeks to detect emotions in users. In this
+program, affective computing is concerned with mind-reading in the sense that
+other people perform it: the construction of a ``theory of mind''
+cite:Baron-Cohen1995.
+
+Affective computing, as it has been framed historically, has received a variety
+of critiques. First, work in affective computing has tended to frame emotions as
+definite entities in the world, for which a ground truth exists. Boehner et al
+cite:Boehner2007b posit an alternative interpretation of emotions as
+co-constructed, performed socially and understood only in collaboration with
+other socially-experiencing subjects. An account of socially-situated emotions
+has received some limited uptake within affective computing cite:Parkinson2015;
+however, these theoreis still pre-catagorize emotions, which may obscure other
+phenomena at the borders of these categories cite:Boehner2007b.
+
+# Second, even with the premise that emotions are definite entities for which
+# catagories can be known, affective computing has yet to find the ground truth
+# required to sense the emotions it seeks to capture. Since the nature of emotions
+# remains a point of active debate, it is not clear how affective computing
+# systems might validate their metrics and responses.
+
+Second, affective computing has not substantively engaged with the question of
+how algorithms and devices that seek to detect emotion may affect the way
+emotion is experienced or performed. To quote Cecil Adams, ``the act of
+observing disturbs the observed'' cite:Adams1982. Feedback about emotional
+experience may alter emotional experience as well _[CITE]_.
+
+_well with all these critiques, why are we bothering to talk about affective computing?
+_because it relies on notions of emotion as embodied states that can be detected from physiological input_ _[HEALEY]
+_relies on data from the body to encode and transmit emotion - an aspect of mind_.
+
+*** TODO Computational social science
+
+_Past work has attempted to perform social science using sensors worn or embedded in the build environment_.
+_These efforts predate contemporary IoT, existing mostly in labs_.
+_One early example is Sandy Pentland's Sociometer, which I can describe a little_.
+_ubicomp, proximate future_.
+
+# _Describe the swedish heartrate, always a winner as well_.
+_Describe Social fMRI as a seminal example_.
+_Explain how computational social science is *actually* telepathy --- implicitly uses distributed cognition to understand mental phenomena like stress, anxiety, depression etc_.
+_Aided by infrastructures of machine learning that require large, multi-subject corpora, finding relational and longitudinal dependencies in the dataset_.
+# perhaps affective computing hits this spec as well ^
+
+Indeed, the world of computational social science has shifted from proximate future to lived present.
+From the commerical world of target advertisements, 
+to the public-sector world of pervasive surveillance.
+The legacy of Pentland's work lives on in our connected present.
+_easy critique that looked from perspective of manager, sought to make workspaces more efficient etc_
+This top-down perview of the scientist ignored potential concerns around individual privacy,
+a legacy that continues to produce struggles in IoT _[god view]_.
+_Perfect place for a transition to conclusion_.
+
+
+_TRAJECTORIES OF DEPRESSION_
+_if u believe depression to be an embodied phenomenon, then the phone does sense depression through the body, reather than its bodily correlates_.
+_if u believe depression to be an extended phenomenon, then the cellphone is in fact /a constituent part of the depression/, and can report the ground truth of the depression_.
+
+_these stances are relevant in understanding how mind-reading and telepathy are constructed via the interaction of human beliefs and material configurations_,
+_how these theories make it possible to seek ground truth_
+_such that models can be said to be (in)accurate_.
+I discuss the centrality of human intepretation in the following section.
+
+** Centrality of interpretation
+<<interpretation>>
+
+
+How does one read the mind? In short, one comes up with a theory in which the
+mind is made amenable to sensing. In this section, 
+_DESCRIBE PROJECT OF UDNERSTANDING HOW ENGINEERS AND RESEARCHERS CONSTRUCT MODELS OF MINDS, AND HOW USERS INTERPRET THEM_.
+# drawing from STS, drawing from nafus et al's work on biosensing
+
+# The body and the environment can be, and are increasingly, sensed by digital
+# equipment _[nafus]_. Ubicomp's ``proximate future'' _[bell]_ has transformed
+# into the corporate concept video of today's tomorrow _[wong]_. These changes are
+# motivated by a mix of technical advances (smaller sensors with increasing
+# connectivity), and social shifts that lead users to purchase and adopt such
+# devices.
+
+
+
+_TODO cite boehner first of all_
+
+*** User interpretations
+
+*** Construction of engineers
+
+*** Writing that exists somehow
+
+If people /think/ a certain technology measures aspects of mind, it will
+certainly affect the way they engage with that technology---whether or not it
+works the way they expect cite:Ali2014a. Meanwhile, if they think that a given
+technology does *not* measure their mind, when it fact it does, users may suffer
+a breach of what Nissenbaum might call the ``appropriateness of the flow of
+information'' cite:Doyle2011. In both cases, knowing what people expected will
+help us anticipate their needs, and concerns.
+
+There are some people who actually /want/ their minds measured. In these cases,
+technologies that claim to ``measure the mind'' must rely on end-users to define
+the criteria by which systems are deemed effective, or accurate. Consider the
+Spire, a breath sensor that claims to divine, from a person's patterns of
+in-breaths and out-breaths, what the user is calm, focused, or tense
+cite:SpireInc. For the device to ``work,'' not only must these detected signals
+match with end-users' intuitions, but users must also believe that a device like
+the Spire has the power to measure and detect these phenomena, given breath as
+input cite:Ali2014a. Of course, these attitudes will not be fixed: they will
+evolve over time, as users observe the device in action, and correlate its
+judgments with their own lived experiences cite:Nafus2016.
+
+# why physical matters
+Crucially, assumed connections between the readings of these sensors and the
+phenomena they purport to measure can break down. A cat could accidentally flip
+a lightswitch cite:Tolmie2016; a heartrate sensor could give a false reading.
+Mismatches between what a signal is ``supposed to'' refer to, and what it
+actually refers to, highlight the other crucial aspect of biosensing: /that it
+relies on beliefs about the physical world/, baseline hypotheses that allow
+readings from these sensors to be classified as accurate or inaccurate
+cite:Boyd2013. And, of course, ``raw data is an oxymoron'' cite:Gitelman; the
+way data are presented in specific contexts define what human interpreters are
+and are not able to see cite:Day2014. One useful point of comparison can be
+found in Nafus's (2016) cite:Nafus2016 description of how she began her studies
+of biosensing.
+
 #+BEGIN_QUOTE
-"The exact way organisms are embodied simultaneously 
-constrains and prescribes certain interactions within the environment."
+Figuring out whether a consumer market for biosensors was even thinkable had
+everything to do with whether the data they produced cohered with a cultural and
+social imaginary, such that users stood a chance of making sense of them.
 #+END_QUOTE
-# /Nöe, A., and E. Thompson, 2004, “Are there neural correlates of consciousness?”/
-Resulting ultimately in the "Embodiement Thesis," that 
-"*The agent's beyond-the-brain body* plays a significant 
-causal role in that agent's cognitive processing."
-For example, offloading cognitive work onto the environment.
 
-***** OUTLINED Distributed cognition
-Challenge 2: Focus on the invidiaul.
-As Clark et al propose, 
-"...technological resources such as pens, paper, and 
-personal computers are now so deeply integrated into 
-our everyday lives that we couldn’t accomplish many 
-of our cognitive goals and purposes without them."
-Hutchins revolutionary analysis of pilots on a naval submarine brought this philosophical thesis into the empirical realm
-as ``distributed conition.''
+# NOTE -- I am 'not so sure' about the last part, given my heartrate findings.
+# people can make up new meanings in the absense of strong prior beliefs (tho
+# these cultural/socail imaginaries play a large role in shaping interps.)
 
-***** TODO Activity theory
-**** OUTLINED Making the mind ammenable to sensing
+# In my view, it is these ``cultural and social imaginaries,'' via their imagined
+# systems of reference to particular phenomena in the world, that /cause/
+# biosensing /to be/ biosensing, as opposed to any other type of sensing. 
+This revelation belies the legibility that allows biosensing to become meaningful in daily life.
+it is the step of active, interpretive construction that turns sensing into biosensing, as it takes on reference to living systems,
+or a MoM, as it takes reference to a human mind.
 
-What good is all this theory?
-These _three_ theories
-provide a picture of the mind that extends beyond the confines of the brain.
-As such, /these theories make the mind amenable to sensing without sensing the brain per se/make the mind amenable to sensing without sensing the brain per se/.
+In other words, the way the mind is conceived has consequences for the way
+technoogies are employed to sense it cite:Rose2016. Only someone who believes
+emotion is socially situated would sense an entire organization to understand
+how someone is feeling cite:OlguinOlguin2009,Healey2010,Aharony2011. Past work
+has touched on how preexisting categories of phenomenal experience /make/ these
+phenomena amenable to detection or classification cite:Boehner2007b. Theories of
+how the mind is physically instantiated drive the pursuit of detecting
+particular phenomena. After all, bodies are not transparent. An inherent
+ambiguity exists in what data from sensors can mean, or what it would mean for
+these data to be accurate.
 
-# transition
-Now, if the mind is already /senseable/, has past work already sensed it?
-*** Prior work on mind reading & telepathy
-**** OUTLINED Summary
-this section reviews past work,
-recasting it as being fundamentally /about/ mind-computer interface.
-we make comparisons to the original author's aims,
-pointing out where and why our new lens on this work
-provides useful/fresh/new forms of analysis, and critique,
-as well as new directions for possible future work...
-# lit review
-# recast pror work
-**** OUTLINED Affective computing
 
-acknowledge that AC was onto the whole thing about emotions being sensible,
-being the domain of computers
+_Describe project of knowing what end-users *and engineers* think aout this_.
+_Contrast with STS proiject of scientists in labs_.
+Now, users and engineers outside of lab environments will parttake, wittingly or not, and with varying degrees of formality, in this centuries-old project of Western rationalist inquiry.
+_Lead into the next section_.
 
-concerned with mind-reading as /other people/ do mind reading
-people who 
-"mind reading" as term of art in autism, what autistics lack
-
-***** OUTLINED Social Signal Processing (SSP)
-turn to easy critique of its view of emotions as computational, rather than co-constructed interpretive
-also easy critique of emotions being within a single person
-highlight alternatives e.g. boehner, leahu, sengers
-
-***** OUTLINED Ground truth
-point out easy critique that it never found the ground truth it was 'looking for'
-
-***** OUTLINED Affecting affect
-# , or the hard problem of feedback loops
-point out harder truth that it never looked much at how its judgement might AFFECT the phenomena it purports to observe
-
-**** OUTLINED Pentalnd & distributed self
-
-# hmmmmmm
-got closer with idea of distributed models
-like earthquake, perhaps emotions also distributed [parkinson]
-
-easy critique that looked from perspective of manager,
-sought to make workspaces more efficient etc
-
-harder critique that the CONSEQUENCE of this myopic focus
-missed some of the real concerns around privacy, autonomy, security
-
-harder critique that this world has to some extent come to pass as a result
-targeted advertisements,
-digital surveillance to see whos terrorist,
- now with VR even more intimate 
- bci promises yet another intimacy, 
-   look at those side-channel attacks and so on, 
-   done with P300 and now there's a startup with a P300 api [], once the stuff of fiction []
-
-**** OUTLINED Transition
-so i went through nitpicking all these theories,
-but how to remedy? what can we add to conversation that will substantially help to address these critiques across much research?
-*** Human beliefs at the center of all
-**** OUTLINED Summary
-this section reviews some work that is substantially untouched by past work:
-the fundamental role of human beliefs in our ability to do anything with MCIs (technology in general)
-human beliefs always at some level of the stack.
-we also outline why this point matters, before concluding with a discussion of what can be done about it
-**** TODO No fixed meaning a priori
-# critical lit review
-
-**** TODO Material phenomena we /assign/ meaning
-**** TODO Why this matters
-*** TODO Conclusions
-
-people will continue to build increasingly hi-res models of human bodies in space;, and human environments
-I argued that 
-these models will in general will be informative wrt /the mind/,
-producing what i dub /mind-computer-interfaces/ (MCIs).
-
-what 2 do now?
-# justifying the next step of work
-- It is now time to see if engineers believe mind is /senseable/
-  - See how our theory matches up (or doesn't) with their beliefs
-- One good starting place is the brain
-  - But other wearable senosrs can also work .. heart is a good one, lots of connotations there, and may be diff btwn cultures!
-  
-_WHY SO IMPORTANT?_
-
-* TODO Reading mind from heartrate
+* Reading mind from heartrate
 
 While the previous chapter argues that certain framings of the mind make it
 amenable to reading by sensors, this chapter seeks to discover whether /users
@@ -302,7 +479,7 @@ and a mixed-methods experimental study, this chapter show how people use
 biosensory data (heartrate) in social, computer-mediated contexts to build
 interpretations relating to the minds of others.
 
-** TODO Introduction
+** Introduction
 
 As of 2016, several apps allow users to share their heartrate with their
 friends, leading some cite:McNell2015 to wonder why anyone would anyone want to do such a
@@ -336,10 +513,10 @@ individuals will interpret a shared biosignal (e.g. heartrate) in different
 contexts of social interaction.
 
 This chapter examines what heartrate can mean as a computer-mediated cue,
-and how interpretations of heartrate affect social attitudes and social behavior.
-_etc about the mind......_
+and how interpretations of heartrate affect social attitudes and social behavior
+as people assign meanings to these signals relevant to the mind (emotion, mood, trust).
 
-First, we use a vignette study to investigate how individuals make social
+First, we use a vignette experiment to investigate how individuals make social
 interpretations about a rudimentary biosignal (heartrate) in conditions of
 uncertainty, focusing on dyadic interactions between acquaintances. Dyadic
 relations, which are present in all groups, function as a fundamental starting
@@ -368,8 +545,8 @@ also find a small number of subjects read different social interpretations onto
 the heartrate signal, including a very small minority who did not infer any
 relationship between the heartrate and the social situation.
 
-From these findings about social attitudes, we then move to an experimental
-study to understand how shared heartrate effects social behavior. We apply
+From these findings about social attitudes, we then move to an lab-based experiment
+to understand how shared heartrate effects social behavior. We apply
 quantitative and qualitative analyses to an iterated prisoner's dilemma game, in
 which heartrate information (“elevated” or “normal”) was shared between players.
 In a follow-up study, we replicate our initial study, but replace heartrate with
@@ -385,7 +562,7 @@ viewed as beneficial, depending on design objectives. It could also be dangerous
 if designers suggest, perhaps even inadvertently, interpretations that lead to
 discrimination.
 
-_Wrap-up about the mind....._
+# something here to tease how this fits into larger argument, or nah?
 
 ** Background
 
@@ -451,24 +628,22 @@ data will always result in increased trust and intimacy. There remains little
 work, however, on how the potential ambiguity of a heartrate signal is resolved
 in social conditions of risk and uncertainty.
 
-** TODO Vignette experiment
+** Vignette experiment
 
-_TODO Introduce this particular study, move text_
-# We investigate interpretations of a biosignal (heartrate) in uncertain social
-# interactions. We describe the quantitative and qualitative results of a
-# randomized vignette experiment in which subjects were asked to make assessments
-# about an acquaintance based on an imagined scenario that included shared
-# heartrate information. We compare the results of this experiment in adversarial
-# and non-adversarial contexts of interaction. We find that elevated heartrate
-# transmits cues about mood in both contexts, but that these cues do not appear to
-# impact assessments of trustworthiness, reliability and dependability. Counter to
-# our expectations, we find that normal (rather than elevated) heartrate leads to
-# negative trust-related assessments, but only in an adversarial context. Our
-# qualitative analysis points to the role of social expectations in shaping
-# contextual interpretations of heartrate, and reveals individual differences in
-# the way interpretations are constructed. We unpack some of the ways that social
-# meanings can arise from biosensor data, and discuss considerations for those
-# designing interactions with wearables.
+This section describes the quantitative and qualitative results of a randomized
+vignette experiment in which subjects were asked to make assessments about an
+acquaintance based on an imagined scenario that included shared heartrate
+information. We compare the results of this experiment in adversarial and
+non-adversarial contexts of interaction. We find that elevated heartrate
+transmits cues about mood in both contexts, but that these cues do not appear to
+impact assessments of trustworthiness, reliability and dependability. Counter to
+our expectations, we find that normal (rather than elevated) heartrate leads to
+negative trust-related assessments, but only in an adversarial context. Our
+qualitative analysis points to the role of social expectations in shaping
+contextual interpretations of heartrate, and reveals individual differences in
+the way interpretations are constructed. We unpack some of the ways that social
+meanings can arise from biosensor data, and discuss considerations for those
+designing interactions with wearables.
 
 Compared to social interpretations of physiological signals, interpretations of
 one’s own signals are slightly better-understood from empirical research.
@@ -1031,37 +1206,33 @@ participants' attention on the task (e.g.., we could not detect whether the
 subject was switching between tabs in their web browser, or taking breaks during
 the survey), nor did we monitor how long subjects spent filling out the survey.
 
-** TODO Lab-based experiment
-
-Our vignette experiment provides evidence that interpretations of biosignals from sensors
+While this vignette experiment provides evidence that interpretations of biosignals from sensors
 (such as wearables) can affect social attributions and behaviors towards others.
-Nevertheless, many questions remain. Controlled, behavioral
+Nevertheless, many questions remain. A controlled, behavioral
 experiments could help us ask more specific questions about how elevated
 heartrate affects perceptions of risk in uncertain interactions, e.g. when money
-is at stake. Such studies could lead to a more robust understanding of how the
-transmission of biosignals might affect social behavior. Future work should also
-investigate the degree to which our findings are unique to heartrate. Other
-biosignals (e.g., galvanic skin response, electroencephalography or EEG), could
-offer different affordances for sense-making. It is unclear from our work how
-the social interpretation of the signals from these devices could affect social
-behaviors such as dyadic and group trust.
+is at stake. Such a study could lead to a more robust understanding of how the
+transmission of biosignals might affect social behavior. 
+Thus, in the following section, we extend this work to a lab-based experiment.
 
-_TODO NOW introduce current study_
-# This study examines heartrate sharing in the context of a trust-building game.
-# Through quantitative and qualitative analyses, we find that "elevated" (versus
-# “normal”) heartrate of an exchange partner is associated with negative mood
-# attributions and reduced cooperation in a social dilemma game. To investigate
-# how specific our findings are to heartrate (as opposed to some other "elevated"
-# signal collected from the body), we replicate our initial experiment with an
-# unfamiliar biosignal, “skin reflectivity”. We find that both heartrate and the
-# unfamiliar biosignal are associated with negative mood attributions, but we
-# observe a decrease in cooperative behavior only with elevated heartrate.
-# Qualitative results indicate that individuals may learn an association between
-# our unfamiliar biosignal and the cooperative, trusting behavior of their
-# partner. Our findings highlight the role prior beliefs can play in shaping
-# interpretations of a biosignal, while suggesting that designers can, perhaps
-# inadvertently, train users to associate signals with social meanings. We discuss
-# implications for how wearable sensors can mediate social interactions.
+** Lab-based experiment
+
+Following our vignette experiment, which focused on social attitudes, we extend
+our inquiry to a trust-building game, which will allow us to study social
+behavior. Through quantitative and qualitative analyses, we find that "elevated"
+(versus “normal”) heartrate of an exchange partner is associated with negative
+mood attributions and reduced cooperation in a social dilemma game. To
+investigate how specific our findings are to heartrate (as opposed to some other
+"elevated" signal collected from the body), we replicate our initial experiment
+with an unfamiliar biosignal, “skin reflectivity”. We find that both heartrate
+and the unfamiliar biosignal are associated with negative mood attributions, but
+we observe a decrease in cooperative behavior only with elevated heartrate.
+Qualitative results indicate that individuals may learn an association between
+our unfamiliar biosignal and the cooperative, trusting behavior of their
+partner. Our findings highlight the role prior beliefs can play in shaping
+interpretations of a biosignal, while suggesting that designers can, perhaps
+inadvertently, train users to associate signals with social meanings. We discuss
+implications for how wearable sensors can mediate social interactions.
 
 _TODO remind that we just talked about this in the last exp_
 Generally when individuals believe that their heartrate is
@@ -1869,23 +2040,1145 @@ systems can condition participants to learn (potentially arbitrary) associations
 between biosignals and social behaviors.
 
 Aside from heartrate, we do not know what many other biosignals might be
-associated with moods and behaviors. Similar studies with signals from, e.g.,
-the brain cite:Ali2014a are a clear direction for future work. Especially
-interesting cases are signals for which precise or empirical meanings are still
-being hotly debated, such as EEG (brainwaves).
+associated with moods and behaviors. Other biosignals (e.g., galvanic skin
+response, electroencephalography or EEG), could offer different affordances for
+sense-making. It is unclear from our work how the social interpretation of the
+signals from these devices could affect social behaviors such as dyadic and
+group trust. Similar studies with signals from, e.g., the brain cite:Ali2014a
+are a clear direction for future work. Especially interesting cases are signals
+for which precise or empirical meanings are still being hotly debated, such as
+EEG (brainwaves), a sensing modality we begin to discuss in the following chapter.
+* TODO Shifting to the brain
 
-_TODO WHERE TO FROM HERE????????_
+While the prior chapter establishes that people build mind-related meanings
+around biosensory data, this chapter locates brainscanning, and brain-based
+authentication specifically, as a fruitful case for understanding how particular
+sensing technologies construct notions of mind. I report on the qualitative and
+quantitative results of survey among participants in a large (n>10,000),
+longitudinal health study, and an Amazon Mechanical Turk population.
 
-* Shifting to the brain
+** TODO Introduction
+*** TODO Last study looked deeply into heartrate
+*** TODO Now time to look at all the diff sensing modalities
+** TODO Methods
 
+The survey we report on here, currently in-progress, examines how people's
+beliefs differ given device ownership, and their membership in one of two
+groups: Mechanical Turk workers, or people enrolled in Health-e-Heart, a massive
+(n > 40,000), longitudinal study, in which volunteers fill out surveys about
+themselves, and/or upload data from biomedical self-tracking devices, over the
+course of several years cite:Estrin2010a. 
 
+*** TODO Motivation behind subject choice
+
+**** TODO why heh?
+
+**** TODO why mturk?
+
+*** Subjects / Survey
+In one portion of the survey, we ask
+subjects to rate a number of different biosensors in order of how likely
+individual's believe each sensor is to reveal what ``a person is thinking or
+feeling'' (Figure [[fig:sensor-rank]]). This section reports on a subset of
+Mechanical Turk workers (n=100) and Health-e-Hearth subjects (n=100).
+
+** TODO Quantiative results
+
+In our preliminary findings, brainwaves (EEG) are seen as among the most
+revealing biosignals, just below body language and facial expression, in their
+capacity to reveal the inner workings of a person's mind. More common sensors
+such as GPS and step count are seen as less revealing (despite empirical
+evidence suggesting such data can be quite revealing indeed cite:Canzian2015).
+
+#+ATTR_LATEX: :float multicolumn
+#+NAME: fig:sensor-rank
+#+caption: ``Please rank the following sensors in how likely you believe they are to reveal what a person is thinking and feeling.'' Higher bars indicate higher rank, or higher likelihood of being revealing.
+[[./figures/rankings.png]]
+
+** TODO Qualitative results
+
+Our qualitative data revealed that subjects in both groups generally believed EEG to reveal various details about the mind, mood, emotions, and identity.
+We asked subjects to reflect on why they answered the way they did during the ranking task (Figure \ref{fig:rank}).
+In the Health-e-Heart group, several subjects gave relatively specific explanations as to why they ranked EEG hihgly.
+
+#+BEGIN_QUOTE
+/(S24) I assume some information can be gleaned from brain wave activity in various parts of the brain related to rewards or executive control, but without accompanying information, it may be difficult to discover my thoughts./
+
+/(S23) EEGs note parts of the brain that are active.  Again, in conjunction with other measurements, I suspect that some sense of what one is thinking and feeling could be learned./
+
+/(S91) I would rate this relatively high on the list because science has shown that we can detect a lot about which areas of the brain are accessed and at which times.  This can tell a person a lot about what they might be thinking and especially how they are feeling./
+#+END_QUOTE
+
+While these explanations range somewhat in their specificity and confidence,
+they share the general sentiment that EEGs can be revealing. Subjects in the Mechanical Turk condition broadly shared this belief, though tended to use less physiological detail in their explanations.
+
+#+BEGIN_QUOTE
+/(S157) Brain activity can pinpoint exact emotions by monitoring certain areas on the brain./
+
+/(S130) Brainwaves could tell you a lot more about what someone is thinking and feeling. You could measure the patterns of brainwaves in an experiment./
+#+END_QUOTE
+
+Meanwhile, some subjects from both groups did not fit this trend. Ten subjects ranked EEG low in its ability to measure what a person is thinking or feeling. Their qualitative answers revealed a diverse set of reasons for this ranking.
+Three subjects indicated a general lack of faith in brainwave's reliabilty.
+
+#+BEGIN_QUOTE
+/(S20) I don't think we have the ability to translate brainwaves into thoughts or emotions./
+
+/(S101) EEG is very nonspecific and rarely can tell details reliably./
+
+/(S138) Possible but not accurate./
+#+END_QUOTE
+
+These explanations broadly centered around EEG as a signal.
+They range somewhat in their confidence, from a fundamental skepticism (S20) to caveats about possible accuracy or specificity (S101, S138).
+In contrast to these three subjects, S10 ranked EEG low because s/he
+felt the premise of a consumer grade EEG was implausible.
+
+#+BEGIN_QUOTE
+/(S10) I assume that scientists can identify by brain patterns what others are feeling and thinking based off of years of research.  I've never heard of a consumer grade eeg - and doubt it could be as powerful as a laboratory eeg.  If it is then I would be interested in this product./
+#+END_QUOTE
+
+This subject's explanation surfaces the practical differences in attitudes that people might have to a technology's theoretical existence,
+and its realized existence as a consumer device. Future work could look more closely at 
+how the presumed scientific authority of a brainscanning apparatus affects people's willingness to accept specific BCI applications such as passthoughts cite:Ali2014a.
+Finally, one subject's skepticism what brainwaves can reveal stemmed from his/her personal medical experiences.
+
+#+BEGIN_QUOTE
+/(S116) My son has absence seizures, so his brainwaves change./
+#+END_QUOTE
+
+This quote highlights how individuals' life experiences
+might shape the way they engage (or refuse to engage) with brain-sensing devices.
+In general, this quote and others motivate the need for a rich, qualitative understanding of people's first-hand experiences with brainscanning devices,
+as well as data collection,
+in order to understand what role BCI applications such as passthoughts could play in day-to-day life.
+
+** Brain-based authentication as a usecase
+
+*** TODO Motivating a brain-based probe
+
+**** TODO Why brains interesting case given data
+
+**** TODO Wonder aloud how to study brain-based case, lay out specs
+
+*** Brain-based authentiation
+
+**** Authentication
+
+Authentication seeks to prove that a user is who they claim to be. In computer
+security, authenticators are classified into three types: knowledge factors
+(e.g., passwords and PINs), possession factors (e.g., physical tokens, ATM
+cards), and inherence factors (e.g., fingerprints and other biometrics).
+Passwords, which rely only on a knowledge factor, offer many benefits
+cite:Bonneau2012, including their capability for allowing /authorization/
+(granting use of a system). However, for authentication (verifying an
+individual), passwords are easy to compromise, and easy to forget. These
+shortcomings motivate the overlay of multiple factors of authentication.
+
+**** Multi-factor authentication
+
+An ongoing problem in authentication lies in balancing strong security (i.e.,
+multiple factors) with usability. As an example, major industry players such as
+Google and Facebook have strongly encouraged their users to adopt two-factor
+authentication (2FA), in which a user enters his or her password (a knowledge
+factor), and subsequently receives a code on their cellphone (a posession
+factor).
+
+However, submitting two different authenticators in two separate steps has
+frustrated wide adoption due to its additional hassle to users. The Apple
+iPhone, for instance, already supports device unlock using either a
+user-selected passcode or a fingerprint. The device could very well support a
+two-step two-factor authentication scheme if desired. However, it is easy to
+understand why users would balk at having to enter a passcode /and/ provide a
+fingerprint each time they want to unlock their phone.
+
+**** One-step, multi-factor authentication
+
+Since passthoughts' initial proposal in 2005, more ubiquitous sensing and
+computing has enabled a number of other strategies for achieving two factors of
+authentication in a single step. Some work has tested behavioral authentication
+methods such as keystroke dynamics, or voice. In both cases, the knowledge
+factor (password or passphrase) and inherence factor (typing rhythm or speaker's
+voice) are employed cite:Monrose1997. In contrast, the Nymi band supports
+one-step two-factor authentication via the inherence factor (cardiac rhythm that
+is supposed to be unique to each individual) and the possession factor (the
+wearing of the band on the wrist) cite:Nymi. More recent attempts have also used
+gait (from cellphone accelorometers) to perform authentication cite:UnifyID2017.
+# Custom-built EEG devices could incorporate an added possession factor 
+# to the already two-step authentication provided by passthoughts cite:Curran2017.
+
+However, these existing strategies are susceptible to a variety of attacks.
+Nymi, for example, does not have a knowledge factor, making it impossible for
+the user to change the authentication token if the device and biosignal have
+been compromised. Keystroke dynamics, voice, and gait are all susceptable to
+``shoulder surfing,'' in which an attack uses visual or other cues to steal, or
+improve the chances of guessing, a target's chosen secret. Passthoughts
+mitigates this attack by nature of the mental gesture. Since the expression of a
+passthought is not externally visible, the authenticator is impervious to
+shoulder surfing attacks. Since the thought incorporates a chosen secret
+(knowledge factor), it can be changed if compromised.
+
+To assist with the usability and security issues surrounding multi-factor
+authentication, passthoughts aims to provide two factors of authentication in a
+single step. A single mental task, or passthought, provides both a knowledge
+factor (a chosen secret thought) with an inherence factor (the way that thought
+is expressed for an individual) cite:Chuang2013b,Johnson2014. Using a custom
+sensing device, passthoughts could provide an additional posession factor, all
+in the same step.
+
+The use of EEG as a biometric signal for user authentication has a short
+history. In 2005, Thorpe et al. motivated and outlined the design of a
+passthoughts system cite:Thorpe2005. Since 2002, a number of independent groups
+have achieved low (less than 1%) false acceptance rates using multi-channel
+sensors placed on the scalp
+cite:Poulos2002,Marcel2007a,Palaniappan2008,Ashby2011. In 2013, one group showed
+that similar accuracy can also be achieved using a consumer-grade single-channel
+sensor cite:Chuang2013b. In particular, the lack of signal diversity from
+multiple EEG channels can be overcome by allowing the users to choose their own
+personalized passthoughts (e.g., sing their favorite song in their head). There
+are two significant consequences of this result. First, the passthoughts
+approach is no longer constrained by the high cost (> $10,000 USD) and low
+usability (gel-based electrodes; aesthetic challenges of an EEG cap) of
+medical-grade multi-channel devices. Second, because users can choose and easily
+change their secret mental task, this approach can support one-step two- factor
+authentication via the simultaneous presentation of the inherence factor
+(brainwave signatures due to the unique folding structures of the cortex) and
+the knowledge factor (the secret mental task) cite:Chuang2014.
+
+*** TODO Brain-based authentication as a probe
+
+**** TODO How it meets specs laid out above
+
+**** TODO Tease next chapter where we focus on engineers
 * Talking to engineers about brain-computer interface
 * Who are you really? Probing engineers on authentication and the ground truth of identity
-* Beliefs, practices
-* References
 
-\bibliography{refs}
-* Bibliography
-* Appendices
+# focused so much on the eeg sensing modality,
+# easy to ignore the other interesting aspect of brain-based authentication, in itself has open questions
+# look at auth now for tis cahpter,
+# see how it intersects w our other concerns
 
-[fn:1] Not necessarily the /only/ choice! ...but the choice we will work with here. see Chalmers, D. (1996): The Conscious Mind. and Dennett, Daniel C. (1991). Consciousness Explained. 
+# During my visit to San Francisco startup UnifyID, a group of designers and
+# engineers chanted the company's motto in unison: ``Be authentic, be yourself.''
+# /Authentic/ here refers to /authentication/, an ongoing problem in computer
+# security. 
+#
+# OR -- 
+# 
+# On a Thursday morning in January 2017, White House press secretary Sean Spicer 
+# tweeted his pasword: ``n9y25ah7''_[CITE]_.
+#
+# _Start w anecdote - kid buying pokemon w sleeping mom's fingerprint_?
+Just before Christmas in 2017, a 6-year old child found her mother sleeping on
+the couch. She gently picked up her mother's thumb, placed it on the fingerprint
+scanner of her iPhone, and ordered herself $250 worth of Pokemon presents
+cite:Johnson2017.
+
+# From highly-publicized leaks cite:Selyukh2017 to accidental tweets by White
+# House officials mistakes cite:Palma2017, passwords suffer from long-standing
+# issues around usability cite:Bonneau2012. 
+In response to long-standing issues with passwords cite:Selyukh2017,Palma2017,
+consumer devices are increasingly turning away from passwords and toward
+/inherence-factor authentication/, which rely on properties of the body, such as
+fingerprints or facial scans. These systems are diverse in their sensing
+modalities, but similar in their use of digitized identifiers from the body as
+tokens of personhood. Whereas passwords can be given to others, these
+identifiers by design cannot be distributed: they are meant to verify not
+access, buy particular bodies.
+
+However, inherence-factor authentication brings its own challenges: Apple's
+FaceID cannot distinguish between twins cite:Hern2017; a child can use her
+sleeping mother's finger to authenticate cite:Johnson2017. Such shortcomings beg
+the question: what is the ground truth for the personhood inherence-based
+classifiers seek to verify? How does this personhood relate to the bodily
+identifiers they collect?
+# M - why do authetication systems have to "capture" the self anyway - really
+#     what they need is one easily-measureable unique identifier, not the "whole" self?
+
+# morgan - better justify use of software engineers in second and third
+#          paragraphs, especially given the results in the third paragraph. 
+In this study, we built a system that uses a brainscanner to authenticate users
+based on their neural signals. This system was highly experimental, prone to
+false acceptances and false rejections. It produced a continuous, probabilistic,
+and often ambiguous ``determination'' about the identity of the person wearing
+it.
+
+We provided this system to software engineers in the San Francisco Bay Area,
+aiming to use this probe to surface
+their beliefs about the ``true'' nature of the self, and its
+relationship to biometric identifiers generally.
+These engineers represent a community of technical practioners
+who, through their position in a global software industry cite:saxenian1996regional,
+have the potential to actively construct notions of selves
+through authentication or other applications.
+By surfacing their ideas about personhood,
+we hope to raise alternatives for design
+that are sensitive to various conceptions of selfhood.
+
+# We believe these engineers have an outsized impact on what sorts of systems
+# will get developed and deployed.....
+
+# We center the multiple ways this group
+# conceives of the relationship between the brain, the body, and the self. _how
+# beliefs about the relationship between /the brain/ and /the self/ inform and
+# constrain their beliefs about what authentication can do._
+
+Although we set out expecting to discover how engineers' beliefs about the self
+mirror the notions of self embedded in typical authentication systems, we
+instead find that these software engineers hold complex notion of self involving
+multiple, material contingencies over time, which existing authentication
+systems do not capture. 
+Through these diverse notions of personhood,
+we possibilities for the design of authentication systems,
+and other systems in which the self is modeled (explicitly or implicitly).
+_distill implications further when crystalized_.
+# We discuss implications for how authentication systems
+# can be seen as ``working,'' and push toward a design criticism focused on
+# cybsersecurity systems and their broader consequences.
+
+** Background
+*** Authentication, bodies persons
+
+This section traces how passwords' shortcomings
+motivated a shift to inherence-based authentication, and how this shift
+presented the novel challenges addressed in the present work. This section
+concludes by claiming that, in their quest to verify personhood, inherence-based
+authentication systems make particular epistemological commitments about how
+persons are defined. These persons or ``selves'' are what systems are tasked
+with classifying; they are the ground truth through which a system's success and
+failure are understood.
+
+**** A brief history of authentication
+
+In computer security, authentication schemes seek to verify that a user is who
+they claim to be. Authentication is traditionally established via a taxonomy of
+``factors'': something one knows (knowledge, e.g. a password), something one is
+(inherence, e.g. a fingerprint), or something one has (possession, e.g. a
+keycard). For enhanced security, ``multi-factor'' authentication overlays
+multiple of these properties. A common two-factor (2FA) scheme requires the
+knowledge factor of one's password along with the possession factor of one's
+phone.
+
+# CTSS Programmers Guide, 2nd Ed., MIT Press, 1965
+# http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0234%3Abook%3D6%3Achapter%3D34
+# https://en.wikipedia.org/wiki/Countersign_(military)#cite_note-1
+The concept of using a secret phrase for authentication has a largely military
+history, insofar as its use has been recorded. US soldiers shared a famous
+challenge-response password on D-Day: were two unfamiliar soldiers to meet, the
+first would say /``flash,''/ the second would reply /``thunder,''/ and the first
+would confirm, /``welcome''/ cite:lewis2004d. However, the use of passwords was
+documented as early as 146 BC among the Roman military by the Greek historian
+Polybius cite:mcging2010polybius (6.34).
+
+Passwords have been used to manage access in computer systems since at least
+1961 cite:crisman1965compatible. They offer many benefits in a computing context: they require
+no special hardware to enter, beyond a keyboard, and they can be shared easily
+between people. This latter feature makes passwords a tool for /authorization/
+(of access) rather than a tool for /authentication/ (of personhood). 
+
+**** A shift to inherence
+
+Despite passwords' strengths, high-profile leaks and breaches serve as regular
+reminders that passwords have serious security issues, particularly around
+usability cite:Bonneau2012. In response to the shortcoming of passwords, the
+Apple iPhone introduced inherence-based authentication in 2013. This fingerprint
+scanner stems from a long forensic history of fingerprint analysis (and much
+crticism about the practice's accuracy) cite:nelson2010america. At the time of
+its introduction in computer security, the paradigm were seen as less prone to
+``security mistakes'' on the part of users. Based on properties of the body,
+they are widely seen as more difficult to steal than passwords, and particularly
+less suceptible to attacks involving remote access.
+
+However, the integration of biometrics creates a new problem for the systems
+that utilize them: their access is now predicated on characteristics of bodies.
+Rather than establishing knowledge of a token, inherence-based systems establish
+/personhood/ using physical tokens from the body cite:nelson2010america. In
+doing so, these systems actively construct a notion of the self around the
+tokens they are able to detect.
+# UHHHHHHHHHHHHHHHHHH kind of wanting more here tbh
+
+In this study, we ask: How do these constructed selves match to beliefs about
+the /true/ ground self of personhood? As we discuss in the next section, we look
+to software engineers in particular, whose beliefs we consider particularly
+relevant in reflecting on what types of authentication systems have already been
+deployed (are their models sufficient?), and into surfacing alternative systems
+that may reflect other conceptions of self or personhood.
+
+*** The beliefs of software engineers
+
+Our focus on software engineers, particularly in the San Francisco Bay Area,
+is motivated by this group's outsized impact on the sorts of systems that are
+developed and deployed globally. We believe this group's beliefs about the
+nature of the self will have a tight relationship to their technical practice.
+By surfacing their beliefs, we will be able to better anticipate the systems
+they may build, and also to help raise alternatives for design that are
+compatible with engineers' beliefs.
+# _yes..they might build shit that matters ;)_
+
+# #+BEGIN_QUOTE
+# A - why their BELIEFS matter, ANT on one side, death of
+# the network on the other, why beliefs vs what systmes do in the world
+# #+END_QUOTE
+What we do not yet know is how engineers' beliefs about the self inform the
+design of authentication systems generally. Following Agre's study of artificial
+intelligence practitioners, cite:Agre1997, we note that it is also unclear how
+philosophically committed systems designers are to the epistemological
+implications of authentication systems. Would they agree what current
+authentication systems offer practical workaround for pragmatic ends? Or would
+they argue that there is one true self per person, and/or that existing systems
+correctly identify the ground truth of personhood?
+
+#+caption: The InteraXon Muse. The headband contains flexible, electromagnetic sensors worn over the forehead, and conductive rubber electrodes worn over the ears.
+#+name: fig:muse
+[[./figures/muse.jpeg]]
+
+# TODO explain why these questions are weighty/consequential
+#      e.g. why it matters for the way the world is organized.
+
+*** Technology probe
+
+This paper seeks to grapple with these questions by examining what this
+group believes the self /is/, and how current authentication systems map to
+their beliefs. In doing so, we hope to find room both to critique the
+commitments underpinning authentication systems, to raise alternative systems
+for authenticating persons, and to think about their consequences. We hope this
+investigation can move toward a role for research-through-design in
+cybersecurity, a point we will return to this point in the discussion.
+
+In this study, we presented participants with a technology probe. Technology
+probes are functional apparati intended to both collect data /in situ/ from
+participants, and to inspire participants to reflect on the probes, and on their
+beliefs more generally cite:Hutchinson2003. Probes have a long and diverse
+history within HCI, often to a variety of different practices cite:Boehner2007.
+In the context of our study, our probe seeks primarily to answer research
+questions, rather than to act as a step in an iterative design process. Unlike
+some probes in past work, ours was not intended for longitudinal deployment.
+Instead, we aimed to gather beliefs about particular technologies and domains
+through a session of open-ended interaction with a device cite:Leahu2014.
+_TODO something about short study duration / precedent for short-duration probes_
+
+*** Brain-based authentication
+
+As our technology probe, we focused on brain-based authentication as a specific
+application to bring to our participants. Brain-based authentication uses neural
+signals, detected from a brainscanning device, as a biometric to authenticate
+users. This section explains why we picked brain-based authentication as an
+application area for our technology probe.
+
+Brain scanning holds a unique /charisma/ cite:Ames2015, not only among
+researchers in related fields cite:Rose2016a, but among non-experts as well
+cite:Ali2014a. A particularly pervasive facet of brainscanning's charisma is a
+reductive neuroessentialism cite:Vries2007,
+in which the /brain/ becomes equated with the
+/self/. In his study of PET scans, Dumit outlines how the rhetoric around
+this scanning methodology spurred utopian (and dystopian) visions of diagnosing
+mental illness, or even criminality, from scans of a person's brain
+cite:Dumit2004. Dumit raises the question of how notions of /personhood/ become
+entangled with the brain through the technical and social affordances of PET's
+imagery.
+
+# Richmod:
+#  I *think* there's a sort of general fiction, but perhaps interesting, dystopian narrative about the brain and the self that's counter to your charisma. The sort of knowing/linking/scanning the brain as a reduction of "self". (Thinking of the Borg in Star Trek and hive mind fears)
+
+# Introducing passthoughts
+Because of this pre-existing entanglement between the brain and the self in
+technoscientific discourse, we decided to focus our probe around the same topic.
+In the paradigm of brain-based authentication, patterns of brainwaves, however
+dynamic, become equated with the selves who produce them, using the statistical
+infrastructures of machine learning algorithms. In so doing, the system implies
+an equiveilance between the brain (as a physical organ) and the self: From the
+perspective of brain-based authentication systems, a person /is/ the way their
+brain works. Further, while the brain-based authentication paradigm is explored
+by much academic research
+cite:Chuang2013b,Marcel2007a,Maiorana2016,Marcel2007a,Thorpe2005, it remains
+both ``sci-fi'' enough to trigger the imagination of participants, it is also
+vague enough to produce skepticism and concern as to whether the device will be
+consistently accurate.
+
+While past work has looked at academic visions around selfhood and the brain
+cite:Rose2016a,Sample2016, less is known about how other technical practioners
+may understand these notions, or their relation to one another. As research into
+brain-based authentication continues cite:merrill2017future, re-examining these
+findings from neuroscience and STS among software engineers may also shed light
+on novel considerations for design.
+
+We decided to use the InteraXon Muse (Figure [[fig:muse]]) as our physical sensing
+device. The Muse is an EEG-sensing headband containing four electrodes, sold
+commercially for 249USD. Although the Muse's signal can be contaminated by noise
+from muscular movement or environmental radiation, its signal has been robust
+enough for use in some neuroscience studies cite:Krigolson2017,Karydis2015, In
+our own tests, we found the Muse produced a signal clean enough to provide
+robust classification accuracy for the authors. Further, the device is light and
+portable, and does not require special gels, making it minimally invasive for
+our purposes in designing a probe.
+
+**** Designing the probe: Emulating the debugging experience
+
+# So why brain-based authentication for our study?
+# to help surface software engineers' beliefs about the
+# self, while focusing discussions on authentication specifically. 
+# Specifically,
+
+
+While the brain-based authenticator probe had a natural thematic relationship to
+our research questions, we designed the specific technical artifact to raise the
+intended questions (and criticisms) among our participants as they interacted
+with it. Software engineers design systems that rest on rule-based reasoning,
+yet attuned to the ``edge-cases'' that arise from the messiness of human
+realities. Thus, we believe this group would be well-attuned to the limitations
+and needs of a technical system design. Although these engineers may be
+``caught'' by aspects of the charisma surrounding brain-based systems, they are
+also well-equipped to disagnose issue, and surface the consequences of these
+systems. In the hopes of triggering our participants' ``professional vision''
+cite:Goodwin1994 as software engineers, we designed our probe to mimic the
+experience of sitting at one's terminal and debugging (Figure \ref{fig:ui}).
+# #+BEGIN_QUOTE
+# M - One angle: because engineers are used to designing systems that need
+# hard-and-fast rules (and to take care of edge cases etc.) for the messiness of
+# human realities, they may be better attuned to the issues that could come up,
+# whereas non-engineers may not fully understand the limitations and needs of a
+# technical system design (e.g. assuming the tech can do more than it actually
+# can). In a way, though engineers might be 'caught' by the charisma of these
+# systems, maybe they're actually a little *less* susceptible?
+# #+END_QUOTE
+
+
+Our probe's unfinished appearance was intended to invite critique and playful
+experimentation. However, unlike a mock-up or provocation, our probe did
+function as advertised, allowing participants to interact with the devices in an
+exploratory and unconstrained way (indeed, many engineers tested that the
+device's feedback was real). We hoped the live nature of the feedback would
+encourage subjects to discuss the probabilistic judgments of the system's
+machine learning classifier, a technical configuration that has become the
+mainstay of modern inherence-based authentication.
+
+# _TODO we do NOT aim to build a representative example of people, or even of engineers........we just require them for these properties we talk about above_.
+
+** Methods
+
+*** Participants
+
+# Recruitment technique & rationale
+Our subjects were recruited from Silicon Valley software engineering startups.
+Using personal connections and mailing lists, we screen specifically for
+subjects We used snowball sampling to reach additional participants who met
+these criteria. Historically, these engineers have a outsized impact on the
+types of software developed for mass consumer use cite:saxenian1996regional. As
+sensor hardware becomes more commercially accessible, and therefore more
+amenable to experimentation at the software, this group once again holds a
+unique role in devising a consumer future for this biosensor. Due to the
+pervasive culture of unstructured experimentation or ``hacking'' within Silicon
+Valley technical culture cite:saxenian1996regional, we screened for participants
+who expressed an interest in developing BCI equipment as a hobby. We assumed
+this group would be more invested in analyzing and critiquing the technology
+probe.
+# and also more suceptible to its hype, no? how do we counter this critique?
+
+A total of eight people participated, three of which were women. Participants'
+ages ranged from 23 to 36. We met with subjects for a single, one-hour session
+in which we trained and tested a brain-based authenticator, allowing them to
+interact with it in an open-ended way.
+
+*** Study protocol
+
+#+caption: Mental gestures used in calibration section. Each gesture was performed ten times, for ten seconds each. The authenticator's classifier was trained with both these recordings, and unlabeled recordings from the semi-structured interview.
+#+name: tab:tasks
+| Task    | Description                               |
+|---------+-------------------------------------------|
+| Breathe | Breathe deeply with eyes closed           |
+| Word    | Choose a word, repeat it mentally         |
+| Phrase  | Choose a phrase, repeat it mentally       |
+| Face    | Choose a person, imagine their face       |
+| Sport   | Imagine performing a sport-related action |
+| Song    | Choose a song, imagine hearing it         |
+
+
+With the subjects' permission, we made audio recordings of our sessions with
+participants. Our study protocol was approved by our institutional IRB.
+Interviews were recorded, and later transcribed. We performed an
+``issue-focused'' analysis of the transcriptions cite:weiss1995learning,
+allowing topics and themes to emerge during analysis. Subjects names were
+changed to pseudonyms to protect their anonymity.
+
+#+BEGIN_EXPORT latex
+\begin{figure}
+  % \includegraphics[width=\textwidth]{./figures/ui/joined.png}
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{./figures/ui/accept-cropped.png} 
+        %\caption{Generic} \label{fig:timing1}
+    \end{subfigure}
+    \vspace{1mm}
+
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{./figures/ui/reject-cropped.png}
+        %\caption{Competitors} \label{fig:timing2}
+    \end{subfigure}
+    \vspace{1mm}
+
+    \begin{subfigure}[t]{0.45\textwidth}
+    \centering
+        \includegraphics[width=\textwidth]{figures/ui/mixed-cropped.png}
+        %\caption{Price regulation} \label{fig:timing3}
+    \end{subfigure}
+
+ \centering
+  \caption{Our probe's visualization of 1's and 0's gave our engineers a ``raw'' view of the authenticator's behavior. Pictured, the UI (a) accepting someone, (b) rejecting someone, or (c) presenting mixed, ambiguous feedback. }
+   % \caption{Some general caption of all the figures. In (\subref{fig:timing1}) you can see a  green square....}
+  \label{fig:ui}
+\end{figure}
+#+END_EXPORT
+
+# TODO explain why we had subjects record these tasks, even tho we used pure inherence for the CLF laer?
+First, participants would wear the device, become acquainted to its fit and
+appearance, and confirm the device is working. Next, the experimenter would
+begin a calibration session, in which the subjects would be prompted to choose
+mental gestures (Table [[tab:tasks]]), and perform them several times. After this
+calibration, the experimenter would ask participants to review which mental
+gestures they chose. Following this discussion, the interviewer would ask
+subjects what their favorite and least favorite tasks were.
+
+After some discussion on why subjects preferred certain tasks over others, the
+interviewer would ask, ``Which task do you think would be most unique to you?''
+This question, which typically resulted in several follow-ups, was aimed at
+learning what subjects believe the device can reveal. The interviewer would
+attempt to drill as deeply as possible (without leading subjects) to discuss the
+particular mechanisms they believe to be at play. As an example, the researcher
+would first ask subjects which tasks they felt might be more unique to them. In
+probing why subjects felt this way, the researcher would encourage subjects to
+reflect on what the device might really be sensing, and what sort of
+``resolution'' it might have. From there, the researcher might ask what any
+device (even theoretical ones) might be able to detect.
+
+At this point, the interviewer would train the authenticator's XGBoost cite:Chen2016
+classifier on samples collected from the subjects. The interviewer would explain
+to participants roughly how the authenticator would work: the probe should
+/accept/ readings when the participant is wearing the device, and /reject/
+readings in any other case. After the training process completed, the researcher
+would set up the UI (Figure \ref{fig:ui}), and allow participants to view the
+classifier's output in real-time using live data from the participant's Muse
+device. Participants would then see the probe's /accept/ or /reject/
+classifications using the live data from their headset.
+
+Free-form exploration ensued, as participants experimented with the device.
+During the experimentation phase, if subjects had not attempted to cause the
+device to fail already, the interviewer would ask, /``How can you be sure this
+device really works?''/ This question was meant to encourage subjects to test
+the device's limitations, and to think aloud as they discussed why particular
+tests might be informative. The interviewer would then ask subjects to reflect
+on the device's limitations, and why such limitations might exist. /``Are these
+limitations intrinsic to the physical device? To brain-based authentication?''/
+
+Finally, the interviewer would use the prior conversation to segue into a larger
+discussion about brain-based authentication. /``Do you think the brain can be
+used to log people in?''/ After some discussion, the interviewer would ask /``In
+your own words, what is authentication?''/ This question would occasionally
+cause subjects to re-evaluate their prior answer. Finally, the interviewer would
+ask subjects what they believed the ``ultimate'' form of authentication might
+be. Through follow-up questions, this discussion would typically lead to the
+philosophical questions of personhood. /``What makes/ you /you?''/
+
+After some discussion, the formal interview would conclude, and the participants
+would remove the Muse device from their head. 
+
+** Results
+
+
+Participants experiences in using our technology probe as an authenticator were varied.
+Four particpants fuond the authenticator worked well for them, consistently accepting their readings when they were wearing the headset
+and consistently rejected readings when the headset was taken off, or when the experimenter was wearing it.
+On the other hand, four particpants found the authenticator did not work reliably for them. In two cases, the authenticator constantly rejected particpants regardless of whether it was on or off.
+In the other two cases, the authenticator consistantly gave mixed or ambiguous feedback when particpants wore it.
+
+Regardless of the probe's accuracy, its ability to function at did lead subjects to discuss how the system could work, and how it would map to notions of identity.
+The remainder of this section outlines how such conversations emerged,
+and reviews participants' major beliefs about the ground truth for identity.
+
+*** Failure modes.
+
+Discussions about the nature of the self often started with discussions about
+how the authentication scheme might fail. In some cases, these limitations were
+perceived as cheiefly relating to the system's implementation. For example, one
+subject mentioned an opacity intrinsic to the black box algorithm used to
+perform the authentication.
+
+#+BEGIN_QUOTE
+We don't know it's not working until it's not working. If something is
+inaccurate, sometimes 20% and sometimes 5%, there is uncertainty about what
+you dont know, not knowing what you dont know. /(Elizabeth)/
+#+END_QUOTE
+
+Here, Elizabeth refers to the difficulty of knowing when a false acceptance has
+occurred in such a system, and difficulty correcting for these mistakes. She
+draws this difficulty to a fundamental lack of information about possible inputs
+into the algorithm. We return to these notions of opacity, and their possible
+consequences, in the discussion. Other subjects brought up other possible
+shortcomings of the authentication scheme stemming from the changing nature of
+the brain.
+
+#+BEGIN_QUOTE
+In cases of severe trauma or damage, like someone who drowns and is deprived of
+oxygen for some amount of time, or if you go through some major life trauma
+that's really awful, that can potentially change the brain. /(John)/
+#+END_QUOTE
+
+When asked whether it would be appropriate for a brain-based authenticator to
+reject a participant in such a situation, John reported that it would be.
+``Maybe that's colored by my - I work with computers, and I think that's a
+reasonable way for a system like this to work.'' Alex raised a similar point
+about brain changes affecting authentication, and also indiciated that it might
+be reasonable for the system to reject a user in such a case.
+
+#+BEGIN_QUOTE
+It's a constantly changing fingerprint, so we have to continually update that...
+If the changes are so drastic, should you be allowed to access your bank
+account? When you take that acid trip, and - I had this big, life-changing trip
+and I can't log into shit anymore. ``I'm a better person, I tell you!'' /(Alex)/
+#+END_QUOTE
+
+In both of these examples, the changing nature of the brain
+brings difficulties for using the brain as a stable identifier.
+However, John did not indicate the changing brain would indicate a
+changing /person/. Instead, the system would reject the new person because
+of its reliance on the brain, and in spite of the fact that their personhood did not change.
+In contrast, Alex posits a scenario in which a transformative life event does change
+some aspect of his identity, making him a ``better person.''
+We return to these complementary meanings of a changing brain in the discussion.
+
+*** Relationship between passthoughts and identity
+
+To nudge subjects toward discussions about selfhood and its relation to
+biometric identifiers, the experiment would typically use discussions about the
+device's shortcomings or limitations to ask how a better system might work that
+overcomes these limitations. In so doing, the experimenter would ask subjects to
+draw comparisons between passthoughts and other authentication methods, both
+traditional (e.g. passwords or car keys) and inherence-based (e.g.
+fingerprints).
+
+**** Skepticism
+
+All subjects expressed a high degree of skepticism that the passthoughts system
+we presented them could reveal identity in any true way. However, the reasons
+they gave for this skepticism were various.
+
+Following Dumit's work on the neuroessentialist belief that the nature of
+identity is fundamentally in the mind cite:Dumit2004, we expected subjects to
+believe passthoughts captured some truer token of identity as compared to other
+biometric or authentication paradigms. To our surprise, only one subject, Joanna,
+believed passthoughts captured something close to selfhood (discussed further
+under ``Self as brain,'' below). Interestingly, this subject had an academic background in neuroscience prior to her career as an engineer. However, informed by her training, she felt that current scanning machines had signals too noisy to reliable detect neural correlates of identity ``anytime soon.''
+
+Other subjects gave more existential reasons for doubting that passthoughts
+meaningfully captured selfhood. For example, Alex felt that the EEG-derived
+authentication tokens were ``basically a string'' (e.g., a string of chracters,
+a common datatype in programming languages), and in this way similar to
+passwords. Alex's implication here is that the resulting string is crackable,
+and effectively a knowledge factor (to authenticate, one must only know a string
+that makes the authenticator output an /accept/ label). Alex felt brain-based
+authentication schemes has little to do with identity for this reason.
+
+Joe also sidestepped questions of identity in referring to the way passthoughts
+works. In contrast to Alex, however, Joe found the brain-based signals to 
+be simple ``learned responses,'' not tokens that meaningfully relate to a person's identity.
+
+#+BEGIN_QUOTE
+I think it's just a learned response kind of thing, completely orthogonal to
+general questions of identity. You know, if I take 1000 pictures of you, track
+what you smell like, I guess that's latching on to some aspect of a fundamental
+``you,'' but I'm not sure that reflects who you are... /(Joe)/
+#+END_QUOTE
+
+Joe's analogy to photos and scents gesture toward the piecemeal nature of
+current biometric identifiers. Aspects of body are taken as evidence for
+personhood, which may ``latch onto some aspect of'' personhood, but does not
+reflect it in an essential way. (Joe later expressed that ``mining'' a true self
+is impossible, discussed further below).
+
+**** Biological identity beyond the brain
+
+While some participants did believe our brain-based authentication mechanism
+related to selfhood, these participants did not generally believe our
+brain-based scheme was particularly unique. Terrance, for example, compared our
+scheme favorably to that of ``trust in some social institution.'' Although he
+did not specify which particular institutions he had in mind, he mentioned
+social security numbers, birth names and credit card numbers as other examples
+of authentication tokens. Though Terrance believed brain-based tokens were
+``more fundamental'' than these identifiers, he did not believe they were
+uniquely well-suited to revealing selfhood, except that they were difficult for
+people to control directly.
+
+#+BEGIN_QUOTE
+I can't even influence my brainstates, so how's someone else supposed to do it?
+But again, any organ like that would be equally good. /(Terrance)/
+#+END_QUOTE
+
+On one hand, notions of control gesture toward
+the possibility for coercion (i.e. forcing someone to reveal their authentication
+token), a point we return to in the discussion.
+On the other, the notion of the brain's non-specialness (i.e., that other sources of data could also be used to establish personhood, so long as they met particular criteria)
+mirrors in other subjects relational/longitudinal views of identity (below).
+We return to the consequences of such beliefs in ``Implications for Design.''
+
+# _may make more sense to introduce this quote AFTER we introduce terrance's idea of the self as a social construct_
+
+*** The ``ground truth'' of identity
+
+Discussions about the relationship of passthoughts' implementation to the ground
+truth of identity caused many subjects to reflect on their own beliefs about
+identity. Mary explicitly did /not/ feel the brain was the source of identity.
+In fact, she called out and critiqued popular narratives around brain's
+uniqueness:
+
+#+BEGIN_QUOTE
+There is some special social narrative put on the brain, right. That the brain is, to use this phrase, the seat of your soul, and all that stuff. So I think that at scale, most people would ascribe some sort of significance to the brain, as a vector for this authentication mechanism generation - whereas I might not. But that's also just because I know - I think - that the brain is not any more special than like any other part. /(Mary)/
+#+END_QUOTE
+
+_So much for uncritical engineers!_
+Some subjects, such as Joe, refused to commit to particular notions of
+selfhood, stating such notions were impossible to ``mine.''
+# interestingly, joanna, who mostly felt the brain *was* the seat of identity, had a bg in neuroscience!!! so this 'popular narrative' also applied to her - maybe she is more neuroessentialist, as dumit would say, than engineers on the whole? pt for discussion
+# more in discussion about this, about how past work maybe more limited to neuroscientists than previously thought
+
+#+BEGIN_QUOTE
+We will never be able to mine the base of the self... I could record all my thoughts, my experiences, and plop someone into it, but there's no way to experimentally verify that it is my experience.
+#+END_QUOTE
+
+Joe raises a difficult epistemological problem in verifying that a given
+experience is truly what some other person experiences _(probably this has
+precedent in philosph. should look for refs)_. However, implicit here is the
+belief that experiences and thoughts do equate with selfhood, gesturing toward a
+notion of selfhood expressed within the individual. On the other hand, some
+subjects posited a more social, relational view of selfhood. 
+Mary referred instead posited a relational, social notion of ``true'' idenity, one with no particular relation to the body. 
+
+#+BEGIN_QUOTE
+I know this is not convenient for your brain thing, but I feel it's more actions... It's interesting, I went home a few months ago... When I go to Kanasas, no one thinks I'm charming. Everyone things I'm this realy type A, super intense individual. But here [in San Francisco], people say I'm charming. /(Mary)/
+#+END_QUOTE
+
+Mary's continued to explain that the true nature of self depended on where you
+were, and with whom you were interacting, drawing on her father's tendancy
+toward shyness around people he did not know well. 
+John proposed a similar explanation.
+
+#+BEGIN_QUOTE
+Your self is almost informed by other people, and the way they see you, and the way you see them, and the way you experience things throughout your life. I don't think it's spirtual thing, I think it's more like you've been writing in this journal for a really long time, and if you read it, all the way to the very end, the self is like the takeaway at the very end. /(John)/
+#+END_QUOTE
+
+Both John and Mary refer to the longitudinal and dynamic nature of identity,
+and implictly contested notions that a true or essential self might be derived from the body.
+The experimenter asked both subjects whether a system that detects their notion of identity could exist.
+Both expressed that it could, and in some sense, already did.
+
+#+BEGIN_QUOTE
+The actions you take, the jobs you go to, the people you are interacting with, that is now, for the first time in history, written down in minutae. You can say, ``this person's fingerprints are completely worn off,'' but you could predict if it's the same person based on their future actions. /(Mary)/
+#+END_QUOTE
+
+Drawing on the language of ubiquitous data collection, Mary referred to her own experiences as an engineer
+in making her aware of how pervasive such data collection is.
+Her vision of selfhood as captured in these ``minutae'' speaks to many existing theories
+of internet privacy 
+_like what??? why bring theories up at all, incl goffman - if these folks don't know about those theories, why mention them at all, esp in the results (vs discussion)?_.
+
+*** Dissenting views
+
+**** Self as brain
+
+Two participants gave different views on the ground truth for identity.
+One participant, Joanna, offered a brain-based and biological explanation for the mind.
+Joanna felt that the brain was a truer source of identity than
+other parts of the body, though she noted that current devices, consumer and
+research-grade, were too crude to capture such an identity meaningfully.
+
+Joanna believed that the brain was the essential nature of the self.
+Though the brain ``encountered input'' from the body and world,
+it was the brain's ``processing'' of this input that gave rise to a self.
+In her explanation, Joanna drew on both her academic training as a neuroscientist,
+and also on her personal experiences with friends and family suffering from mental illness.
+She believed that changes to the brain during mental illnesses caused fundamental changes,
+such that these people were different selves.
+
+Interestingly, this subject was formerly trained as a neuroscientist, a group
+whose beliefs about the brain and self have been well-studied in the past cite:Dumit2004,Vries2007.
+The fact that Joanna's beliefs were quite different from the other software
+engineers in our study raises intereting questions about how other technical
+practioners might encounter notions of selfhood, or the brain, and how these
+beliefs may manifest in a future of more pervasive brain-computer interfaces. We
+return to this point in the discussion.
+
+
+**** No true self
+
+Another participant, Terrance did not believe the self existed in any real or
+true way. He believed that ``there is no fundamental difference between the self
+and the rest of the world'' and that selves are defined ``by convention'' in
+social circumstances. Specifically, he believed engineers such as himself
+actively create such conventions through the artifacts they build.
+
+#+BEGIN_QUOTE
+Even if there's no logical bottom [to identity], we will create one.... we will find a way /(Terrance)/.
+#+END_QUOTE
+
+Terrance's response here gestures toward a reflexivity of his own role as an
+engineer, a view in which entities in the world are actively shaped through
+technical practices. At the same time, Terrance's response indicates a level of
+determinism, or resignation, that notions of selves will continue to feed
+themselves forward through technical artifacts. We return to this point in the
+discussion.
+
+** Discussion
+
+# Engineers' subject position
+This study focused on the beliefs of software engineers. We found that these engineers were
+well-positioned to be critical about the technical artifact we showed them. The
+system's highly technical interface and only semi-reliable performance
+encouraged them to enter their professional mindset as engineers, as they
+actively prodded at both the device and the ideas it embedded.
+
+In their _critical?_ interactions with our probe, participants generally
+acknowledged their unique subject position as engineers, either in their
+unflattering perspective on large-scale data collection practices, in their
+immunity to popular narratives around the brain, or in their reflexivity about
+their ability to construe concepts in the world through the creation of
+technical artifacts (e.g. terrance thought self didnt exist, would keep getting
+made as engineers ``found a way'').
+
+# future work?
+To our surprise, we did not encounter the ``neuroessentialst'' view of
+self-as-brain found in prior work on neuroscientists cite:Dumit2004,Vries2007 except
+with one subject who had academic training in neuroscience. Prior work focusing
+on academic neuroscientists may not translate to technical practioners
+generally. As BCIs become more commercially accessible, and thus more amenable
+to experimentation by non-neuroscientists, future work should critically
+re-evaluate past work on academic BCI, with a particular sensitivity toward the
+consequences that beliefs about selfhood might have for technical practice.
+Since most emerging BCI technologies emerge from academic neuroscience
+cite:Dumit2004,Vries2007, designers and researchers should be careful not to assume
+that past studies on the beliefs of neuroscientists will generalize to other
+technical communities.
+
+# _so what? why does this ^ help us w our RQs?_
+The remainder of this discussion aims to trace through the main conceptions of
+self/identity we uncovered during our study. In the following section, we use
+these notions of selves to motivate future designs for authentication systems.
+
+*** Various selfhoods
+
+We present here notions of identity that are potentially overlapping, such that
+no catagory implies a whole or totalizing belief on the part of our
+participants. Rather, we acknowledge that each of these beliefs left room for
+one another. We often encountered a coexistence of these beliefs among our
+participants.
+
+**** Dynamic selves
+
+In evaluating passthoughts, participants typically grappled with the reality of a brain that changes over the course of one's life.
+Through their reflection on this topic, participants expressed a belief that people themselves change over time, 
+contrasting with traditional inherence-based tokens, which are explicitly designed to be static throughout a person's life cite:Bonneau2012.
+# though no one committed to particular causal theories with regard to changes in the brain.
+  
+**** Relational selves
+
+Four of our subjects expressed a belief that selves change depending on context,
+particularly where a person is and with whom that person is interacting.
+(Though subjects did not discuss it as such, these beliefs relate somewhat
+somewhat to Irving Goffman's dramataleurgical analysis of social behavior as performance cite:Goffmann1959).
+_slice the goffman ref, or unpack and make relevant to design_
+In any case, these beliefs contrast with inherence-based authentication tokens,
+which are by design insensitive to contextual conditions.
+
+**** Data selves
+
+In describing something that maps closely to a ground truth of selfhood,
+three subjects referred to the aggregate of all digitally captured data over time.
+These participants often made analogies to written records in explaining this connection (John explicitly mentioned a ``journal,'' where the self is ``the takeaway at the end'').
+This notion of a selfhood-through-data relate to some past work in quantified self cite:Nafus2016, though this work focuses more on self-tracking practices than authentication in particular.
+We return to this connection to past work in the following section.
+
+**** No selves
+
+Two of our participants believed the self was an untenable construct, either because they believed it was not real (Terrance) or impossible to verify experimentally (Joe).
+However, Terrance believed that notions of self could (and will) be constructed by engineers.
+In the following section, we discuss further what it might be like to build an authentication mechanism that does not make commitments about sefhood.
+
+** Implications for design
+
+In our discussion, we surfaced tensions between what inherence authentication
+does (i.e., verify personhood), and what authentication systems would have to do
+in order to classify /personhood as engineers understand it/. In reflecting on
+these tensions, we present here some possible designs more ammenable to the
+notions of selfhood we surfaced in our study. We quickly explain each method,
+and describe how such a system may motivate future research.
+
+# EWA LUGER
+
+# Through our technology probe, which relied on markers from the brain, we found
+# no indication that existing tokens of inherence (e.g. the face, fingerprints)
+# map well to software engineers' beliefs about the nature of the self. 
+
+*** Sort of interesting to me
+
+_Here's some stuff that's sort of interesting to me, some work already speaks to it. I feel I should talk about in the interest of mapping sense of self to alternative authentication technologies._
+
+**** Social authentication
+
+_motivate with discussion_
+  - participants felt self had to do with how you interact around others
+
+_quick explanation from sec lit_ 
+- socially contextual authentication, who you are around and who knows you cite:Das2017
+
+_why/how interesting for design/future work_
+- could help map to *diff* notions of selfhood and autonomy, e.g. in cultures where family or community autonomy is emphasized over individual autonomy cite:ur2013cross.
+
+**** Continuous, multimodal authentication
+
+_motivate with discussion_
+  - views of self as dynamic, captured in longitudinal data
+  - relational, action-oriented, based on /what you do/ rather than /what you are/.
+  - mary gestured toward existing systems of massive data collection,
+  - Terrance gestures toward ``control,'' difficult to control is good (like brain)
+ 
+_quick explanation from sec lit_ 
+  - "what you do" .. all sorts of data, all digital traces
+  - en masse used to distinguish you from others
+
+_why/how interesting design/future work_ 
+  - plays with privacy, tension between privacy and security (autonomy), similar to what we play with here using our "mind-reading" probe
+  - Algorithmic opacity/transparency came up
+    - significance to continuous auth, which is almost always probabilistic _[TODO comb thru those prob/continous auth pdfs]_
+
+*** Real interesting to me 
+
+_Here's a concept I'm really interested in, no work out there on it that I know of._
+
+**** Authentication without the self
+
+_motivate with discussion_
+- Terrance didn't believe self was real, ``no logical bottom''
+- Joe thought self could not be verified
+
+_how/why interesting for design/future work_
+- Think hard about whether auth systems should even care about the self
+  - Is (bodily) selfhood even something we want or need?
+  - Could reference Proudhon's ``invention of the self,'' a technology that makes markets work
+- What would it look like to provide authentication without a sense of personhood?
+
+  - Passwords are like that, just about access!
+
+  - Other things that are similar? Possession factors e.g.?
+
+  - Group-based authentication, questions primacy of individual?
+  
+  - Systems with no static identities, only changing psuedonyms _[must be prior work on this]?_
+
+- What upsides, why apealing beyond theory?
+
+  - For research?
+
+  - For probing beliefs?
+
+  - For questioning dominant assumptions about what computer security should acheive / accomplish?
+
+*** Selfhood beyond authentication
+
+# _can just raise the Q and throw out some examples, future work after all_.
+For what other applications is personhood is relevant? Personhood in software beyond authentication?
+- captchas that are behavior based?...
+- profiling systems, e.g. recidivism?...
+- Implications of this work for those systems?
+  - _TODO what designers can be sensitive to/how.._
+  - _TODO blurring of the line btwn systems that track behavior + systems that track identity....?.......hmmmmmmmmmmmm...........kind of interesting no??_
+
+** Future work
+
+While our probe succeeded in surfacing beliefs about personhood, our study was
+limited by the short duration of our probe. Our sensing device did not have the
+battery life to record for several hours, and we experienced intermittent
+connectivity issues when walking outdoors. A device now available
+cite:Optical2017 would allow us to deploy a future probe over hours or days,
+enabling a study in which participants could build a meaningful relationship
+with the device over time and in the context of everyday life cite:Gaver1999.
+
+# _history of auth / ID, assoc of self. talking about inherence and possession to get to self. st interesting about .... SSNs, not initially IDs, now they are, social construction of what ID is .... [would save for disc about persons and property]_
+
+One interesting direction for future work could be comparative between engineers and non-engineers, looking at the origins of any differences that arise.
+_more...?_
+
+_longitudinal data selves, what about china's social credit system? private-sector surveillance on the net as selfhood, alternative to state-given identity? HMMMMM now thats an interesting one._
+
+** Conclusion
+
+- Authentication and property / Authentication in society?
+  - Authentication's primary role in controls access to property?
+  - biological identity / consequences of these beliefs, wrt property, access to services, criminality. talking to the ppl who build these consequential systems. a motivation for a whole new paper
+
+* Conclusion
+
+_surveillance, simone browne, about power_
+
+_so i went through nitpicking all these theories, but......_
+_what can we add to conversation that will substantially help to address these critiques across much research?_
+
+_High level takeaways from this discussion section_.
+_Answer the paper's question: what are the limits?_.
+
+# Many issues are endemic to this field of study (e.g. establishing ground truth
+# for a detected emotional response cite:Healey2011,Hernandez2013). 
+
+*** Brainscanning, autonomy, control
+
+# TODO how to tie into above concerns about interpretability?
+
+# re: "information"
+# paul - In looking at that concept in the 18th century, I was intrigued _how the term developed to include factual propositions that we consider consciously_.  
+# paul - These are particularly the sort of things that might feature in political discussions—and hence information has been valued as a key ingredient of the public sphere.  
+# paul - But 18th century accounts also presented _information as the signals sent through the nerves to which the brain responds beneath consciousness_ and so was feared as a _means of shaping that consciousness beyond our control_ —the very thing that could undermine the public sphere.  
+# paul - The 18c philosophers saw that aspect as particularly worrying.  
+# paul - It seemed to me that you work embraces both.  
+# paul - So, as you probe your informants, I do suggest trying to understand how they see these issues.  
+# paul - On the one hand, _brain signals seem to give us a particular autonomy if no one can imitate our unique identity_.
+# paul - On the other, _they subject us to the power of signals over which we have no control, and so lose a certain autonomy_.
+#
+# > I agree that there is a fundamental tension in this work between autonomy (via "unforgeable" identity that matches our conscious sense of selfhood) on one hand,
+# > and the power for control, especially by probing knowledge subliminally on the other.
+# > I will add that, in the current study, subjects were highly skeptical that the device *did* get at some ground truth of identity.
+# > they largely reported a more interactional account of identity, in which personhood shifts depending on context, actions, and time. (much to my surprise!)
+# > so, perhaps it's all downside for them (control), and no upside (autonomy)?
+
+*** TODO A future for privacy and cybersecurity
+
+ now with VR even more intimate 
+ bci promises yet another intimacy, 
+   look at those side-channel attacks and so on, 
+   done with P300 and now there's a startup with a P300 api [], once the stuff of fiction []
+
+#+NAME: conclusion
+
+people will continue to build increasingly hi-res models of human bodies in space;, and human environments
+I argued that 
+these models will in general will be informative wrt /the mind/,
+producing what i dub /mind-computer-interfaces/ (MCIs).
+
+what 2 do now?
+# justifying the next step of work
+- It is now time to see if engineers believe mind is /senseable/
+  - See how our theory matches up (or doesn't) with their beliefs
+- One good starting place is the brain
+  - But other wearable senosrs can also work .. heart is a good one, lots of connotations there, and may be diff btwn cultures!
+  
+_WHY SO IMPORTANT?_
+
+
+# TODO maybe *start* with mind-reading, situate in autism literature
+# TODO then maybe *conclude* with teleapthy as a future-work sort of thing, if you have a good reason
+
+
+_TODO why this section_
+
+
+:endmatter:
+\printbibliography
+:end:
+
+
