@@ -4,10 +4,9 @@
 #+Author: Nick Merrill
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="ext/style1.css" />
 #+OPTIONS: toc:nil
-#+LATEX_HEADER: \usepackage{balance}
+#+LATEX_HEADER: \usepackage{biblatex}
 #+LATEX_HEADER: \usepackage{caption}
 #+LATEX_HEADER: \usepackage{subcaption}
-#+LATEX_HEADER: \usepackage{biblatex}
 #+LATEX_HEADER: \bibliography{refs}
 #+LATEX_HEADER: \hyphenation{mar-gin-al-ia}
 #+LATEX_HEADER: \input{title}
@@ -470,7 +469,7 @@ _Contrast with STS proiject of scientists in labs_.
 Now, users and engineers outside of lab environments will parttake, wittingly or not, and with varying degrees of formality, in this centuries-old project of Western rationalist inquiry.
 _Lead into the next section_.
 
-* Reading mind from heartrate
+* Reading mind from heartrate :ARCHIVE:
 
 While the previous chapter argues that certain framings of the mind make it
 amenable to reading by sensors, this chapter seeks to discover whether /users
@@ -2248,7 +2247,7 @@ the knowledge factor (the secret mental task) cite:Chuang2014.
 **** TODO How it meets specs laid out above
 
 **** TODO Tease next chapter where we focus on engineers
-* Talking to engineers about brain-computer interface
+* Talking to engineers about brain-computer interface :ARCHIVE:
 # Utopia
 In 2017, both Mark Zuckerberg and Elon Musk announced 
 efforts to build a brain-computer interface (BCI) cite:Levy2017.
@@ -3313,8 +3312,7 @@ the potential of these devices for social harm,
 and encourage researchers to remain closely attuned
 to this emerging class of consumer biosensor.
 
-
-* Who are you really? Probing engineers on authentication and the ground truth of identity
+* Who are you really? Probing engineers on authentication and the ground truth of identity :ARCHIVE:
 
 # focused so much on the eeg sensing modality,
 # easy to ignore the other interesting aspect of brain-based authentication, in itself has open questions
