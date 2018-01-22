@@ -2251,6 +2251,1071 @@ the knowledge factor (the secret mental task) cite:Chuang2014.
 
 **** TODO Tease next chapter where we focus on engineers
 * Talking to engineers about brain-computer interface
+# Utopia
+In 2017, both Mark Zuckerberg and Elon Musk announced 
+efforts to build a brain-computer interface (BCI) cite:Levy2017.
+One blog post enthusiastically describes Musk's planned 
+BCI as a ``wizard hat,'' which will transform human
+society by creating a ``worldwide supercortex,'' 
+enabling direct, brain-to-brain communication cite:Urban2017.
+# Meanwhile, conservative commenters on Breitbart deride 
+# Zuckerberg for paving the way to the liberty-infringing policing of ``hate thought'' cite:Nolan2017.
+# TODO maybe cite this startup http://www.neurable.com/news/controlling-vr-your-mind
+
+#+caption: A participant uses our brainwave authenticator in his startup's office.
+\label{fig:usage}
+[[./figures/terrance2.JPG]]
+
+A slew of inexpensive brainscanning devices
+underwrite such utopic visions.
+2017 saw a BCI for virtual reality gaming cite:Neurable2017
+and brainwave-sensing sunglasses cite:Optical2017
+join the already large list of inexpensive,
+consumer BCIs on the market cite:Levy2017,Interaxon,Grierson2011a.
+These devices, 
+which are
+typically bundled with software development kits (SDKs),
+shift the task of building BCIs 
+from the realm of research
+into the realm of software development.
+But what will software developers /do/ with these devices?
+
+
+# This paper's contribution
+# MORGAN: - tease apart utopia/dystopia, what work are they down in silicon valley, in BCI research
+# 10-12 participants is respectable
+# reach saturation to where you can leave stuff out
+# ppl from very diff background always interesting
+# recruit someone who hasn't thought about it as much
+This study employs a technology probe 
+to surface narratives, and anxieties, around consumer BCIs
+among professional software engineers.
+We provided a working brain-computer interface
+to eight software engineers from the San Francisco Bay Area.
+As brainscanning devices become more accessible to software developers,
+we look to these BCI ``outsiders'' 
+as a group likely to participate in the future of brain-computer interface.
+Specifically, we provided participants with a brain-based authenticator, 
+an application predicated on the notion that a BCI
+can detect individual aspects of a person,
+making it a potentially fruitful window into broader beliefs 
+about what BCIs can reveal cite:Rose2016a,Dumit2004. 
+
+Despite heterogeneous beliefs about the exact nature of the mind,
+the engineers in our study shared
+a belief that the mind is physical,
+and therefore amenable to sensing.
+In fact, our participants all believed that the mind could and would 
+be ``read'' or ``decoded'' by computers.
+We contribute to an understanding of how engineers' beliefs
+might foretell the future of brain-controlled interfaces.
+If systems are to be built that read the mind in any sense,
+we discuss how such systems may bear on the long-term future of privacy and cybersecurity.
+# MORGAN - forget 'accurate/usable'  -  not a usability study
+# NOURA - are you testing the usability of the authentication system? like, your design of the GUI that instructs them how to use the app and tells them if successful, etc? 
+# or the tangible design of the system? sounds like probably not, although you probably want to make a case for why the design is reasonable enough that people didn't struggle to use it
+# RICH - Are you really concerned about usability? It sounds like you're trying to look at other issues/values/concerns
+
+** Brain-computer interfaces & pathways to broader adoption
+
+# what are BCIs? 
+BCIs allow people to interact with computers without muscular action.
+Instead, nervous system activity is translated to a discretized (digital) signal.
+BCIs can be categorized broadly as invasive (requiring implantation)
+or non-invasive (requiring only external, removable equipment).
+Non-invasive, consumer BCIs, are lightweight, require minimal setup, and do not require special gels.
+EEG (electroencephalography)
+is currently the most viable choice of sensing modality for consumer BCIs cite:Carrino2012.
+
+# BCIs, accessibility now, 
+# but sometimes accessibility=>other stuff
+# RICHMOND -  think this would be more storngly motivated if you put (or re-summarize) your points about past accessibility tech (like speech to text) broadening to general consumers AND some evidence that people want to envision BCIs as a general consumer device. Also that new people get involved with these. (E.g. lots of VR researchers today weren't VR researchers a decade ago, nor are they the same people who do VR PTSD/therapy research). Therefore, talking to experts who might try to do UX/HCI stuff with it in a few years as it becomes more available is a cool thing. 
+# https://en.wikipedia.org/wiki/Universal_design
+# http://inclusivedesign.ca/
+# - anne  has papers
+# - morgan aimes  has papers on  city design
+# what might this "other stuff" be? study sf bay to find out
+Historically, researchers have conceived of BCIs as accessibility devices,
+particularly for individuals with severe muscular disabilities.
+However, accessibility devices can sometimes provide routes for early adoption, and thus broader use.
+Speech-to-text, for example, was once a tool for individuals who could not type;
+eventually, it became adopted as a tool for computer input, now
+commonplace in IoT devices such as Alexa and Siri.
+Since accessibility devices can give rise to broader consumer adoption,
+we ask what such a pathway might look like for brain-computer interfaces.
+With an expanding array of inexpensive brainscanning hardware,
+many of which come bundled with engineer-friendly SDKs,
+the pathway to a future of consumer BCI
+increasingly becomes a matter of software engineering.
+
+Thus, we look to software engineers in the San Francisco Bay Area.
+We use these engineers as a window into broader beliefs about ``Silicon Valley,''
+a term we use here to stand in for 
+the technical, economic and political
+climate that surrounds the contemporary 
+technology industry in the area cite:saxenian1996regional.
+While we do not believe only Silicon Valley engineers
+will influence the future of BCIs,
+historically, these engineers have a outsized impact on the
+types of technologies developed for mass consumption,
+especially with respect to software.
+As BCI hardware becomes more accessible,
+and therefore more amenable to experimentation as software,
+this group once again holds a unique role in
+devising a consumer future for this biosensor.
+Indeed, the Muse, and similar devices, have robust SDKs and active
+developer communities that are building and showcasing BCI applications cite:NeurotechX.
+
+However, we did not want our subjects to have first-hand experience
+in developing BCIs, as we did not want them to be primed by existing devices' limitations. Instead,
+we selected individuals who indicated they would be interested in experimenting with consumer BCI devices in their free time.
+This screening was meant to draw subjects likely to buy consumer devices and develop software for them.
+We believed that these engineers' professional expertise in software
+development afford a desirable criticality around our technical artifact. 
+# In
+# other words, these software engineers provided a reasonable starting point in
+# interrogating a future for consumer BCI.
+
+
+
+# TODO they had no  prior exp. with BCIs..................but why?
+
+# BECAUSE..................
+# BCIs.......................basically fictional......
+# try to understand how ppl in bay area 
+#  understand this device today
+#   MORGAN - fine, valid, with proper caveats. 
+#   if point is to explore utopianism then you've got to. 
+#   would be interesting to compare. industry insiders & people who know about the brain.
+
+# RICHMOND- Maybe it's about thinking about BCIs as a future platform of technology (similar to VR).
+*** What brain scans can tell
+
+# IMPROVE TRANSITION 
+
+Brain scanning holds a unique /charisma/ cite:Ames2015,
+not only among researchers in related fields cite:Rose2016a,
+but among non-experts as well cite:Ali2014a.
+Ali et al (2014) found university undergraduates believed a brain scanning device 
+(a fake one, unbeknownst to them)
+could reveal intimate details of their thoughts,
+even after receiving a lecture about the limitations of
+brain scanning technologies cite:Ali2014a.
+In that study, participants saw
+scans of the /brain/
+as informative with regard to the /mind/,
+a distinct entity that is potentially more expansive than the brain cite:Clark2013,Hayles1999a.
+
+This entanglement of mind and brain has been explored
+by past work in science and technology studies.
+For example, Dumit's (2004) study of positron emission tomography (PET)
+explores
+utopian (and dystopian) visions of diagnosing mental illness, or even criminality, 
+from scans of a person's brain cite:Dumit2004.
+The idea of the mind's ``legibility'' via computational technologies
+has been concretely explored by Rose (2016) cite:Rose2016a,
+who ties together a number of efforts across neuroscience and cognitive science
+to argue that specific technical implementations from these fields
+(along with their rhetoric around, and beliefs about the brain)
+allow /the mind/ to be ``read'' or ``decoded.''
+
+However, there exists an opportunity
+to investigate how pervasive such beliefs are
+among those who are not neuroscience experts, 
+yet nonetheless technical practitioners.
+Given the recent shift of brain scanning equipment from research tool
+to consumer electronic device,
+we ask what software engineers,
+newly able to develop applications around brain scanning,
+might build.
+Answers to this question could have far-reaching consequences, 
+from marketing, to entertainment, to surveillance.
+In particular, we aim to center how engineers' ideas about the mind,
+especially its relationship to the brain and body,
+inform and constrain their beliefs about what BCIs can (and should) do.
+
+*** A BCI technology probe
+# study with tech probes + interviews
+
+In this study, we use a technology probe to examine the beliefs of software engineers
+about what BCIs can reveal about the mind.
+Technology probes are functional apparati
+intended to both collect data /in situ/ from participants, and to 
+inspire participants to reflect on the probes, and on their beliefs more generally cite:Hutchinson2003.
+
+Probes have a long and diverse history within HCI,
+often referring to a variety of different practices cite:Boehner2007.
+In the context of our study,
+our probe seeks primarily to answer research questions,
+rather than to figure as one step in an iterative design process.
+Unlike some probes in past work
+ours was not intended for longitudinal deployment.
+Instead, we aimed to gather beliefs about particular technologies and domains
+through a session of open-ended interaction with a device cite:Leahu2014.
+
+Our probe's unfinished appearance was intended to
+invite critique and playful experimentation cite:Devendorf2016a,Leahu2014.
+However, unlike a mock-up or provocation,
+our probe did function as advertised,
+allowing participants to 
+interact with the devices in an exploratory and unconstrained way
+(indeed, many engineers tested that the device's feedback was real).
+We designed our probe to steer participants away 
+from providing narrow feedback about the interface at hand,
+and toward sharing their broader beliefs about the brain and mind.
+
+*** Brain-based authentication
+
+Our study employs a brain-based authenticator as a research probe
+to elicit engineers' beliefs about BCIs (and the mind and/or brain they purport to sense).
+This section explains how brain-based authentication works,
+and why we chose this application for our study.
+
+# defining authentication
+Authentication
+(i.e., logging into devices and services)
+entails a binary classification problem: 
+given some token, the authenticator must decide whether or not the person is who they claim to be.
+These tokens typically relate to one or more ``factors'': 
+knowledge (something one knows, e.g. a password), 
+inherence (something one is, such as a fingerprint),
+or possession (something one has, such as a device) cite:Chuang2013b.
+Brain-based authentication relies on signals generated from individual's brains to uniquely authenticate them,
+which has a number of potential advantages over other authentication strategies (see cite:merrill2017future for a review).
+First, brainwaves are more difficult to steal than biometrics fingerprints, which are externally visible,
+and left in public as one's hands touch objects in the environment.
+Brainwaves also change over time, making theft even less likely.
+Second, brain-based authentication requires no external performance, making it impervious to ``shoulder-surfing attacks'' (e.g., watching someone enter their PIN). 
+
+# Why authentication here?
+We chose to build a
+brain-based authenticator
+for our study for a few reasons.
+First, having participants use a functioning system helped them imagine how they might use BCIs themselves.
+Second, the system is a plausible one, backed by peer reviewed research, thus we expected our participants to judge its claims credible.
+Third, the system embeds particular assumptions about what brain scanners are able to capture.
+Our system embeds ideas that our Muse headset can capture
+aspects of individual brains that are unique;
+as such, we expect that a working, brain-based authenticator will encourage participants to reflect 
+not only on how a BCI applications might be adopted by the broader public,
+but also on what BCIs may be able to reveal about the mind and brain,
+and to critically examine the limits of what BCIs in general are able to do.
+
+** Building the BCI authenticator probe
+
+#+BEGIN_EXPORT latex
+\begin{figure}
+  % \includegraphics[width=\textwidth]{./figs/ui/joined.png}
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{./figures/ui/accept-cropped.png} 
+        %\caption{Generic} \label{fig:timing1}
+    \end{subfigure}
+    \vspace{1mm}
+
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{./figures/ui/reject-cropped.png}
+        %\caption{Competitors} \label{fig:timing2}
+    \end{subfigure}
+    \vspace{1mm}
+
+    \begin{subfigure}[t]{0.45\textwidth}
+    \centering
+        \includegraphics[width=\textwidth]{figures/ui/mixed-cropped.png}
+        %\caption{Price regulation} \label{fig:timing3}
+    \end{subfigure}
+
+ \centering
+  \caption{Our probe's visualization of 1's and 0's gave our engineers a ``raw'' view of the authenticator's behavior. Pictured, the UI (a) accepting someone, (b) rejecting someone, or (c) presenting mixed, ambiguous feedback. }
+   % \caption{Some general caption of all the figures. In (\subref{fig:timing1}) you can see a  green square....}
+  \label{fig:ui}
+\end{figure}
+#+END_EXPORT
+
+*** Implementation
+
+# device
+Since we wanted our technology probe to appear portable enough for use in the real world,
+we decided to use a pre-existing consumer EEG device to build our authenticator.
+We settled on the Interaxon Muse (Figure \ref{fig:usage}), a $299 headband that can be worn easily,
+transmits data wirelessly, and requires no gel to maintain contact between the scalp and electrodes cite:Interaxon.
+Using a system that required conductive gel
+would have signaled to the participants that the technology is still limited to lab settings, 
+and not yet ready for the real world, which could have influenced their responses.
+
+Although the Muse’s signal likely contains noise, a perfectly clean
+signal was not necessary to elicit beliefs from subjects in the context of our
+technology probe.
+Further, despite the Muse's small form-factor and dry electrodes,
+past studies have verified its signal is sufficient quality for some neuroscientific research cite:Krigolson2017a.
+
+Due to the device's battery life and intermittent connectivity when walking, the
+Muse headband did made a longer-term study impractical. Thus, we opted to
+perform a study over a short time and in a controlled environment, drawing on
+past technology probe studies with similar constraints
+cite:Devendorf2016a,Isbister2006.
+# factors we could control in the hourlong setting. 
+# are our findings about future pervasiveness limited by the short timescale of our deployment? 
+# Past studies have used probes over a short duration [3] and in controlled settings [1,2,4] 
+# to surface design considerations aimed at longer-term use.  
+
+# collection / classification
+# Specifically, we used the device's raw data as input to our classification system.
+Data from the Muse was collected via the device's native OSC interface,
+and stored in a timeseries database.
+Queries from this database were used to provide training data for a machine learning classifier.
+In a preprocessing step, we performed a fast Fourier transform (FFT) to generate frequency-domain data
+from the time-domain data.
+In the machine learning step, we split a corpus of readings (and labels) into train and validation groups. 
+Using XGBoost cite:Chen2016, we trained a binary classifier on seven different splits of the train group.
+After the classifier was produced, we validated its performance on the withheld validation set.
+# maybe a little bit more clarity on "different splits of the train group," what XGBoost does during this step
+
+# data that it classified
+Given a target participant to classify,
+our classifier used any reading from this participant as a positive example,
+and any reading /not/ from this participant
+as a negative example.
+Negative examples also included signals with poor quality, and signals from which the device was off-head or disconnected.
+Ideally, the resulting classifier should produce "authenticate" labels when the device is on the correct person's head, and "do not authenticate" labels at any other time.
+This classifier could output its labels to a simple user interface (UI), described in the next section.
+*** Interface
+
+As the device produces data,
+the classifier outputs labels of ``accept'' or ``reject.''
+Our interface displays these labels as a square of 0s and 1s,
+which filled up as data from the device rolled in (Figure \ref{fig:ui}).
+
+Several considerations motivated this design.
+First, the UI represents the probabilistic nature of the classification process.
+Individual signals may be misclassified, but over blocks of time,
+the classifier should be mostly correct (represented as blocks of mostly 0s by our interface).
+Thus our simple UI makes visible both 
+the underlying mechanism of binary classification,
+and its probabilistic nature.
+Second, because our UI provides potentially ambiguous feedback
+(as opposed to unambiguous signals of "accept" or "reject"),
+it allows for potentially richer meaning-making and explanatory work cite:Sengers2006a.
+Toward this end, the UI's real-time reactivity
+(``blocks'' of 1s and 0s filled in over time) 
+allows participants to experiment actively with the device, 
+forming and testing hypotheses as to what makes classification succeed or fail.
+# feeling another here..."why is this impt?"
+
+# TODO am I doing Boer et al (2012)'s "provotype", or a provocative prototype?????
+Finally, our UI gives the probe an ``unfinished'' appearance.
+We believed this interface would cause our participants to activate their ``professional vision'' as tech-workers cite:Goodwin1994,
+and critique or test the device as if it were a design of their own.
+Ideally, we hoped participants would intentionally stress-test the device,
+or find playful ways of misusing it.
+These misuses could allow participants to form hypotheses about why and how the device succeeds and fails.
+
+** Methods
+
+We recruited participants by word of mouth.
+A recruitment email explained that subjects
+would interact with a working BCI,
+and be asked their opinions about the device, and about BCI broadly.
+We screened respondents by their current occupation
+and stated interest in experimenting with BCIs in their free time.
+# TOOD let's see if i understand this motivation
+#      after adding stuff to the related work / motivation section..
+
+# JOHN <2017-09-12 Tue>
+# do we mention to subjects this is something we study? effect of credibility?
+# > for now I say nothing, err on side of anonymity. if it comes up, mention in rebuttal.
+
+A total of eight people participated, three of which were women.
+Participants' ages ranged from 23 to 36.
+We met with subjects for a single, one-hour session
+in which we trained and tested a brain-based authenticator,
+allowing them to interact with it in an open-ended way.
+
+These sessions were designed as a semi-structured interview,
+interspersed with conversation between the researcher and the participant.
+Our study protocol was approved by our institutional IRB.
+Interviews were recorded, and later transcribed.
+We performed an ``issue-focused'' analysis of the transcriptions cite:weiss1995learning,
+allowing topics and themes to emerge during analysis.
+Subjects names were changed to pseudonyms to protect their anonymity.
+The remainder of this section describes in detail how subjects
+interacted with the device during sessions.
+
+*** Wearing the device
+
+The interviewer began by explaining that participants would wear a BCI,
+which we would train to work as an authenticator, answering participants' questions
+about how the device would work.
+Subjects were told that they would be asked about their opinions on BCIs generally,
+and that their anonymized voice and EEG data would be collected.
+
+The interviewer asked participants to place the EEG headband themselves,
+and to assure that the device fits comfortably,
+at which point
+the interviewer would begin recording signals from the device.
+Next, the interviewer would ask participants
+how they felt about having the EEG device on their head.
+This question would typically begin a short, open-ended exchange
+about their past experience with brain-scanning devices,
+and prior knowledge, if any, of BCIs.
+This exchange would segue into a broader discussion about the participant's 
+use and relationship with technology, in personal and work life.
+
+After this initial conversation, the interviewer would perform a brief /calibration/ step with the participant,
+in which data are collected to train a custom classifier for use in authentication.
+Participants would perform a number of tasks, or /mental gestures/, 
+prompted by a stimulus presentation program.
+These tasks provide a more diverse corpus of an individual's signals,
+which should enable a more robust (and accurate) classifier.
+After this calibration procedure, which usually lasted about ten minutes,
+the interviewer would perform a semi-structured interview with participants.
+The interviewer would continue to record data from the Muse throughout this interview.
+# maybe a little more clarity that the participant is just sitting there with a clicker in front of a laptop screen as instructions are displayed
+# how many tasks, how long per task?
+
+*** Using the authenticator
+
+At this point, the interviewer would explain to participants that the data collected thus far
+would be used to train an custom authenticator for them.
+The interviewer would explain roughly how the authenticator would work:
+the probe should /accept/ readings when the participant is wearing the device,
+and /reject/ readings in any other case.
+
+Next, the interviewer would run a script that trained our XGBoost classifier (Section [[Implementation]]).
+Participants could watch the training process run, if interested (a few were).
+After the training process completed, the researcher would set up the UI (Section [[Interface]])
+and allow participants to view the classifier's output in real-time using live data from the participant's Muse device.
+Participants would then see the probe's /accept/ or /reject/ classifications using the live data from their headset.
+
+After allowing participants to acclimate to the output, and answering any preliminary questions,
+the interviewer would encourage the participant to experiment with the authenticator, and share any impressions, reactions or ideas.
+The open-endedness of this session was meant to encourage participants to explore the device's capabilities and limitations, free of particular tasks to accomplish.
+However, we suspected that our participant population would be particularly prone to ``hypothesis-testing,'' exploring the devices limitations by building theories about how it might work.
+We structured the session around this assumption, preparing to ask participants to think aloud as they explored the device's capabilities.
+
+After some free-form exploration (usually involving some back-and-forth with the participant),
+the interviewer would transition into a semi-structured interview, 
+which would occur with the device still active.
+The interviewer would ask participants to unpack their experience,
+and lead them to explore what they felt the device could reveal about them.
+After some discussion, the formal interview would conclude, and the participants would remove the Muse device from their head.
+# In several cases, participants wished to continue conversations after the study ended.
+# The interviewer and participant would move to an informal environment (a cafe or pub) and continue dialogue on study themes and topics. 
+# These conversations were recorded with participants' consent.
+# When all conversations concluded, the interviewer would explain to participants the research goals of the study.
+
+** Experiencing the authenticator
+
+# John <2017-08-22 Tue>
+# we can collect from 8 participants, focus on some subset
+# who can you point to, show analysis legit? 
+#  > freaky
+
+In general, we found particular reflections to come at
+different points in the interview protocol.
+Critiques (and questions) about the device narrowly tended to come
+as soon as engineers placed the device on their heads.
+Reflections on the BCI broadly, and its future trajectories, tended to come after
+viewing the probe's feedback for some time.
+As these conversations progressed, participants naturally 
+tended to reflect on what future BCIs could do.
+Subjects would typically
+relate the capacities of the probe, and of possible future technologies,
+to their ideas about the mind, body or brain.
+The probe continued to run during these discussions.
+Toward the end of the interview,
+the researcher would prompt participants to reflect on any anxieties
+they might have about the future of BCIs
+(interestingly, only one participant raised this subject on their own).
+The remainder of this section is organized to roughly mirror
+this common order of participants' reflections during interviews.
+
+*** Using the BCI probe
+Our working authenticator elicited diverse reactions from the engineers in our study.
+Almost all participants cracked jokes after putting on the headband
+(three subjects commented that they felt like they were ``from Star Trek'').
+All participants except Joanna said they would not wear the device in public,
+though a few conceded that they might if the headsets were more common.
+Terrance commented,
+``If most people are doing it, then it's fine. 
+Sort of like stock speculation.''
+
+Perceptions of the authenticator's accuracy were mixed.
+Four participants found that the authenticator worked well for them.
+For these participants, the authenticator consistently rejected blocks when the headset was off of their head, 
+or worn by the researcher.
+
+On the other hand,
+four participants found the probe consistently rejected every reading, whether it came from them or the researcher
+(i.e., they experienced false rejections, but not false acceptances).
+These subjects often tried to remedy the situation by attempting tasks they had rehearsed, typically with mixed success.
+Most of these subjects concluded that there was not enough training data to produce reliable classification,
+but that such a system would work with a larger corpus.
+In contrast,
+Alex, a 30 year-old founder of an indoor agriculture startup,
+blamed himself, saying ``I must not produce very distinguishable thoughts.''
+
+Those participants who felt the probe's authentication was reliable
+tended to center their explanations on why it worked.
+Participants who experienced less consistent accuracy with the authenticator
+tended to center their explanations on how the device might be improved,
+e.g. with better or more comprehensive sources of data.
+This impulse to ``fix'' likely speaks to our participants' general tendency to engineer working systems,
+which extended in our case even to this experimental technology.
+
+# When getting acquainted with the authenticator,
+# participants often took the device off to see if it (correctly) failed to authenticate them.
+# Five of the eight participants asked the researcher to wear the device, to see if it failed.
+# Many expressed some initial skepticism that the device really worked,
+# indicating that the feedback might be false; several others were simply skeptical
+# about the device's accuracy.
+# This skepticism was encouraged by the interviewers,
+# as we hoped it would provide a grounds for expressing
+# their opinions about BCIs more generally.
+
+As we hoped, the engineers engaged critically with the technical implementation of the probe.
+In general, engineers asked about the machine learning infrastructure underlying the authenticator,
+and several participants (particularly John, Mary and Alex) asked specific questions,
+and made specific recommendations, diagnosing issues with the authenticator
+by thinking about the diversity and size of the training set.
+Almost all participants noted the authenticator worked better when 
+they were not looking at the visual feedback from the user interface.
+Participants generally theorized that this might occur because they were not viewing feedback when training the classifier.
+In these cases, the engineers appeared to apply their domain knowledge 
+to their observations in using our technology probe.
+
+# Contrary to our expectations, the probe's feedback
+# was rarely interpreted as being ambiguous. Participants
+# tended to view the blocks as either unambiguous ``accepts'' or ``rejects.''
+# It is unclear whether this lack of observed ambiguity 
+# was a shortcoming of our interface,
+# an effect of our probe's focus on authentication,
+# or a quirk of our participants.
+
+*** Reflecting on the future of BCI
+
+# Our technology probe was designed to elicit broader beliefs about BCI, 
+# and other topics that participants might find relevant or interesting.
+Our technology probe
+caused almost all of our participants to speculate on the future of BCIs generally.
+To most participants, the future of BCIs seemed to be largely pre-determined.
+One of our participants, Terrance (a 24 year-old software engineer at a small transportation startup), 
+removed the headband to inspect it, and commented on its awkward visibility.
+In doing so, he reflected on the future of BCIs, 
+speaking in no uncertain terms about a future of computer-mediated ``telepathy.'' 
+
+#+BEGIN_QUOTE
+Things just get progressively smaller until they disappear. And one day this'll
+just be an implant in my brain, doing crazy things. It'll be interesting
+socially, how people come to terms with it, when it's just an implant, or at
+least very pervasive ... I could send you a message, and it could be like you're
+thinking it yourself, even if you're on the other side of the Bay. /(Terrance)/
+#+END_QUOTE
+
+Terrance believed that BCI /will/ become more prevalent:
+not just that smaller sensors will lead to more effective or usable BCIs,
+but that they will also result in greater uptake of the technology.
+While he references the social dimension of their adoption,
+he indicates that people will need to ``come to terms with'' the developments,
+rather than providing direct agency to users who may choose to adopt the technology or not.
+
+Two participants felt less sure that such a future of pervasive BCI would ever come to pass.
+Elizabeth, a 30 year-old front-end engineer, noted skepticism about signal quality, or usefulness 
+outside of persons with disabilities.
+Mary, a 27 year-old software engineer at a large company, pointed to social reasons for her skepticism. 
+In reflecting on the relative accuracy of the probe's authentication performance during her session,
+she commented that ``90 plus percent'' of people would be ``totally freaked out'' by brain-computer interfaces generally.
+She continued to say that companies may themselves stop BCIs from becoming too pervasive or advanced.
+
+#+BEGIN_QUOTE
+I feel like those companies, even if this were feasible, there's a moral quandary they philosophically have not figured out. 
+They will not let the research get that advanced ... I just don't imagine them being like, "okay computer, now read our brains." /(Mary)/
+#+END_QUOTE
+
+While the probe was effective in spurring subjects to talk about
+issues around BCIs, its accuracy as an authentication device
+did not seem to alter participants' belief in BCI's future
+as a widespread technology.
+Unsurprisingly, the four subjects who experienced reliable authenticator accuracy
+all expressed that BCIs would become commonplace in the future.
+However, only Joanna connected the device's poor performance in her session
+with a probability of ongoing accuracy issues for BCIs in the future.
+The other three subjects who felt the device did not perform accurately
+all offered explanations as to why, and explained
+that future devices would fix these issues.
+
+*** Mind, brain, body
+
+# mind-as-computational-brain 
+During their interactions with the probe,
+almost all of our subjects discussed their
+deeper beliefs about the nature of the mind, 
+and its relationship to the brain and body.
+Since participants discussed
+the future trajectory of BCIs led to discussions
+while the probe continued to work (or fail),
+the subject often arose of what BCIs might be able to detect, even theoretically.
+As one example, John, a 26 year-old software engineer at a small chat startup, 
+noticed that the authenticator only worked when he was speaking, 
+but not when he was listening to the researcher.
+He offered an explanation for the discrepancy.
+
+#+BEGIN_QUOTE
+There's probably some kind of fundamental difference between creating thoughts
+and consuming thoughts. You're still making thoughts, right, but it's almost
+like programming versus being programmed. /(John)/
+#+END_QUOTE
+
+When pressed on how strictly he meant his metaphor of programming, John
+confirmed that he meant it quite literally, saying, /``I think we are just
+computers that are way more sophisticated than anything we understand right
+now.''/ We return to this strictly computational account of the mind as ``just''
+a computer in the discussion.
+
+Mary gave a computational account of mind that was more metaphorical than
+John's, drawing on comparisons between machine learning and the mind. She cited
+the many ``hidden layers'' in deep neural networks, and that, like in the brain,
+``information is largely distributed.'' While she believed deep learning models
+and the brain were ``different systems foundationally,'' she said ``there are
+patterns'' that relate the two to one another, and indicated that advances in
+deep learning would spur a greater understanding of the brain.
+
+Although six of our participants provided a largely computational account of
+mind-as-brain, not all did. Joanna, a 31 year-old engineer who previously
+completed a PhD in neuroscience, felt that the mind was ``the part of the brain
+I am aware of, the part that is conscious.'' She believed that neurotransmitters
+throughout the body have a causal relationship to what happens in the mind, but
+do not constitute the mind themselves; the contents of mind occur physically in
+the brain, and the brain alone. In other words, her account is one of ``mind as
+conscious awareness,'' and while unconscious phenomena affect mind (e.g. the
+body, environment), they are not part of the mind /per se/. Interestingly, the
+probe did not work well for Joanna, and she felt confident that its poor
+performance was due to contaminating signal from her body (a theory she tested,
+and validated, by moving around and observing the probe's feedback).
+
+
+Meanwhile, in one subject's account, the mind extended beyond the confines of
+the body. Terrance felt that there was ``no meaningful difference'' between the
+body and brain, nor between the body and the physical environment at large,
+saying that ``you can't have one without the other.'' He believed that all three
+of these entities constitute the mind in a mutually-dependent way. However,
+Terrance indicated that the mind is still strictly physical, as are these three
+entities. Although Terrance did not provide details on how exactly the mind
+extended beyond the body, it is interesting to note this position's similarities
+to Clark's (2013) account of the extended mind cite:Clark2013, or Edward
+Hutchins's work on distributed cognition cite:Hutchins2005, though Terrance was
+familiar with neither.
+
+Participants also offered differing levels of confidence in their beliefs about
+the nature of the mind. Joanna (who has a background in neuroscience) reported
+that ``we do not know everything we need to know'' about how the mind works.
+Three other subjects reported similar beliefs. However, those subjects with a
+computational account of mind tended to feel more confident that their account
+was substantially accurate.
+
+#+BEGIN_QUOTE
+I think the consensus is that the body is mostly like the I/O of the brain.  /(John)/
+#+END_QUOTE
+
+John's account here implies that a sufficiently high-resolution brain sensor
+would accurately capture all of a person's experiences. John confirmed this
+explicitly, saying /``if you could 3D print a brain, and apply the correct
+electrical impulses, you could create a person in a jar.''/ In this
+computational metaphor of I/O (input/output), the body itself does not have
+agency; instead, the body actuates the brain's commands (output), and senses the
+environment, sending data to brain for processing (input).
+
+*** Reading the mind
+
+As discussed in the previous section,
+every participant's account of mind was strictly physical, 
+rooted mostly in the brain, in a few cases in the body, 
+and in one case extending beyond the body to the physical world.
+With this physical understanding of the mind,
+it is not overly surprising that
+all participants believed it would someday be possible for a
+computer to read or decode the contents of the human mind.
+No participants expressed hesitation when asked about such a proposition.
+
+For example, Alex did not feel comfortable providing a specific physical locus for the mind.
+Although he did not feel the probe was accurate for him,
+he took great pains to express his belief that such a device could work,
+though not necessarily by sensing the brain.
+
+#+BEGIN_QUOTE
+We're driven by single-celled organisms in ways we don't really yet understand, but...
+there's got to be some sort of physical storage of memories or experiences.
+We just haven't quite learned how to read it yet. /(Alex)/
+#+END_QUOTE
+
+Though it leaves open room for a variety of interpretations 
+about the exact nature of mind, 
+Alex's view
+is explicit that thoughts are physical, therefore /can/ be read,
+and /will/ be read with some future technology.
+
+There was a great deal of heterogeneity in the way this belief was bracketed or qualified.
+Joanna felt that there would ``always be parts of the mind that can't be seen.''
+She likened the question to the way that other people can know some parts of another person's mind, e.g. through empathy;
+their perspective, however, would always be partial, and she felt the same would be true for machines.
+
+However, some participants did not bracket their belief that machines would someday read the mind.
+Participants for whom the authenticator worked reliably
+typically said that a mind-reading machine was ``absolutely possible'' (Mary)
+or ``just a matter of the right data'' (Alex).
+Participants who did not feel the authenticator was accurate
+described current state-of-the-art as ``crude'' (John) or ``low-granularity'' (Elizabeth).
+
+Even Terrance, who believed the mind extended beyond the confines of the body,
+felt that the mind was readable by machine.
+After he stated his personal belief in a mind that extended
+to the physical environment, the experimenter asked
+what consequence this belief might have for the future of BCIs.
+
+#+BEGIN_QUOTE
+Practically, it has no implication. We could still devise an authentication tool
+that does the job, and it doesn't matter. Maybe in some way there could be this
+ESP thing where you could somehow read my thoughts... If we want to do
+something, we will find a way. /(Terrance)/
+#+END_QUOTE
+
+# Although he did not believe the mind to be one discrete, physical entity,
+# he felt that that one could still come up with a ``convention'' by which the mind becomes readable.
+# In this view, ``shorthands'' or constructed understandings hold their own reality, outside of any ``absolute'' notion of the world.
+Terrance's language here belies broader narratives of positive technological progress 
+(notions of ``[moving] forward,'' and that ``we will find a way'').
+Despite his personal beliefs about the ``true'' nature of the mind,
+he felt that engineers would manage to build the systems they intended to build,
+even ones with a much higher specificity than those available today (e.g. an ``ESP device'').
+
+*** BCIs for everyone?
+
+Generally, participants stated (implicitly or explicitly) that BCI technologies 
+would become smaller, less expensive, more accurate,
+and therefore become prevalent as a consumer device.
+Only Mary raised the question of how institutions exert agency 
+over the artifacts they create.
+Where most subjects indicated BCIs become smaller and thus more pervasive,
+Mary indicated that companies have beliefs, 
+which affect what devices and technologies they produce.
+Specifically, Mary spoke of a ``quandary''
+between advancing technology on one hand,
+and systems' autonomy on the other.
+She viewed this reluctance to allow systems to become more autonomous
+as a signal that certain technologies, potentially including BCIs, may /not/ be developed
+for ethical, moral or philosophical reasons.
+
+Interestingly, the other seven engineers in our study
+expected a future in which BCIs are pervasive,
+in spite of their unwillingness to wear our probe's headband in public.
+Some subjects believed the device's awkward, outward visibility
+might be mitigated by future miniaturization.
+Other subjects felt that social norms may simply change
+if the device became pervasive. This latter attitude is reminiscent of
+those around Google Glass, which shared an awkward (and, in practice, often stigmatizing)
+visibility cite:wong2016product.
+Future work might draw out the relationship
+of Google Glass's imagined future to that of BCI,
+perhaps as a way of learning lessons about possible commercial failures,
+and how engineering communities may have failed to foresee them.
+
+*** BCI anxieties
+
+An important counterpoint to emerging technologies is the anxiety that rises
+along with them cite:Pierce2017. Interestingly, engineers in our study expressed
+no strong anxieties regarding the development of BCIs, for the most part.
+Regardless of their experiences with our probe, participants felt that BCIs
+would be developed, and would improve people's lives. Participants mentioned
+domains such as work, safety, and increased convenience in the home.
+# With respect to ``mind-reading'' in particular
+# (which all participants agreed was a technical possibility), 
+# Terrance reported that he ``really wanted it to happen.'' 
+# Alex cited communication as one application of such a technology,
+# and John cited virtual reality.
+
+Only Mary reported existential anxiety about the possibility of machines that
+could read the human mind. She reported a technology to be ``absolutely
+possible,'' and referenced the probe's continuing high accuracy as we spoke.
+However, in stark contrast to Terrance, Mary /feared/ such a development would
+occur sooner rather than later.
+
+#+BEGIN_QUOTE
+I hope it's fifteen years out, but realistically, it's probably more like ten. /(Mary)/
+#+END_QUOTE
+
+Despite Mary's prior statement about the power of institutions to
+change the course of technical developments, here she seems to indicate that
+such course changes will not occur, or that they will converge on machines that can read the mind.
+
+When pressed on downsides, the participants who did not volunteer any anxieties
+about BCI initially did mention security (especially the ``leaking'' of
+``thoughts'') as a concern. For example, Elizabeth did not report any particular
+anxieties about BCIs in general, ``if the proper protections are in place.''
+Pressed on what those protections might look like, she cited encryption as a
+solution to privacy concerns. Terrance, who expressed wanting BCIs to become
+more widespread, described in deterministic terms the cybersecurity issues such
+devices might pose.
+
+#+BEGIN_QUOTE
+If there are security holes - which there almost certainly will be - then what
+happens when I'm leaking my thoughts to someone? What if I'm thinking about the
+seed phrase for my Bitcoin wallet... and then you put it in this anonymized
+dataset ... and I lose all my coins? What then? /(Terrance)/
+#+END_QUOTE
+
+
+# Even though the probe exhibited poor accuracy for him,
+# Terrance's concerns predicate a high degree of specificity about what the device is able to detect.
+Even alongside his concern, Terrance very much wanted a mind-reading machine to
+exist. He mentioned a desire for a programming assistant that would somehow
+speed up the process of software development. Since Terrance's conception of BCI
+presents high stakes with regards to privacy and security (he variously
+mentioned ``telepathy,'' and an ``ESP device,'' implying a high degree of
+specificity with regard to what BCIs can resolve), it is telling that he thought
+primarily of using BCIs to become a more efficient engineer, rather than
+concerns around privacy or potential harm. Later in the discussion, we unpack
+further how larger cultural tendencies in Silicon Valley might shape the way
+engineers build BCI systems.
+
+** Discussion
+
+# Our decision to examine the beliefs of engineers in the San Francisco Bay Area stemmed from our desire to surface narratives among engineers
+# as a way of understanding what they might design.
+# In particular, we wondered what kind of utopian visions and/or anxieties
+# might inform the design (or reluctance to design) BCIs for everyday use.
+
+# Since our subjects were pre-screened for potential interest in BCIs, they may have been more likely to be enthusiastic....
+# We find that engineers hold diverse beliefs about what the mind is, 
+# what the brain is, and about the relationship between these entities.
+# However, all of these engineers shared a core belief that the mind is a physical entity, one that machines can and will decode given the proper equipment and algorithms.
+# Overall, the engineers in our study were enthusiastic about the development of such devices.
+# The remainder of this discussion synthesizes our findings around four core subjects.
+# First, we discuss engineers' belief that BCIs will become more pervasive in the future.
+# Second, we discuss the belief of a machine-readable mind shared by all the engineers in our study.
+# We unpack this belief, discussing how subjects qualified, justified and defended it.
+# Third, we connect our findings to implications for long-term future for cybersecurity and privacy online.
+# Finally, we discuss our finding's implications for 
+# how engineers, like those in our study, might design future devices,
+# and how we as researchers might track their developments in the coming years.
+
+We find that engineers hold diverse beliefs about what the mind is, what the
+brain is, and about the relationship between these entities. However, all of
+these engineers shared a core belief that the mind is a physical entity, one
+that machines can and will decode given the proper equipment and algorithms
+(Section 6.1). Despite this belief, engineers did not largely express concerns
+about privacy or security (Section 6.2). As BCI startups continue to grow, we
+propose further work within technical communities, with a sensitivity toward
+emerging narratives, so that we may instill criticality among this emerging
+technical practice (Section 6.3). We conclude with avenues for future work
+focusing on different communities of technical practice (Section 6.4).
+
+*** Physical mind, readable mind
+
+Although our engineers broadly believed BCIs would become pervasive as consumer devices,
+we found no consistent visions of what such a future might look like.
+Instead, and to our surprise, we found a shared belief that
+there exists a physical mind that can be ``read'' or ``decoded'' by machines,
+despite participants' heterogeneous beliefs about its exact nature.
+Interestingly, only one participant shared any anxiety about this prospect with the researchers; 
+the other participants reported looking forward to such a possibility.
+
+Crucial to beliefs about the machine-readable mind were frames
+of the mind as physical, and therefore amenable to sensing.
+In many cases, subjects would use analogies to computation in making this point.
+For example, John 
+observed an anomaly in the authenticator's performance (it did not work when he was listening to the experimenter speak).
+He theorized that the states are distinguishable, because speaking ``is like programming'' and listening to someone speak ``is like being programmed''.
+In this case, John's observations about the BCI
+met with his pre-existing notions of the mind, 
+producing a hypothesis for what ``brain states'' might exist
+/and/ what states Muse headset might be able to detect.
+Hypotheses such as these could be consequential,
+as they might provide ideas or starting points for engineers looking to build systems.
+Our results highlight the importance of both pre-existing beliefs
+and particular interactions with BCIs 
+in structuring engineers' understandings.
+
+Broadly, engineers' beliefs about the mind-as-computer metaphor (Section [[Mind,
+brain, body]]) could provide starting points for engineers to build BCIs in the
+future. This computational view of mind has been popular among engineers at
+least since the ``good old-fashioned AI'' (GOFAI) of the 1950s. While much work
+has critiqued this stance from various angles cite:Agre1997,Hayles1999a, those
+same critiques have acknowledged the role these metaphors have played in the
+development of novel technologies: If the mind is a machine, then those tools
+used to understand machines can also be used to understand the mind. Here, we
+see this metaphor return, its discursive work now focused on biosensing rather
+than on artificial intelligence. Of course, these metaphors illuminate certain
+possibilities while occluding others cite:Hayles1999a. As such, future work
+should follow past research cite:Agre1997 in understanding what work this
+metaphor might do in its new domain of computational mind-reading.
+
+Even those participants who did not subscribe to computational theories of mind
+still believed the mind to be strictly physical. These subjects all agreed that
+computers could someday read the mind, precisely because of its physical nature.
+While our results indicate that engineers believe the mind to be
+machine-readable, some work indicates that non-engineers may share this as well
+cite:Ali2014a. Future work could further investigate this claim more deeply in
+the context of consumer BCIs. If so, a machine designed by engineers and
+purported to read the mind might find acceptance among a broader public
+audience.
+
+
+# _TODO maybe interesting to note that terrance did NOT think the mind was in the brain, but STILL thought we could "find a way" to read the mind fro brain because we can just do it by convention. so maybe unpack THAT.......if it fits here_
+Those subjects with a computational account of mind tended to feel more
+confident that their account was substantially accurate. John referenced ``the
+consensus'' in justifying his beliefs about the mind being equivalent to the
+brain. It is worth asking whose consensus this might be: that of
+neuroscientists, philosophers of mind, cognitive scientists, or engineers? In
+any of these cases, engineers' confidence in their beliefs could have
+implications for what types of systems are considered buildable, and where
+engineers might look to validate their implementations. As products come to
+market, professionals in the tech industry must find ways of claiming their
+devices to be legitimate, or working, to the public (consumers), to potential
+investors, and to other engineers. These claims of legitimacy could prove to be
+a fruitful window for understanding the general sensemaking process around these
+devices as their (perceived) capabilities inevitably evolve and grow alongside
+changing technologies.
+
+*** A future for privacy and security
+
+Since the engineers in our study believed the mind to be readable, an important
+question remains around the consequences for the future of consumer privacy and
+security. Our participants largely acknowledged that ``leaking'' thoughts
+through security holes was a valid concern, and one participant claimed that
+these exploitable holes will ``almost certainly'' exist. However, the types of
+threats that engineers referenced may not square with the notion of BCIs as a
+device for the masses. For example, Terrance's concern about someone stealing
+his Bitcoins through some BCI-based attack involves a technology which for now
+remains niche. This imagined scenario demonstrates how the security (and
+privacy) concerns of engineers may not match that of the general public. Such
+mismatches could have consequences for the types of systems that are designed,
+and whose needs these systems will account for.
+
+Crucially, discussions about privacy and security concerns did not cause any
+participants to reflect further on the consequences of pervasive BCIs, nor did
+they deter enthusiasm for the development of these devices. These findings
+indicate either that engineers are not be inclined to prioritize security in the
+systems they build, or that they have resigned themselves to the inevitability
+of security holes in software. In either case, our findings suggest a long-term
+direction for cybersecurity concerns. These devices carry potentially serious
+security and privacy consequences. If our engineers will try to build devices
+that make judgments about the inner workings of a person's mind, future work
+must critically examine how to protect such systems, and the people who use
+them.
+# Even those participants who believed that BCIs
+# could ``leak thoughts'' with relative specificity
+# felt the development of these same technologies 
+# to be at once appropriate, desirable and inevitable.
+
+*** Implications for the design of mind-reading machines
+
+Our findings do not indicate a singular path for the future of BCIs. Instead,
+they indicate an undercurrent of belief among Silicon Valley engineers in the
+possibility of technologies that can read the contents of the human mind.
+Crucially, our study revealed narratives not just around BCIs, but around the
+nature of the brain and mind generally, which in turn legitimize narratives
+about the possibility of mind-reading machines.
+
+Despite these beliefs about what BCIs are capable of, only one participant in
+our study reported that ethical issues around privacy or security might deter
+their development. We hope engineers will become more reflexive about these
+beliefs around BCI, and more critical about their downstream potential for harm
+(e.g. surveillance). Much as utopian dialogues around the potential of the World
+Wide Web missed risks to privacy and security, so might similarly utopian ideals
+of mind-reading machines.
+
+Since the engineers in our study believed BCIs could perform this potentially
+invasive ``mind-reading,'' why did they largely want such BCIs to be built?
+Explanations might be found by relating the narratives we uncover to existing
+social and economic value systems within Silicon Valley communities. Biohacking,
+for one example, has become an established part of Silicon Valley culture,
+through dieting (e.g. Soylent, fasting), or more extreme forms of body
+modification (e.g. chipping) cite:Dolejsova2017. Underlying all of these
+cultures is a mechanical model of the body, which facilitates notions of
+optimization and experimentation. How might BCIs (especially ones that purport
+to read thoughts) work their way into these already-established cultural
+patterns? We note that existing consumer BCIs already situate themselves in this
+context: the Muse headset we used in this study markets itself primarily as a
+meditation trainer (its advertising copy claims to ``remove the uncertainty from
+meditation'') cite:Interaxon. Examining how BCIs perform discursive work in
+engineering communities will allow us to better understand engineers' intents as
+these devices begin to emerge, and help us trace these intents forward as
+devices are re-imagined, remixed and repackaged for other groups of users in the
+future.
+# Meditation also harkens to 
+# eastern spirituality generally, 
+# which has a long-entrenched history in the Bay Area, and in the software engineering community at large _[?????]_.
+# (Indeed, two of our participants picked a yoga sun salutation as one of their mental gestures).
+
+In the nascent field of consumer BCI, researchers and designers should remain in
+touch with the beliefs of engineers. We pinpoint beliefs about the mind, and its
+readability by emerging biosensing devices, as especially an critical facet.
+Doing so will allow design to remain preemptive rather than reactive as software
+for consumer BCI emerges. Designers and researchers must not remain on the
+sidelines; as devices come to market, we must become actively engaged in
+engineers' beliefs (and practices). These systems hold the potential for
+exploiting an unprecedented level of personal data, and therefore present an
+high potential for harm. As such, the area presents a new locus for researchers
+and designers to engage critically with technical developments.
+
+# *** TODO BCI & biopolitics
+# _??????????????? should I bring biopolitics into this or is that a separate paper ??????????????? Matthew sample ?????????????????_
+
+*** Future work
+
+Software engineers are a diverse group, and the geographic confines of Silicon
+Valley do not describe all communities worldwide. Future work could explore
+communities in different places. Engineers in non-Western contexts may hold
+different cultural beliefs about the mind, which could lead to vastly different
+findings.
+
+# Even within Silicon Valley, engineers are heterogeneous in their cultures, interests and practices.
+# Future work could focus on a few, specific sub-populations with the Silicon Valley technology community.
+Professionals who work in machine learning could present another
+participant pool for future work. Machine learning is a critical component of
+BCIs, and many contemporary techniques, particularly deep
+learning, use neural metaphors to interpret and designing algorithms
+cite:ba2016using. Thus, practitioners of these techniques may be inclined to draw
+metaphors between the brain and the algorithms they employ, which could color
+their understanding how and why BCIs work or fail.
+
+# For example, employees in private companies actively working on building brain-computer interfaces
+# could provide a useful point of comparison to the software engineers in our study, who were not BCI experts.
+
+Future work could allow participants to take an active, participatory role in
+the analysis of their data, and/or in the design of the BCI system. Although our
+participants had the technical expertise required to perform data analysis and
+systems engineering themselves, we did not have participants do any such
+analysis for this study. This participatory approach will also help us expand
+our understanding from engineers' beliefs to engineers' practices, as they
+relate to the emerging domain of consumer brain-computer interfaces.
+Participants might form their own interpretations of what the data mean (or can
+mean), building understandings that could differ from those we observed in this
+study.
+
+# future work could perform
+# ``speculative enactments'' _[elsden]_ with our research tool, in which activities with the device
+# could result in real-world consequences.
+# For example, people must authenticate with our device in order to log into their real services.
+# These deployments might necessitate longer-duration experiences with the device, as well. 
+# Deployments with real stakes, over longer timescales, could radically change the interpretations and beliefs that our study elicits.
+
+** Conclusion
+
+# With regard to the brain and mind, what is their truth?
+As engineers in the San Francisco Bay Area,
+the participants in our study sit at 
+an historical site of techno/political power.
+Our technology probe indicates these engineers
+believe the mind is physical, and therefore amenable to sensing.
+What are the consequences for the rest of us?
+We hope our study will encourage engineers to closely examine
+the potential of these devices for social harm,
+and encourage researchers to remain closely attuned
+to this emerging class of consumer biosensor.
+
+
 * Who are you really? Probing engineers on authentication and the ground truth of identity
 
 # focused so much on the eeg sensing modality,
