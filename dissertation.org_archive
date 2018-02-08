@@ -1747,3 +1747,88 @@ outcomes will always translate into meaningful social information.
 
 ** Abstract
 
+
+* TODO Conclusion
+:PROPERTIES:
+:ARCHIVE_TIME: 2018-02-07 Wed 11:14
+:ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+:ARCHIVE_CATEGORY: dissertation
+:ARCHIVE_TODO: TODO
+:END:
+<<conclusion>>
+
+# _TODO cut mind-reading?_
+# In contrast, /mind reading/, a term associated with street and stage magic 
+# cite:Ali2014a, re-focuses on human aspects of interpretability and legibility.
+# It centers the processes of meaning-making and the performance of understanding.
+# Together, /mind reading/ and /telepathy/
+# work to describe how models of minds are ``made and measured'' cite:Boehner2007b,
+# while gesturing toward the unstable boundary between these two activities.
+
+_surveillance, simone browne, about power_
+
+_so i went through nitpicking all these theories, but......_
+_what can we add to conversation that will substantially help to address these critiques across much research?_
+
+_High level takeaways from this discussion section_.
+_Answer the paper's question: what are the limits?_.
+
+# Many issues are endemic to this field of study (e.g. establishing ground truth
+# for a detected emotional response cite:Healey2011,Hernandez2013). 
+
+*** Brainscanning, autonomy, control
+
+# TODO how to tie into above concerns about interpretability?
+
+# re: "information"
+# paul - In looking at that concept in the 18th century, I was intrigued _how the term developed to include factual propositions that we consider consciously_.  
+# paul - These are particularly the sort of things that might feature in political discussions—and hence information has been valued as a key ingredient of the public sphere.  
+# paul - But 18th century accounts also presented _information as the signals sent through the nerves to which the brain responds beneath consciousness_ and so was feared as a _means of shaping that consciousness beyond our control_ —the very thing that could undermine the public sphere.  
+# paul - The 18c philosophers saw that aspect as particularly worrying.  
+# paul - It seemed to me that you work embraces both.  
+# paul - So, as you probe your informants, I do suggest trying to understand how they see these issues.  
+# paul - On the one hand, _brain signals seem to give us a particular autonomy if no one can imitate our unique identity_.
+# paul - On the other, _they subject us to the power of signals over which we have no control, and so lose a certain autonomy_.
+#
+# > I agree that there is a fundamental tension in this work between autonomy (via "unforgeable" identity that matches our conscious sense of selfhood) on one hand,
+# > and the power for control, especially by probing knowledge subliminally on the other.
+# > I will add that, in the current study, subjects were highly skeptical that the device *did* get at some ground truth of identity.
+# > they largely reported a more interactional account of identity, in which personhood shifts depending on context, actions, and time. (much to my surprise!)
+# > so, perhaps it's all downside for them (control), and no upside (autonomy)?
+
+*** TODO A future for privacy and cybersecurity
+
+ now with VR even more intimate 
+ bci promises yet another intimacy, 
+   look at those side-channel attacks and so on, 
+   done with P300 and now there's a startup with a P300 api [], once the stuff of fiction []
+
+#+NAME: conclusion
+
+people will continue to build increasingly hi-res models of human bodies in space;, and human environments
+I argued that 
+these models will in general will be informative wrt /the mind/,
+producing what i dub /mind-computer-interfaces/ (MCIs).
+
+what 2 do now?
+# justifying the next step of work
+- It is now time to see if engineers believe mind is /senseable/
+  - See how our theory matches up (or doesn't) with their beliefs
+- One good starting place is the brain
+  - But other wearable senosrs can also work .. heart is a good one, lots of connotations there, and may be diff btwn cultures!
+  
+_WHY SO IMPORTANT?_
+
+
+# TODO maybe *start* with mind-reading, situate in autism literature
+# TODO then maybe *conclude* with teleapthy as a future-work sort of thing, if you have a good reason
+
+
+_TODO why this section_
+
+
+:endmatter:
+\printbibliography
+:end:
+
+
