@@ -4,6 +4,8 @@
 #+Author: Nick Merrill
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="ext/style1.css" />
 #+OPTIONS: toc:nil
+#+LATEX_HEADER: \usepackage[backend=bibtex]{biblatex}
+#+LATEX_HEADER: \addbibresource{refs.bib}
 #+LATEX_HEADER: \usepackage{caption}
 #+LATEX_HEADER: \usepackage{subcaption}
 #+LATEX_HEADER: \hyphenation{mar-gin-al-ia}
@@ -3578,6 +3580,4 @@ entertainment. By paying close attention to the beliefs and practices of
 engineers, and the expectations of end-users, we can better prepare for an
 increasingly connected---and increasingly hackable---world, body, and mind.
 
-
-\bibliographystyle{ACM-Reference-Format}
-\bibliography{refs}
+\printbibliography
