@@ -4,10 +4,8 @@
 #+Author: Nick Merrill
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="ext/style1.css" />
 #+OPTIONS: toc:nil
-#+LATEX_HEADER: \usepackage{biblatex}
 #+LATEX_HEADER: \usepackage{caption}
 #+LATEX_HEADER: \usepackage{subcaption}
-#+LATEX_HEADER: \bibliography{refs}
 #+LATEX_HEADER: \hyphenation{mar-gin-al-ia}
 #+LATEX_HEADER: \input{title}
 :end:
@@ -17,9 +15,9 @@
 
 * Introduction
 
-Sensors are everywhere. _Some examples_.
+# Sensors are everywhere. _Some examples_.
 
-What can these sensors know about the /mind/, even theoretically? This
+What can sensors know about the mind, even theoretically? This
 dissertation discusses how various stakeholders---both software engineers and
 end-users---answer this question in socal context. Qualitative and quantitative
 data show how social context meets with beliefs about the body to produce
@@ -68,14 +66,14 @@ Although we find a diverse set of beliefs among our participants, we discover a
 shared understanding of the mind as a physical entity that can and will be
 ``read'' by machines.
 
-Chapter [[cscw]] dives deeper into data from the prior chapter’s findings, revealing
-our participants’ beliefs about the nature of the self, as it relates to the
-goals of authentication systems in computer security. We find that the software
-engineers in our study hold complex notions of self involving multiple material
-contingencies over time, which existing authentication systems do not capture.
-We discuss the relationship between participants' beliefs of self and the mind,
-using this dissonance as a case study for understanding how beliefs may
-structure and inform technical practice. 
+Chapter [[cscw]] dives deeper into data from the prior chapter, revealing our
+participants’ beliefs about the nature of the self as it relates to the brain. I
+find that the software engineers in our study hold complex notions of self
+involving multiple material contingencies over time, which existing
+authentication systems do not capture. I discuss the relationship between
+participants' beliefs of self and the mind, using this dissonance to understand
+how beliefs may structure and inform technical practice. We find that the
+software
 
 In chapter [[conclusion]], I propose the term /telepathy/ to describe the encoding
 and transmission of minds. I discuss tensions between opportunities for novel
@@ -2143,7 +2141,8 @@ signals from these devices could affect social behaviors such as dyadic and
 group trust. Similar studies with signals from, e.g., the brain cite:Ali2014a
 are a clear direction for future work. Especially interesting cases are signals
 for which precise or empirical meanings are still being hotly debated, such as
-EEG (brainwaves), a sensing modality we begin to discuss in the following chapter.
+EEG (brainwaves), a sensing modality we begin to discuss in the next chapter.
+
 * TODO Shifting to the brain
 <<toward-brains>>
 
@@ -2256,17 +2255,13 @@ In general, this quote and others motivate the need for a rich, qualitative unde
 as well as data collection,
 in order to understand what role BCI applications such as passthoughts could play in day-to-day life.
 
-** Brain-based authentication as a usecase
+** TODO Motivating a brain-based probe
 
-*** TODO Motivating a brain-based probe
+*** TODO Why brains interesting case given data
 
-**** TODO Why brains interesting case given data
+*** TODO Wonder aloud how to study brain-based case, lay out specs
 
-**** TODO Wonder aloud how to study brain-based case, lay out specs
-
-*** Brain-based authentiation
-
-**** Authentication
+** Brain-based authentiation
 
 Authentication seeks to prove that a user is who they claim to be. In computer
 security, authenticators are classified into three types: knowledge factors
@@ -2277,8 +2272,6 @@ cite:Bonneau2012, including their capability for allowing /authorization/
 (granting use of a system). However, for authentication (verifying an
 individual), passwords are easy to compromise, and easy to forget. These
 shortcomings motivate the overlay of multiple factors of authentication.
-
-**** Multi-factor authentication
 
 An ongoing problem in authentication lies in balancing strong security (i.e.,
 multiple factors) with usability. As an example, major industry players such as
@@ -2295,7 +2288,7 @@ two-step two-factor authentication scheme if desired. However, it is easy to
 understand why users would balk at having to enter a passcode /and/ provide a
 fingerprint each time they want to unlock their phone.
 
-**** One-step, multi-factor authentication
+*** One-step, multi-factor authentication using brainwaves
 
 Since passthoughts' initial proposal in 2005, more ubiquitous sensing and
 computing has enabled a number of other strategies for achieving two factors of
@@ -2348,13 +2341,24 @@ authentication via the simultaneous presentation of the inherence factor
 (brainwave signatures due to the unique folding structures of the cortex) and
 the knowledge factor (the secret mental task) cite:Chuang2014.
 
-*** TODO Brain-based authentication as a probe
+** TODO Brain-based authentication as a probe
 
-**** TODO How it meets specs laid out above
+*** TODO How it meets specs laid out above
 
-**** TODO Tease next chapter where we focus on engineers
+*** TODO Shifting focus to engineers
 * Talking to engineers about brain-computer interface
 <<chi>>
+
+This chapter shifts in focus from the users of sensing devices to their
+engineers. Having motivated brain-based authentication as a case study for
+further exploration, I study software engineers' interactions with a working
+brain-based authentication system. This population's beliefs are particularly
+critical as consumer brainscanning devices have become open to tinkering through
+software. Although we find a diverse set of beliefs among our participants, we
+discover a shared understanding of the mind as a physical entity that can and
+will be ``read'' by machines.
+
+** Background
 
 # Utopia
 In 2017, both Mark Zuckerberg and Elon Musk announced 
@@ -2421,7 +2425,7 @@ we discuss how such systems may bear on the long-term future of privacy and cybe
 # or the tangible design of the system? sounds like probably not, although you probably want to make a case for why the design is reasonable enough that people didn't struggle to use it
 # RICH - Are you really concerned about usability? It sounds like you're trying to look at other issues/values/concerns
 
-** Brain-computer interfaces & pathways to broader adoption
+*** Brain-computer interfaces & pathways to broader adoption
 
 # what are BCIs? 
 BCIs allow people to interact with computers without muscular action.
@@ -3175,7 +3179,7 @@ dataset ... and I lose all my coins? What then? /(Terrance)/
 Even alongside his concern, Terrance very much wanted a mind-reading machine to
 exist. He mentioned a desire for a programming assistant that would somehow
 speed up the process of software development. Since Terrance's conception of BCI
-presents high stakes with regards to privacy and security (he variously
+presents high stakes with regard to privacy and security (he variously
 mentioned ``telepathy,'' and an ``ESP device,'' implying a high degree of
 specificity with regard to what BCIs can resolve), it is telling that he thought
 primarily of using BCIs to become a more efficient engineer, rather than
@@ -3409,22 +3413,39 @@ study.
 ** Conclusion
 
 # With regard to the brain and mind, what is their truth?
-As engineers in the San Francisco Bay Area,
-the participants in our study sit at 
-an historical site of techno/political power.
-Our technology probe indicates these engineers
-believe the mind is physical, and therefore amenable to sensing.
-What are the consequences for the rest of us?
-We hope our study will encourage engineers to closely examine
-the potential of these devices for social harm,
-and encourage researchers to remain closely attuned
-to this emerging class of consumer biosensor.
+As engineers in the San Francisco Bay Area, the participants in our study sit at
+an historical site of techno/political power. Our technology probe indicates
+these engineers believe the mind is physical, and therefore amenable to sensing.
+What are the consequences for the rest of us? I hope this study will encourage
+engineers to closely examine the potential of these devices for social harm, and
+encourage researchers to remain closely attuned to this emerging class of
+consumer biosensor.
+
+What this study did not rigorously examine is how the engineers in our study
+encountered notions of identity as it might be captured by the brain scanning
+device. In general, although engineers broadly believed the mind to be readable
+by machines, this chapter did not deeply examine to what extent they believed
+the identity to be related to the mind or the brain. In the following chapter, I
+examine participants' responses through this lens, charting engineers' beliefs
+about the readability of identity as an aspect of mind.
 
 * TODO Who are you really? Probing engineers on authentication and the ground truth of identity
 <<cscw>>
+
+This chapter dives deeper into data from the prior chapter, revealing our
+participants’ beliefs about the nature of the self as it relates to the brain.
+I find that the software engineers in our study hold complex notions of self
+involving multiple material contingencies over time, which existing
+authentication systems do not capture. I discuss the relationship between
+participants' beliefs of self and the mind, using this dissonance 
+to understand how beliefs may structure and inform technical practice.
+
+# neural identity
+# what engineers make of it
+# why their concepts of identity matter
+
 * TODO Telepathy within limits
 <<conclusion>>
-
 
 What are the limits of what machines could model of the mind? My arguments in
 this dissertation reorient this question around human beliefs: What are the limits
@@ -3432,6 +3453,7 @@ within which claims of mind-modeling might be made (by designers), and believed
 (by end-users)? I propose the term /telepathy/ to describe the process of
 understanding models of minds. I then use this term to motivate work for
 charting the limits of what work telepathy might perform in the world.
+_One more sentence on the future work I motivate_
 
 ** Telepathy
 
@@ -3476,7 +3498,7 @@ encoding, and decoding possible. Telepathy works to describe how models of minds
 are ``made and measured'' cite:Boehner2007b, while gesturing toward the unstable
 boundary between these two activities.
 
-** Charting limits
+** Charting future work
 
 While models of minds could include data about the brain, such data is not
 necessary to decode the mind, as this chapter argues. Indeed, with ubiquitous
@@ -3534,6 +3556,15 @@ cybersecurity research.
 
 ** Conclusion
 
+The purpose of this dissertation is twofold. First, it surfaces an unstable
+boundary between sensing bodies and sensing minds. Second, it proposes the
+porousness of this boundary as a site for studying the impact that biosensing
+devices will play in near future. As biosensors creep into smart watches, bands,
+and ingestibles, they will build increasingly high resolution models of bodies
+in space. Their ability to divine not just what these bodies do, but what they
+think and feel, presents an under-explored avenue for understanding and
+imagining the role these technologies will play in everyday life.
+
 This dissertation aims to paint a few provocative dots on a very large canvas.
 _Go on_.
 
@@ -3547,3 +3578,6 @@ entertainment. By paying close attention to the beliefs and practices of
 engineers, and the expectations of end-users, we can better prepare for an
 increasingly connected---and increasingly hackable---world, body, and mind.
 
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{refs}
