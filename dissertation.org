@@ -17,15 +17,18 @@
 
 * Introduction
 
-# Sensors are everywhere. _Some examples_.
+# _TODO Sensors are everywhere. Some examples_.
 
-What can sensors know about the mind, even theoretically? This
-dissertation discusses how various stakeholders---both software engineers and
-end-users---answer this question in socal context. Qualitative and quantitative
-data show how social context meets with beliefs about the body to produce
-mind-related meanings around basic biosignals such as heartrate. A working
-brain-computer interface probes the diverse beliefs engineers hold about the
-mind, and their united belief that the mind is readable by machines.
+# _TODO Thinking of these devices, and thinking of their challenges to your security and privacy, what specifically are you afraid about?_
+# _This dissertation raises /the contents of the mind/ as a concern for cybersecurity and privacy._
+
+What can sensors know about the mind, even theoretically? This dissertation
+discusses how different stakeholders, both software engineers and end-users,
+answer this question in socal context. Qualitative and quantitative data show
+how social context meets with beliefs about the body to produce mind-related
+meanings around basic biosignals such as heartrate. A working brain-computer
+interface probes the diverse beliefs engineers hold about the mind, and their
+united belief that the mind is readable by machines.
 
 The purpose of this dissertation is twofold. First, it surfaces an unstable
 boundary between sensing bodies and sensing minds. Second, it proposes the
@@ -45,19 +48,33 @@ discovering the relevance of the readable, both in how engineers will model it,
 and how end-users will encounter these models in life.
 
 Since the human belief plays such a central role in making models of minds
-relevant, Chapter [[heartrate]] continues with an examination of how end-users
-conceive of the mind with respect to commercial sensing devices. Through a
-vignette study and a mixed-methods experimental study, this chapter shows how
-people enroll biosensory data (heartrate) in social, computer-mediated contexts
-to build interpretations relating to the minds of others.
+relevant, Chapter [[group16]] continues with an examination of how end-users
+conceive of the mind with respect to heartrate, a popualr biosensor in
+commercial sensing devices. Through a vignette study, this chapter shows how
+people enroll biosensory data use heartrate in social, computer-mediated
+contexts to build interpretations.
 
-Having established that people build mind-related meanings around heartrate,
-chapter [[toward-brains]] examines how people make sense of data from a variety of
-other biosensors. I report on the qualitative and quantitative results of survey
-among participants in a large (n>10,000), longitudinal health study, and an
-Amazon Mechanical Turk population. Through these data, I locate brainscanning,
-and brain-based authentication specifically, as a fruitful case for
-understanding how particular sensing technologies construct notions of mind.
+While this study establishes that people can build socially-relevant meanings
+around basic biosignals, we do not know how these beliefs about mind affect
+people's behaviors, nor how specific our findings are to heartrate. In Chapter
+[[cscw17]], we apply quantitative and qualitative analyses to an iterated prisoner's
+dilemma game, in which heartrate information (“elevated” or “normal”) was shared
+between players. In a follow-up study, we replicate our initial study, but
+replace heartrate with an unfamiliar biosignal, “Skin Reflectivity Index (SRI).”
+We find that both heartrate and the unfamiliar biosignal are associated with
+negative mood attributions, but we observe a decrease in cooperative behavior
+only with elevated heartrate. Our findings highlight the role prior beliefs can
+play in shaping interpretations of a biosignal, while suggesting that designers
+can, perhaps inadvertently, train users to associate signals with social
+meanings.
+
+Having established that people build mind-related meanings around basic
+biosiganls, Chapter [[toward-brains]] examines how people make sense of data from a
+variety of other biosensors. I report on the qualitative and quantitative
+results of survey among participants in a large (n>10,000), longitudinal health
+study, and an Amazon Mechanical Turk population. Through these data, I locate
+brainscanning, and brain-based authentication specifically, as a fruitful case
+for understanding how particular sensing technologies construct notions of mind.
 
 Having motivated brain-based authentication as a case study for further
 exploration, Chapter [[chi]] shifts in focus from users to software engineers,
@@ -68,18 +85,19 @@ Although we find a diverse set of beliefs among our participants, we discover a
 shared understanding of the mind as a physical entity that can and will be
 ``read'' by machines.
 
-Chapter [[cscw]] dives deeper into data from the prior chapter, revealing our
-participants’ beliefs about the nature of the self as it relates to the brain. I
-find that the software engineers in our study hold complex notions of self
-involving multiple material contingencies over time, which existing
-authentication systems do not capture. I discuss the relationship between
-participants' beliefs of self and the mind, using this dissonance to understand
-how beliefs may structure and inform technical practice. We find that the
-software
+# Chapter [[cscw]] dives deeper into data from the prior chapter, revealing our
+# participants’ beliefs about the nature of the self as it relates to the brain. I
+# find that the software engineers in our study hold complex notions of self
+# involving multiple material contingencies over time, which existing
+# authentication systems do not capture. I discuss the relationship between
+# participants' beliefs of self and the mind, using this dissonance to understand
+# how beliefs may structure and inform technical practice. We find that the
+# software
 
-In chapter [[conclusion]], I propose the term /telepathy/ to describe the encoding
-and transmission of minds. I discuss tensions between opportunities for novel
-computer-mediated communication, and concerns around security, privacy and
+To conclude this dissertation, I propose the term /telepathy/ to describe the
+encoding and transmission of minds in chapter [[conclusion]]. I attempt to chart a
+path for future work, highlighting tensions between opportunities for novel
+computer-mediated communication and concerns around security, privacy and
 surveillance.
 
 * Ants, Fungus & Telepathy
@@ -479,7 +497,6 @@ suggestion provided by particular sensing devices can meet with pre-existing
 beliefs about the body, producing socially-relevant interpretations regarding
 the mind.
 
-**** Suggestion
 
 In Ali et al (2014), undergraduates in neuroscience believed a ``scanner'' (in
 reality, a perm machine from a hair salon, painted gray) could read their
@@ -501,7 +518,6 @@ believe some distortion, but only to a point. Interfaces provide suggestions,
 which end users may accept even when they conflict with what users feel to be
 true.
 
-**** Beliefs about the body
 
 However, suggestibility does not entirely account for why people build
 interpretations about the mind from sensor data. People bring beliefs to the
@@ -567,8 +583,8 @@ studies described there will demonstrate how people use basic biosignals in
 computer-mediated contexts to build interpretations relating to the minds of
 others.
 
-* Reading mind from heartrate
-<<heartrate>>
+* TODO Reading mind from heartrate
+<<group16>>
 
 The previous chapter argues that human interpretations are central to the study
 of how models of minds might operate in the course of life. Building on this
@@ -611,9 +627,10 @@ increase user engagement with these devices. However, it is not clear how
 individuals will interpret a shared biosignal (e.g. heartrate) in different
 contexts of social interaction.
 
-This chapter examines what heartrate can mean as a computer-mediated cue,
-and how interpretations of heartrate affect social attitudes and social behavior
-as people assign meanings to these signals relevant to the mind (emotion, mood, trust).
+This chapter examines what heartrate can mean as a computer-mediated cue, and
+how interpretations of heartrate affect social attitudes and social behavior as
+people assign meanings to these signals relevant to the mind (emotion, mood,
+trust).
 
 First, we use a vignette experiment to investigate how individuals make social
 interpretations about a rudimentary biosignal (heartrate) in conditions of
@@ -643,25 +660,6 @@ elevated heartrate to empathy and identification rather than trustworthiness. We
 also find a small number of subjects read different social interpretations onto
 the heartrate signal, including a very small minority who did not infer any
 relationship between the heartrate and the social situation.
-
-From these findings about social attitudes, we then move to an lab-based experiment
-to understand how shared heartrate effects social behavior. We apply
-quantitative and qualitative analyses to an iterated prisoner's dilemma game, in
-which heartrate information (“elevated” or “normal”) was shared between players.
-In a follow-up study, we replicate our initial study, but replace heartrate with
-an unfamiliar biosignal, “Skin Reflectivity Index (SRI).”
-
-Our results raise important questions for applications that transmit
-sensor-derived signals socially between users. For signals with strong cultural
-associations, people’s prior beliefs will color their interpretations, and
-social outcomes may or may not be positive. In the case of novel signals, on the
-other hand, our results imply that designers can (perhaps inadvertently) teach
-users to associate these biosignals with social meanings. This effect could be
-viewed as beneficial, depending on design objectives. It could also be dangerous
-if designers suggest, perhaps even inadvertently, interpretations that lead to
-discrimination.
-
-# something here to tease how this fits into larger argument, or nah?
 
 *** Sharing sensor data
 
@@ -846,7 +844,7 @@ Participants were randomly assigned into one of the four conditions. We
 manipulated these heartrate conditions by making a key wording change as
 indicated in the two context vignettes below.
 
-*** Non-Adversarial
+**** Non-Adversarial vignette:
 
 #+BEGIN_QUOTE
 You planned to meet your acquaintance for a movie at seven. It's 7:15, and
@@ -857,7 +855,7 @@ app designates as [normal / elevated]. It is currently 75 degrees and sunny.
 Your movie starts at 7:20.
 #+END_QUOTE
 
-*** Adversarial:
+**** Adversarial vignette
 
 #+BEGIN_QUOTE
 You planned to meet your acquaintance at seven to discuss a difficult legal
@@ -868,7 +866,7 @@ are able to see this person's heartrate, which the app designates as [normal /
 elevated]. It is currently 75 degrees and sunny.
 #+END_QUOTE
 
-*** Quantitative results
+** Quantitative results
 
 We apply both quantitative and qualitative analyses to investigate our research
 questions and hypotheses. The study is based around an experimental design, but
@@ -936,7 +934,7 @@ therefore not supported. However, the strong findings (statistically and
 practically significant) in the opposite direction from our prediction warrant
 further exploration in the qualitative results and discussion below.
 
-*** Qualitative results
+** Qualitative results
 Directly after the vignette, participants were asked four freeresponse questions
 about their reactions to the situation described in the vignette: 1) How do you
 react to this message, 2) What makes you react this way, 3) What is the ideal
@@ -1045,7 +1043,7 @@ should be explored much more deeply in future work.
 *** Non-Adversarial Context
 
 This section reports on the qualitative analysis of subjects in the
-non-adversarial context (meeting for a movie),
+non-adversarial context (meeting for a movie).
 
 *** Normal heartrate
 
@@ -1171,8 +1169,6 @@ fallibility of particular devices was not on subjects’ minds. However, the tru
 that people place in sensing devices, and the presumed authority of their data,
 should be explored thoroughly in future work.
 
-*** Relevance of heartrate to the social situation
-
 Only two subjects in the study who mentioned heartrate felt that the data
 was not necessarily related to the specific social situation described in the
 vignette:
@@ -1196,7 +1192,7 @@ results indicate that simply making the heartrate salient, in the
 absence of other cues, invites people to project a causal narrative
 on the mood, intentions, and behavior of others.
 
-*** Discussion
+** Discussion
 
 We began this investigation by asking how individuals might interpret heartrate
 information in uncertain social interactions. Our hypotheses are both based on
@@ -1276,7 +1272,7 @@ complexity intrinsic to interfaces that collect and share biosignals, and
 warrants future studies into social and contextual interpretation of data from
 wearable devices.
 
-*** Limitations
+** Conclusions
 
 Our vignette experiment examined a single type of scenario in two different
 contexts, using text-based answers. We still have a limited picture of the range
@@ -1300,14 +1296,52 @@ participants' attention on the task (e.g.., we could not detect whether the
 subject was switching between tabs in their web browser, or taking breaks during
 the survey), nor did we monitor how long subjects spent filling out the survey.
 
-While this vignette experiment provides evidence that interpretations of biosignals from sensors
-(such as wearables) can affect social attributions and behaviors towards others.
-Nevertheless, many questions remain. A controlled, behavioral
-experiments could help us ask more specific questions about how elevated
-heartrate affects perceptions of risk in uncertain interactions, e.g. when money
-is at stake. Such a study could lead to a more robust understanding of how the
-transmission of biosignals might affect social behavior. 
-Thus, in the following section, we extend this work to a lab-based experiment.
+While this vignette experiment provides evidence that interpretations of
+biosignals from sensors (such as wearables) can affect social attributions and
+behaviors towards others. Nevertheless, many questions remain. While this study
+examined social beliefs as they relate to heartrate, it did not examine how (or
+if) these beliefs affect social behaviors. Furthermore, we did not examine how
+specific our findings are to heartrate. What other signals from the body might
+lead to social interpretations?
+
+In the following chapter, we begin to address these limitations through a
+controlled, behavioral experiments, which helps us ask more specific questions
+about how elevated heartrate affects perceptions of risk in uncertain
+interactions, e.g. when money is at stake. This study study leads to a more
+robust understanding of how the transmission of basic biosignals might affect
+social behavior.
+
+* Biosignals, mind and behavior
+<<cscw17>>
+
+From the prior chapter's findings about social attitudes, this chapter moves to
+an lab-based experiment to understand how shared heartrate effects social
+behavior. We apply quantitative and qualitative analyses to an iterated
+prisoner's dilemma game, in which heartrate information (“elevated” or “normal”)
+was shared between players. In a follow-up study, we replicate our initial
+study, but replace heartrate with an unfamiliar biosignal, ``Skin Reflectivity
+Index (SRI).''
+
+We find that both heartrate and the unfamiliar biosignal are associated with
+negative mood attributions, but we observe a decrease in cooperative behavior
+only with elevated heartrate. Qualitative results indicate that individuals may
+learn an association between our unfamiliar biosignal and the cooperative,
+trusting behavior of their partner. Our findings highlight the role prior
+beliefs can play in shaping interpretations of a biosignal, while suggesting
+that designers can, perhaps inadvertently, train users to associate signals with
+social meanings.
+
+Our results raise important questions for applications that transmit
+sensor-derived signals socially between users. For signals with strong cultural
+associations, people’s prior beliefs will color their interpretations, and
+social outcomes may or may not be positive. In the case of novel signals, on the
+other hand, our results imply that designers can (perhaps inadvertently) teach
+users to associate these biosignals with social meanings. This effect could be
+viewed as beneficial, depending on design objectives. It could also be dangerous
+if designers suggest, perhaps even inadvertently, interpretations that lead to
+discrimination.
+
+# something here to tease how this fits into larger argument, or nah?
 
 ** Lab-based experiment
 
@@ -1329,10 +1363,10 @@ inadvertently, train users to associate signals with social meanings. We discuss
 implications for how wearable sensors can mediate social interactions.
 
 # _TODO remind that we just talked about this in the last exp_
-Generally when individuals believe that their heartrate is
-elevated, they often believe their mood and emotions to be more negative. Thus,
-we apply this same logic to how individuals will interpret the elevated
-heartrates of others in uncertain social interactions:
+Generally when individuals believe that their heartrate is elevated, they often
+believe their mood and emotions to be more negative. Thus, we apply this same
+logic to how individuals will interpret the elevated heartrates of others in
+uncertain social interactions:
 
 #+BEGIN_QUOTE
 H1. Participants who see a consistently elevated heartrate from their partner
@@ -1362,7 +1396,7 @@ less, and (b) cooperate less with the partner in uncertain and risky social
 interactions compared to participants who see a normal heartrate.
 #+END_QUOTE
 
-** Study 1: Sharing heartrate in a risky, uncertain interaction
+** Sharing heartrate in a risky, uncertain interaction
 
 In order to test our hypotheses, we conducted a repeated
 trust experiment with shared heartrate information. Trust
@@ -1527,7 +1561,7 @@ S.D. = 1.35). Importantly, openended qualitative responses confirmed that the
 heartrate was easily understandable, but that the precise value of heartrate was
 ambiguous.
 
-** Study 1: Results
+** Results
 *** Quantitative results
 
 #+NAME: fig:cscw-study1
@@ -1708,14 +1742,14 @@ evidence that subjects have used the emotional attributions
 they made based on their partner’s normal heartrate to guide
 their behavior in the trust game.
 
-** Study 2: Sharing an unknown signal in a risky, uncertain interaction
+** Sharing an unknown signal in a risky, uncertain interaction
 
-In study 1, we found that participants cooperate less with partners who have
-elevated heartrates in the repeated trust game, compared to those with normal
-heartrates. While this result supports one of our key hypotheses, it also begs
-another question: Is the effect we observe due to heartrate specifically, or
-might any elevated biosignal show the same results for negative perceptions of
-mood and reduced cooperative behavior towards the partner?
+In the prior experiment, we found that participants cooperate less with partners
+who have elevated heartrates in the repeated trust game, compared to those with
+normal heartrates. While this result supports one of our key hypotheses, it also
+begs another question: Is the effect we observe due to heartrate specifically,
+or might any elevated biosignal show the same results for negative perceptions
+of mood and reduced cooperative behavior towards the partner?
 
 In our second experiment, we attempt to tease out the effect of the heartrate
 signal itself, compared to any “elevated” (versus “normal”) signal collected
@@ -1793,7 +1827,7 @@ as ‘other’. The mean age of participants was 21.
 Importantly, the gender distribution and age of the sample
 was equivalent to the first study.
 
-** Study 2: Results
+** Results
 
 *** Quantitative results
 
@@ -2156,9 +2190,10 @@ quantitative results of survey among participants in a large (n>10,000),
 longitudinal health study, and an Amazon Mechanical Turk population.
 
 ** TODO Background
-*** TODO Last study looked deeply into heartrate
-*** TODO Now time to look at all the diff sensing modalities
-*** TODO Theory motivating diff sensors selection
+- Last study looked deeply into heartrate
+- Now time to look at all the diff sensing modalities
+- Theory motivating diff sensors selection
+- Folk beliefs about sensors paper, how that informs this study
 ** TODO Methods
 
 The survey we report on examines how people's beliefs differ given device
@@ -2168,22 +2203,19 @@ study, in which volunteers fill out surveys about themselves, and/or upload data
 from biomedical self-tracking devices, over the course of several years
 cite:Estrin2010a.
 
-*** TODO Subject population
-**** TODO Who and how many and demos
-**** TODO Motivation behind subject choice
-
-***** TODO why heh?
-
-***** TODO why mturk?
-*** Survey questions
-
-In one portion of the survey, we ask
-subjects to rate a number of different biosensors in order of how likely
-individual's believe each sensor is to reveal what ``a person is thinking or
-feeling'' (Figure [[fig:sensor-rank]]). This section reports on a subset of
-Mechanical Turk workers (n=100) and Health-e-Hearth subjects (n=100).
+- Who and how many and demographics
+- Motivation behind subject choice
+  - why HeH?
+  - why mturk?
 
 ** TODO Quantiative results
+
+
+In one portion of the survey, we ask subjects to rate a number of different
+biosensors in order of how likely individual's believe each sensor is to reveal
+what ``a person is thinking or feeling'' (Figure [[fig:sensor-rank]]). This section
+reports on a subset of Mechanical Turk workers (n=100) and Health-e-Hearth
+subjects (n=100).
 
 In our preliminary findings, brainwaves (EEG) are seen as among the most
 revealing biosignals, just below body language and facial expression, in their
@@ -2282,6 +2314,9 @@ in order to understand what role BCI applications such as passthoughts could
 play in day-to-day life.
 
 ** TODO Motivating a brain-based probe
+
+- Unpack findings a bit
+- Compare with folk beliefs paper
 
 *** TODO Why brains interesting case given data
 
@@ -3454,21 +3489,6 @@ by machines, this chapter did not deeply examine to what extent they believed
 the identity to be related to the mind or the brain. In the following chapter, I
 examine participants' responses through this lens, charting engineers' beliefs
 about the readability of identity as an aspect of mind.
-
-* TODO Who are you really? Probing engineers on authentication and the ground truth of identity
-<<cscw>>
-
-This chapter dives deeper into data from the prior chapter, revealing our
-participants’ beliefs about the nature of the self as it relates to the brain.
-I find that the software engineers in our study hold complex notions of self
-involving multiple material contingencies over time, which existing
-authentication systems do not capture. I discuss the relationship between
-participants' beliefs of self and the mind, using this dissonance 
-to understand how beliefs may structure and inform technical practice.
-
-# neural identity
-# what engineers make of it
-# why their concepts of identity matter
 
 * TODO Telepathy within limits
 <<conclusion>>
