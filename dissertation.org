@@ -1,6 +1,6 @@
 :headers:
 #+LATEX_CLASS: ucbthesis
-#+Title: Essays on Mind-Reading Machines
+#+Title: Mind-Reading and Telepathy for Beginners and Intermediates
 #+Author: Nick Merrill
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="ext/style1.css" />
 #+OPTIONS: toc:nil
@@ -17,6 +17,35 @@
 
 * Introduction
 
+#+BEGIN_QUOTE
+And the helicopter kept flapping over and Huey pointed up at the helicopter as
+it was going over and said, ``Always remember that the spirit of the people is
+greater than the man's technology.'' And the people said, ``Right on.''
+#+END_QUOTE
+
+---Bobby Seale, /Seize the Time/
+# : The Story of the Black Panther Party and Huey P. Newton/
+
+# 千里眼/千里眼/qiān lǐ yǎn --> "thousand mile eye" https://en.wikipedia.org/wiki/Qianliyan
+# 順風耳/顺风耳/shùn fēng ěr --> "favorable wind ear" https://en.wikipedia.org/wiki/Shunfeng%27er
+
+# According to the wikipedia pages, they are first mentioned in this classic Chinese novel "Journey to the West" that every Chinese kid would have read.
+
+# 讀心術/读心术/dú xīn shù --> "read heart technique" no wikipedia page; the wikipedia page for telepathy actually points to a different term 心灵感应: https://zh.wikipedia.org/wiki/%E5%BF%83%E7%81%B5%E6%84%9F%E5%BA%94
+
+_a thousand mile eye_ and the _follow wind ear_ two dieties that travel together and have adventures.
+so john's dad says, how about du shing xu, /read heart technique/?
+chinese, egyptian too, heart is where soul is - and what are the two organs i talk about in this dissertation?
+
+google translates _thousand mile eye_ as clairevoyance, _follow wind ear_ as omniscience,
+but _du shing xu_ as /"telepathy"/
+
+# vs mind-reading? semantically meaningful? I don't want to be about semantics
+# aobut process of invention as a socially situated process with socially
+# situated consequences ;) for ppl, esp the vulnerable
+
+
+
 # _TODO Sensors are everywhere. Some examples_.
 
 # _TODO Thinking of these devices, and thinking of their challenges to your security and privacy, what specifically are you afraid about?_
@@ -25,10 +54,10 @@
 What can sensors know about the mind, even theoretically? This dissertation
 discusses how different stakeholders, both software engineers and end-users,
 answer this question in socal context. Qualitative and quantitative data show
-how social context meets with beliefs about the body to produce mind-related
-meanings around basic biosignals such as heartrate. A working brain-computer
-interface probes the diverse beliefs engineers hold about the mind, and their
-united belief that the mind is readable by machines.
+how particular interactions meet with beliefs about the body to produce
+mind-related meanings around basic biosignals such as heartrate. A working
+brain-computer interface probes the diverse beliefs engineers hold about the
+mind, and their united belief that the mind is readable by machines.
 
 The purpose of this dissertation is twofold. First, it surfaces an unstable
 boundary between sensing bodies and sensing minds. Second, it proposes the
@@ -39,7 +68,7 @@ in space. Their ability to divine not just what these bodies do, but what they
 think and feel, presents an under-explored avenue for understanding and
 imagining the role these technologies will play in everyday life.
 
-First, Chapter [[limits]] introduces the notion that the mind is readable from
+Chapter [[limits]] begins by introducing the notion that the mind is readable from
 consumer devices worn on the body and embedded in the environment. It reframes
 some past studies in computer science and adjacent fields as having already
 begun the work of theorizing and building computational /models of minds/
@@ -73,17 +102,16 @@ biosiganls, Chapter [[toward-brains]] examines how people make sense of data fro
 variety of other biosensors. I report on the qualitative and quantitative
 results of survey among participants in a large (n>10,000), longitudinal health
 study, and an Amazon Mechanical Turk population. Through these data, I locate
-brainscanning, and brain-based authentication specifically, as a fruitful case
-for understanding how particular sensing technologies construct notions of mind.
+brainscanning, and EEG specifically, as a fruitful case for understanding how
+particular sensing technologies construct notions of mind.
 
-Having motivated brain-based authentication as a case study for further
-exploration, Chapter [[chi]] shifts in focus from users to software engineers,
-studying their interactions with a working brain-based authentication system.
-This population's beliefs are particularly critical as consumer
-brainscanning devices have become open to tinkering through software.
-Although we find a diverse set of beliefs among our participants, we discover a
-shared understanding of the mind as a physical entity that can and will be
-``read'' by machines.
+Having motivated EEG as a fruitful sensing modality for further exploration,
+Chapter [[chi]] shifts in focus from users to software engineers, studying their
+interactions with a working brain-based authentication system. This population's
+beliefs are particularly critical as consumer brainscanning devices have become
+open to tinkering through software. Although we find a diverse set of beliefs
+among our participants, we discover a shared understanding of the mind as a
+physical entity that can and will be ``read'' by machines.
 
 # Chapter [[cscw]] dives deeper into data from the prior chapter, revealing our
 # participants’ beliefs about the nature of the self as it relates to the brain. I
@@ -94,9 +122,9 @@ shared understanding of the mind as a physical entity that can and will be
 # how beliefs may structure and inform technical practice. We find that the
 # software
 
-To conclude this dissertation, I propose the term /telepathy/ to describe the
-encoding and transmission of minds in chapter [[conclusion]]. I attempt to chart a
-path for future work, highlighting tensions between opportunities for novel
+To conclude, I propose the term /telepathy/ to describe the encoding and
+transmission of minds in chapter [[conclusion]]. I attempt to chart a path for
+future work, highlighting tensions between opportunities for novel
 computer-mediated communication and concerns around security, privacy and
 surveillance.
 
@@ -583,7 +611,7 @@ studies described there will demonstrate how people use basic biosignals in
 computer-mediated contexts to build interpretations relating to the minds of
 others.
 
-* TODO Reading mind from heartrate
+* Reading mind from heartrate
 <<group16>>
 
 The previous chapter argues that human interpretations are central to the study
@@ -2179,85 +2207,140 @@ are a clear direction for future work. Especially interesting cases are signals
 for which precise or empirical meanings are still being hotly debated, such as
 EEG (brainwaves), a sensing modality we begin to discuss in the next chapter.
 
-* TODO Shifting to the brain
+* Shifting to the brain
 <<toward-brains>>
 
 While the prior chapter establishes that people build mind-related meanings
-around biosensory data, this chapter locates brainscanning, and brain-based
-authentication specifically, as a fruitful case for understanding how particular
-sensing technologies construct notions of mind. I report on the qualitative and
-quantitative results of survey among participants in a large (n>10,000),
-longitudinal health study, and an Amazon Mechanical Turk population.
+around biosensory data, this chapter locates brainscanning as a fruitful case
+for understanding how particular sensing technologies construct notions of mind.
+I report on the qualitative and quantitative results of survey among
+participants in a large (n>10,000), longitudinal health study, and an Amazon
+Mechanical Turk population.
 
-** TODO Background
-- Last study looked deeply into heartrate
-- Now time to look at all the diff sensing modalities
-- Theory motivating diff sensors selection
-- Folk beliefs about sensors paper, how that informs this study
-** TODO Methods
+What can machines know about the mind, even theoretically? In this study, we
+posed this question to 200 people, half of whom came from Mechanical Turk, and
+half from a longitudinal study in which subjects contribute sensor data to track
+health outcomes. We were interested in how people perceived risks around the
+disclosure of sensor data, and how their expectations related to both the type
+of device in question, and the participants' prior experience with disclosing
+data from wearable devices.
 
-The survey we report on examines how people's beliefs differ given device
-ownership, and their membership in one of two groups: Mechanical Turk workers,
-or people enrolled in Health-e-Heart, a massive (n > 40,000), longitudinal
-study, in which volunteers fill out surveys about themselves, and/or upload data
-from biomedical self-tracking devices, over the course of several years
-cite:Estrin2010a.
+Through a quantitative and qualitative analysis of survey data, we find some
+differences in perceptions of risk between populations. However, we find that
+certain devices draw greater notions of risk of mind-reading than others. In
+particular, electroencephelography (EEG) appears to carry an unusually high
+perceived risk, beyond even fMRI, which has proven more revealing in past
+studies cite:Kay2008. We discuss implications for the design in EEG-based
+brain-computer interface, a modality rapidly gaining in popularity in the
+technology industry cite:Levy2017,Neurable2017,Metz2017, and for wearable
+technologies generally.
 
-- Who and how many and demographics
-- Motivation behind subject choice
-  - why HeH?
-  - why mturk?
+** Prior work
 
-** TODO Quantiative results
+In their qualitative study of activity trackers, Rader and Slaker (2017) found
+that the ``visibility'' of tracking devices (how data are measured, and what
+data are calculated as a result) has a large impact on the way people understand
+these devices as working, and may impact the privacy decisions users make as a
+result cite:Rader2017. While this study looked at a broad array of sensors, it
+did not study particular threats to privacy. Meanwhile, past work in CSCW and
+beyond has demonstrated that people build meanings around shared data from
+wearable sensors pertaining to mood, emotions, and other aspects of mind
+cite:Merrill2017. These studies raise the notion of the mind as a site for
+exploring perceptions of sensor data, and what these data might mean. However,
+the interpretations surfaced by previous studies are typically contextual,
+specific to particular social contexts cite:Tolmie2016, and to particular types
+of sensors. However, it is not clear from these studies how different sensors
+compare to one another in the way users assess the risks of data disclosure.
 
+In this work, we aim to study a specific privacy threat (knowing what a person
+is thinking and feeling) across a variety of sensors. Through quantitative and
+qualitative data, we aim to perform inductive work around two preliminary
+questions: (1) Which sensing devices seem the most (and least) likely to reveal
+what a person is thinking and feeling? (2) How do these perceptions change
+according to this person's observed willingness to share sensor data with
+others? In the following section, we outline how we examined these questions
+using a survey, deployed across two distinct populations.
 
-In one portion of the survey, we ask subjects to rate a number of different
-biosensors in order of how likely individual's believe each sensor is to reveal
-what ``a person is thinking or feeling'' (Figure [[fig:sensor-rank]]). This section
-reports on a subset of Mechanical Turk workers (n=100) and Health-e-Hearth
-subjects (n=100).
+** Methods 
+Our survey consisted of a question in which subjects ranked various sensors in
+order of how likely they believed it was for data from those sensors to ``reveal
+what a person is thinking and feeling.'' Our selection of sensors (Table
+[[tab:sensors]]). aimed to include both sensors commonly found in wearable and
+mobile devices, and sensors more commonly associated with the medical industry.
+We sought to achieve a mix of modalities found only in medical devices, found
+only in commercial devices, and found in both commercial and medical devices.
 
-In our preliminary findings, brainwaves (EEG) are seen as among the most
-revealing biosignals, just below body language and facial expression, in their
-capacity to reveal the inner workings of a person's mind. More common sensors
-such as GPS and step count are seen as less revealing (despite empirical
-evidence suggesting such data can be quite revealing indeed cite:Canzian2015).
+#+NAME: tab:sensors
+#+caption: Sensors referenced in the survey. 
+| Data                | Medical? | Commercial?  |
+|---------------------+----------+--------------|
+| Facial expression   | No       | Yes (camera) |
+| Body language       | No       | Yes (camera) |
+| Brainwaves (EEG)    | Yes      | Yes          |
+| Eye movement        | No       | Yes          |
+| Heartrate/pulse     | Yes      | Yes          |
+| MRI/fMRI            | Yes      | No           |
+| Blood pressure      | Yes      | No           |
+| Skin conductance    | Yes      | Yes          |
+| Blood oxygenation   | Yes      | No           |
+| Step count          | No       | Yes          |
+| GPS + accelorometer | No       | Yes          |
+| VR headset          | No       | Yes          |
+
+To capture a population willing to share sensor data, we submitted our survey to
+participants in Health-e-Heart, a large (n > 40,000) longitudinal study in which
+subjects volunteer to share data from wearable sensors longitudinally so that
+researchers may monitor health outcomes cite:Estrin2010a. To compare this
+population to a more general population, we also submitted our survey to
+Mechanical Turk workers in the United States. Our survey included 100
+Health-e-Heart participants and 100 participants from Mechanical Turk.
+# More demographic data here?
+
+** Results
+
+*** Quantitative results
 
 #+ATTR_LATEX: :float multicolumn
 #+NAME: fig:sensor-rank
 #+caption: ``Please rank the following sensors in how likely you believe they are to reveal what a person is thinking and feeling.'' Higher bars indicate higher rank, or higher likelihood of being revealing.
 [[./figures/rankings.png]]
 
-_TODO Continue talking about brainscanning and motivate what we discuss in
-qualitative section, why we drill into the things we do_.
+In our rankings, brainwaves (EEG) are seen as among the most revealing
+biosignals, just below body language and facial expression, in their capacity to
+reveal the inner workings of a person's mind. More common sensors such as GPS
+and step count are seen as less revealing (despite empirical evidence suggesting
+such data can be quite revealing indeed cite:Canzian2015). Mechanical Turk
+participants thought virtual reality headsets and step counters were
+significantly more likely to reveal what a person is thinking and feeling than
+did Health-e-Heart subjects. On the other side, Health-e-Heart subjects believed
+fMRI, blood pressure, blood oxygenation, and GPS/accelorometer were
+significantly more revealing than did Mechanical Turk participants.
+# _systematic differences between MTruk and HeH, e.g. MTurk always lower or something? Are these diffs even meaningful in ranking study?_.  
 
-** Qualitative results
+*** Qualitative results
 
-Our qualitative data revealed that subjects in both groups generally believed
-EEG to reveal various details about the mind, mood, emotions, and identity. We
-asked subjects to reflect on why they answered the way they did during the
-ranking task (Figure \ref{fig:rank}). In the Health-e-Heart group, several
-subjects gave relatively specific explanations as to why they ranked EEG hihgly.
+When we asked subjects to reflect on why they answered the way they did during
+the ranking task (Figure \ref{fig:rank}), EEG solicited the strongest and most
+diverse reactions. Since this sensing modality is still relatively obscure in
+consumer devices, we delved more deeply into qualitative data in hopes of
+explaining these concerns. Subjects in both groups generally believed EEG to
+reveal various details about the mind, mood, emotions, and identity. In the
+Health-e-Heart group, several subjects gave relatively specific explanations as
+to why they ranked this sensing modality highly.
 
 #+BEGIN_QUOTE
-/(S24) I assume some information can be gleaned from brain wave activity in
-various parts of the brain related to rewards or executive control, but without
-accompanying information, it may be difficult to discover my thoughts./
+/(S24) I assume some information can be gleaned from brain wave activity in various parts of the brain related to rewards or executive control, but without accompanying information, it may be difficult to discover my thoughts./
 
-/(S23) EEGs note parts of the brain that are active. Again, in conjunction with
-other measurements, I suspect that some sense of what one is thinking and
-feeling could be learned./
+/(S23) EEGs note parts of the brain that are active. Again, in conjunction with other measurements, I suspect that some sense of what one is thinking and feeling could be learned./
 
-/(S91) I would rate this relatively high on the list because science has shown
-that we can detect a lot about which areas of the brain are accessed and at
-which times. This can tell a person a lot about what they might be thinking and
-especially how they are feeling./
+/(S91) I would rate this relatively high on the list because science has shown that we can detect a lot about which areas of the brain are accessed and at which times. This can tell a person a lot about what they might be thinking and especially how they are feeling./
 #+END_QUOTE
 
+#  bit moe after 1st sentence
 While these explanations range somewhat in their specificity and confidence,
-they share the general sentiment that EEGs can be revealing. Subjects in the
-Mechanical Turk condition broadly shared this belief, though tended to use less
-physiological detail in their explanations.
+they share the general sentiment that EEGs can be revealing. 
+Subjects in the Mechanical Turk condition broadly shared this belief, though
+tended to use less physiological detail in their explanations.
 
 #+BEGIN_QUOTE
 /(S157) Brain activity can pinpoint exact emotions by monitoring certain areas
@@ -2267,10 +2350,12 @@ on the brain./
 feeling. You could measure the patterns of brainwaves in an experiment./
 #+END_QUOTE
 
-Meanwhile, some subjects from both groups did not fit this trend. Ten subjects
-ranked EEG low in its ability to measure what a person is thinking or feeling.
-Their qualitative answers revealed a diverse set of reasons for this ranking.
-Three subjects indicated a general lack of faith in brainwave's reliabilty.
+# Unpack these quotes a bit
+Meanwhile, some subjects from both groups did not
+fit this trend. Ten subjects ranked EEG low in its ability to measure what a
+person is thinking or feeling. Their qualitative answers revealed a diverse set
+of reasons for this ranking. Three subjects indicated a general lack of faith in
+brainwaves' reliability.
 
 #+BEGIN_QUOTE
 /(S20) I don't think we have the ability to translate brainwaves into thoughts
@@ -2288,136 +2373,137 @@ subjects, S10 ranked EEG low because s/he felt the premise of a consumer grade
 EEG was implausible.
 
 #+BEGIN_QUOTE
-/(S10) I assume that scientists can identify by brain patterns what others are
-feeling and thinking based off of years of research. I've never heard of a
-consumer grade eeg - and doubt it could be as powerful as a laboratory eeg. If
-it is then I would be interested in this product./
+/(S10) I assume that scientists can identify by brain patterns what others are feeling and thinking based off of years of research. I've never heard of a consumer grade eeg - and doubt it could be as powerful as a laboratory eeg. If it is then I would be interested in this product./
 #+END_QUOTE
 
+# Summarize a bit more after 1st sentence
 This subject's explanation surfaces the practical differences in attitudes that
 people might have to a technology's theoretical existence, and its realized
-existence as a consumer device. Future work could look more closely at how the
-presumed scientific authority of a brainscanning apparatus affects people's
-willingness to accept specific BCI applications such as passthoughts
-cite:Ali2014a. Finally, one subject's skepticism what brainwaves can reveal
-stemmed from his/her personal medical experiences.
+existence as a consumer device. Future work could look
+more closely at how the presumed scientific authority of a brainscanning
+apparatus affects people's willingness to accept specific BCI applications such
+as passthoughts cite:Ali2014a. Finally, one subject's skepticism what brainwaves
+can reveal stemmed from his/her personal medical experiences.
 
 #+BEGIN_QUOTE
 /(S116) My son has absence seizures, so his brainwaves change./
 #+END_QUOTE
 
-This quote highlights how individuals' life experiences might shape the way they
-engage (or refuse to engage) with brain-sensing devices. In general, this quote
-and others motivate the need for a rich, qualitative understanding of people's
-first-hand experiences with brainscanning devices, as well as data collection,
-in order to understand what role BCI applications such as passthoughts could
-play in day-to-day life.
+This particular quote highlights how individuals' life experiences might shape
+the way they engage (or refuse to engage) with brain-sensing devices. In
+general, this quote and others motivate the need for a rich, qualitative
+understanding of people's first-hand experiences with brainscanning devices, as
+well as data collection, in order to understand what role BCI applications such
+as passthoughts could play in day-to-day life. 
+# _Tie this in to the work we review in background_. _Transition to discussion_.
 
-** TODO Motivating a brain-based probe
+** Discussion
 
-- Unpack findings a bit
-- Compare with folk beliefs paper
+Our results find some differences between the Health-e-Heart and Mechanical Turk
+groups, particularly around devices with medical associations. However, device
+rankings were mostly the same between conditions. Our findings indicate that
+sensing modalities play a large role in building understandings of what sensors
+might reveal, along with prior experiences sharing sensor data. We discuss
+implications for design in sensor-based interactions: different sensors may
+trigger different concerns about privacy, concerns which may or may not match
+empirical realities.
 
-*** TODO Why brains interesting case given data
+*** Differences between HeH and MTurk
 
-*** TODO Wonder aloud how to study brain-based case, lay out specs
+Health-e-Heart participants believed fMRI, blood pressure, and blood oxygenation
+to be more revealing than participants in the Mechanical Turk condition. Since
+these subjects are participating in a medical study, it is possible that they
+are more attuned to what medical devices can reveal, or simply that they are
+primed to think about them. Health-e-Heart subjects also thought that GPS and
+accelerometer were more revealing than their Mechanical Turk counterparts. This
+differences indicates that their constant participation in monitoring does not
+make them less sensitive to privacy concerns (i.e., they do not ``acquiesce'' to
+such monitoring). Conversely, Mechanical Turk participants believed the VR
+headset and step count were more revealing than did the Health-e-Heart subjects.
+We found no significant difference in experience with virtual reality between
+the two groups. Future work should examine possible causes for this difference.
+As virtual reality grows in popularity, and as the producers of these devices
+increasingly attempt to outfit VR headsets with sensors cite:Liptak2016, it will
+be important to understand what about VR causes people concern.
 
-** Brain-based authentiation
+*** The effect of sensing modalities
 
-Authentication seeks to prove that a user is who they claim to be. In computer
-security, authenticators are classified into three types: knowledge factors
-(e.g., passwords and PINs), possession factors (e.g., physical tokens, ATM
-cards), and inherence factors (e.g., fingerprints and other biometrics).
-Passwords, which rely only on a knowledge factor, offer many benefits
-cite:Bonneau2012, including their capability for allowing /authorization/
-(granting use of a system). However, for authentication (verifying an
-individual), passwords are easy to compromise, and easy to forget. These
-shortcomings motivate the overlay of multiple factors of authentication.
+Our most surprising finding, consistent across both groups, was the overall high
+ranking of EEG. EEG was perceived as more likely to reveal what a person is
+thinking or feeling than fMRI, which prior work indicates to be a more detailed
+brainscanning apparatus cite:Kay2008; EEG is course-grained in comparison. Future work
+should examine more closely why EEG was so highly ranked (e.g., perhaps
+participants did not know what fMRI is).
+Reasons aside, EEG's high rank in our finding offers both opportunities and
+challenges for designers. People's belief in EEG's ability to sense intimate
+details may allow designers to create creative, helpful or therapeutic
+applications cite:Interaxon. On the other hand, these same beliefs could allow
+designers to trick users cite:Ali2014a, or might dissuade prospective users from
+wearing EEG at all.
+These questions are increasingly important as EEG-based BCI is gaining interest
+in industry cite:Metz2017,Neurable2017 and in the public imagination
+cite:Levy2017,Urban2017. How will people encounter these devices, and find their
+data meaningful (or not) in the course of life? The answer to these questions
+depends heavily on what users think their data can reveal. Thus, future work
+should look longitudinally at EEG and BCIs as these devices ebb and flow in the
+public (and corporate) imaginary.
 
-An ongoing problem in authentication lies in balancing strong security (i.e.,
-multiple factors) with usability. As an example, major industry players such as
-Google and Facebook have strongly encouraged their users to adopt two-factor
-authentication (2FA), in which a user enters his or her password (a knowledge
-factor), and subsequently receives a code on their cellphone (a posession
-factor).
+*** Implications for design
 
-However, submitting two different authenticators in two separate steps has
-frustrated wide adoption due to its additional hassle to users. The Apple
-iPhone, for instance, already supports device unlock using either a
-user-selected passcode or a fingerprint. The device could very well support a
-two-step two-factor authentication scheme if desired. However, it is easy to
-understand why users would balk at having to enter a passcode /and/ provide a
-fingerprint each time they want to unlock their phone.
+# Nothing in our work suggests these folk theories are correct or incorrect,
+Our studies reinforce past work in demonstrating the relevance of folk theories
+in understanding what sensors can reveal cite:Rader2017. However, our work also
+indicates that different sensing modalities may heighten particular privacy
+concerns (e.g. EEG). By the same token, other devices may obfuscate privacy
+concerns, creating a compromising position for users as they are lulled into a
+false sense of security. For example, GPS and accelorometer have together been
+used to detect mental health status cite:Canzian2015; the fact that these
+sensors were not rated highly gestures toward differing concerns across sensing
+modalities, and the fact that these concerns may not align with technical
+efforts among designers and engineers. In general, future work should examine
+more deeply how prior experience with devices meets with expectations about the
+body to produce understandings of privacy, what devices can know. As emerging
+devices (such as VR and EEG) become more familiar to users, future work should
+monitor beliefs about sensing modalities as these technologies develop. Sensors
+such as GPS and accelorometer are now ubiquitous, but attitudes around them have
+likely changed since their introduction cite:Consolvo2005. Through longitudinal
+studies, we stand a chance at observing changes in attitudes, thus putting us in
+a position to anticipate changes in privacy attitudes and privacy-preserving
+behaviors.
 
-*** One-step, multi-factor authentication using brainwaves
+#   - VR (still new at the time of the survey) is seen as "just
+#     an input device."
+# - so privacy concerns are real, but not all devices may trigger them equally!
+#   - future work should be mindful of peopels' differing opiniosn to diff sensor modalities
+# - in the case of BCIs, EEG/brainscanning still exotic in HCI, and past work
+#   would indicate this affects people's responses to it _[work]_; we find support
+#   for this claim.
+#   - future work keep an eye on ppl's beliefs about BCI as these technologies developp
+# # - This study looked at very specific question 'what thinking and feeling' future
+# #   work could branch out
 
-Since passthoughts' initial proposal in 2005, more ubiquitous sensing and
-computing has enabled a number of other strategies for achieving two factors of
-authentication in a single step. Some work has tested behavioral authentication
-methods such as keystroke dynamics, or voice. In both cases, the knowledge
-factor (password or passphrase) and inherence factor (typing rhythm or speaker's
-voice) are employed cite:Monrose1997. In contrast, the Nymi band supports
-one-step two-factor authentication via the inherence factor (cardiac rhythm that
-is supposed to be unique to each individual) and the possession factor (the
-wearing of the band on the wrist) cite:Nymi. More recent attempts have also used
-gait (from cellphone accelorometers) to perform authentication cite:UnifyID2017.
-# Custom-built EEG devices could incorporate an added possession factor 
-# to the already two-step authentication provided by passthoughts cite:Curran2017.
+** Conclusion
 
-However, these existing strategies are susceptible to a variety of attacks.
-Nymi, for example, does not have a knowledge factor, making it impossible for
-the user to change the authentication token if the device and biosignal have
-been compromised. Keystroke dynamics, voice, and gait are all susceptable to
-``shoulder surfing,'' in which an attack uses visual or other cues to steal, or
-improve the chances of guessing, a target's chosen secret. Passthoughts
-mitigates this attack by nature of the mental gesture. Since the expression of a
-passthought is not externally visible, the authenticator is impervious to
-shoulder surfing attacks. Since the thought incorporates a chosen secret
-(knowledge factor), it can be changed if compromised.
+Our findings complicate recent work around the folk interpretations of sensor
+data, indicating that prior experience with sensors is only one way to
+understand where interpretations of sensor data come from. Beliefs about the
+body play an equally important role in shaping beliefs about what sensors can
+know. As industry pushes toward new sensing modalities such as EEG, future work
+should remain critical in probing the beliefs of end-users, as their
+apprehensions will shape the sorts of applications that users are willing to
+accept.
 
-To assist with the usability and security issues surrounding multi-factor
-authentication, passthoughts aims to provide two factors of authentication in a
-single step. A single mental task, or passthought, provides both a knowledge
-factor (a chosen secret thought) with an inherence factor (the way that thought
-is expressed for an individual) cite:Chuang2013b,Johnson2014. Using a custom
-sensing device, passthoughts could provide an additional posession factor, all
-in the same step.
-
-The use of EEG as a biometric signal for user authentication has a short
-history. In 2005, Thorpe et al. motivated and outlined the design of a
-passthoughts system cite:Thorpe2005. Since 2002, a number of independent groups
-have achieved low (less than 1%) false acceptance rates using multi-channel
-sensors placed on the scalp
-cite:Poulos2002,Marcel2007a,Palaniappan2008,Ashby2011. In 2013, one group showed
-that similar accuracy can also be achieved using a consumer-grade single-channel
-sensor cite:Chuang2013b. In particular, the lack of signal diversity from
-multiple EEG channels can be overcome by allowing the users to choose their own
-personalized passthoughts (e.g., sing their favorite song in their head). There
-are two significant consequences of this result. First, the passthoughts
-approach is no longer constrained by the high cost (> $10,000 USD) and low
-usability (gel-based electrodes; aesthetic challenges of an EEG cap) of
-medical-grade multi-channel devices. Second, because users can choose and easily
-change their secret mental task, this approach can support one-step two- factor
-authentication via the simultaneous presentation of the inherence factor
-(brainwave signatures due to the unique folding structures of the cortex) and
-the knowledge factor (the secret mental task) cite:Chuang2014.
-
-** TODO Brain-based authentication as a probe
-
-*** TODO How it meets specs laid out above
-
-*** TODO Shifting focus to engineers
 * Talking to engineers about brain-computer interface
 <<chi>>
 
 This chapter shifts in focus from the users of sensing devices to their
-engineers. Having motivated brain-based authentication as a case study for
-further exploration, I study software engineers' interactions with a working
-brain-based authentication system. This population's beliefs are particularly
-critical as consumer brainscanning devices have become open to tinkering through
-software. Although we find a diverse set of beliefs among our participants, we
-discover a shared understanding of the mind as a physical entity that can and
-will be ``read'' by machines.
+engineers. Having motivated EEG as a case study for further exploration, this
+chapter examines the beliefs of software engineers through their interactions
+with a working brain-based authentication system. This population's beliefs are
+particularly critical as consumer brainscanning devices have become open to
+tinkering through software. Although we find a diverse set of beliefs among our
+participants, we discover a shared understanding of the mind as a physical
+entity that can and will be ``read'' by machines.
 
 ** Background
 
@@ -3490,7 +3576,7 @@ the identity to be related to the mind or the brain. In the following chapter, I
 examine participants' responses through this lens, charting engineers' beliefs
 about the readability of identity as an aspect of mind.
 
-* TODO Telepathy within limits
+* Telepathy within limits
 <<conclusion>>
 
 What are the limits of what machines could model of the mind? My arguments in
@@ -3499,16 +3585,14 @@ within which claims of mind-modeling might be made (by designers), and believed
 (by end-users)? I propose the term /telepathy/ to describe the process of
 understanding models of minds. I then use this term to motivate work for
 charting the limits of what work telepathy might perform in the world.
-_One more sentence on the future work I motivate_
 
 ** Telepathy
 
-
-Earlier in this dissertation, I read research programs as having built /models
-of minds/, showing how work in philosophy unwittingly supports their claims. By
-analyzing critiques of these research programs, I highlighted the primacy of
-human beliefs, both designers' and users', in structuring how models of minds
-are built, and understood as relevant.
+Earlier in this dissertation, I reframed prior research programs as having built
+/models of minds/, showing how work in philosophy unwittingly supports their
+claims. By analyzing critiques of these research programs, I highlighted the
+primacy of human beliefs, both designers' and users', in structuring how models
+of minds are built, and understood as relevant.
 
 Building models of minds can be split into two major components: the
 designerly program of building algorithms that encode and represent mental
@@ -3611,17 +3695,16 @@ in space. Their ability to divine not just what these bodies do, but what they
 think and feel, presents an under-explored avenue for understanding and
 imagining the role these technologies will play in everyday life.
 
+# Go on after first sentence, turn this into a 3-paragraph conclusion.
 This dissertation aims to paint a few provocative dots on a very large canvas.
-_Go on_.
-
 As sensors continue to saturate our environment, people will continue to build
-increasingly high-resolution models of our bodies and minds.
-Machines' purported ability to divine not just what these bodies do,
-but what they think and feel, will prove to be a key concern for privacy,
-personal autonomy, and cybersecurity in the coming hundred years. It will also
-generate novel opportunities for communication, accessibility, business, and
-entertainment. By paying close attention to the beliefs and practices of
-engineers, and the expectations of end-users, we can better prepare for an
-increasingly connected---and increasingly hackable---world, body, and mind.
+increasingly high-resolution models of our bodies and minds. Machines' purported
+ability to divine not just what these bodies do, but what they think and feel,
+will prove to be a key concern for privacy, personal autonomy, and cybersecurity
+in the coming hundred years. It will also generate novel opportunities for
+communication, accessibility, business, and entertainment. By paying close
+attention to the beliefs and practices of engineers, and the expectations of
+end-users, we can better prepare for an increasingly connected---and
+increasingly hackable---world, body, and mind.
 
 \printbibliography
