@@ -1,7 +1,7 @@
 :headers:
 #+LATEX_CLASS: ucbthesis
 #+Title: Mind-Reading and Telepathy for Beginners and Intermediates
-#+Author: Nick Merrill
+#+Author: Nicholas Julius Merrill
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="ext/style1.css" />
 #+OPTIONS: toc:nil
 #+LATEX_HEADER: \usepackage[backend=bibtex]{biblatex}
@@ -17,14 +17,14 @@
 
 * Introduction
 
-#+BEGIN_QUOTE
-And the helicopter kept flapping over and Huey pointed up at the helicopter as
-it was going over and said, ``Always remember that the spirit of the people is
-greater than the man's technology.'' And the people said, ``Right on.''
-#+END_QUOTE
+# #+BEGIN_QUOTE
+# And the helicopter kept flapping over and Huey pointed up at the helicopter as
+# it was going over and said, ``Always remember that the spirit of the people is
+# greater than the man's technology.'' And the people said, ``Right on.''
+# #+END_QUOTE
 
----Bobby Seale, /Seize the Time/
-# : The Story of the Black Panther Party and Huey P. Newton/
+# ---Bobby Seale, /Seize the Time/
+# The Story of the Black Panther Party and Huey P. Newton/
 
 # 千里眼/千里眼/qiān lǐ yǎn --> "thousand mile eye" https://en.wikipedia.org/wiki/Qianliyan
 # 順風耳/顺风耳/shùn fēng ěr --> "favorable wind ear" https://en.wikipedia.org/wiki/Shunfeng%27er
@@ -33,12 +33,12 @@ greater than the man's technology.'' And the people said, ``Right on.''
 
 # 讀心術/读心术/dú xīn shù --> "read heart technique" no wikipedia page; the wikipedia page for telepathy actually points to a different term 心灵感应: https://zh.wikipedia.org/wiki/%E5%BF%83%E7%81%B5%E6%84%9F%E5%BA%94
 
-_a thousand mile eye_ and the _follow wind ear_ two dieties that travel together and have adventures.
-so john's dad says, how about du shing xu, /read heart technique/?
-chinese, egyptian too, heart is where soul is - and what are the two organs i talk about in this dissertation?
+# _a thousand mile eye_ and the _follow wind ear_ two dieties that travel together and have adventures.
+# so john's dad says, how about du shing xu, /read heart technique/?
+# chinese, egyptian too, heart is where soul is - and what are the two organs i talk about in this dissertation?
 
-google translates _thousand mile eye_ as clairevoyance, _follow wind ear_ as omniscience,
-but _du shing xu_ as /"telepathy"/
+# google translates _thousand mile eye_ as clairevoyance, _follow wind ear_ as omniscience,
+# but _du shing xu_ as /"telepathy"/
 
 # vs mind-reading? semantically meaningful? I don't want to be about semantics
 # aobut process of invention as a socially situated process with socially
