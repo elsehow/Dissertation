@@ -1,6 +1,6 @@
 :headers:
 #+LATEX_CLASS: ucbthesis
-#+Title: Mind-Reading and Telepathy for Beginners and Intermediates
+#+Title: Mind-Reading and Telepathy for Beginners and Intermediates: What People Think Machines Can Know About the Mind, and Why Their Beliefs Matter
 #+Author: Nicholas Julius Merrill
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="ext/style1.css" />
 #+OPTIONS: toc:nil
@@ -14,6 +14,7 @@
 
 \include{frontmatter}
 \pagestyle{headings}
+
 
 * Introduction
 
@@ -51,13 +52,18 @@
 # _TODO Thinking of these devices, and thinking of their challenges to your security and privacy, what specifically are you afraid about?_
 # _This dissertation raises /the contents of the mind/ as a concern for cybersecurity and privacy._
 
-What can sensors know about the mind, even theoretically? This dissertation
-discusses how different stakeholders, both software engineers and end-users,
-answer this question in socal context. Qualitative and quantitative data show
-how particular interactions meet with beliefs about the body to produce
-mind-related meanings around basic biosignals such as heartrate. A working
-brain-computer interface probes the diverse beliefs engineers hold about the
-mind, and their united belief that the mind is readable by machines.
+Biosensors are everywhere these days. But what can their data reveal about
+us---about the inner parts of our minds, our moods, our emotions, identities?
+This dissertation explores /people's beliefs/ about this question; how
+these beliefs affect and arise from their interactions with digital sensors, and
+from their beliefs about the mind and body.
+
+This dissertation focuses on two main cases. First, I discuss a laboratory experiment
+examining how people build emotional meanings around basic biosignals, both
+familiar and unfamiliar. Second, I discuss a deployment of a working
+brain-computer interfaces, Second, a deployment of a working brain-computer
+interface among software engineers, surfacing how these engineers make sense of
+the brain and mind, and machines' ability to ``read'' them.
 
 The purpose of this dissertation is twofold. First, it surfaces an unstable
 boundary between sensing bodies and sensing minds. Second, it proposes the
@@ -126,7 +132,11 @@ To conclude, I propose the term /telepathy/ to describe the encoding and
 transmission of minds in chapter [[conclusion]]. I attempt to chart a path for
 future work, highlighting tensions between opportunities for novel
 computer-mediated communication and concerns around security, privacy and
-surveillance.
+surveillance, while also gesturing toward larger questions of mindhood; how
+notions of mindhood shape machines, and how machines may go on to shape notions
+of mindhood. I propose telepathy as a way to understand not just what computers
+can know about us, but how machines can shape our notions of who and what we are
+as thinking things.
 
 * Ants, Fungus & Telepathy
 <<limits>>
@@ -3628,54 +3638,90 @@ encoding, and decoding possible. Telepathy works to describe how models of minds
 are ``made and measured'' cite:Boehner2007b, while gesturing toward the unstable
 boundary between these two activities.
 
-** Charting future work
+# In general, neither users nor engineers will likely have academic training about
+# the philosophy of mind. However, they do have /ideas/ about the mind, stemming
+# from culture, lived experience, popular media, etc, and that biosensors can both
+# bring these ideas to the surface and alter them over repeated interactions.
+# Future work should continue to study how beliefs about the mind inform the way
+# engineers model it, and how users understand these models as relevant in the
+# course of life. Through such work, we can begin to understand what role(s)
+# telepathy might play in the world. The next section briefly imagines such roles,
+# charting future work that can help to appreciate the limits of telepathy.
 
-While models of minds could include data about the brain, such data is not
-necessary to decode the mind, as this chapter argues. Indeed, with ubiquitous
-enough sensing, the world at large could be (re)purposed to sense the mind.
-Consider the minimal example of a lightswitch. It not only takes input from
-people, but its design (at least the canonical version) is carefully crafted to
-permit only the intentional finger-action of a person. Thus, its state can be
-taken as a correlate of the beliefs and attitudes of the switcher(s). However,
-the system is not foolproof cite:Tolmie2016a.
-
-If IoT devices can turn anything cite:Zhang2017 into a biosensor, what
-surprising features might be generated from these data? What might they be used
-for? Answers to this question relate deeply to the beliefs of users and
-designers. Thus, the relevant questions here include: What are the limits within
-which claims of telepathy might be made, or believed? How might emerging
-infrastructures of ubiquitous bodily and environmental sensing assist such
-claims, by ascribing higher resolution to their models? Or detract from them by
-making biosensory data mundane, thus challenging their presumed authority?
-Future work should deeply examine engineers' beliefs, how they change with
-evolving technologies, and how these beliefs affect (and are affected by)
+What might telepathy be used for? Answers to this question relate deeply to the
+beliefs of users and designers. Thus, the relevant questions here include: What
+are the limits within which claims of telepathy might be made, or believed? How
+might emerging infrastructures of ubiquitous bodily and environmental sensing
+assist such claims, by ascribing higher resolution to their models? Or detract
+from them by making biosensory data mundane, thus challenging their presumed
+authority? Future work should deeply examine engineers' beliefs, how they change
+with evolving technologies, and how these beliefs affect (and are affected by)
 technical practices. Beliefs about the mind will continue to co-evolve along
 with our rapidly changing technical capacity to sense and model the world.
 
-In general, neither users nor engineers will likely have academic training
-about the philosophy of mind. However, they do have /ideas/ about the mind,
-stemming from culture, lived experience, popular media, etc, and that biosensors
-can both bring these ideas to the surface and alter them over repeated
-interactions. Future work should continue to study how beliefs about the mind
-inform the way engineers model it, and how users understand these models as
-relevant in the course of life. Through such work, we can begin to understand
-what role(s) telepathy might play in the world. The next section briefly
-imagines such roles, charting future work that can help to appreciate the limits
-of telepathy.
+** A big loop
 
-Given the potentially sensitive data that telepathy might yield, and the unclear
-mechanisms of intent or consent by which models of minds might be generated,
-future work must also engage deeply with existing work across surveillance
-studies, media studies and gender studies. In Simone Browne's seminal history of
-surveillance in the United States cite:browne2015dark, a racial, gendered and
-historical situatedness illuminates relationships between surveillance and
-power. While Browne's history does not paint an optimistic picture for
-information technologies, Mcmillian Cottom's work on black cyberfeminism
-cite:Cottom2016 shows how the same tools of Browne's surveillance can be
-repurposed to evade surveillance, and for activism. Future work in telepathy
-should substantially engage with analyses such as these, so that we may better
-understand both what new power structures telepathy might create, and which
-existing ones it might (re)inforce.
+
+#+CAPTION: A big loop, in which beliefs about the mind structure technologies that are built (and considered working). These technologies go on to structure beliefs about the mind, and so on. This dissertation has examined the right side of this loop, but not the left.
+#+NAME: bigloop
+[[./figures/bigloop.png]]
+
+Rather than presenting a theory of mind, and technologies that do or do not
+sense it, this work gestures toward the relationship between beliefs about the
+world, and how they relate to the perceived capabilities of technology. What
+this work did /not/ do is examine how the capabilities of technology go on to
+structure beliefs about the world. How do we, through sensing minds, (re)make
+minds (and ourselves) through the things that sense them? 
+
+The cases in this dissertation gesture toward one half of a big loop (Figure
+[[bigloop]]). In one half of this loop, beliefs about the mind affect the
+technologies people build (and accept as working). This dissertation examined
+this half of the loop. However, the other half of this loop depicts existing
+technologies, some of which claim to read the mind, affecting beliefs about what
+the mind is. This feed-foward loop of mind-reading technologies and ideas about
+``mindhood'' raises the possibility that minds are not only readable because
+people believe they are, but because the very notion of mindhood will change
+relative to existing claims of mind-reading.
+
+The shifting of categorical boundaries, especially as it relates to shifts in
+technological infrastructures, has been the concern of philosophers of
+technology cite:bowker2000sorting and feminist scholars cite:Haraway1988b for
+many years. Future work can integrate these perspectives more directly in
+examining the other half of our big loop: how technologies inform ideas of
+mindhood, and what the consequences of such influence might be. For example, an
+old question, ``Are minds machines?'' comes under new light through this frame
+cite:Winograd1987.
+
+# Future work should look more deeply into how minds are ``made and measured'' cite:Boehner2007b:
+
+
+** Security, privacy and surveillance
+
+While models of minds could include data about the brain, such data is not
+necessary to decode the mind, as this dissertation argues. Indeed, with
+ubiquitous enough sensing, the world at large could be (re)purposed to sense the
+mind. Consider the minimal example of a lightswitch. It not only takes input
+from people, but its design (at least the canonical version) is carefully
+crafted to permit only the intentional finger-action of a person. Thus, its
+state can be taken as a correlate of the beliefs and attitudes of the
+switcher(s) cite:Tolmie2016a.
+
+If IoT devices can turn anything cite:Zhang2017 into a biosensor, what
+surprising features might be generated from these data? Given the potentially
+sensitive data that telepathy might yield, and the unclear mechanisms of intent
+or consent by which models of minds might be generated, future work must also
+engage deeply with existing work across surveillance studies, media studies and
+gender studies.
+
+In Simone Browne's seminal history of surveillance in the United States
+cite:browne2015dark, a racial, gendered and historical situatedness illuminates
+relationships between surveillance and power. While Browne's history does not
+paint an optimistic picture for information technologies, Mcmillian Cottom's
+work on black cyberfeminism cite:Cottom2016 shows how the same tools of Browne's
+surveillance can be repurposed to evade surveillance, and for activism. Future
+work in telepathy should substantially engage with analyses such as these, so
+that we may better understand both what new power structures telepathy might
+create, and which existing ones it might (re)inforce.
 
 Related to the sensitivity of mental data, telepathy pushes against the limits
 of what information assurance (IA) might mean. Traditionally, IA is concerned
