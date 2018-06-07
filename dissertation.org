@@ -128,15 +128,13 @@ physical entity that can and will be ``read'' by machines.
 # how beliefs may structure and inform technical practice. We find that the
 # software
 
-To conclude, I propose the term /telepathy/ to describe the encoding and
-transmission of minds in chapter [[conclusion]]. I attempt to chart a path for
-future work, highlighting tensions between opportunities for novel
-computer-mediated communication and concerns around security, privacy and
-surveillance, while also gesturing toward larger questions of mindhood; how
-notions of mindhood shape machines, and how machines may go on to shape notions
-of mindhood. I propose telepathy as a way to understand not just what computers
-can know about us, but how machines can shape our notions of who and what we are
-as thinking things.
+To conclude, chapter [[conclusion]] proposes the term /telepathy/ to describe the
+encoding and transmission of minds. I attempt to chart a path for future work,
+highlighting tensions between opportunities for novel computer-mediated
+communication and concerns around security, privacy and surveillance. I also
+gesturing toward larger questions of mindhood; I propose telepathy as a way to
+understand not just what computers can know about us, but how machines can shape
+our notions of who and what we are as thinking things.
 
 * Ants, Fungus & Telepathy
 <<limits>>
@@ -3674,23 +3672,27 @@ structure beliefs about the world. How do we, through sensing minds, (re)make
 minds (and ourselves) through the things that sense them? 
 
 The cases in this dissertation gesture toward one half of a big loop (Figure
-[[bigloop]]). In one half of this loop, beliefs about the mind affect the
+[[bigloop]]). In the right half of this loop, beliefs about the mind affect the
 technologies people build (and accept as working). This dissertation examined
-this half of the loop. However, the other half of this loop depicts existing
+this half of the loop. However, the left half of this loop depicts existing
 technologies, some of which claim to read the mind, affecting beliefs about what
-the mind is. This feed-foward loop of mind-reading technologies and ideas about
+the mind /is/. This feed-foward loop of mind-reading technologies and ideas about
 ``mindhood'' raises the possibility that minds are not only readable because
 people believe they are, but because the very notion of mindhood will change
 relative to existing claims of mind-reading.
+
+# similar to hacking's thesis that categorical members define the category they belong to
+# ... seems like a trivial thesis ... but whatever
 
 The shifting of categorical boundaries, especially as it relates to shifts in
 technological infrastructures, has been the concern of philosophers of
 technology cite:bowker2000sorting and feminist scholars cite:Haraway1988b for
 many years. Future work can integrate these perspectives more directly in
-examining the other half of our big loop: how technologies inform ideas of
-mindhood, and what the consequences of such influence might be. For example, an
-old question, ``Are minds machines?'' comes under new light through this frame
-cite:Winograd1987.
+examining the other half of our big loop, or examining the loop itself: how
+technologies inform ideas of mindhood, and what the consequences of such
+influence might be. For example, an old question, ``Are minds machines?'' comes
+under new light through this frame cite:Winograd1987.
+
 
 # Future work should look more deeply into how minds are ``made and measured'' cite:Boehner2007b:
 

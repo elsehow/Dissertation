@@ -1,0 +1,39 @@
+* Dissertation
+
+** Org setup
+
+In spacemacs, you will need the =org= and =bibtex= layers.
+
+Add this to your config:
+
+#+BEGIN_SRC elisp
+  (add-to-list 'org-latex-classes
+               '("ucbthesis"
+                 "\\documentclass{ucbthesis}"
+                 ("\\chapter{%s}" . "\\section*{%s}")
+                 ("\\section{%s}" . "\\subsection*{%s}")
+                 ("\\subsection{%s}" . "\\subsection*{%s}")
+                 ))
+
+  (setq org-latex-caption-above nil)
+#+END_SRC
+
+
+
+Depending on your configuration, the following config lines may be needed as well:
+
+
+#+BEGIN_SRC elisp
+  (setq org-export-latex-hyperref-format "\\ref{%s}")
+
+  (unless (boundp 'org-latex-classes)
+    (setq org-latex-classes nil))
+
+  (setq org-ref-default-bibliography
+        '("/path/to/library.bib"))
+
+  (setq org-latex-pdf-process (quote ("pdflatex --batch %f"
+                                      "bibtex %b"
+                                      "pdflatex --batch %f"
+                                      "pdflatex --batch %f")))
+#+END_SRC
