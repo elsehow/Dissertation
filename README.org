@@ -1,5 +1,8 @@
 * Dissertation
 
+This is my dissertation. It uses a single [[https://orgmode.org/][org-mode]] file to generate a complaint
+UC Berkeley dissertation PDF, complete with title and signature page.
+
 ** Org setup
 
 In spacemacs, you will need the =org= and =bibtex= layers.
