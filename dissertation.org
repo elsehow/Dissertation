@@ -84,9 +84,9 @@ and how end-users will encounter these models in life.
 
 Since the human belief plays such a central role in making models of minds
 relevant, Chapter [[group16]] continues with an examination of how end-users
-conceive of the mind with respect to heartrate, a popualr biosensor in
+conceive of the mind with respect to heartrate, a popular biosensor in
 commercial sensing devices. Through a vignette study, this chapter shows how
-people enroll biosensory data use heartrate in social, computer-mediated
+people enroll biosensory data heartrate in social, computer-mediated
 contexts to build interpretations.
 
 While this study establishes that people can build socially-relevant meanings
@@ -104,7 +104,7 @@ can, perhaps inadvertently, train users to associate signals with social
 meanings.
 
 Having established that people build mind-related meanings around basic
-biosiganls, Chapter [[toward-brains]] examines how people make sense of data from a
+biosignals, Chapter [[toward-brains]] examines how people make sense of data from a
 variety of other biosensors. I report on the qualitative and quantitative
 results of survey among participants in a large (n>10,000), longitudinal health
 study, and an Amazon Mechanical Turk population. Through these data, I locate
@@ -132,7 +132,7 @@ To conclude, chapter [[conclusion]] proposes the term /telepathy/ to describe th
 encoding and transmission of minds. I attempt to chart a path for future work,
 highlighting tensions between opportunities for novel computer-mediated
 communication and concerns around security, privacy and surveillance. I also
-gesturing toward larger questions of mindhood; I propose telepathy as a way to
+gesture toward larger questions of mindhood; I propose telepathy as a way to
 understand not just what computers can know about us, but how machines can shape
 our notions of who and what we are as thinking things.
 
@@ -3692,8 +3692,8 @@ this frame cite:Winograd1987.
 
 I suspect the coming years will provide opportunities to study these questions
 longitudinally, as technologies develop and become more diffuse. The remainder
-of this chapter discusses another set of longitduinal concerns, which should be
-studied in parallel: security, pravicy, and surveillance.
+of this chapter discusses another set of longitudinal concerns, which should be
+studied in parallel: security, privacy, and surveillance.
 
 ** Security, privacy and surveillance
 
@@ -3704,7 +3704,7 @@ mind. Consider the minimal example of a lightswitch. It not only takes input
 from people, but its design (at least the canonical version) is carefully
 crafted to permit only the intentional finger-action of a person. Thus, its
 state can be taken as a correlate of the beliefs and attitudes of the
-switcher(s) cite:Tolmie2016a.
+switcher(s) cite:Tolmie2016.
 
 If IoT devices can turn anything cite:Zhang2017 into a biosensor, what
 surprising features might be generated from these data? Given the potentially
