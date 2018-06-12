@@ -147,7 +147,7 @@ Would you wear a device in the workplace if your manager thought it could track 
 productivity, or creativity cite:Burleson2012? Would you allow your child to wear the same
 device in schools, where it could monitor both their academic achievement and
 their mental health cite:Canzian2015? Would you wear a fitness tracker if your
-resting heartrate could predict your future involvement in violent crime cite:Latvala2015?
+resting heartrate could predict your future involvement in violent crime cite:Latvala2015a?
 
 In all of these examples, sensing technologies blur the line between /sensing
 bodies/ and /sensing minds/. Today, increasingly inexpensive sensors with
@@ -173,7 +173,7 @@ and building computational /models of minds/ (Section [[modelsofminds]]).
 
 Drawing on critiques of this work, I center the primacy of human interpretation
 in both constructing models of minds, and interpreting their relevance in daily
-life, and propose this interprative process as a starting point for
+life, and propose this interpretive process as a starting point for
 understanding how models of minds might operate in the world (Section
 [[interpretation]]). I conclude by considering the limits of what computers can know
 about the human mind, and how beliefs about the mind structure these limits
@@ -219,7 +219,7 @@ with limited or no information from the brain. If fungus can do so, perhaps
 consumer sensing devices can, as well. As I review in this section, contemporary
 philosophical theories engage seriously with the notion of a beyond-the-brain
 mind. As I discuss in Section [[modelsofminds]], these theories allow the physical
-phenomena detected by commercial sensors to be constitutent of the mind.
+phenomena detected by commercial sensors to be constituent of the mind.
 
 *** Material theories of mind
 
@@ -407,7 +407,7 @@ camera. Their infrastructure works through a webcam, providing what they term
 ``Emotion as a Service'' cite:AffectivaInc.2016.
 
 In both of these examples, the body that is being sensed. Are these bodily
-phenomena correlates of emotions, or constiutent of them? Though affective
+phenomena correlates of emotions, or constituent of them? Though affective
 computing work does not cite the embodied cognition explicitly, this theory
 allows the claim that affective computing devices are sensing emotions directly.
 That is, embodied cognition allows the claim that sensors to capture ground
@@ -727,7 +727,7 @@ certain kinds of sensors cite:Choe2011a,Consolvo2005, but physiological data has
 received less attention, despite two crucial differences from sensors that
 capture information such as location (e.g., GPS). First, biosensor data are
 intrinsically ambiguous: whereas a GPS coordinate refers to one specific place,
-heartrates do not have oneto-one mappings to physical activities or emotions.
+heartrates do not have one-to-one mappings to physical activities or emotions.
 Second, physiological phenomena vary from person to person; 60bpm could be high
 or low depending on whose heartrate it is. A relatively large body of work has
 looked at how the transmission of physiological data might play a role in
@@ -781,7 +781,7 @@ one’s own signals are slightly better-understood from empirical research.
 Individuals’ interpretations of their own heartrate have received particular
 attention (see cite:Parkinson1985 for a review). Studies have generally revealed
 that, when individuals believe that their heartrate is elevated, they sometimes
-believe their mood and emotions to be more negative cite:Young1982a.
+believe their mood and emotions to be more negative cite:Young1982.
 
 If lay interpretations of one’s own heartrate can yield negative
 self-interpretations, sharing heartrate information could also yield negative
@@ -863,7 +863,7 @@ maintained across conditions. The mean age of participants was 23.
 
 # Vignettes
 Each participant in the study saw only one of the four possible vignettes. After
-the vignette, the survey included free response questions about subjects'
+the vignette, the survey included free-response questions about subjects'
 reactions to and interpretations of the situation described in the vignette, as
 well as 7-point Likert scale questions (Strongly Agree to Strongly Disagree) in
 which subjects evaluated the other person's disposition (“This person is
@@ -971,7 +971,7 @@ practically significant) in the opposite direction from our prediction warrant
 further exploration in the qualitative results and discussion below.
 
 ** Qualitative results
-Directly after the vignette, participants were asked four freeresponse questions
+Directly after the vignette, participants were asked four free-response questions
 about their reactions to the situation described in the vignette: 1) How do you
 react to this message, 2) What makes you react this way, 3) What is the ideal
 outcome of this situation, and 4) What is the worst possible outcome of this
@@ -1181,17 +1181,18 @@ explained by the fact that the scenario was imagined, rather that
 simulated, and because subjects might have anticipated our
 interest in their reactions to the interface.
 
-Validity of the device’s data
+*** Validity of the device’s data
 
 Four subjects mentioned the possibility that the device, or the
 intuitive inferences drawn from it, may be inaccurate.
+
+#+BEGIN_QUOTE
 (adversarial + elevated heartrate) Heart rate could be elevated
 for many reasons, and just like studies with lie detectors, it may
 possibly indicate lying, but also could indicate other things. It’s
 just a number, not a definite answer of lying or not. And even
 then, you’ve got to forgive people.
 
-#+BEGIN_QUOTE
 (adversarial + normal heartrate) ``The normal heartrate implies that my
 acquaintance isn’t taking this meeting seriously. However, it is difficult to
 say that my acquaintance does not care or is lying. For example, I have no
@@ -1247,7 +1248,7 @@ second hypothesis predicts that an elevated heartrate will lead to negative
 assessments about the partners’ trustworthiness, dependability and reliability.
 As with our first hypothesis, we expected that pre-existing negative
 connotations with heartrate might translate into negative expectations of
-trustrelated behavior.
+trust-related behavior.
 
 We rejected the second hypothesis in both contexts of interaction. In the
 non-adversarial context, we found no difference in assessments of
@@ -1293,7 +1294,7 @@ ways we do not yet understand. Our work provides some evidence that such
 interpretations might have real social consequences. The fact that heartrate
 alone can significantly alter one’s perception of trustworthiness in an
 adversarial context is an important step towards the larger goal of unpacking
-social interpretations (and their effects) in technologysupported social
+social interpretations (and their effects) in technology-supported social
 interaction. (For one thing, the mostly positive social interpretations of
 heartrate observed in past work are likely highly dependent on the social
 context in which they were observed).
@@ -2207,7 +2208,7 @@ between biosignals and social behaviors.
 
 Aside from heartrate, we do not know what many other biosignals might be
 associated with moods and behaviors. Other biosignals (e.g., galvanic skin
-response, electroencephalography or EEG), could offer different affordances for
+response, electroencephelography or EEG), could offer different affordances for
 sense-making. It is unclear from our work how the social interpretation of the
 signals from these devices could affect social behaviors such as dyadic and
 group trust. Similar studies with signals from, e.g., the brain cite:Ali2014a
@@ -2236,7 +2237,7 @@ data from wearable devices.
 Through a quantitative and qualitative analysis of survey data, we find some
 differences in perceptions of risk between populations. However, we find that
 certain devices draw greater notions of risk of mind-reading than others. In
-particular, electroencephelography (EEG) appears to carry an unusually high
+particular, electroencephalography (EEG) appears to carry an unusually high
 perceived risk, beyond even fMRI, which has proven more revealing in past
 studies cite:Kay2008. We discuss implications for the design in EEG-based
 brain-computer interface, a modality rapidly gaining in popularity in the
@@ -2328,7 +2329,7 @@ significantly more revealing than did Mechanical Turk participants.
 *** Qualitative results
 
 When we asked subjects to reflect on why they answered the way they did during
-the ranking task (Figure \ref{fig:rank}), EEG solicited the strongest and most
+the ranking task (Figure \ref{fig:sensor-rank}), EEG solicited the strongest and most
 diverse reactions. Since this sensing modality is still relatively obscure in
 consumer devices, we delved more deeply into qualitative data in hopes of
 explaining these concerns. Subjects in both groups generally believed EEG to
@@ -3673,7 +3674,7 @@ build (and accept as working). This dissertation examined this half of the loop.
 
 However, the left half of this loop depicts existing technologies, some of which
 claim to read the mind, affecting beliefs about what the mind /is/. This
-feed-foward loop of mind-reading technologies and ideas about ``mindhood''
+feed-forward loop of mind-reading technologies and ideas about ``mindhood''
 raises the possibility that minds are not only readable because people believe
 they are, but because the very notion of mindhood will change relative to
 existing claims of mind-reading. How do we, through sensing minds, (re)make
