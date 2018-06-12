@@ -253,7 +253,7 @@ physical theory will eventually explain the mind in entirety.
 The physicalist stance of mind also squares with materialist ontologies
 generally, for example Jane Bennett's account of /thing-materialism/, in which
 things in the world have an intrinsic power, locked in networks of interactions
-with other things cite:Bennett2013a. In turn, materialist ontologies square the
+with other things cite:Bennett2013. In turn, materialist ontologies square the
 physicalist account of mind with the project of biosensing. If mental phenomena
 are physical, then mental phenomena are potentially the subject of sensing.
 
@@ -309,7 +309,7 @@ processing'' of cognitive science, in which internal representations are built
 and manipulated within the brain, to an active, embodied process, in which the
 world is not simply waiting to be seen, but actively providing its own
 representations; the body and brain must meet through an active process of
-co-adaptation cite:ORegan2001a. In its account of vision as an active process of
+co-adaptation cite:ORegan2001. In its account of vision as an active process of
 co-construction, this analysis shares with some work in feminist epistemology,
 e.g. cite:Haraway1988b.
 
@@ -2329,7 +2329,7 @@ significantly more revealing than did Mechanical Turk participants.
 *** Qualitative results
 
 When we asked subjects to reflect on why they answered the way they did during
-the ranking task (Figure \ref{fig:sensor-rank}), EEG solicited the strongest and most
+the ranking task (Figure [[fig:sensor-rank]]), EEG solicited the strongest and most
 diverse reactions. Since this sensing modality is still relatively obscure in
 consumer devices, we delved more deeply into qualitative data in hopes of
 explaining these concerns. Subjects in both groups generally believed EEG to
