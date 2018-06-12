@@ -267,7 +267,7 @@ on biosensors that follows in Section [[modelsofminds]].
 
 Cognitive science has historically been an influential source of physicalist
 theories about the mind. The field takes a computational account of the brain,
-understanding how it ``processes information'' cite:Winograd1987a within the
+understanding how it ``processes information'' cite:Winograd1987 within the
 physical constraints of computational space and time cite:shepard1971mental. Its
 questions operate a level of abstraction above the biological concerns of
 neuroscience, but below the behavioral concerns of psychology. 
@@ -281,7 +281,7 @@ backpropogation algorithms made neural networks practical to deploy
 cite:minsky1969perceptrons.
 
 However, cognitive science has received considerable criticism
-cite:Noe2004,Winograd1987a. Two relevant critiques focus on
+cite:Noe2004,Winograd1987. Two relevant critiques focus on
 cognitive science's ``isolationist assumptions'': a focus on the brain (isolated
 from the body), and a focus on the individual (isolated from social context, and
 from the environment). The following sections review major responses to
