@@ -97,16 +97,16 @@ dilemma game, in which heartrate information (“elevated” or “normal”) wa
 between players. In a follow-up study, we replicate our initial study, but
 replace heartrate with an unfamiliar biosignal, “Skin Reflectivity Index (SRI).”
 We find that both heartrate and the unfamiliar biosignal are associated with
-negative mood attributions, but we observe a decrease in cooperative behavior
-only with elevated heartrate. Our findings highlight the role prior beliefs can
-play in shaping interpretations of a biosignal, while suggesting that designers
-can, perhaps inadvertently, train users to associate signals with social
-meanings.
+negative mood attributions when elevated, but we observe a decrease in
+cooperative behavior only with elevated heartrate. Our findings highlight the
+role beliefs about the body can play in shaping interpretations of a biosignal,
+while simultaneously suggesting that designers can, perhaps inadvertently, train
+users to associate signals with social meanings.
 
 Having established that people build mind-related meanings around basic
 biosignals, Chapter [[toward-brains]] examines how people make sense of data from a
 variety of other biosensors. I report on the qualitative and quantitative
-results of survey among participants in a large (n>10,000), longitudinal health
+results of a survey among participants in a large (n>10,000), longitudinal health
 study, and an Amazon Mechanical Turk population. Through these data, I locate
 brainscanning, and EEG specifically, as a fruitful case for understanding how
 particular sensing technologies construct notions of mind.
@@ -131,13 +131,19 @@ physical entity that can and will be ``read'' by machines.
 To conclude, chapter [[conclusion]] proposes the term /telepathy/ to describe the
 encoding and transmission of minds. I attempt to chart a path for future work,
 highlighting tensions between opportunities for novel computer-mediated
-communication and concerns around security, privacy and surveillance. I also
-gesture toward larger questions of mindhood; I propose telepathy as a way to
-understand not just what computers can know about us, but how machines can shape
-our notions of who and what we are as thinking things.
+communication and concerns around security, privacy and surveillance. Finally, I
+propose telepathy as a way to understand not just what computers can know about
+us, but how machines can shape our notions of who and what we are as thinking
+beings.
 
 * Ants, Fungus & Telepathy
 <<limits>>
+
+# Noura notes <2018-06-15 Fri>
+# - consider summaries of fields and theories in introduction; desribe each field/theory
+# - say what ubicom is (p17), weiser's computer for 21c
+# - conclusion of chapter should summarize chapter
+
 
 #
 # Spicy mood intro
@@ -171,13 +177,13 @@ I relate this argument to existing work in affective computing and computational
 social science, reframing them as having already begun the work of theorizing
 and building computational /models of minds/ (Section [[modelsofminds]]).
 
-Drawing on critiques of this work, I center the primacy of human interpretation
-in both constructing models of minds, and interpreting their relevance in daily
-life, and propose this interpretive process as a starting point for
-understanding how models of minds might operate in the world (Section
-[[interpretation]]). I conclude by considering the limits of what computers can know
-about the human mind, and how beliefs about the mind structure these limits
-(Section [[limits]]). 
+Drawing on critiques of affective computing and computational social science, I
+center the primacy of human interpretation in both constructing models of minds,
+and interpreting their relevance in daily life, and propose this interpretive
+process as a starting point for understanding how models of minds might operate
+in the world (Section [[interpretation]]). I conclude by considering the limits of
+what computers can know about the human mind, and how beliefs about the mind
+structure these limits (Section [[limits]]).
 
 ** Background
 <<beyondbrain>>
@@ -206,7 +212,7 @@ the fungus to achieve its (reproductive) goals.
 
 With this fungus in mind, consider the emerging class of internet of things
 (IoT) devices, which are increasingly embedded in the built environment, worn on
-the body, worn inside the body via ingestible pills (Figure \ref{fig:wearable}).
+the body, or worn inside the body via ingestible pills (Figure \ref{fig:wearable}).
 Though common, cameras too sense bodies, often in public and without subjects'
 knowledge cite:DBLP:journals/corr/SedenbergWC17. All of these 
 connected devices are endowed to some degree with the capacity to sense (and to
@@ -250,35 +256,38 @@ naturally to scientific study. From the physicalist perspective, all phenomena
 in the mind can be reduced to descriptions of physical activity; thus, some
 physical theory will eventually explain the mind in entirety.
 
-The physicalist stance of mind also squares with materialist ontologies
-generally, for example Jane Bennett's account of /thing-materialism/, in which
-things in the world have an intrinsic power, locked in networks of interactions
-with other things cite:Bennett2013. In turn, materialist ontologies square the
-physicalist account of mind with the project of biosensing. If mental phenomena
-are physical, then mental phenomena are potentially the subject of sensing.
+# The physicalist stance of mind also squares with materialist ontologies
+# generally, for example Jane Bennett's account of /thing-materialism/, in which
+# things in the world have an intrinsic power, locked in networks of interactions
+# with other things cite:Bennett2013. In turn, materialist ontologies square the
+# physicalist account of mind with the project of biosensing. If mental phenomena
+# are physical, then mental phenomena are potentially the subject of sensing.
 
 The remainder of this section outlines various physicalist theories of the mind.
-Beginning in cognitive science, I trace critiques of this field through to the
-alternative theories that have come to meet them. These alternative theories
-motivate notions of beyond-the-brain mind, which in turn motivate the discussion
-on biosensors that follows in Section [[modelsofminds]].
+Beginning with cognitive science's computational accounts of the mind, I trace
+critiques of this field to the newer theories of mind that have come to meet
+them. These theories motivate notions of beyond-the-brain mind, which in turn
+motivate the discussion on biosensors that follows in Section [[modelsofminds]].
 
 *** Cognitive science
 
 Cognitive science has historically been an influential source of physicalist
 theories about the mind. The field takes a computational account of the brain,
 understanding how it ``processes information'' cite:Winograd1987 within the
-physical constraints of computational space and time cite:shepard1971mental. Its
-questions operate a level of abstraction above the biological concerns of
-neuroscience, but below the behavioral concerns of psychology. 
-
+physical constraints of computational space and time cite:shepard1971mental. 
 This perspective offers computational /models/ of ``cognition''
-cite:shepard1971mental. As physical models can inform structural engineering,
-cognitive scientific models have inspired research across psychology, artificial
-intelligence, and design cite:Agre1997. For example, these models informed the
+cite:shepard1971mental. 
+For example, these models informed the
 design of neural networks, before the relatively recent discovery of performant
 backpropogation algorithms made neural networks practical to deploy
 cite:minsky1969perceptrons.
+# Its
+# questions operate a level of abstraction above the biological concerns of
+# neuroscience, but below the behavioral concerns of psychology. 
+
+# As physical models can inform structural engineering,
+# cognitive scientific models have inspired research across psychology, artificial
+# intelligence, and design cite:Agre1997. 
 
 However, cognitive science has received considerable criticism
 cite:Noe2004,Winograd1987. Two relevant critiques focus on
@@ -309,9 +318,10 @@ processing'' of cognitive science, in which internal representations are built
 and manipulated within the brain, to an active, embodied process, in which the
 world is not simply waiting to be seen, but actively providing its own
 representations; the body and brain must meet through an active process of
-co-adaptation cite:ORegan2001. In its account of vision as an active process of
-co-construction, this analysis shares with some work in feminist epistemology,
-e.g. cite:Haraway1988b.
+co-adaptation cite:ORegan2001. 
+# In its account of vision as an active process of
+# co-construction, this analysis shares with some work in feminist epistemology,
+# e.g. cite:Haraway1988b.
 
 *** Extended and distributed cognition
 
@@ -329,7 +339,7 @@ This theory does not stop at tools in describing a mind beyond the
 body. Broadly, extended cognition refocuses the brain away from the individual
 body, and toward the ``active role of the environment in shaping cognition''
 cite:Clark1998. This theory paved the way toward a socially-extended cognition,
-or ``distributed cognition,'' as described in Hutchins' (1995) ethnography of
+or /distributed cognition/, as described in Hutchins' (1995) ethnography of
 sailors on a naval vessel cite:hutchins1995cognition. In his analysis, multiple
 individuals, and the material environment play constituent roles in cognition,
 manifesting a mind that is distributed across multiple human and non-human
@@ -343,7 +353,7 @@ actors.
 In addressing some critiques levied against cognitive science,
 the theories in this section make various cases for a mind that
 extends beyond the confines of the brain, and even beyond the confines of the
-body. The following section argues these theories (unwittingly) make the mind
+body. The following section argues these theories, perhaps unwittingly, make the mind
 amenable to modeling via sensors that are worn or embedded in the environment,
 and that past research has (also unwittingly) already begun to sense the mind
 from beyond the brain.
@@ -373,7 +383,7 @@ that appear too simple, or which (cl)aim to generalize too broadly.
 In the remainder of this section, I read two strands of existing work through
 different accounts of mind: affective computing through embodied cognition, and
 computational social science through distributed and embodied cognition. I argue
-that these theories make these two fields able to claim that they sense the
+that physical theories of the mind allow these two fields to claim that they sense the
 ground truth of mental phenomena. Thus, I argue that these fields have already
 begun the work of building models of minds using data from the
 beyond-the-brain-body.
@@ -383,11 +393,30 @@ beyond-the-brain-body.
 
 *** Affective computing
 
+# In this sense, affective computing is concerned with mind-reading in the sense that people
+# perform it: the construction of a ``theory of mind'' cite:Baron-Cohen1995.
+
 Affective computing, pioneered by Rosalind Picard at the MIT Media Lab, seeks to
-use sensors to measure a users' affect, modeling their emotions in order to
-improve their interaction with machines. cite:Picard1997a. In this program,
-affective computing is concerned with mind reading in the sense that people
-perform it: the construction of a ``theory of mind'' cite:Baron-Cohen1995.
+use sensors to measure a users' affect, emotions, and mood in order to
+improve their interaction with machines. cite:Picard1997a.
+Two commercial examples of such sensing come directly from work
+in Rosalind Picard's research group. The Empatica wristband senses electrodermal
+activity, with the aim of correlating these data to emotional states
+cite:Garbarino2015. This wristband has gone on to inspire cheaper consumer
+alternatives, such as the Feel cite:Feel.co2018. Also from Picard's lab,
+Affectiva classifies emotions from facial expressions, as detected through a
+camera. Their infrastructure works through a webcam, providing what they term
+``Emotion as a Service'' cite:AffectivaInc.2016.
+
+
+In both of these examples, it is the body that is being sensed. Are these bodily
+phenomena correlates of emotions, or constituent of them? Though affective
+computing work does not cite the embodied cognition explicitly, this theory
+allows the claim that affective computing devices are sensing emotions directly.
+That is, embodied cognition allows the claim that sensors to capture ground
+truth of emotions rather than correlates. In the next section, we will see how
+distributed and extended cognition allow claims that past work has sensed the
+mind from beyond the body.
 
 Relevant to our discussion, affective computing frames affect as bodily states,
 relating the field to embodied cognition; however, affective computing extends
@@ -397,30 +426,14 @@ Although work in affective computing does not generally make explicit references
 to embodied cognition, it typically seeks to detect emotion via bodily
 phenomena, and does not consider these phenomena to be proxies from real
 emotions, indicating a general view of emotions as embodied primarily
-cite:Healey2014. Two commercial examples of such sensing come directly from work
-in Rosalind Picard's research group. The Empatica wristband senses electrodermal
-activity, with the aim of correlating these data to emotional states
-cite:Garbarino2015. This wristband has gone on to inspire cheaper consumer
-alternatives, such as the Feel cite:Feel.co2018. Also from Picard's lab,
-Affectiva classifies emotions from facial expressions, as detected through a
-camera. Their infrastructure works through a webcam, providing what they term
-``Emotion as a Service'' cite:AffectivaInc.2016.
-
-In both of these examples, the body that is being sensed. Are these bodily
-phenomena correlates of emotions, or constituent of them? Though affective
-computing work does not cite the embodied cognition explicitly, this theory
-allows the claim that affective computing devices are sensing emotions directly.
-That is, embodied cognition allows the claim that sensors to capture ground
-truth of emotions rather than correlates. In the next section, we will see how
-distributed and extended cognition allow claims that past work has sensed the
-mind from beyond the body.
+cite:Healey2014. 
 
 *** Computational social science
 
 In this section, I argue that distributed and extended cognition allow past work
 in computational social science to claim that these sensors can detect the
 ground truth of mental phenomena. Past work in computational social science has
-used mobile sensors as source of data about human interaction, efforts that
+used mobile sensors as sources of data about human interaction, efforts that
 predate both commercial IoT devices and the general ubiquity of smartphones in
 the global north. One early example is Sandy Pentland's sociometer, an
 internet-connected necklace outfitted with a variety of sensors
@@ -452,7 +465,7 @@ depression to be an extended phenomenon, then the cellphone could in fact be /a
 constituent of the depression itself/, to report the ground truth of depression.
 Distributed and extended cognition are instructive in understanding how
 technical artifacts might seek the ground truth of phenomena relating to the
-mind, such that models can be said to be (in)accurate.
+mind, such that models can be said to be accurate or inaccurate.
 
 In the next section, I review critiques of the work discussed above. I use these
 critiques to center the role of human interpretation in building models of minds
@@ -479,8 +492,8 @@ emotions cite:Feel.co2018. The research programs in ubiquitous computing (or
 cite:Bell2007 to our lived present.
 
 However, their legacy lives on. Computational social science, for example,
-relied heavily on top-down maps (the Social fMRI event included a figure with an
-eye looking downward). This top-down purview of the scientist eschewed
+relied heavily on top-down maps (the Social fMRI paper included a figure with an
+eye looking downward cite:Aharony2011). This top-down purview of the scientist eschewed
 potential concerns around individual privacy, a legacy that continues to produce
 struggles in IoT. Consider the contemporary example of Uber's employees-only
 ``god view,'' which makes visible the location and movements of all users and
@@ -489,12 +502,13 @@ gestures broadly to the ways beliefs and assumptions can be fed forward from
 academic studies into commercial products, becoming ensconced in technical
 artifacts.
 
-Given the ongoing relevance of these research programs in our emerging world of
-pervasive biosensing, this section reviews some of the most pointed critiques
-these fields have encountered. These critiques center the role of human
-interpretation in making models of minds buildable (by engineers) and legible
-(to end-users) in the course of life. In supporting this perspective, I review
-past work on how people bring signals from the body to bear on the mind.
+Given the ongoing relevance of affective computing and computational social
+science in our emerging world of pervasive biosensing, this section reviews some
+of the most pointed critiques these fields have encountered. These critiques
+center the role of human interpretation in making models of minds buildable (by
+engineers) and legible (to end-users) in the course of life. In supporting this
+perspective, I review past work on how people bring signals from the body to
+bear on the mind.
 
 # This section sets up a discussion in Section [[limits]] about how the limits
 # within which models of mind might be created and understood.
@@ -511,9 +525,11 @@ has received some limited uptake within affective computing cite:Parkinson2015.
 However, these theories still pre-categorize emotions, obscuring phenomena at
 the borders of these categories cite:Boehner2007b. This critique effectively
 posits that beliefs about the mind limit what phenomena can be modeled or
-sensed.
+sensed. The mere invention of categories precludes detecting phenomena outside
+of their borders, and may even preclude finding phenomena that lies between
+categories.
 
-Second, neither field has substantively engaged with the question of how
+Second, little work yet has substantively engaged with the question of how
 algorithms and devices that seek to detect emotion may affect the way emotion is
 experienced or performed. Past work strongly indicates that feedback about
 emotional experience may alter the way emotions are experienced
@@ -525,11 +541,10 @@ given model.
 *** Bringing signals from the body to bear on the mind
 
 If beliefs about the mind structure interpretations of biosensory data, then how
-do these interpretations come to be about the mind? I argue that the meaning of
-biosignals are shaped by prior beliefs about the body, as well the suggestion
-provided by particular social contexts
-cite:Merrill2017,Ali2014a,Snyder2015a. Through past work, I outline how the
-suggestion provided by particular sensing devices can meet with pre-existing
+do these interpretations about the mind come to be? I argue that the meaning of
+biosignals are shaped by prior beliefs about the body, as well particular social
+contexts cite:Merrill2017,Ali2014a,Snyder2015a. Through past work, I outline how
+the suggestion provided by particular sensing devices can meet with pre-existing
 beliefs about the body, producing socially-relevant interpretations regarding
 the mind.
 
@@ -539,15 +554,15 @@ reality, a perm machine from a hair salon, painted gray) could read their
 thoughts in some detail, even after the researchers told them explicitly that
 such technology is not (yet) possible cite:Ali2014a. The authors suggest that
 this indicates people have some intrinsic faith in brainscanning, perhaps due to
-``neurohype'' in popular media. Another way of interpreting this finding,
-however, is that /biosensing systems/ offer a particular sort of suggestion, or
-sort of white lab-coat effect of their own, which interacts with social context
+``neurohype'' in popular media cite:Urban2017. Another way of interpreting this finding,
+however, is that /biosensing systems/ offer a particular
+white lab-coat effect of their own, which interacts with social context
 to produce specific interpretations. This latter proposal is suggested by
 cite:Snyder2015a, in which the /Moodlight/ is able to make people feel relaxed,
 simply by suggesting that the person is relaxed already. From the user's
 perspective, either that the machine ``knows better'' than they do, or that
 people fill in the gaps in their ability to introspect using the machine's
-suggestions. This interpretation is also suggested by cite:Bergstrom2011, in
+determination. This interpretation is also suggested by cite:Bergstrom2011, in
 which the amount of time people were talking in a group conversation was
 displayed visually on a table. This study finds that people are willing to
 believe some distortion, but only to a point. Interfaces provide suggestions,
@@ -562,16 +577,16 @@ results observed in cite:Ali2014a had something to do with the fact that the
 machine was scanning the brain; if it had been taking a saliva sample, for
 example, subjects may not have been as likely to believe it could detect their
 thoughts. In other words, beliefs about what biosensing devices can capture
-about the mind are a product both of the suggestion provided by particular
-interfaces, and their pre-existing beliefs about the body, and the relationship
-between the body and phenomena in the mind. These beliefs may vary with culture,
-as well. We have no particular reason to think they are any more universal than,
-e.g. the perception of color cite:Regier2009.
+about the mind are a product both of particular interfaces, and their
+pre-existing beliefs about the body, and the relationship between the body and
+phenomena in the mind. These beliefs may vary with culture, as well. We have no
+particular reason to think they are any more universal than, e.g. the perception
+of color cite:Regier2009.
 
-The central role that beliefs about the body play are re-enforced by studies on
+The central role that beliefs about the body play are reinforced by studies on
 ubiquitous heartrate sharing. Heartrate sensors have been among the first
 physiological sensors to be widely embedded in consumer devices, usually in
-smartwatches or earbuds. Slovák (2012)'s foundational study on heartrate sharing
+smartwatches or earbuds. Slovák (2012)'s study on heartrate sharing
 cite:Slovak2012 revealed that beliefs about heartrate can take on meanings that
 relate intrinsically to the presumed meaning of hearts and heartrate. In
 cite:Merrill2017, we found that an elevated heartrate signal correlated with
@@ -592,14 +607,15 @@ emotion or mental health.
 
 Given the lasting impact of not just these research programs, but the
 perspectives they embed, it is critical to review the perspectives of these
-programs and their antecedents. The perspectives of engineers are relevant to
-understanding what they build, and why. Some past work has looked at engineers
-beliefs with respect to sensing devices. For example, Sample's work on
-neuroengineers cite:Sample2016 and Merrill et al's work on software engineers
-cite:Merrill2018 have examined engineers' complex and heterogeneous beliefs
-about the mind and body.
+programs and their antecedents. How do these academic disciplines inform
+technical practice on the ground, particularly among software engieners? The
+perspectives of engineers are relevant to understanding what they build, and
+why. Some past work has looked at engineers beliefs with respect to sensing
+devices. For example, Sample's work on neuroengineers cite:Sample2016 and my own
+work on software engineers cite:Merrill2018 have examined engineers' complex and
+heterogeneous beliefs about the mind and body.
 
-Opposite the beliefs of engineers, users' beliefs about the mind, formal or
+In tandem with the beliefs of engineers, users' beliefs about the mind, formal or
 informal, also inform, shape and structure what users believe, or are willing to
 believe. To quote Dawn Nafus as she described her early studies in biosensing,
 ``figuring out whether a consumer market for biosensors was even thinkable had
@@ -607,16 +623,15 @@ everything to do with whether the data they produced cohered with a cultural and
 social imaginary, such that users stood a chance of making sense of them''
 cite:nafus2016quantified.
 
-
 ** Conclusion
 
-In this chapter, I reviewed how beliefs in such theories (formal or informal)
-play a critical role in defining how models of minds are built, and how they are
-understood as relevant in the course of life. While we will return to the
-question of how models of minds are built in Chapter [[chi]], the following chapter
-will look at how end-users interpret models of minds in social context. The two
-studies described there will demonstrate how people use basic biosignals in
-computer-mediated contexts to build interpretations relating to the minds of
+In this chapter, I reviewed how beliefs in theories about the mind (formal or
+informal) play a critical role in defining how models of minds are built, and
+how they are understood as relevant in the course of life. While we will return
+to the question of how models of minds are built in Chapter [[chi]], the following
+chapter will look at how end-users interpret models of minds in social context.
+The two studies described there will demonstrate how people use basic biosignals
+in computer-mediated contexts to build interpretations relating to the minds of
 others.
 
 * Reading mind from heartrate
@@ -651,7 +666,7 @@ cite:Janssen2010. The advertising copy for Cardiogr.am, one smartwatch app, read
 #+BEGIN_QUOTE
 Your heart beats 102,000 times per day, and it reacts to everything that happens
 in your life—what you're eating, how you exercise, a stressful moment, or a
-happy memory. What's your heart telling you?
+happy memory. What's your heart telling you? cite:Cardiogram2016
 #+END_QUOTE
 
 These applications, along with many others, rely on the fact
@@ -660,7 +675,7 @@ contextual interpretations. Given the relatively large number of wearables with
 embedded heartrate monitors (watches, bands, even earbuds) cite:Stables2016, it
 is unsurprising that designers are looking beyond fitness and health for ways to
 increase user engagement with these devices. However, it is not clear how
-individuals will interpret a shared biosignal (e.g. heartrate) in different
+individuals will interpret a shared biosignal (e.g., heartrate) in different
 contexts of social interaction.
 
 This chapter examines what heartrate can mean as a computer-mediated cue, and
@@ -680,7 +695,8 @@ information. We examine two contexts in this study: an uncertain,
 non-adversarial context and an uncertain, adversarial context. These two
 contexts, differing only by a few words, ask participants to imagine they are
 meeting someone "for a movie" (non-adversarial) or "to discuss a legal dispute”
-(adversarial).
+(adversarial), in which the person they are meeting is running late. I discuss
+the vingnette in more detail later.
 
 We find that a high heartrate transmits negative cues about mood in both
 contexts of interaction, but that these cues do not appear to impact assessments
@@ -731,10 +747,10 @@ heartrates do not have one-to-one mappings to physical activities or emotions.
 Second, physiological phenomena vary from person to person; 60bpm could be high
 or low depending on whose heartrate it is. A relatively large body of work has
 looked at how the transmission of physiological data might play a role in
-computermediated communication. One class of application has attempted to
+computer-mediated communication. One class of application has attempted to
 explicitly encourage or discourage certain behavioral outcomes, making some
 biosignals apparent such that the transmission of the data acts as a social cue
-cite:Bergstrom2011. Another class of prototypes explores how signals might
+(e.g., cite:Bergstrom2011, cite:Kim2008). Another class of prototypes explores how signals might
 affect feelings of intimacy, particularly between romantic partners
 cite:Bell2003, and several applications focus on the transmission of heartrate
 as a means to achieve this effect cite:Janssen2010,McNell2015.
@@ -745,7 +761,7 @@ Heartrate has deep-rooted cultural significance in many societies, and
 near-universal familiarity as a feature of our lived experiences. Building on
 associations with intimacy and love, many heartrate sharing applications have
 aimed to “enhance” social connectedness by fostering feelings of intimacy
-cite:Janssen2010,hassibheartchat between people.
+between people cite:Janssen2010,hassibheartchat.
 
 What heartrate means as a computer-mediated cue, however, is ambiguous, its
 potential interpretations varying widely in different contexts
@@ -755,7 +771,7 @@ seek to use these data to express emotion cite:Boehner2007b. Many technology
 probes corroborate this stance, relying on users to project socially contextual
 meanings around a transmitted heartrate. Consequently, more recent work has
 challenged the notion that the social consequences of transmitting physiological
-data will always result in increased trust and intimacy. There remains little
+data will always result in increased trust and intimacy cite:Slovak2012. There remains little
 work, however, on how the potential ambiguity of a heartrate signal is resolved
 in social conditions of risk and uncertainty.
 
@@ -784,8 +800,8 @@ that, when individuals believe that their heartrate is elevated, they sometimes
 believe their mood and emotions to be more negative cite:Young1982.
 
 If lay interpretations of one’s own heartrate can yield negative
-self-interpretations, sharing heartrate information could also yield negative
-effects on mood and trustworthiness, particularly during uncertain interactions
+self-interpretations cite:Parkinson1985,Young1982, sharing heartrate information could also yield negative
+social interpretations of mood and trustworthiness, particularly during uncertain interactions
 where something is at stake (such as time, money, or other valued resources). To
 investigate, we use a mixed-methods approach combining quantitative and
 qualitative analyses of a survey-based vignette experiment.
@@ -806,11 +822,15 @@ Past work indicates that people tend to make negative inferences about mood and
 emotion from elevated heartrates cite:Decaria1974,Gu2012,Young1982. As such, our
 first hypothesis predicts that participants will adjust their attitudes about
 the mood of their partner when their partner’s heartrate is elevated, as opposed
-to normal: Hypothesis 1: When individuals believe that their partner has an
+to normal: 
+
+#+BEGIN_QUOTE
+*Hypothesis 1*: When individuals believe that their partner has an
 elevated heartrate in an uncertain social interaction, they will report their
-partner as being (1a), less calm (1b), more emotional (1c), and more easily
-upset (1d), compared to those who believe that their partner has a normal
+partner as being less calm (1a), more emotional (1b), and more easily
+upset (1c), compared to those who believe that their partner has a normal
 heartrate.
+#+END_QUOTE
 
 # Heartrate and Trustworthiness
 
@@ -820,89 +840,26 @@ predicts that individuals will make negative assessments about dispositions to
 behave in a reliable, dependable and trustworthy manner. Thus, both hypotheses
 stem from the same base assumption that, all things being equal, elevated
 heartrate has a primarily negative connotation with attitudes and behaviors of
-another person. Hypothesis 2: When individuals believe that their partner has an
+another person. 
+
+#+BEGIN_QUOTE
+*Hypothesis 2*: When individuals believe that their partner has an
 elevated heartrate in an uncertain social interaction, they will make negative
 assessments about the partner’s trustworthiness (2a), reliability (2b), and
 dependability (2c), compared to those who believe that their partner has a
 normal heartrate.
-
-*** Methods
-
-To test our hypotheses, we conducted a survey-based vignette experiment.
-Vignette studies involve short descriptions of a scenario, designed to elucidate
-opinions, attitudes, and beliefs about that particular situation cite:Jenkins2010.
-
-In this vignette study, we compare two different contexts of interaction. We do
-not create separate hypotheses for the two different contexts; rather, we are
-interested in comparing and contrasting the two different contexts to see how
-they might interact with social interpretations of heartrate. We provide our
-participants with either an adversarial or a non-adversarial social context. In
-the adversarial scenario, the participant is waiting to meet an acquaintance
-about a legal dispute. In the non-adversarial scenario, the participant is
-waiting at a movie theater for an acquaintance so that they can see a film
-together.
-
-In all scenarios, the acquaintance sends a message via smartphone indicating
-that he or she is running late due to slow traffic. The person who is waiting
-does not know if the acquaintance will make it on time or not, or whether the
-acquaintance is being honest about their tardiness. Within each context, we
-manipulate a small piece of information about the heartrate of the acquaintance:
-We tell the participant that the heartrate of the acquaintance has been shared
-by the acquaintances’ smartphone and it is either elevated or normal.
-
-# Sample
-Our sample was undergraduate students recruited from the population of a large,
-public university on the West Coast of the U.S. Potential participants were
-asked to participate in a short online survey, and they did not know the nature
-of the questions or the topic of the study in advance. All participants were
-paid a $5 Amazon gift card. One hundred and three participants (103) completed
-the experiment survey instrument. The pool was weighted toward women; in our
-sample, 65% were women and 34% are male, and 2% (2 subjects) did not identify
-with either gender. With random assignment, the same overall gender split was
-maintained across conditions. The mean age of participants was 23.
-
-# Vignettes
-Each participant in the study saw only one of the four possible vignettes. After
-the vignette, the survey included free-response questions about subjects'
-reactions to and interpretations of the situation described in the vignette, as
-well as 7-point Likert scale questions (Strongly Agree to Strongly Disagree) in
-which subjects evaluated the other person's disposition (“This person is
-emotional”, “This person is anxious”, “This person is easily upset”, and “This
-person is calm”). In addition, we asked participants to indicate whether the
-other person was “trustworthy,” “reliable,” and “dependable” using the same 7-
-point agreement scale.
-
-There are two contexts of interaction (adversarial and nonadversarial) and two
-heartrate conditions (normal and elevated), creating four distinct vignettes
-based on social context and heartrate (HR): adversarial elevated HR, adversarial
-normal HR, non-adversarial elevated HR, and non-adversarial normal HR.
-Participants were randomly assigned into one of the four conditions. We
-manipulated these heartrate conditions by making a key wording change as
-indicated in the two context vignettes below.
-
-**** Non-Adversarial vignette:
-
-#+BEGIN_QUOTE
-You planned to meet your acquaintance for a movie at seven. It's 7:15, and
-you're standing alone in front of the theater. Your phone buzzes, and you see a
-message from this person that says, "I'm running late, traffic was really slow."
-Through your smartphone, you are able to see this person's heartrate, which the
-app designates as [normal / elevated]. It is currently 75 degrees and sunny.
-Your movie starts at 7:20.
-#+END_QUOTE
-
-**** Adversarial vignette
-
-#+BEGIN_QUOTE
-You planned to meet your acquaintance at seven to discuss a difficult legal
-dispute between the two of you. It's 7:15, and you're standing alone in front of
-the meeting spot. Your phone buzzes, and you see a message from this person that
-says, "I'm running late, traffic was really slow." Through your smartphone, you
-are able to see this person's heartrate, which the app designates as [normal /
-elevated]. It is currently 75 degrees and sunny.
 #+END_QUOTE
 
 ** Quantitative results
+
+#+NAME: fig:mood-attitude
+#+CAPTION: Mood-related evaluation means by condition (bars represent standard deviation).
+[[./figures/acmgroup-mood.png]]
+
+#+NAME: fig:trust-attitude
+#+CAPTION: Trust-related evaluation means by condition (bars represent standard deviation).
+[[./figures/acmgroup-trust.png]]
+
 
 We apply both quantitative and qualitative analyses to investigate our research
 questions and hypotheses. The study is based around an experimental design, but
@@ -941,10 +898,16 @@ Our second hypothesis predicts that individuals will make negative assessments
 about how certain they are regarding the acquaintances’ trustworthiness
 characteristics when the individual has an elevated versus a normal heartrate.
 We find a statistically and practically significant effect for the heartrate
-conditions, F (3, 97) = 4.19, p < .01; partial eta squared = .12. However, we also
-find statistically significant effects for both the context of interaction, F
-(3, 97) = 2.82, p < .05, and the context x heartrate condition interaction, F
-(3, 97) = 2.75, p < .05.
+conditions, F (3, 97) = 4.19, p < .01; partial eta squared = .12. However, we
+also find statistically significant effects for both the context of interaction,
+F (3, 97) = 2.82, p < .05, and the context x heartrate condition interaction, F
+(3, 97) = 2.75, p < .05. 
+# (A brief note on F-statistics: These are MANOVA
+# results, which are multiple analyses of variance. The first part of our
+# analysis, on mood outcomes, had four comparisons. The second part, on trust, had
+# three comparisons. The within-group degrees of freedom is N-k, where N is sample
+# size and k is number of groups. Thus, the within-group value is 96 for mood,
+# 100-4, and 97 for trust, 100-3).
 
 A closer inspection of the individual mean differences reveals that the means
 for all three outcomes (reliability, dependability and trustworthiness) are all
@@ -988,21 +951,13 @@ subjects in the adversarial (legal dispute) context.
 
 *** Normal heartrate
 
-
-#+NAME: fig:mood-attitude
-#+CAPTION: Mood-related evaluation means by condition (bars represent standard deviation).
-[[./figures/acmgroup-mood.png]]
-
-#+NAME: fig:trust-attitude
-#+CAPTION: Trust-related evaluation means by condition (bars represent standard deviation).
-[[./figures/acmgroup-trust.png]]
-
 In the adversarial (legal dispute) context, many subjects who saw a normal
 heartrate directly indicated that they were negatively adjusting their appraisal
 of the other person, either in their sympathy toward the other person, or in
 their judgment of that person’s trustworthiness. We find that normal heartrate
 in the adversarial condition appears to be in conflict with the subjects’
-expectations about how the acquaintance should feel.
+expectations about how the acquaintance should feel (i.e., stressed that s/he is
+running late).
 
 #+BEGIN_QUOTE
 I will feel less sympathetic to this person because their heart rate doesn’t
@@ -1100,9 +1055,7 @@ about making me wait.
 In these cases, interpretations focused on what the other person
 was thinking or feeling. As we saw in the adversarial context,
 normal heartrate seems to be in conflict with expectations.
-However, unlike in the adversarial context, we did not find
-evidence that subjects were re-appraising their trust toward the
-other person. Interestingly, two participants read the normal
+Interestingly, two participants read the normal
 heartrate positively, as a sign that the other person was telling the
 truth.
 
@@ -1165,13 +1118,13 @@ commented on the potential for invasiveness or over-disclosure in
 heartrate sharing.
 
 #+BEGIN_QUOTE
-(non-adversarial + normal heartrate) ``I feel like I'm violating my
-acquaintance's private information by knowing their heart beat.''
+/(non-adversarial + normal heartrate)/ I feel like I'm violating my
+acquaintance's private information by knowing their heart beat
 
-(adversarial + normal heartrate) ``I do suspect the person is lying
+/(adversarial + normal heartrate)/ I do suspect the person is lying
 since his heart rate is normal. I think the extra info of the heart
 rate is the reason I have a neg. suggestion towards the person. I
-think the reported heart rate is a bad idea.''
+think the reported heart rate is a bad idea.
 #+END_QUOTE
 
 Given that heartrate sharing is not (yet) widely deployed in
@@ -1287,14 +1240,14 @@ evaluations of one’s trustworthiness, dependability or reliability.
 Taken together, we see that heartrate does not inherently (or consistently)
 affect trust-related outcomes. Instead, social expectations shape
 interpretations of the heartrate biosignal to create highly contextual,
-socially-specific meanings. CMC researchers have long noted that, when cues are
-omitted from technology-mediated interaction, people tend to fill in the gaps
+socially-specific meanings. computer-mediated communication researchers have long noted that, when cues are
+omitted from computer-mediated interaction, people tend to fill in the gaps
 [3,10]. However, individuals may interpret new types of interpersonal data in
 ways we do not yet understand. Our work provides some evidence that such
 interpretations might have real social consequences. The fact that heartrate
 alone can significantly alter one’s perception of trustworthiness in an
 adversarial context is an important step towards the larger goal of unpacking
-social interpretations (and their effects) in technology-supported social
+social interpretations (and their effects) in computer-supported social
 interaction. (For one thing, the mostly positive social interpretations of
 heartrate observed in past work are likely highly dependent on the social
 context in which they were observed).
@@ -1309,13 +1262,13 @@ complexity intrinsic to interfaces that collect and share biosignals, and
 warrants future studies into social and contextual interpretation of data from
 wearable devices.
 
-** Conclusions
+** Limitations & conclusions
 
 Our vignette experiment examined a single type of scenario in two different
 contexts, using text-based answers. We still have a limited picture of the range
 of theoretically important contexts in which individuals may observe and
 interpret biosignals about others, and a limited understanding of how the rich
-cues present in realistic interaction contexts might bare on our findings. Our
+cues present in realistic interaction contexts might influence social interpretation. Our
 study focused on a first-time interaction with an imagined heartrate sharing
 interface. We do not know how our findings would hold over time, and it is very
 likely that social meanings of any biosignal could become more consistent over
@@ -1344,7 +1297,7 @@ lead to social interpretations?
 In the following chapter, we begin to address these limitations through a
 controlled, behavioral experiments, which helps us ask more specific questions
 about how elevated heartrate affects perceptions of risk in uncertain
-interactions, e.g. when money is at stake. This study study leads to a more
+interactions, e.g., when money is at stake. This study study leads to a more
 robust understanding of how the transmission of basic biosignals might affect
 social behavior.
 
@@ -1352,21 +1305,21 @@ social behavior.
 <<cscw17>>
 
 From the prior chapter's findings about social attitudes, this chapter moves to
-an lab-based experiment to understand how shared heartrate effects social
+a lab-based experiment to understand how shared heartrate effects social
 behavior. We apply quantitative and qualitative analyses to an iterated
 prisoner's dilemma game, in which heartrate information (“elevated” or “normal”)
 was shared between players. In a follow-up study, we replicate our initial
 study, but replace heartrate with an unfamiliar biosignal, ``Skin Reflectivity
 Index (SRI).''
 
-We find that both heartrate and the unfamiliar biosignal are associated with
-negative mood attributions, but we observe a decrease in cooperative behavior
-only with elevated heartrate. Qualitative results indicate that individuals may
-learn an association between our unfamiliar biosignal and the cooperative,
-trusting behavior of their partner. Our findings highlight the role prior
-beliefs can play in shaping interpretations of a biosignal, while suggesting
-that designers can, perhaps inadvertently, train users to associate signals with
-social meanings.
+We find that both heartrate and the unfamiliar biosignal, when elevated, are
+associated with negative mood attributions, but we observe a decrease in
+cooperative behavior only with elevated heartrate. Qualitative results indicate
+that individuals may learn an association between our unfamiliar biosignal and
+the cooperative, trusting behavior of their partner. Our findings highlight the
+role prior beliefs can play in shaping interpretations of a biosignal, while
+suggesting that, in the absense of prior beliefs about a particular signal,
+users may learn to associate signals with social meanings over repated interactions.
 
 Our results raise important questions for applications that transmit
 sensor-derived signals socially between users. For signals with strong cultural
@@ -1378,35 +1331,49 @@ viewed as beneficial, depending on design objectives. It could also be dangerous
 if designers suggest, perhaps even inadvertently, interpretations that lead to
 discrimination.
 
+# Noura <2018-06-15 Fri>
+#
+# I guess two things are conflicting here… on the one hand, ‘good design’
+# provides unambiguous meaning, so a ‘well designed’ app would assign clear
+# social meaning to biosignals. it’s not inadvertent. on the other hand, maybe
+# there is some myth that data visualizations in particular are supposed to
+# provide a neutral ground for scientifically objective interpretation… ‘the
+# data speak for themselves’… but designers are always trying to craft a story
+# with a clear interpretation when they make data visualizations… maybe it would
+# be helpful to state what myth you are debunking here, or what status quo these
+# findings are speaking to…
+
 # something here to tease how this fits into larger argument, or nah?
 
 ** Lab-based experiment
 
-Following our vignette experiment, which focused on social attitudes, we extend
-our inquiry to a trust-building game, which will allow us to study social
-behavior. Through quantitative and qualitative analyses, we find that "elevated"
-(versus “normal”) heartrate of an exchange partner is associated with negative
-mood attributions and reduced cooperation in a social dilemma game. To
-investigate how specific our findings are to heartrate (as opposed to some other
-"elevated" signal collected from the body), we replicate our initial experiment
-with an unfamiliar biosignal, “skin reflectivity”. We find that both heartrate
-and the unfamiliar biosignal are associated with negative mood attributions, but
-we observe a decrease in cooperative behavior only with elevated heartrate.
-Qualitative results indicate that individuals may learn an association between
-our unfamiliar biosignal and the cooperative, trusting behavior of their
-partner. Our findings highlight the role prior beliefs can play in shaping
-interpretations of a biosignal, while suggesting that designers can, perhaps
-inadvertently, train users to associate signals with social meanings. We discuss
-implications for how wearable sensors can mediate social interactions.
+Following our vignette experiment in the previous chapter, which focused on
+social attitudes, we extend our inquiry to a trust-building game, which will
+allow us to study social behavior. Through quantitative and qualitative
+analyses, we find that "elevated" (versus “normal”) heartrate of an exchange
+partner is associated with negative mood attributions and reduced cooperation in
+a social dilemma game. To investigate how specific our findings are to heartrate
+(as opposed to some other "elevated" signal collected from the body), we
+replicate our initial experiment with a fictitious biosignal, “skin
+reflectivity,” which will be unfamiliar to participants. We find that both
+heartrate and the fictitious biosignal are associated with negative mood
+attributions, but we observe a decrease in cooperative behavior only with
+elevated heartrate. Qualitative results indicate that individuals may learn an
+association between our fictitious biosignal and the cooperative, trusting
+behavior of their partner. Our findings highlight the role prior beliefs can
+play in shaping interpretations of a biosignal, while suggesting that designers
+can, perhaps inadvertently, train users to associate signals with social
+meanings. We discuss implications for how wearable sensors can mediate social
+interactions.
 
 # _TODO remind that we just talked about this in the last exp_
 Generally when individuals believe that their heartrate is elevated, they often
-believe their mood and emotions to be more negative. Thus, we apply this same
+believe their mood and emotions to be more negative cite:Valins1966. Thus, we apply this same
 logic to how individuals will interpret the elevated heartrates of others in
 uncertain social interactions:
 
 #+BEGIN_QUOTE
-H1. Participants who see a consistently elevated heartrate from their partner
+*Hypothesis 1*: Participants who see a consistently elevated heartrate from their partner
 will rate their partner more negatively on mood attributes, compared to
 participants who see a consistently normal heartrate in uncertain and risky
 social interactions.
@@ -1428,8 +1395,8 @@ will entrust and/or cooperate less to protect themselves from potential harm
 when the partner has an elevated vs. a normal heartrate.
 
 #+BEGIN_QUOTE
-H2. Participants who see an elevated heartrate from their partner will (a) trust
-less, and (b) cooperate less with the partner in uncertain and risky social
+*Hypothesis 2*: Participants who see an elevated heartrate from their partner will (2a) trust
+less, and (2b) cooperate less with the partner in uncertain and risky social
 interactions compared to participants who see a normal heartrate.
 #+END_QUOTE
 
@@ -1484,7 +1451,7 @@ heartrate monitor for a few seconds in order to get a pulse reading (Figure [[fi
 Participants then viewed the summary of point calculations for the round.
 Subsequently, participants viewed a visual display of the partners’ recent
 heartrate (Figure [[fig:hr-viz]]). The final point calculation for the round included any of
-the initial allotment of points remaining after the trust decision, plus and
+the initial allotment of points remaining after the trust decision, plus any
 points that the participant kept from their partner if they decided not to
 return them. In addition, players received points for any entrusted points that
 their partner returned, which doubled in value.
@@ -1515,12 +1482,13 @@ entrusting behavior of the human participant on each round, and always cooperate
 no matter what the human participant chose to do.
 
 The participants completed 20 rounds of the PDD game, but they did not know how
-many rounds they would play in order to eliminate end-game effects. After all
-rounds of the PDD game were completed, participants answered a short
-post-questionnaire in order to assess their attitudes and beliefs about their
-partner. This questionnaire included 7- point Likert-style response questions (1
-= strongly disagree, 7 = strongly agree) about the partners’ beliefs about the
-partners’ anxiety (e.g., “my partner is anxious” and “my partner is calm”).
+many rounds they would play in order to eliminate end-game effects, such as
+defecting at the last minute. After all rounds of the PDD game were completed,
+participants answered a short post-questionnaire in order to assess their
+attitudes and beliefs about their partner. This questionnaire included 7- point
+Likert-style response questions (1 = strongly disagree, 7 = strongly agree)
+about the partners’ beliefs about the partners’ anxiety (e.g., “my partner is
+anxious” and “my partner is calm”).
 
 As a manipulation check on the perceptions of the simulated actor’s behavior, we
 also asked questions about the partners’ game behavior (“my partner is
@@ -1552,8 +1520,8 @@ heartrate (NH) and always elevated heartrate (EH).
 
 *** Participants and Procedure
 
-Our sample was undergraduate students recruited from the population of a large
-west coast public university in the United States. We contacted potential
+Our sample was undergraduate students recruited from the population of a large,
+public university on the West Coast of the United States. We contacted potential
 participants via email from a voluntary experimental subject pool. All
 participants expected to be contacted to participate in a social research study
 at some point during the semester, and knew that they would earn between $15-30
@@ -1594,7 +1562,7 @@ We distributed this survey over an email list to students and alumni of a
 public, West Coast US university, and received 25 valid responses. The answers
 to both Likert questions indicated agreement that the visualization was both
 ambiguous (mean = 3.58, S.D. = 1.28) and also easily interpretable (mean = 3.41,
-S.D. = 1.35). Importantly, openended qualitative responses confirmed that the
+S.D. = 1.35). Importantly, open-ended qualitative responses confirmed that the
 heartrate was easily understandable, but that the precise value of heartrate was
 ambiguous.
 
@@ -1722,9 +1690,12 @@ diverse beliefs about elevated heartrate.
 # Normal Heartrate
 
 Many participants said that normal heartrate indicated that
-the partner was "calm," "chilled out," or "not anxious."
+the partner was ``calm,'' ``chilled out,' or ``not anxious.''
+
+#+BEGIN_QUOTE
 [HR signaled] that my partner was always calm. The heart
 rate never fluctuated, it didn't make a difference.
+#+END_QUOTE
 
 #+BEGIN_QUOTE
 They remained calm
@@ -1815,16 +1786,19 @@ cooperation rates with the partner.
 To test the effect of our unfamiliar biosignal on behavior in
 risky, uncertain interactions, we evaluate the exact same
 hypotheses from study 1 again in the context of SRI:
-H3. Participants who see a consistently elevated SRI from
-their partner will rate their partner more negatively on
-mood attributes, compared to participants who see a
-consistently normal SRI in uncertain and risky social
-interactions.
 
-H4. Participants who see an elevated SRI will have lower
-(a) trust rates (b) cooperation rates in uncertain and risky
-social interactions compared to participants who see a
-normal SRI.
+#+BEGIN_QUOTE
+*Hypothesis 3*: Participants who see a consistently elevated SRI from their
+partner will rate their partner more negatively on mood attributes, compared to
+participants who see a consistently normal SRI in uncertain and risky social
+interactions.
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+*Hypothesis 4*: Participants who see an elevated SRI will have lower (4a) trust
+rates (4b) cooperation rates in uncertain and risky social interactions compared
+to participants who see a normal SRI.
+#+END_QUOTE
 
 *** Experimental Design and Methods
 
@@ -1855,11 +1829,11 @@ is actually heartrate.
 *** Participants
 
 We recruited our sample for the second study from the same
-population and using the same method as described in study
-1. Our recruitment procedures ensured that no one who
+population and using the same method as described in study 1. 
+Our recruitment procedures ensured that no one who
 participated in the first study could be recruited for the
 second study. Sixty-three participants (63) completed the
-second experiment, 40 women, 22 men, and one selfidentified
+second experiment, 40 women, 22 men, and one self-identified
 as ‘other’. The mean age of participants was 21.
 Importantly, the gender distribution and age of the sample
 was equivalent to the first study.
@@ -1887,7 +1861,7 @@ condition (M = 4.68, SD = 1.63), F(1, 62) = 4.4 p < .05; partial eta squared =.0
 heartrate study, we found no statistically significant differences for
 perception that the partner is ‘easily upset’ or that the partner is ‘emotional’
 (p = n.s.). In sum, we find strong statistical and practical differences in
-perceptions of both anxiety and calmness, but no statistical or practical
+perceptions of both anxiety and calm, but no statistical or practical
 differences in how emotional or easily upset one perceives the partner to be in
 SRI conditions. Given the significant omnibus test and significant results on
 two of the 4 individual outcomes, Hypothesis 3 is partially supported.
@@ -1967,16 +1941,15 @@ Nothing at all about the person other than an arbitrary value of
 a sensor.
 
 
-Since the SRI seemed to be bouncing around in the blue
-range but never got into the red range (which I assume
-would be "abnormal" since the blue range was normal) I
-don't think SRI is an accurate measurement of much.
-As with heartrate, people cannot always be convinced that
-a biosignal is informative, even after many rounds of
-conditioning and a highly suggestive context. However, as
-in the heartrate condition, responses indicating that SRI had
-no meaning were a clear minority in our sample.
+Since the SRI seemed to be bouncing around in the blue range but never got into
+the red range (which I assume would be ``abnormal'' since the blue range was
+normal) I don't think SRI is an accurate measurement of much.
 #+END_QUOTE
+
+As with heartrate, people cannot always be convinced that a biosignal is
+informative, even after many rounds of conditioning and a highly suggestive
+context. However, as in the heartrate condition, responses indicating that SRI
+had no meaning were a clear minority in our sample.
 
 
 *** Elevated SRI
@@ -2056,9 +2029,14 @@ How anxious/nervous someone is, if their SRI is high
 #+END_QUOTE
 
 In some cases, participants in the normal SRI condition inferred that elevated
-SRI might have a negative meaning: not to sure, high sri may indicate panic/fear
-or anger low sri may indicate calmness and contentness. A person is less likely
-to trust other people if he or she has a high SRI.
+SRI might have a negative meaning: 
+
+#+BEGIN_QUOTE
+not to sure, high sri may indicate panic/fear or anger low sri may indicate
+calmness and contentness.
+
+A person is less likely to trust other people if he or she has a high SRI.
+#+END_QUOTE
 
 Overall, the responses for both SRI conditions support the interpretation that
 participants learned an association between cooperative, trustworthy behavior
@@ -2075,7 +2053,7 @@ internal validity) and disadvantages (such as reduced external and ecological
 validity). Our study did not attempt to emulate a real-world interaction context
 with a biometric sharing device, though this is a clear next step, now that we
 know there are important differences in how biosignals are interpreted.
-Furthermore, our use of highly cooperative, computercontrolled interaction
+Furthermore, our use of highly cooperative, computer-controlled interaction
 partners with stable biosignals (always high or always normal), prevents us from
 being able to speak to the effects of more dynamic behaviors and/or changes in
 biosignals over longer periods of time. From these experiments, we also do not
@@ -2099,6 +2077,9 @@ blood pressure) carry associations with being angry, sick, hot-headed, and a
 host of other negative attributions. People may default to such attributions
 when seeing an unknown signal that comes from the body.
 
+#
+# SAVE FOR BOOK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+#
 Elevated heartrate had a chilling effect on cooperation, where an unfamiliar
 biosignal, SRI, did not. So, why did the negative mood attributions in the
 elevated SRI condition not translate into reduced cooperation, as they did for
@@ -2141,7 +2122,7 @@ changes in interpretations over time.
 Broadly, our results raise questions about how and why unfamiliar signals take
 on social meanings in different contexts of interaction. Researchers in CSCW and
 HCI have long noted our tendency to read into cues and signals in
-technology-mediated communications. From impact factors and citation counts in
+computer-mediated communications. From impact factors and citation counts in
 scholarly work cite:Elsden2016a to societal indices cite:Wilson2003 , to health
 metrics such as the bodymass index (BMI) cite:Campos2004, human have a tendency
 to impart “real” meanings onto metrics, scales and signals – meanings that may
@@ -2151,6 +2132,10 @@ interactions, and whether the outcomes will always translate into meaningful
 social information.
 
 ** Implications for design
+
+# this section does a good job calling out the impact of the study. it doesn’t
+# really have any specific implications for design, it’s just like, “hey,
+# designers, look out! this is important!”
 
 From research projects like the sociometer, which produce “social metrics”
 cite:Wu2008,
@@ -2166,7 +2151,7 @@ these beliefs transfer between different contexts, could have wide-reaching
 implications for those who design interactions with wearable biosensors.
 
 On the other hand, many research and commercial projects use signals that people
-might associate with commonly understood experiences (e.g. a racing heart, a
+might associate with commonly understood experiences (e.g., a racing heart, a
 sweaty palm). Designers should strongly consider how these embodied experiences
 might color the conclusions that users jump to, and bound what users are willing
 to believe. 
@@ -2180,9 +2165,9 @@ life.
 In general, wearable sensors can enable social interactions in which we share
 more information than is normally possible face-to-face. The ability to surface
 signals that are normally socially invisible (e.g. heartrate, or galvanic skin
-response) presents new territory for designers of computermediated interactions.
-While recent work has explored how these novel signals fit into our existing
-understanding of social cues cite:Howell2016, much work remains. 
+response) presents new territory for designers of computer-mediated
+interactions. Future work should continue to explore deeply how these novel
+signals fit into our existing understanding of social cues cite:Howell2016.
 
 ** Conclusion
 
@@ -2206,7 +2191,7 @@ an opportunity—and a potential danger—that designers of biosignal-sharing
 systems can condition participants to learn (potentially arbitrary) associations
 between biosignals and social behaviors.
 
-Aside from heartrate, we do not know what many other biosignals might be
+Aside from heartrate, we do not know which of many other biosignals might be
 associated with moods and behaviors. Other biosignals (e.g., galvanic skin
 response, electroencephelography or EEG), could offer different affordances for
 sense-making. It is unclear from our work how the social interpretation of the
@@ -2226,25 +2211,32 @@ I report on the qualitative and quantitative results of survey among
 participants in a large (n>10,000), longitudinal health study, and an Amazon
 Mechanical Turk population.
 
-What can machines know about the mind, even theoretically? In this study, we
-posed this question to 200 people, half of whom came from Mechanical Turk, and
-half from a longitudinal study in which subjects contribute sensor data to track
-health outcomes. We were interested in how people perceived risks around the
-disclosure of sensor data, and how their expectations related to both the type
-of device in question, and the participants' prior experience with disclosing
-data from wearable devices.
+What can different biosensors reveal about what you are thinking and feeling? In
+this study, we posed this question to 200 people, half of whom came from
+Mechanical Turk, and half from a longitudinal study in which subjects contribute
+sensor data to track health outcomes. We were interested in how people perceived
+risks around the disclosure of sensor data, and how their expectations related
+to both the type of device in question, and the participants' prior experience
+with disclosing data from wearable devices.
 
 Through a quantitative and qualitative analysis of survey data, we find some
 differences in perceptions of risk between populations. However, we find that
 certain devices draw greater notions of risk of mind-reading than others. In
 particular, electroencephalography (EEG) appears to carry an unusually high
 perceived risk, beyond even fMRI, which has proven more revealing in past
-studies cite:Kay2008. We discuss implications for the design in EEG-based
+studies cite:Kay2008. We discuss implications for the design of EEG-based
 brain-computer interface, a modality rapidly gaining in popularity in the
 technology industry cite:Levy2017,Neurable2017,Metz2017, and for wearable
 technologies generally.
 
 ** Prior work
+
+# is visibility defined as how data are measured and what data are calculated as
+# a result? when i think of visibility of tracking devices i think of like is it
+# obviously visible to others e.g. Fitbit on the wrist is highly visible
+
+# how is it even a finding that how data are measured and what data are calculated
+# as a result has a large impact? seems overly broad / obvious
 
 In their qualitative study of activity trackers, Rader and Slaker (2017) found
 that the ``visibility'' of tracking devices (how data are measured, and what
@@ -2271,13 +2263,17 @@ others? In the following section, we outline how we examined these questions
 using a survey, deployed across two distinct populations.
 
 ** Methods 
-Our survey consisted of a question in which subjects ranked various sensors in
-order of how likely they believed it was for data from those sensors to ``reveal
-what a person is thinking and feeling.'' Our selection of sensors (Table
-[[tab:sensors]]). aimed to include both sensors commonly found in wearable and
-mobile devices, and sensors more commonly associated with the medical industry.
-We sought to achieve a mix of modalities found only in medical devices, found
-only in commercial devices, and found in both commercial and medical devices.
+
+# what is the exact question you asked? if you only have one question you have plenty of space to just state the question
+# here. the question seems super crazy broad and open to interpretation. explain why you did that on purpose.
+
+Our survey consisted of a question in which subjects ranked various sensors:
+ ``Please rank the following sensors in how likely you believe they are to
+ reveal what a person is thinking and feeling.'' Our selection of sensors (Table
+ [[tab:sensors]]). aimed to include both sensors commonly found in wearable and
+ mobile devices, and sensors more commonly associated with the medical industry.
+ We sought to achieve a mix of modalities found only in medical devices, found
+ only in commercial devices, and found in both commercial and medical devices.
 
 #+NAME: tab:sensors
 #+caption: Sensors referenced in the survey. 
@@ -2385,6 +2381,8 @@ EEG was implausible.
 /(S10) I assume that scientists can identify by brain patterns what others are feeling and thinking based off of years of research. I've never heard of a consumer grade eeg - and doubt it could be as powerful as a laboratory eeg. If it is then I would be interested in this product./
 #+END_QUOTE
 
+# i’m not sure how it surfaces practical differences around theoretical existence vs. realized existence. unpack what you think this participant’s attitudes are in either case. also is this a key distinction that matters for your argument 
+
 # Summarize a bit more after 1st sentence
 This subject's explanation surfaces the practical differences in attitudes that
 people might have to a technology's theoretical existence, and its realized
@@ -2406,7 +2404,7 @@ well as data collection, in order to understand what role BCI applications such
 as passthoughts could play in day-to-day life. 
 # _Tie this in to the work we review in background_. _Transition to discussion_.
 
-** Discussion
+** TODO Discussion
 
 Our results find some differences between the Health-e-Heart and Mechanical Turk
 groups, particularly around devices with medical associations. However, device
@@ -2414,8 +2412,12 @@ rankings were mostly the same between conditions. Our findings indicate that
 sensing modalities play a large role in building understandings of what sensors
 might reveal, along with prior experiences sharing sensor data. We discuss
 implications for design in sensor-based interactions: different sensors may
-trigger different concerns about privacy, concerns which may or may not match
-empirical realities.
+trigger different concerns about privacy, which could in turn trigger debates
+about what counts as a valid privacy concern, and what does not.
+
+# empirical realities about what insights have been claimed from different data
+# types i’d add that clarification so it’s not like you’re saying there are
+# empirical realities around what counts as a valid privacy concern or smth
 
 *** Differences between HeH and MTurk
 
@@ -2460,25 +2462,25 @@ public (and corporate) imaginary.
 *** Implications for design
 
 # Nothing in our work suggests these folk theories are correct or incorrect,
-Our studies reinforce past work in demonstrating the relevance of folk theories
-in understanding what sensors can reveal cite:Rader2017. However, our work also
-indicates that different sensing modalities may heighten particular privacy
-concerns (e.g. EEG). By the same token, other devices may obfuscate privacy
-concerns, creating a compromising position for users as they are lulled into a
-false sense of security. For example, GPS and accelorometer have together been
-used to detect mental health status cite:Canzian2015; the fact that these
+Our studies reinforce past work in demonstrating the relevance of everyday
+theories in understanding what sensors can reveal cite:Rader2017. However, our
+work also indicates that different sensing modalities may heighten particular
+privacy concerns (e.g. EEG). By the same token, other devices may obfuscate
+privacy concerns, creating a compromising position for users as they are lulled
+into a false sense of security. For example, GPS and accelorometer have together
+been used to detect mental health status cite:Canzian2015; the fact that these
 sensors were not rated highly gestures toward differing concerns across sensing
 modalities, and the fact that these concerns may not align with technical
 efforts among designers and engineers. In general, future work should examine
 more deeply how prior experience with devices meets with expectations about the
-body to produce understandings of privacy, what devices can know. As emerging
-devices (such as VR and EEG) become more familiar to users, future work should
-monitor beliefs about sensing modalities as these technologies develop. Sensors
-such as GPS and accelorometer are now ubiquitous, but attitudes around them have
-likely changed since their introduction cite:Consolvo2005. Through longitudinal
-studies, we stand a chance at observing changes in attitudes, thus putting us in
-a position to anticipate changes in privacy attitudes and privacy-preserving
-behaviors.
+body to produce understandings of privacy, what devices can ``know'' (and what
+counts as knowing). As emerging devices (such as VR and EEG) become more
+familiar to users, future work should monitor beliefs about sensing modalities
+as these technologies develop. Sensors such as GPS and accelorometer are now
+ubiquitous, but attitudes around them have likely changed since their
+introduction cite:Consolvo2005. Through longitudinal studies, we stand a chance
+at observing changes in attitudes, thus putting us in a position to anticipate
+changes in privacy attitudes and privacy-preserving behaviors.
 
 #   - VR (still new at the time of the survey) is seen as "just
 #     an input device."
@@ -2502,17 +2504,27 @@ should remain critical in probing the beliefs of end-users, as their
 apprehensions will shape the sorts of applications that users are willing to
 accept.
 
+# is end-user acceptance the only goal here? what about also the claims to authority made by data-driven 
+# insights, possibly lulling users into a false sense of security, and / or legitimating particular ways of knowing?
+
+# this is your dissertation not a CHI paper, you can gesture to whatever cool stuff you want in the conclusion ;)
+
 * Talking to engineers about brain-computer interface
 <<chi>>
 
-This chapter shifts in focus from the users of sensing devices to their
-engineers. Having motivated EEG as a case study for further exploration, this
-chapter examines the beliefs of software engineers through their interactions
-with a working brain-based authentication system. This population's beliefs are
-particularly critical as consumer brainscanning devices have become open to
-tinkering through software. Although we find a diverse set of beliefs among our
-participants, we discover a shared understanding of the mind as a physical
-entity that can and will be ``read'' by machines.
+As we saw in the previous chapter, EEG triggers intriguing beliefs about the
+knowability of the mind. In this chapter, we use EEG as a wedge to shift from
+users of sensing devices to their engineers. Having motivated EEG as a case
+study for further exploration, this chapter examines the beliefs of software
+engineers through their interactions with a working brain-based authentication
+system. This population's beliefs are particularly critical as consumer
+brainscanning devices have become open to tinkering through software. Although
+we find a diverse set of beliefs among our participants, we discover a shared
+understanding of the mind as a physical entity that can and will be ``read'' by
+machines. These findings shed light on what sorts of applications engineers may
+accept as buildable, and prime our concluding chapter on how built artifacts may
+come to structure our notions of what minds are.
+
 
 ** Background
 
@@ -2532,7 +2544,7 @@ enabling direct, brain-to-brain communication cite:Urban2017.
 [[./figures/terrance2.JPG]]
 
 A slew of inexpensive brainscanning devices
-underwrite such utopic visions.
+underwrite such utopian visions.
 2017 saw a BCI for virtual reality gaming cite:Neurable2017
 and brainwave-sensing sunglasses cite:Optical2017
 join the already large list of inexpensive,
@@ -2603,7 +2615,7 @@ is currently the most viable choice of sensing modality for consumer BCIs cite:C
 Historically, researchers have conceived of BCIs as accessibility devices,
 particularly for individuals with severe muscular disabilities.
 However, accessibility devices can sometimes provide routes for early adoption, and thus broader use.
-Speech-to-text, for example, was once a tool for individuals who could not type;
+Speech recognition, for example, was once a tool for individuals who could not type;
 eventually, it became adopted as a tool for computer input, now
 commonplace in IoT devices such as Alexa and Siri.
 Since accessibility devices can give rise to broader consumer adoption,
@@ -2621,7 +2633,7 @@ climate that surrounds the contemporary
 technology industry in the area cite:saxenian1996regional.
 While we do not believe only Silicon Valley engineers
 will influence the future of BCIs,
-historically, these engineers have a outsized impact on the
+historically, these engineers have an outsized impact on the
 types of technologies developed for mass consumption,
 especially with respect to software.
 As BCI hardware becomes more accessible,
@@ -2879,12 +2891,12 @@ These misuses could allow participants to form hypotheses about why and how the 
 
 ** Methods
 
-We recruited participants by word of mouth.
-A recruitment email explained that subjects
-would interact with a working BCI,
-and be asked their opinions about the device, and about BCI broadly.
-We screened respondents by their current occupation
-and stated interest in experimenting with BCIs in their free time.
+We recruited participants by word of mouth. A recruitment email explained that
+subjects would interact with a working BCI, and be asked their opinions about
+the device, and about BCI broadly. We screened respondents by their current
+occupation and stated interest in experimenting with BCIs in their free time.
+All participants were employed full-time as software engineers at technology
+companies in the area.
 # TOOD let's see if i understand this motivation
 #      after adding stuff to the related work / motivation section..
 
@@ -2910,11 +2922,11 @@ interacted with the device during sessions.
 
 *** Wearing the device
 
-The interviewer began by explaining that participants would wear a BCI,
-which we would train to work as an authenticator, answering participants' questions
-about how the device would work.
-Subjects were told that they would be asked about their opinions on BCIs generally,
-and that their anonymized voice and EEG data would be collected.
+The interviewer began by explaining that participants would wear a BCI, which we
+would train to work as an authenticator, answering participants' questions about
+how the device works. Subjects were told that they would be asked about their
+opinions on BCIs generally, and that their anonymized voice and EEG data would
+be collected.
 
 The interviewer asked participants to place the EEG headband themselves,
 and to assure that the device fits comfortably,
@@ -2943,7 +2955,7 @@ The interviewer would continue to record data from the Muse throughout this inte
 *** Using the authenticator
 
 At this point, the interviewer would explain to participants that the data collected thus far
-would be used to train an custom authenticator for them.
+would be used to train a custom authenticator for them.
 The interviewer would explain roughly how the authenticator would work:
 the probe should /accept/ readings when the participant is wearing the device,
 and /reject/ readings in any other case.
@@ -2980,12 +2992,12 @@ After some discussion, the formal interview would conclude, and the participants
 
 In general, we found particular reflections to come at
 different points in the interview protocol.
-Critiques (and questions) about the device narrowly tended to come
+Critiques (and questions) about the device tended to come
 as soon as engineers placed the device on their heads.
 Reflections on the BCI broadly, and its future trajectories, tended to come after
 viewing the probe's feedback for some time.
 As these conversations progressed, participants naturally 
-tended to reflect on what future BCIs could do.
+tended to reflect on what future BCIs might be able to do.
 Subjects would typically
 relate the capacities of the probe, and of possible future technologies,
 to their ideas about the mind, body or brain.
@@ -3007,10 +3019,11 @@ Terrance commented,
 ``If most people are doing it, then it's fine. 
 Sort of like stock speculation.''
 
-Perceptions of the authenticator's accuracy were mixed.
-Four participants found that the authenticator worked well for them.
-For these participants, the authenticator consistently rejected blocks when the headset was off of their head, 
-or worn by the researcher.
+Perceptions of the authenticator's accuracy were mixed. Four participants found
+that the authenticator worked well for them. For these participants, the
+authenticator consistently rejected blocks when the headset was off of their
+head, or worn by the researcher (these participants had the idea to test the
+authenticator by asking the researcher to wear it).
 
 On the other hand,
 four participants found the probe consistently rejected every reading, whether it came from them or the researcher
@@ -3022,13 +3035,12 @@ In contrast,
 Alex, a 30 year-old founder of an indoor agriculture startup,
 blamed himself, saying ``I must not produce very distinguishable thoughts.''
 
-Those participants who felt the probe's authentication was reliable
-tended to center their explanations on why it worked.
-Participants who experienced less consistent accuracy with the authenticator
-tended to center their explanations on how the device might be improved,
-e.g. with better or more comprehensive sources of data.
-This impulse to ``fix'' likely speaks to our participants' general tendency to engineer working systems,
-which extended in our case even to this experimental technology.
+Those participants who felt the probe's authentication was reliable tended to
+center their explanations on why it worked. Participants who experienced less
+consistent accuracy with the authenticator tended to center their explanations
+on how the device might be improved, e.g. with better or more comprehensive
+sources of data. This impulse to ``fix'' likely speaks to our participants'
+general tendency to engineer working systems.
 
 # When getting acquainted with the authenticator,
 # participants often took the device off to see if it (correctly) failed to authenticate them.
@@ -3051,6 +3063,9 @@ Participants generally theorized that this might occur because they were not vie
 In these cases, the engineers appeared to apply their domain knowledge 
 to their observations in using our technology probe.
 
+# Noura <2018-06-15 Fri>
+# so they tended to critique the ML and software side, but not the HW side? maybe because of their expertise in SW?
+
 # Contrary to our expectations, the probe's feedback
 # was rarely interpreted as being ambiguous. Participants
 # tended to view the blocks as either unambiguous ``accepts'' or ``rejects.''
@@ -3059,7 +3074,7 @@ to their observations in using our technology probe.
 # an effect of our probe's focus on authentication,
 # or a quirk of our participants.
 
-*** Reflecting on the future of BCI
+*** Reflecting on the future of BCIs
 
 # Our technology probe was designed to elicit broader beliefs about BCI, 
 # and other topics that participants might find relevant or interesting.
@@ -3111,6 +3126,8 @@ The other three subjects who felt the device did not perform accurately
 all offered explanations as to why, and explained
 that future devices would fix these issues.
 
+# summary sentnece needed for this paragraph
+
 *** Mind, brain, body
 
 # mind-as-computational-brain 
@@ -3134,9 +3151,9 @@ like programming versus being programmed. /(John)/
 #+END_QUOTE
 
 When pressed on how strictly he meant his metaphor of programming, John
-confirmed that he meant it quite literally, saying, /``I think we are just
+confirmed that he meant it quite literally, saying, ``I think we are just
 computers that are way more sophisticated than anything we understand right
-now.''/ We return to this strictly computational account of the mind as ``just''
+now.'' We return to this strictly computational account of the mind as ``just''
 a computer in the discussion.
 
 Mary gave a computational account of mind that was more metaphorical than
@@ -3169,8 +3186,8 @@ of these entities constitute the mind in a mutually-dependent way. However,
 Terrance indicated that the mind is still strictly physical, as are these three
 entities. Although Terrance did not provide details on how exactly the mind
 extended beyond the body, it is interesting to note this position's similarities
-to Clark's (2013) account of the extended mind cite:Clark2013, or Edward
-Hutchins's work on distributed cognition cite:Hutchins2005, though Terrance was
+to Clark's (2013) account of the extended mind cite:Clark2013, or
+Hutchins's (2005) work on distributed cognition cite:Hutchins2005, though Terrance was
 familiar with neither.
 
 Participants also offered differing levels of confidence in their beliefs about
@@ -3186,11 +3203,11 @@ I think the consensus is that the body is mostly like the I/O of the brain.  /(J
 
 John's account here implies that a sufficiently high-resolution brain sensor
 would accurately capture all of a person's experiences. John confirmed this
-explicitly, saying /``if you could 3D print a brain, and apply the correct
-electrical impulses, you could create a person in a jar.''/ In this
-computational metaphor of I/O (input/output), the body itself does not have
-agency; instead, the body actuates the brain's commands (output), and senses the
-environment, sending data to brain for processing (input).
+explicitly, saying, ``if you could 3D print a brain, and apply the correct
+electrical impulses, you could create a person in a jar.'' In this computational
+metaphor of I/O (input/output), the body itself does not have agency; instead,
+the body actuates the brain's commands (output), and senses the environment,
+sending data to brain for processing (input).
 
 *** Reading the mind
 
@@ -3236,7 +3253,7 @@ described current state-of-the-art as ``crude'' (John) or ``low-granularity'' (E
 Even Terrance, who believed the mind extended beyond the confines of the body,
 felt that the mind was readable by machine.
 After he stated his personal belief in a mind that extended
-to the physical environment, the experimenter asked
+to the physical environment, the researcher asked
 what consequence this belief might have for the future of BCIs.
 
 #+BEGIN_QUOTE
@@ -3367,13 +3384,13 @@ engineers build BCI systems.
 We find that engineers hold diverse beliefs about what the mind is, what the
 brain is, and about the relationship between these entities. However, all of
 these engineers shared a core belief that the mind is a physical entity, one
-that machines can and will decode given the proper equipment and algorithms
-(Section 6.1). Despite this belief, engineers did not largely express concerns
-about privacy or security (Section 6.2). As BCI startups continue to grow, we
+that machines can and will decode given the proper equipment and algorithms.
+Despite this belief, engineers did not largely express concerns
+about privacy or security. As BCI startups continue to grow, we
 propose further work within technical communities, with a sensitivity toward
 emerging narratives, so that we may instill criticality among this emerging
-technical practice (Section 6.3). We conclude with avenues for future work
-focusing on different communities of technical practice (Section 6.4).
+technical practice. We conclude with avenues for future work
+focusing on different communities of technical practice.
 
 *** Physical mind, readable mind
 
@@ -3498,7 +3515,14 @@ for one example, has become an established part of Silicon Valley culture,
 through dieting (e.g. Soylent, fasting), or more extreme forms of body
 modification (e.g. chipping) cite:Dolejsova2017. Underlying all of these
 cultures is a mechanical model of the body, which facilitates notions of
-optimization and experimentation. How might BCIs (especially ones that purport
+optimization and experimentation. 
+
+# Noura <2018-06-15 Fri>
+# i need a little help seeing meditation as a practice similar to biohacking. meditation has a very different history not
+# around optimization. use Akama et al’s cite from DIS on Traces of a Middle Way to show how Silicon Valley has
+# co-opted notions of mindfulness
+
+How might BCIs (especially ones that purport
 to read thoughts) work their way into these already-established cultural
 patterns? We note that existing consumer BCIs already situate themselves in this
 context: the Muse headset we used in this study markets itself primarily as a
@@ -3520,8 +3544,8 @@ Doing so will allow design to remain preemptive rather than reactive as software
 for consumer BCI emerges. Designers and researchers must not remain on the
 sidelines; as devices come to market, we must become actively engaged in
 engineers' beliefs (and practices). These systems hold the potential for
-exploiting an unprecedented level of personal data, and therefore present an
-high potential for harm. As such, the area presents a new locus for researchers
+exploiting an unprecedented level of personal data, and therefore present
+real potential for harm. As such, the area presents a new locus for researchers
 and designers to engage critically with technical developments.
 
 # *** TODO BCI & biopolitics
@@ -3590,7 +3614,7 @@ about the readability of identity as an aspect of mind.
 
 What are the limits of what machines could model of the mind? My arguments in
 this dissertation reorient this question around human beliefs: What are the limits
-within which claims of mind-modeling might be made (by designers), and believed
+within which claims of mind-modeling might be made (by engineers), and believed
 (by end-users)? I propose the term /telepathy/ to describe the process of
 understanding models of minds. I then use this term to motivate work for
 charting the limits of what work telepathy might perform in the world.
@@ -3598,13 +3622,15 @@ charting the limits of what work telepathy might perform in the world.
 ** Telepathy
 
 Earlier in this dissertation, I reframed prior research programs as having built
-/models of minds/, showing how work in philosophy unwittingly supports their
+/models of minds/, showing how work in philosophy supports their
 claims. By analyzing critiques of these research programs, I highlighted the
-primacy of human beliefs, both designers' and users', in structuring how models
+primacy of human beliefs, both engineers' and users', in structuring how models
 of minds are built, and understood as relevant.
 
+# Noura <2018-06-15 Fri>
+# would be interesting to study designers too..
 Building models of minds can be split into two major components: the
-designerly program of building algorithms that encode and represent mental
+engineering program of building algorithms that encode and represent mental
 states, and the social processes of understanding these representations as
 relevant in the course of life. While the boundary between these components is
 intrinsically unstable, the split is nonetheless useful in understanding how
@@ -3648,7 +3674,7 @@ boundary between these two activities.
 # charting future work that can help to appreciate the limits of telepathy.
 
 What might telepathy be used for? Answers to this question relate deeply to the
-beliefs of users and designers. Thus, the relevant questions here include: What
+beliefs of users and engineers. Thus, the relevant questions here include: What
 are the limits within which claims of telepathy might be made, or believed? How
 might emerging infrastructures of ubiquitous bodily and environmental sensing
 assist such claims, by ascribing higher resolution to their models? Or detract
@@ -3661,24 +3687,26 @@ with our rapidly changing technical capacity to sense and model the world.
 ** A big loop
 
 
-#+CAPTION: A big loop, in which beliefs about the mind structure technologies that are built (and considered working). These technologies go on to structure beliefs about the mind, and so on. This dissertation has examined the right side of this loop, but not the left.
+#+CAPTION: A big loop, in which beliefs about the mind structure technologies that are built (and considered working). These technologies go on to structure beliefs about the mind, and so on. This dissertation has examined the left side of this loop more than the right, and did not examine the loop in its entirety.
 #+NAME: bigloop
 [[./figures/bigloop.png]]
 
 Rather than presenting a theory of mind and technologies that do or do not sense
 it, this work gestures toward the relationship between beliefs about the world
 and how they relate to the perceived capabilities of technology. The cases in
-this dissertation gesture toward one half of a big loop (Figure [[bigloop]]). In the
+this dissertation gesture toward a big loop (Figure [[bigloop]]). In the
 right half of this loop, beliefs about the mind affect the technologies people
-build (and accept as working). This dissertation examined this half of the loop.
+build (and accept as working). This dissertation touched on the two halves of this loop separately,
+but did not speak to this loop in its entirety.
 
-However, the left half of this loop depicts existing technologies, some of which
-claim to read the mind, affecting beliefs about what the mind /is/. This
-feed-forward loop of mind-reading technologies and ideas about ``mindhood''
-raises the possibility that minds are not only readable because people believe
-they are, but because the very notion of mindhood will change relative to
-existing claims of mind-reading. How do we, through sensing minds, (re)make
-minds (and ourselves) through the things that sense them?
+Of particular interest to future work, the left half of this loop depicts
+existing technologies affecting beliefs
+about what the mind /is/. This feed-forward loop of mind-reading technologies
+and ideas about ``mindhood'' raises the possibility that minds are not only
+readable because people believe they are, but because the very notion of
+mindhood will change relative to existing claims of mind-reading. How do we,
+through sensing minds, (re)make minds (and ourselves) through the things that
+sense them?
 
 # similar to hacking's thesis that categorical members define the category they belong to
 # ... seems like a trivial thesis ... but whatever
@@ -3705,7 +3733,7 @@ mind. Consider the minimal example of a lightswitch. It not only takes input
 from people, but its design (at least the canonical version) is carefully
 crafted to permit only the intentional finger-action of a person. Thus, its
 state can be taken as a correlate of the beliefs and attitudes of the
-switcher(s) cite:Tolmie2016.
+switcher(s); a request for light, a sense of darkness cite:Tolmie2016.
 
 If IoT devices can turn anything cite:Zhang2017 into a biosensor, what
 surprising features might be generated from these data? Given the potentially
