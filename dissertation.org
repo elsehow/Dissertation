@@ -1,7 +1,7 @@
 :headers:
 #+LATEX_CLASS: ucbthesis
 #+Title: Mind-Reading and Telepathy for Beginners and Intermediates: What People Think Machines Can Know About the Mind, and Why Their Beliefs Matter
-#+Author: Nicholas Julius Merrill
+#+Author: Nick Merrill
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="ext/style1.css" />
 #+OPTIONS: toc:nil
 #+LATEX_HEADER: \usepackage[backend=bibtex]{biblatex}

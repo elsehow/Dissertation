@@ -1832,3 +1832,57 @@ _TODO why this section_
 :end:
 
 
+
+* TODO Reflections on mindhood
+:PROPERTIES:
+:ARCHIVE_TIME: 2018-06-06 Wed 13:43
+:ARCHIVE_FILE: ~/Projects/dissertation/dissertation.org
+:ARCHIVE_OLPATH: Telepathy within limits
+:ARCHIVE_CATEGORY: dissertation
+:ARCHIVE_TODO: TODO
+:END:
+
+
+#+CAPTION: A big loop, in which beliefs about the mind structure technologies that are built (and considered working). These technologies go on to structure beliefs about the mind, and so on. This dissertation has examined the right side of this loop, but not the left.
+#+NAME: bigloop
+# TODO b & w diagram
+
+Are minds machines? This very old discussion comes under new light through the
+work presented here: How do we, through sensing minds, (re)make minds (and
+ourselves) through the things that sense them? Rather than presenting a theory
+of mind, and technologies that do or do not sense it, this work gestures toward
+the relationship between beliefs about the world, and how they relate to the
+perceived capabilities of technology. What this work did /not/ do is examine how
+the capabilities of technology go on to structure beliefs about the world.
+
+The cases in this dissertation gesture toward one half of a big loop (Figure
+[[bigloop]]). In one half of this loop, beliefs about the mind affect the
+technologies people build (and accept as working). This dissertation examined
+this half of the loop. However, the other half of this loop depicts existing
+technologies, some of which claim to read the mind, affecting beliefs about what
+the mind is. This feed-foward loop of mind-reading technologies and ideas about
+``mindhood'' raises the possibility that minds are not only readable because
+people believe they are, but because the very notion of mindhood will change
+relative to existing claims of mind-reading.
+
+The shifting of categorical boundaries, especially as it relates to shifts in
+technological infrastructures, has been the concern of philosophers of
+technology cite:bowker2000sorting and feminist scholars cite:Haraway1988b for
+many years. Future work can integrate these perspectives more directly in examining
+the other half of our big loop: how technologies inform ideas of mindhood, and
+what the consequences of such influence might be.
+
+# Future work should look more deeply into how minds are ``made and measured'' cite:Boehner2007b:
+
+# What might they be used for? Answers to this question relate deeply to the
+# beliefs of users and designers. Thus, the relevant questions here include: What
+# are the limits within which claims of telepathy might be made, or believed? How
+# might emerging infrastructures of ubiquitous bodily and environmental sensing
+# assist such claims, by ascribing higher resolution to their models? Or detract
+# from them by making biosensory data mundane, thus challenging their presumed
+# authority? Future work should deeply examine engineers' beliefs, how they change
+# with evolving technologies, and how these beliefs affect (and are affected by)
+# technical practices. Beliefs about the mind will continue to co-evolve along
+# with our rapidly changing technical capacity to sense and model the world.
+
+
