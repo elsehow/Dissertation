@@ -298,7 +298,7 @@ these critiques: embodied cognition, distributed cognition, and extended
 cognition. These theories return later as I discuss prior work in affective
 computing and computational social science.
 
-*** Embodied cognition
+*** Mind extending into body: Embodied cognition
 
 Cognitive science's isolation of the brain rests on the belief that the brain is
 strictly equivalent to the mind. This assumption has encountered two primary
@@ -323,7 +323,7 @@ co-adaptation cite:ORegan2001.
 # co-construction, this analysis shares with some work in feminist epistemology,
 # e.g. cite:Haraway1988b.
 
-*** Extended and distributed cognition
+*** Mind extending beyond body: Extended and distributed cognition
 
 
 While the embodiment thesis prods at the causal relationship between mind and
@@ -425,8 +425,7 @@ transmit emotions through their sensing of bodily states cite:Healey2014.
 Although work in affective computing does not generally make explicit references
 to embodied cognition, it typically seeks to detect emotion via bodily
 phenomena, and does not consider these phenomena to be proxies from real
-emotions, indicating a general view of emotions as embodied primarily
-cite:Healey2014. 
+emotions, indicating a general view of emotions as embodied primarily.
 
 *** Computational social science
 
@@ -487,9 +486,9 @@ and understood.
 Today, the world of computational social science has informed the commercial
 world of targeted advertisements; affective computing has begun to creep into
 our lived experience, with consumer devices that purport to continuously measure
-emotions cite:Feel.co2018. The research programs in ubiquitous computing (or
-/ubicomp/) discussed in the prior section have shifted from proximate future
-cite:Bell2007 to our lived present.
+emotions cite:Feel.co2018. Research programs in ubiquitous computing (or
+/ubicomp/) have shifted from proximate future cite:Bell2007 to our lived
+present.
 
 However, their legacy lives on. Computational social science, for example,
 relied heavily on top-down maps (the Social fMRI paper included a figure with an
@@ -513,21 +512,18 @@ bear on the mind.
 # This section sets up a discussion in Section [[limits]] about how the limits
 # within which models of mind might be created and understood.
 
-*** The epistemology of Ubicomp
-
-Ubicomp has received a variety of critiques, particularly in its attempts to
-classify or detect mental phenomena. First, these studies have tended to frame
-mental states as definite entities for which a single ground truth exists.
-Boehner et al cite:Boehner2007b propose an alternative: emotions as
-co-constructed, performed socially, and understood only in collaboration with
-other socially-experiencing subjects. An account of socially situated emotions
-has received some limited uptake within affective computing cite:Parkinson2015.
-However, these theories still pre-categorize emotions, obscuring phenomena at
-the borders of these categories cite:Boehner2007b. This critique effectively
-posits that beliefs about the mind limit what phenomena can be modeled or
-sensed. The mere invention of categories precludes detecting phenomena outside
-of their borders, and may even preclude finding phenomena that lies between
-categories.
+Attempts to classify or detect mental phenomena have faced a variety of
+critiques. First, these studies have tended to frame mental states as definite
+entities for which a single ground truth exists. Boehner et al cite:Boehner2007b
+propose an alternative: emotions as co-constructed, performed socially, and
+understood only in collaboration with other socially-experiencing subjects. An
+account of socially situated emotions has received some limited uptake within
+affective computing cite:Parkinson2015. However, these theories still
+pre-categorize emotions, obscuring phenomena at the borders of these categories
+cite:Boehner2007b. This critique effectively posits that beliefs about the mind
+limit what phenomena can be modeled or sensed. The mere invention of categories
+precludes detecting phenomena outside of their borders, and may even preclude
+finding phenomena that lies between categories.
 
 Second, little work yet has substantively engaged with the question of how
 algorithms and devices that seek to detect emotion may affect the way emotion is
@@ -535,8 +531,8 @@ experienced or performed. Past work strongly indicates that feedback about
 emotional experience may alter the way emotions are experienced
 cite:Snyder2015a, and that context may radically alter the way these models are
 understood cite:Merrill2017. In this critique, beliefs about the mind strongly
-inform, and therefore limit, what can be /understood/ about the mind from a
-given model.
+inform and structure what can be /understood/ about the mind from a given
+model.
 
 *** Bringing signals from the body to bear on the mind
 
@@ -547,7 +543,6 @@ contexts cite:Merrill2017,Ali2014a,Snyder2015a. Through past work, I outline how
 the suggestion provided by particular sensing devices can meet with pre-existing
 beliefs about the body, producing socially-relevant interpretations regarding
 the mind.
-
 
 In Ali et al (2014), undergraduates in neuroscience believed a ``scanner'' (in
 reality, a perm machine from a hair salon, painted gray) could read their
@@ -623,7 +618,6 @@ everything to do with whether the data they produced cohered with a cultural and
 social imaginary, such that users stood a chance of making sense of them''
 cite:nafus2016quantified.
 
-** Conclusion
 
 In this chapter, I reviewed how beliefs in theories about the mind (formal or
 informal) play a critical role in defining how models of minds are built, and
@@ -1951,7 +1945,6 @@ informative, even after many rounds of conditioning and a highly suggestive
 context. However, as in the heartrate condition, responses indicating that SRI
 had no meaning were a clear minority in our sample.
 
-
 *** Elevated SRI
 
 To help explain why elevated heartrate had a chilling effect on cooperative
@@ -2044,7 +2037,6 @@ from the partner and SRI. As we argue in the following discussion, such
 associations are more likely in the SRI conditions because, unlike for
 heartrate, participants should have no preexisting beliefs or associations with
 SRI.
-
 
 *** Limitations
 
@@ -2404,7 +2396,7 @@ well as data collection, in order to understand what role BCI applications such
 as passthoughts could play in day-to-day life. 
 # _Tie this in to the work we review in background_. _Transition to discussion_.
 
-** TODO Discussion
+** Discussion
 
 Our results find some differences between the Health-e-Heart and Mechanical Turk
 groups, particularly around devices with medical associations. However, device
@@ -2419,7 +2411,7 @@ about what counts as a valid privacy concern, and what does not.
 # types i’d add that clarification so it’s not like you’re saying there are
 # empirical realities around what counts as a valid privacy concern or smth
 
-*** Differences between HeH and MTurk
+# *** Differences between HeH and MTurk
 
 Health-e-Heart participants believed fMRI, blood pressure, and blood oxygenation
 to be more revealing than participants in the Mechanical Turk condition. Since
@@ -2437,7 +2429,7 @@ As virtual reality grows in popularity, and as the producers of these devices
 increasingly attempt to outfit VR headsets with sensors cite:Liptak2016, it will
 be important to understand what about VR causes people concern.
 
-*** The effect of sensing modalities
+# *** The effect of sensing modalities
 
 Our most surprising finding, consistent across both groups, was the overall high
 ranking of EEG. EEG was perceived as more likely to reveal what a person is
@@ -3691,17 +3683,19 @@ with our rapidly changing technical capacity to sense and model the world.
 #+NAME: bigloop
 [[./figures/bigloop.png]]
 
-Rather than presenting a theory of mind and technologies that do or do not sense
-it, this work gestures toward the relationship between beliefs about the world
-and how they relate to the perceived capabilities of technology. The cases in
-this dissertation gesture toward a big loop (Figure [[bigloop]]). In the
-right half of this loop, beliefs about the mind affect the technologies people
-build (and accept as working). This dissertation touched on the two halves of this loop separately,
-but did not speak to this loop in its entirety.
-
-Of particular interest to future work, the left half of this loop depicts
+Rather than presenting a theory of mind and a set of technologies that do or do
+not sense it, this work examines the relationship between beliefs about the mind
+and how they relate to the perceived capabilities of technology. In doing so,
+the cases in this dissertation gesture toward a big loop (Figure [[bigloop]]). In
+the right half of this loop, beliefs about the mind affect the technologies
+people build (and accept as working). 
+The left half of this loop depicts
 existing technologies affecting beliefs
-about what the mind /is/. This feed-forward loop of mind-reading technologies
+about what the mind /is/. 
+
+This dissertation touched on the two halves of this loop separately, but did not
+speak to this loop in its entirety.
+This feed-forward loop between mind-reading technologies
 and ideas about ``mindhood'' raises the possibility that minds are not only
 readable because people believe they are, but because the very notion of
 mindhood will change relative to existing claims of mind-reading. How do we,
@@ -3761,14 +3755,14 @@ cybersecurity research.
 
 ** Conclusion
 
-The purpose of this dissertation is twofold. First, it surfaces an unstable
-boundary between sensing bodies and sensing minds. Second, it proposes the
-porousness of this boundary as a site for studying the impact that biosensing
-devices will play in near future. As biosensors creep into smart watches, bands,
-and ingestibles, they will build increasingly high resolution models of bodies
-in space. Their ability to divine not just what these bodies do, but what they
-think and feel, presents an under-explored avenue for understanding and
-imagining the role these technologies will play in everyday life.
+# The purpose of this dissertation is twofold. First, it surfaces an unstable
+# boundary between sensing bodies and sensing minds. Second, it proposes the
+# porousness of this boundary as a site for studying the impact that biosensing
+# devices will play in near future. As biosensors creep into smart watches, bands,
+# and ingestibles, they will build increasingly high resolution models of bodies
+# in space. Their ability to divine not just what these bodies do, but what they
+# think and feel, presents an under-explored avenue for understanding and
+# imagining the role these technologies will play in everyday life.
 
 # Go on after first sentence, turn this into a 3-paragraph conclusion.
 This dissertation aims to paint a few provocative dots on a very large canvas.
