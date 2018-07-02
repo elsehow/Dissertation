@@ -251,12 +251,15 @@ world? Philosophers have proposed two basic categories for answers to this
 question. /Dualism/ posits that the mind has non-physical components, whereas
 /physicalism/ posits a mind of only physical components (for a slice of this
 debate, see cite:Chalmers1998). Since the biosensing aparatus I discuss here are
-restricted to physical phenomena, the dualist perspective prevents an impasse
-for our analysis (how can physical sensors sense the non-physical)? However, the
-physicalist interpretation lends itself naturally to scientific study---and to
-sensing. From the physicalist perspective, all phenomena in the mind can be
-reduced to descriptions of physical activity; thus, some physical theory will
-eventually explain the mind in entirety.
+restricted to physical phenomena, the dualist perspective presents an impasse
+for our analysis (how can physical sensors sense the non-physical)? The
+physicalist interpretation, on the other hand, lends itself naturally to
+scientific study---and to sensing. From the physicalist perspective, all
+phenomena in the mind can be reduced to descriptions of physical activity; thus,
+some physical theory will eventually explain the mind in entirety. The physical
+perspective provides a natural route forward for our analysis, as it implies
+that a sufficiently sensed physical world, combined with sufficiently robust
+theories about the mind, could yield a computational model of the mind.
 
 # The physicalist stance of mind also squares with materialist ontologies
 # generally, for example Jane Bennett's account of /thing-materialism/, in which
@@ -866,8 +869,8 @@ affects social interpretations of heartrate.
 
 *** Sample
 
-Our sample was undergraduate students recruited from the population of UC
-Berkeley, Potential participants were asked to participate in a short online
+Our sample consisted of undergraduate students recruited from the population of UC
+Berkeley. Potential participants were asked to participate in a short online
 survey; they did not know the nature of the questions or the topic of the study
 in advance. All the participants were compensated with a $5 Amazon gift card.
 One hundred and three (103) participants completed the experiment survey
@@ -1255,7 +1258,7 @@ evaluations of one’s trustworthiness, dependability or reliability.
 Taken together, we see that heartrate does not inherently (or consistently)
 affect trust-related outcomes. Instead, social expectations shape
 interpretations of the heartrate biosignal to create highly contextual,
-socially-specific meanings. computer-mediated communication researchers have
+socially-specific meanings. Computer-mediated communication researchers have
 long noted that, when cues are omitted from computer-mediated interaction,
 people tend to fill in the gaps [3,10]. However, individuals may interpret new
 types of interpersonal data in ways we do not yet understand. Our work provides
@@ -1284,10 +1287,10 @@ authority or ``neutrality'' of data interacting with beliefs about the body to
 create a context in which wearables data can be used to construct social
 judgments or assessments. How these assessments play out will vary in different
 social situations, with different sensors, and in different contexts of use.
-This point in part motivates my work in Chapter [[toward-brains]], which broadens
+This point motivates the work described in Chapter [[toward-brains]], which broadens
 this inquiry to a variety of sensors and a variety of aspects of mind.
 
-** Limitations & conclusions
+** Limitations 
 
 Our vignette experiment examined a single type of scenario in two different
 contexts, using text-based answers. We still have a limited picture of the range
@@ -1319,12 +1322,14 @@ if) these beliefs affect social behaviors. Furthermore, we did not examine how
 specific our findings are to heartrate. What other signals from the body might
 lead to social interpretations?
 
-In the following chapter, we begin to address these limitations through a
-controlled, behavioral experiments, which helps us ask more specific questions
+** Conclusion
+
+In the following chapter, we begin to address the limitations above through
+controlled, behavioral experiments, which help us ask more specific questions
 about how elevated heartrate affects perceptions of risk in uncertain
-interactions, e.g., when money is at stake. This study study leads to a more
-robust understanding of how the transmission of basic biosignals might affect
-social behavior.
+interactions, e.g., when money is at stake. This study leads to a more robust
+understanding of how the transmission of basic biosignals might affect social
+behavior.
 
 * Biosignals, mind and behavior
 <<cscw17>>
@@ -3773,10 +3778,12 @@ technological infrastructures, has been the concern of philosophers of
 technology cite:bowker2000sorting and feminist scholars cite:Haraway1988b for
 many years. Future work should integrate these perspectives in an examination of
 the other half of our big loop, or in an examination of the loop itself. Future
-work could also compliate this notion of a loop, framing it as constantly
-co-constructed, or always entangled. For example, an old question, ``Are minds
-machines?'' cite:Winograd1987 comes under new light: We may as well ask, how are
-machine-ness and mind-ness already entangled?
+work could also complicate this notion of a loop, framing machines and minds as
+constantly co-constructed, or always entangled. An old question, ``Are minds
+machines?'' cite:Winograd1987 could come under new light in this frame. Rather
+than asking what kinds of machines minds are, we may as well ask, are
+machine-ness and mind-ness always already entangled, and if so, what are the
+consequences?
 
 I suspect the coming years will provide opportunities to study these questions
 longitudinally, as technologies develop and become more diffuse. The remainder
