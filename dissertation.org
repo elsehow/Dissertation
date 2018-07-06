@@ -15,7 +15,6 @@
 \include{frontmatter}
 \pagestyle{headings}
 
-
 * Introduction
 
 # #+BEGIN_QUOTE
@@ -23,7 +22,6 @@
 # it was going over and said, ``Always remember that the spirit of the people is
 # greater than the man's technology.'' And the people said, ``Right on.''
 # #+END_QUOTE
-
 # ---Bobby Seale, /Seize the Time/
 # The Story of the Black Panther Party and Huey P. Newton/
 
@@ -46,51 +44,49 @@
 # situated consequences ;) for ppl, esp the vulnerable
 
 
+What can machines know about the mind? This dissertation seeks to
+understand /people's beliefs/ about this question: how these beliefs affect and
+arise from interactions with digital sensors, from prior beliefs about the mind
+and the body; and how these beliefs may shape the design of technical systems in
+the future.
+# TODO , or to produce new knowledges of the body.
 
-# _TODO Sensors are everywhere. Some examples_.
+# This dissertation focuses on two main cases. First, I discuss a laboratory
+# experiment examining how people build emotional meanings around basic
+# biosignals, both familiar and unfamiliar. Second, I discuss a deployment of a
+# working brain-computer interface among software engineers, surfacing how these
+# engineers make sense of the brain and mind, and machines' ability to ``read''
+# them.
 
-# _TODO Thinking of these devices, and thinking of their challenges to your security and privacy, what specifically are you afraid about?_
-# _This dissertation raises /the contents of the mind/ as a concern for cybersecurity and privacy._
-
-What can machines know about the mind? This dissertation explores /people's
-beliefs/ about this question; how these beliefs affect and arise from their
-interactions with digital sensors, and from their beliefs about the mind and
-body.
-
-This dissertation focuses on two main cases. First, I discuss a laboratory
-experiment examining how people build emotional meanings around basic
-biosignals, both familiar and unfamiliar. Second, I discuss a deployment of a
-working brain-computer interface among software engineers, surfacing how these
-engineers make sense of the brain and mind, and machines' ability to ``read''
-them.
-
-The purpose of this dissertation is twofold. First, it surfaces an unstable
-boundary between sensing bodies and sensing minds. Second, it proposes the
-porousness of this boundary as a site for studying the impact that biosensing
+The purpose of this dissertation is twofold. First, it surfaces 
+that the boundary between sensing bodies and sensing minds is unstable,
+deeply entangled with social context and beliefs about the body and mind.
+Second, it proposes the
+porousness of this boundary as a site for studying the role that biosensing
 devices will play in near future. As biosensors creep into smart watches, bands,
 and ingestibles, they will build increasingly high resolution models of bodies
 in space. Their ability to divine not just what these bodies do, but what they
 think and feel, presents an under-explored avenue for understanding and
-imagining the role these technologies will play in everyday life.
+imagining how these technologies will come to matter in the course of life.
 
 Chapter [[limits]] begins by introducing the notion that the mind is readable from
 consumer devices worn on the body and embedded in the environment. It reframes
 some past studies in computer science and adjacent fields as having already
 begun the work of theorizing and building computational /models of minds/
 (Section [[modelsofminds]]). It then motivates human beliefs as a starting point for
-discovering the relevance of the readable, both in how engineers will model it,
-and how end-users will encounter these models in life.
+discovering the relevance of the readable mind, both in how engineers will model
+it, and how end-users will encounter these models in life.
 
-Since the human belief plays such a central role in making models of minds
-relevant, Chapter [[group16]] continues with an examination of how end-users
-conceive of the mind with respect to heartrate, a popular biosensor in
-commercial sensing devices. Through a vignette study, this chapter shows how
-people enroll biosensory data heartrate in social, computer-mediated
-contexts to build interpretations.
+# social context
+With focus fixed on human beliefs, Chapter [[group16]] describes an empirical
+examination of how people conceive of the mind with respect to heartrate, a
+popular sensing modality in commercial devices. Through a vignette study, this
+chapter demonstrates that heartrate can take on various, sometimes contradictory
+meanings in different social contexts. 
 
-While this study establishes that people can build socially-relevant meanings
-around basic biosignals, we do not know how these beliefs about mind affect
-people's behaviors, nor how specific our findings are to heartrate. In Chapter
+While this study establishes that people can build mind-related meanings
+around basic biosignals, it does not establish whether these beliefs can affect
+social behaviors, nor how specific our findings are to heartrate. In Chapter
 [[cscw17]], we apply quantitative and qualitative analyses to an iterated prisoner's
 dilemma game, in which heartrate information (“elevated” or “normal”) was shared
 between players. In a follow-up study, we replicate our initial study, but
@@ -99,41 +95,37 @@ We find that both heartrate and the unfamiliar biosignal are associated with
 negative mood attributions when elevated, but we observe a decrease in
 cooperative behavior only with elevated heartrate. Our findings highlight the
 role beliefs about the body can play in shaping interpretations of a biosignal,
-while simultaneously suggesting that designers can, perhaps inadvertently, train
-users to associate signals with social meanings.
+while simultaneously suggesting that the social meaning of unfamiliar signals
+can be ``trained'' over repeated interactions. 
 
-Having established that people build mind-related meanings around basic
-biosignals, Chapter [[toward-brains]] examines how people make sense of data from a
-variety of other biosensors. I report on the qualitative and quantitative
-results of a survey among participants in a large (n>10,000), longitudinal health
-study, and an Amazon Mechanical Turk population. Through these data, I locate
-brainscanning, and EEG specifically, as a fruitful case for understanding how
-particular sensing technologies construct notions of mind.
+The prior two chapters establish that the mind-related meanings of biosignals,
+familiar and unfamiliar, arise from both social context and prior beliefs about
+the body. But how do the basic biosignals we studied
+compare to the wide variety of sensing modalities emerging in consumer
+devices? Chapter [[toward-brains]] explores beliefs about a variety of biosensing
+devices, examining how people relate their data to qualities of mind. I report
+on the qualitative and quantitative results of a survey among participants in a
+large (n>10,000), longitudinal health study, and an Amazon Mechanical Turk
+population. Through these results, I locate brainscanning, and EEG specifically, as
+a fruitful case for understanding how particular sensing technologies surface
+and construct notions of mind.
 
 Having motivated EEG as a fruitful sensing modality for further exploration,
 Chapter [[chi]] shifts in focus from users to software engineers, studying their
 interactions with a working brain-based authentication system. This population's
-beliefs are particularly critical as consumer brainscanning devices have become
-open to tinkering through software. Although we find a diverse set of beliefs
-among our participants, we discover a shared understanding of the mind as a
-physical entity that can and will be ``read'' by machines.
-
-# Chapter [[cscw]] dives deeper into data from the prior chapter, revealing our
-# participants’ beliefs about the nature of the self as it relates to the brain. I
-# find that the software engineers in our study hold complex notions of self
-# involving multiple material contingencies over time, which existing
-# authentication systems do not capture. I discuss the relationship between
-# participants' beliefs of self and the mind, using this dissonance to understand
-# how beliefs may structure and inform technical practice. We find that the
-# software
+beliefs are of particular interest as consumer brainscanning devices become less
+expensive, and increasingly open to tinkering via software. Although we find a
+diverse set of beliefs among our participants, we discover a shared
+understanding of the mind as a physical entity that can and will be ``read'' by
+machines.
 
 To conclude, chapter [[conclusion]] proposes the term /telepathy/ to describe the
 encoding and transmission of minds. I attempt to chart a path for future work,
 highlighting tensions between opportunities for novel computer-mediated
-communication and concerns around security, privacy and surveillance. Finally, I
+communication, and concerns around security, privacy and surveillance. Finally, I
 propose telepathy as a way to understand not just what computers can know about
-the mind, but how machines can shape our notions of what minds /are/,
-and who we are as thinking beings.
+the mind, but how machines may shape our notions of what minds /are/,
+and who we are as mind-having beings.
 
 * Ants, Fungus & Telepathy
 <<limits>>
@@ -471,7 +463,7 @@ mind, such that models can be said to be accurate or inaccurate.
 
 In the next section, I review critiques of the work discussed above. I use these
 critiques to center the role of human interpretation in building models of minds
-and in making them legible in the course of life. 
+and in making them legible in social context.
 # setting up a discussion in
 # Section [[limits]] about how the limits within which models of mind might be created
 # and understood.
@@ -510,7 +502,7 @@ Given the ongoing relevance of affective computing and computational social
 science in our emerging world of pervasive biosensing, this section reviews some
 of the most pointed critiques these fields have encountered. These critiques
 center the role of human interpretation in making models of minds buildable (by
-engineers) and legible (to end-users) in the course of life. In supporting this
+engineers) and legible (to end-users) in social context. In supporting this
 perspective, I review past work on how people bring signals from the body to
 bear on the mind.
 
@@ -633,7 +625,7 @@ cite:nafus2016quantified.
 
 In this chapter, I reviewed how beliefs in theories about the mind (formal or
 informal) play a critical role in defining how models of minds are built, and
-how they are understood as relevant in the course of life. While we will return
+how they are understood as relevant in context. While we will return
 to the question of how models of minds are built in Chapter [[chi]], the following
 chapter will look at how end-users interpret models of minds in social context.
 The two studies described there will demonstrate how people use basic biosignals
@@ -3667,7 +3659,7 @@ about the readability of identity as an aspect of mind.
 * Telepathy within limits
 <<conclusion>>
 
-What are the limits of what machines could model of the mind? My arguments in
+What are the limits of machines' ability to model the mind? My arguments in
 this dissertation reorient this question around human beliefs: What are the limits
 within which claims of mind-modeling might be made (by engineers), and believed
 (by end-users)? I propose the term /telepathy/ to describe the process of
@@ -3676,7 +3668,7 @@ charting the limits of what work telepathy might perform in the world.
 
 ** Telepathy
 
-Earlier in this dissertation, I reframed prior research programs as having built
+Earlier in this dissertation, I framed prior research programs as having built
 /models of minds/, showing how work in philosophy supports their
 claims. By analyzing critiques of these research programs, I highlighted the
 primacy of human beliefs, both engineers' and users', in structuring how models
@@ -3742,7 +3734,7 @@ with our rapidly changing technical capacity to sense and model the world.
 ** A big loop
 
 
-#+CAPTION: A big loop, in which beliefs about the mind structure technologies that are built (and considered working). These technologies go on to structure beliefs about the mind, and so on. This dissertation has examined the left side of this loop more than the right, and did not examine the loop in its entirety.
+#+CAPTION: A big loop: beliefs about the mind inform the design of tools, where the use of these tools inform beliefs about the mind.
 #+NAME: bigloop
 [[./figures/bigloop.png]]
 
@@ -3843,9 +3835,12 @@ increasingly high-resolution models of our bodies and minds. Machines' purported
 ability to divine not just what these bodies do, but what they think and feel,
 will prove to be a key concern for privacy, personal autonomy, and cybersecurity
 in the coming hundred years. It will also generate novel opportunities for
-communication, accessibility, business, and entertainment. By paying close
-attention to the beliefs and practices of engineers, and the expectations of
-end-users, we can better prepare for an increasingly connected---and
-increasingly hackable---world, body, and mind.
+communication, accessibility, business, and entertainment. These concerns and
+opportunities will likely exist not in opposition to each other, but in mutual
+re-inforcement, entanglement, co-construction. By paying close attention to the
+beliefs and practices of engineers, and the expectations of end-users, we can
+better anticipate how (and why) the development of these technologies may occur,
+and thus better prepare for an increasingly connected---and increasingly
+hackable---world, body, and mind.
 
 \printbibliography
