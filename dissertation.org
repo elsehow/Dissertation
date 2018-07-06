@@ -3734,7 +3734,7 @@ with our rapidly changing technical capacity to sense and model the world.
 ** A big loop
 
 
-#+CAPTION: A big loop: beliefs about the mind inform the design of tools, where the use of these tools inform beliefs about the mind.
+#+CAPTION: A big loop: beliefs about the mind inform the design of tools, and the use of these tools inform beliefs about the mind.
 #+NAME: bigloop
 [[./figures/bigloop.png]]
 
