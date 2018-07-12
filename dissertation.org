@@ -1,7 +1,7 @@
 :headers:
 #+LATEX_CLASS: ucbthesis
 #+Title: Mind-Reading and Telepathy for Beginners and Intermediates: What People Think Machines Can Know About the Mind, and Why Their Beliefs Matter
-#+Author: Nick Merrill
+#+Author: Nicholas Julius Merrill
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="ext/style1.css" />
 #+OPTIONS: toc:nil
 #+LATEX_HEADER: \usepackage[backend=bibtex]{biblatex}
@@ -9,6 +9,7 @@
 #+LATEX_HEADER: \usepackage{caption}
 #+LATEX_HEADER: \usepackage{subcaption}
 #+LATEX_HEADER: \hyphenation{mar-gin-al-ia}
+#+LATEX_HEADER: \hypersetup{breaklinks=true}
 #+LATEX_HEADER: \input{title}
 :end:
 
@@ -2554,6 +2555,9 @@ accept.
 # this is your dissertation not a CHI paper, you can gesture to whatever cool stuff you want in the conclusion ;)
 
 * Talking to engineers about brain-computer interface
+:PROPERTIES:
+:ALT_TITLE: Talking to engineers about BCI
+:END:
 <<chi>>
 
 As we saw in the previous chapter, EEG triggers intriguing beliefs about the
