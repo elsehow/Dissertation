@@ -4,12 +4,14 @@
 #+Author: Nicholas Julius Merrill
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="ext/style1.css" />
 #+OPTIONS: toc:nil
+#+LATEX_HEADER: \usepackage{microtype}
 #+LATEX_HEADER: \usepackage[backend=bibtex]{biblatex}
+#+LATEX_HEADER: \usepackage{doi}
+#+LATEX_HEADER: \usepackage{breakcites}
 #+LATEX_HEADER: \addbibresource{refs.bib}
 #+LATEX_HEADER: \usepackage{caption}
 #+LATEX_HEADER: \usepackage{subcaption}
 #+LATEX_HEADER: \hyphenation{mar-gin-al-ia}
-#+LATEX_HEADER: \hypersetup{breaklinks=true}
 #+LATEX_HEADER: \input{title}
 :end:
 
@@ -2298,7 +2300,7 @@ using a survey, deployed across two distinct populations.
 Our survey consisted of a question in which subjects ranked various sensors:
  ``Please rank the following sensors in how likely you believe they are to
  reveal what a person is thinking and feeling.'' Our selection of sensors (Table
- [[tab:sensors]]). aimed to include both sensors commonly found in wearable and
+ [[tab:sensors]]) aimed to include both sensors commonly found in wearable and
  mobile devices, and sensors more commonly associated with the medical industry.
  We sought to achieve a mix of modalities found only in medical devices, found
  only in commercial devices, and found in both commercial and medical devices.
@@ -2546,7 +2548,8 @@ accept.
 
 # Rich - <2018-07-02 Mon>
 # Re: "Beliefs about the body play an important role in shaping beliefs about what sensors can know. "
-# I like this line, but I don't see it explicitly in the discussion in this section. I think you could get to this point a little more explicitly and in more detail in the preceding section
+# I like this line, but I don't see it explicitly in the discussion in this section. 
+# I think you could get to this point a little more explicitly and in more detail in the preceding section
 
 
 # is end-user acceptance the only goal here? what about also the claims to authority made by data-driven 
