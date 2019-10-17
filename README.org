@@ -1,6 +1,6 @@
 * Dissertation
 
-This is my dissertation. It uses a single [[https://orgmode.org/][org-mode]] file to generate a complaint
+This is my dissertation. It uses a single [[https://orgmode.org/][org-mode]] file to generate a compliant
 UC Berkeley dissertation PDF, complete with title and signature page.
 
 ** Org setup
